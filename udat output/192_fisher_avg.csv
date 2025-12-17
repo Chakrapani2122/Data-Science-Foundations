@@ -1,0 +1,192 @@
+feature,avg_fisher
+Word diversity,0.2598865
+Soundex diversity,0.2204944
+Punctuation characters ratio,0.1068482
+"Frequency of ""!""",0.0991039
+"Frequency of "",""",0.0917313
+Word length mean,0.0858843
+"Frequency of ""'""",0.0787092
+Soundex homoganity hist bin 0,0.0715996
+FFT histogram bin 2,0.0650828
+Sentence length mean,0.0621137
+clothing frequency,0.0600923
+self frequency,0.0589699
+Words of length 6,0.0572882
+FFT mean,0.0532946
+acronyms frequency,0.0487911
+Word homoganity hist bin 1,0.0477969
+Total number of words,0.0471032
+Words of length 5,0.0430738
+Words of length 2,0.0428815
+sport frequency,0.0422489
+driving frequency,0.0405746
+Sentence length stddev,0.0405726
+FFT max,0.0402544
+spring frequency,0.0395253
+Word repetition span 17,0.0378249
+Sentence length character mean,0.0377703
+transportation frequency,0.0371709
+female frequency,0.0350577
+Sentence length hist bin 7,0.0349461
+"Frequency of ""-""",0.0324565
+Use of upper case,0.0320694
+hapiness words hist bin 4,0.0320153
+time frequency,0.0299884
+Word repetition span 11,0.0296363
+positive words mean,0.0293002
+weather frequency,0.0291564
+"Frequency of ""(""",0.0284689
+negative words hist bin 6,0.02836275
+positive words hist bin 4,0.028081308
+hapiness words hist bin 6,0.027666571
+negative words hist bin 4,0.027641333
+FFT stddev,0.0276237
+Number diversity,0.0274834
+leaders frequency,0.0267018
+FFT histogram bin 1,0.0263455
+hapiness words hist bin 2,0.025828167
+positive words hist bin 6,0.025697143
+Sentence length hist bin 0,0.0252288
+adverbs frequency,0.0250173
+Word homoganity hist bin 0,0.0242281
+Sentence length hist bin 2,0.0237158
+hapiness words frequency,0.0229791
+hapiness words hist bin 5,0.022613333
+hapiness words hist bin 3,0.02189175
+Word repetition span 7,0.0216953
+positive words hist bin 1,0.021531813
+Sentence length hist bin 3,0.0209776
+pronouns frequency,0.0200299
+"Frequency of "".""",0.0194946
+"Frequency of ""[""",0.0189534
+positive words hist bin 3,0.0185604
+negative words hist bin 1,0.0179273
+car parts frequency,0.0176507
+positive words hist bin 2,0.0175243
+shoes frequency,0.0161725
+negative words hist bin 3,0.0160771
+Automated readability index,0.0159406
+FFT median,0.0155049
+Mean of numbers,0.0151534
+Word homoganity hist bin 2,0.0151286
+musical instruments frequency,0.0145166
+Words of length 15,0.0145063
+insects frequency,0.0141426
+hapiness words min,0.0140198
+"Frequency of "":""",0.0140005
+Word repetition span 3,0.0139441
+familiy frequency,0.0138627
+happy words frequency,0.0136551
+house frequency,0.0136165
+Words of length 7,0.0125116
+countries frequency,0.0123166
+buildings frequency,0.0122042
+weapons frequency,0.0117929
+acquaintances frequency,0.0117154
+furnitures frequency,0.0116148
+positive words hist bin 5,0.0115763
+Soundex homogeneity mean,0.0115049
+Word homoganity hist bin 4,0.0114497
+Words of length 3,0.0110142
+"Frequency of ""?""",0.0108476
+negative words hist bin 2,0.010710556
+Word homoganity hist bin 5,0.0106088
+Upper case word mean,0.0104589
+Emotion circumplex mean,0.010403839
+Word homoganity hist bin 6,0.010281
+fish frequency,0.0095942
+Words of length 10,0.0089135
+Word homogeneity maximum,0.0088099
+Words of length 1,0.0086976
+Soundex homoganity hist bin 4,0.0084987
+rocks and minerals frequency,0.0079877
+"Frequency of ""{""",0.0077602
+occupation frequency,0.0073304
+emotions frequency,0.0072333
+FFT histogram bin 5,0.0072193
+Soundex homoganity hist bin 2,0.0072107
+cooking frequency,0.0071593
+verbs that are nouns frequency,0.0069558
+shapes frequency,0.0069449
+vacation frequency,0.0067454
+Soundex homogeneity StdDev,0.0065597
+hats frequency,0.0065008
+US states frequency,0.0064379
+Sentence length hist bin 6,0.0063975
+"Frequency of ""*""",0.0063569
+Soundex homogeneity maximum,0.0063169
+energy frequency,0.0062764
+Word homoganity hist bin 7,0.006118
+castles and kings and queens frequency,0.006111
+Word homogeneity mean,0.0058362
+military frequency,0.0058278
+roads frequency,0.0058031
+adjectives frequency,0.0056777
+"Frequency of ""+""",0.0055309
+reptiles frequency,0.0055115
+fall frequency,0.0053544
+birthday frequency,0.00531
+tools frequency,0.0051371
+Quotation length mean,0.0050985
+kitchen frequency,0.0050506
+Sentence length hist bin 1,0.0050129
+beach frequency,0.0047453
+Words of length 8,0.0046773
+flowers frequency,0.0043642
+Words of length 16,0.0038672
+Coleman Liau index,0.0037255
+Use of numbers,0.0036974
+Emotion circumplex hist bin 0,0.003501
+lanuages frequency,0.0034796
+Words of length 13,0.0034737
+Words of length 9,0.0034262
+winter frequency,0.0030457
+camping frequency,0.003020667
+Words of length 12,0.0029075
+farm frequency,0.002875444
+birds frequency,0.002848556
+Emotion circumplex,0.0026985
+Words of length 11,0.0026147
+containers frequency,0.0025462
+restaurants frequency,0.0025252
+Soundex homoganity hist bin 1,0.00249
+Sentence length hist bin 4,0.002326375
+Word homogeneity StdDev,0.0023221
+food frequency,0.002233444
+Soundex homoganity hist bin 3,0.0022195
+negative words hist bin 5,0.002023571
+Emoticon :) / :-),0.002004
+measurements frequency,0.001989143
+animals frequency,0.001915143
+Word homoganity hist bin 3,0.0018888
+Emotion circumplex hist bin 1,0.001860714
+positive words min,0.001781111
+astronomy frequency,0.0017155
+law frequency,0.0017074
+boats frequency,0.00167825
+Words of length 4,0.001666333
+"Frequency of ""&""",0.001599333
+monsters frequency,0.001523333
+circus frequency,0.0014823
+math frequency,0.00145475
+science fields frequency,0.00143475
+office frequency,0.001425
+male frequency,0.001412
+art frequency,0.001379
+science frequency,0.001358
+trees frequency,0.001354
+"Frequency of ""/""",0.001342
+public buildings frequency,0.0013155
+FFT min,0.001312
+Quotation part of the text,0.001263333
+body frequency,0.001254
+computer frequency,0.001252
+medical frequency,0.0012045
+Emotion circumplex hist bin 2,0.001144286
+school frequency,0.001058
+Quotation length stddev,0.0010025
+Emotion circumplex hist bin 4,0.001001
+elections frequency,0.000972
+verbs frequency,0.000932
+positive words frequency,0.000931
+geography frequency,0.000928

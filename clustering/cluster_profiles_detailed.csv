@@ -1,0 +1,5 @@
+Cluster,n,% Popular,% Top Artists,% Low Artists,Word Diversity,Topic Concentration,Topic Entropy,Dominant Topics,Characteristics
+Simple Positive,610,87,100.0,0.0,0.39301831222662087,0.7479775471345925,1.1517578449033927,"Party, Love",Low diversity (0.393)
+Complex Introspective,623,12,0.0,100.0,0.46865646361013596,0.4477021825743512,2.0534637612587137,"Introspection, Spirituality",High diversity (0.469)
+Party-Themed,540,88,100.0,0.0,0.38811026601683246,0.7472263882660918,1.1454493585840904,"Party/Club, Material",Repetitive structure
+Mixed Balanced,529,12,0.0,100.0,0.46924278740017206,0.45265388628634634,2.0534742596337785,Multiple,Moderate complexity

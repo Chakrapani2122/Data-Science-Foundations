@@ -1,0 +1,881 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+
+Frequency of single quotes <= 0.0186: LM_1:91/182 (366)
+Frequency of single quotes > 0.0186
+|   FFT max <= 421: LM_2:91/273 (337)
+|   FFT max > 421: LM_3:91/273 (1589)
+
+Number of Leaves  : 	3
+
+Size of the Tree : 	5
+
+LM_1:
+Class Low_Artists :
+8.62 + 
+[Word diversity] * -0.49 +
+[FFT mean] * -0.01 +
+[FFT median] * 0    +
+[FFT min] * -0.02 +
+[FFT histogram bin 1] * -5.52 +
+[FFT histogram bin 4] * -20.94 +
+[FFT histogram bin 5] * 3.97 +
+[Words of length 2] * -6.37 +
+[Words of length 3] * -1.89 +
+[Words of length 5] * 4    +
+[Words of length 6] * 2.07 +
+[Words of length 8] * 5.75 +
+[Words of length 9] * -9.04 +
+[Words of length 10] * 9.82 +
+[Words of length 11] * -11.06 +
+[Words of length 13] * 48.89 +
+[Word homogeneity mean] * 1.59 +
+[Word homogeneity maximum] * 1.99 +
+[Word homoganity hist bin 0] * -0.38 +
+[Word homoganity hist bin 2] * 0.76 +
+[Word homoganity hist bin 3] * -1.43 +
+[Word homoganity hist bin 4] * -0.46 +
+[Word homoganity hist bin 6] * -9.34 +
+[Word homoganity hist bin 7] * 0.42 +
+[Punctuation characters ratio] * -4.11 +
+[Frequency of fullstop] * 5.43 +
+[Frequency of single quotes] * -1.66 +
+[,Frequency of double quotes] * -2.05 +
+[Frequency of plus] * 165.87 +
+[Frequency of forwardslash] * 114.56 +
+[Frequency of exclamation] * 8.29 +
+[Frequency of question mark] * -3.25 +
+[Frequency of open parenthesis] * 8.67 +
+[Frequency of and sign] * -63.4 +
+[Frequency of open curlybrace] * 41.32 +
+[Frequency of open squarebrace] * 20.88 +
+[Frequency of colon] * 17.52 +
+[Upper case word mean] * 0.18 +
+[Quotations number] * -0.05 +
+[Sentence length mean] * 0.07 +
+[Sentence length stddev] * -0.04 +
+[Sentence length hist bin 0] * 0.65 +
+[Sentence length hist bin 1] * -0.95 +
+[Sentence length hist bin 2] * -2.77 +
+[Sentence length hist bin 3] * -0.72 +
+[Sentence length hist bin 4] * -1.23 +
+[Sentence length hist bin 5] * 0.48 +
+[Sentence length hist bin 6] * 3.69 +
+[Coleman�Liau index] * -0.02 +
+[Emotion circumplex] * 0    +
+[Emotion circumplex mean] * 0.01 +
+[Emotion circumplex hist bin 2] * -9.04 +
+[Emotion circumplex hist bin 4] * 34.58 +
+[Emotion circumplex hist bin 5] * 3.98 +
+[Word repetition span 17] * 0.31 +
+[Number diversity] * -7.29 +
+[Mean of numbers] * -0 +
+[positive words min] * 77.13 +
+[negative words frequency] * 10.17 +
+[negative words hist bin 0] * -1.13 +
+[hapiness words hist bin 3] * -1.45 +
+[happy words frequency] * -5.01 +
+[prepositions frequency] * 7.07 +
+[verbs frequency] * -5.57 +
+[verbs that are nouns frequency] * 2.99 +
+[sport frequency] * -1.48 +
+[math frequency] * 1.93 +
+[science fields frequency] * 180.56 +
+[US states frequency] * -9.55 +
+[school frequency] * 6.6  +
+[lanuages frequency] * 16.68 +
+[elections frequency] * 35.46 +
+[food frequency] * -10.79 +
+[money frequency] * 8.51 +
+[driving frequency] * -10.4 +
+[military frequency] * 5.82 +
+[countries frequency] * 2.46 +
+[dance frequency] * 41.8 +
+[energy frequency] * -17.08 +
+[familiy frequency] * -2.24 +
+[musical instruments frequency] * -6.69 +
+[land forms frequency] * 3.63 +
+[animals frequency] * 17.83 +
+[cats frequency] * 690.29 +
+[fish frequency] * -11.75 +
+[cars frequency] * 38.47 +
+[fall frequency] * -6.3 +
+[spring frequency] * -7.19 +
+[summer frequency] * -17.03 +
+[weather frequency] * 4.31 +
+[vacation frequency] * 2.63 +
+[medical frequency] * 1.69 +
+[body frequency] * -4.98 +
+[trees frequency] * -16.35 +
+[transportation frequency] * -5.1 +
+[shoes frequency] * -4.7 +
+[hats frequency] * -5.55 +
+[buildings frequency] * -3.75 +
+[public buildings frequency] * 6.43 +
+[monsters frequency] * -29.8 +
+[camping frequency] * 8.9  +
+[castles and kings and queens frequency] * -19.97 +
+[circus frequency] * -2.97 +
+[computer frequency] * 15.42 +
+[fruits frequency] * -9.44 +
+[geography frequency] * -9.92 +
+[occupation frequency] * -23.36 +
+[house frequency] * 1.74 +
+[restaurants frequency] * 1.41 +
+[roads frequency] * 14.21 +
+[weapons frequency] * -11.8 +
+[acquaintances frequency] * 6.58 +
+[flowers frequency] * -20.22 +
+[acronyms frequency] * -1.45 +
+[self frequency] * -1.84 +
+[female frequency] * -2.39 +
+[Soundex diversity] * -0.34 +
+[Soundex homoganity hist bin 0] * -0.27 +
+[Soundex homoganity hist bin 2] * -0.8
+
+Class Top_Artists :
+-8.62 + 
+[Word diversity] * 0.49 +
+[FFT mean] * 0.01 +
+[FFT median] * -0 +
+[FFT min] * 0.02 +
+[FFT histogram bin 1] * 5.52 +
+[FFT histogram bin 4] * 20.94 +
+[FFT histogram bin 5] * -3.97 +
+[Words of length 2] * 6.37 +
+[Words of length 3] * 1.89 +
+[Words of length 5] * -4 +
+[Words of length 6] * -2.07 +
+[Words of length 8] * -5.75 +
+[Words of length 9] * 9.04 +
+[Words of length 10] * -9.82 +
+[Words of length 11] * 11.06 +
+[Words of length 13] * -48.89 +
+[Word homogeneity mean] * -1.59 +
+[Word homogeneity maximum] * -1.99 +
+[Word homoganity hist bin 0] * 0.38 +
+[Word homoganity hist bin 2] * -0.76 +
+[Word homoganity hist bin 3] * 1.43 +
+[Word homoganity hist bin 4] * 0.46 +
+[Word homoganity hist bin 6] * 9.34 +
+[Word homoganity hist bin 7] * -0.42 +
+[Punctuation characters ratio] * 4.11 +
+[Frequency of fullstop] * -5.43 +
+[Frequency of single quotes] * 1.66 +
+[,Frequency of double quotes] * 2.05 +
+[Frequency of plus] * -165.87 +
+[Frequency of forwardslash] * -114.56 +
+[Frequency of exclamation] * -8.29 +
+[Frequency of question mark] * 3.25 +
+[Frequency of open parenthesis] * -8.67 +
+[Frequency of and sign] * 63.4 +
+[Frequency of open curlybrace] * -41.32 +
+[Frequency of open squarebrace] * -20.88 +
+[Frequency of colon] * -17.52 +
+[Upper case word mean] * -0.18 +
+[Quotations number] * 0.05 +
+[Sentence length mean] * -0.07 +
+[Sentence length stddev] * 0.04 +
+[Sentence length hist bin 0] * -0.65 +
+[Sentence length hist bin 1] * 0.95 +
+[Sentence length hist bin 2] * 2.77 +
+[Sentence length hist bin 3] * 0.72 +
+[Sentence length hist bin 4] * 1.23 +
+[Sentence length hist bin 5] * -0.48 +
+[Sentence length hist bin 6] * -3.69 +
+[Coleman�Liau index] * 0.02 +
+[Emotion circumplex] * -0 +
+[Emotion circumplex mean] * -0.01 +
+[Emotion circumplex hist bin 2] * 9.04 +
+[Emotion circumplex hist bin 4] * -34.58 +
+[Emotion circumplex hist bin 5] * -3.98 +
+[Word repetition span 17] * -0.31 +
+[Number diversity] * 7.29 +
+[Mean of numbers] * 0    +
+[positive words min] * -77.13 +
+[negative words frequency] * -10.17 +
+[negative words hist bin 0] * 1.13 +
+[hapiness words hist bin 3] * 1.45 +
+[happy words frequency] * 5.01 +
+[prepositions frequency] * -7.07 +
+[verbs frequency] * 5.57 +
+[verbs that are nouns frequency] * -2.99 +
+[sport frequency] * 1.48 +
+[math frequency] * -1.93 +
+[science fields frequency] * -180.56 +
+[US states frequency] * 9.55 +
+[school frequency] * -6.6 +
+[lanuages frequency] * -16.68 +
+[elections frequency] * -35.46 +
+[food frequency] * 10.79 +
+[money frequency] * -8.51 +
+[driving frequency] * 10.4 +
+[military frequency] * -5.82 +
+[countries frequency] * -2.46 +
+[dance frequency] * -41.8 +
+[energy frequency] * 17.08 +
+[familiy frequency] * 2.24 +
+[musical instruments frequency] * 6.69 +
+[land forms frequency] * -3.63 +
+[animals frequency] * -17.83 +
+[cats frequency] * -690.29 +
+[fish frequency] * 11.75 +
+[cars frequency] * -38.47 +
+[fall frequency] * 6.3  +
+[spring frequency] * 7.19 +
+[summer frequency] * 17.03 +
+[weather frequency] * -4.31 +
+[vacation frequency] * -2.63 +
+[medical frequency] * -1.69 +
+[body frequency] * 4.98 +
+[trees frequency] * 16.35 +
+[transportation frequency] * 5.1  +
+[shoes frequency] * 4.7  +
+[hats frequency] * 5.55 +
+[buildings frequency] * 3.75 +
+[public buildings frequency] * -6.43 +
+[monsters frequency] * 29.8 +
+[camping frequency] * -8.9 +
+[castles and kings and queens frequency] * 19.97 +
+[circus frequency] * 2.97 +
+[computer frequency] * -15.42 +
+[fruits frequency] * 9.44 +
+[geography frequency] * 9.92 +
+[occupation frequency] * 23.36 +
+[house frequency] * -1.74 +
+[restaurants frequency] * -1.41 +
+[roads frequency] * -14.21 +
+[weapons frequency] * 11.8 +
+[acquaintances frequency] * -6.58 +
+[flowers frequency] * 20.22 +
+[acronyms frequency] * 1.45 +
+[self frequency] * 1.84 +
+[female frequency] * 2.39 +
+[Soundex diversity] * 0.34 +
+[Soundex homoganity hist bin 0] * 0.27 +
+[Soundex homoganity hist bin 2] * 0.8 
+
+
+LM_2:
+Class Low_Artists :
+11.43 + 
+[Word diversity] * -3.16 +
+[FFT mean] * -0.01 +
+[FFT median] * 0    +
+[FFT min] * -0.04 +
+[FFT histogram bin 1] * -5.82 +
+[FFT histogram bin 3] * 5.32 +
+[FFT histogram bin 4] * -20.94 +
+[FFT histogram bin 5] * 8.24 +
+[Words of length 1] * -5.67 +
+[Words of length 2] * -0.69 +
+[Words of length 3] * -0.59 +
+[Words of length 5] * 0.16 +
+[Words of length 6] * 5.87 +
+[Words of length 7] * 0.96 +
+[Words of length 9] * -8.45 +
+[Words of length 11] * 21.73 +
+[Words of length 12] * 6.48 +
+[Words of length 13] * -71.71 +
+[Words of length 15] * -97.87 +
+[Words of length 16] * -32.2 +
+[Word homogeneity mean] * 1.59 +
+[Word homoganity hist bin 1] * 0.33 +
+[Word homoganity hist bin 2] * 0.26 +
+[Word homoganity hist bin 3] * 0.99 +
+[Word homoganity hist bin 4] * 0.48 +
+[Word homoganity hist bin 5] * 1.21 +
+[Word homoganity hist bin 6] * -1.99 +
+[Word homoganity hist bin 7] * -0.26 +
+[Punctuation characters ratio] * -2.81 +
+[Frequency of fullstop] * 5.43 +
+[Frequency of single quotes] * -3.02 +
+[,Frequency of double quotes] * -2.05 +
+[Frequency of apostepe] * 0.72 +
+[Frequency of plus] * 280.67 +
+[Frequency of forwardslash] * 114.56 +
+[Frequency of exclamation] * 32.37 +
+[Frequency of question mark] * -3.25 +
+[Frequency of star] * 10.91 +
+[Frequency of and sign] * -63.4 +
+[Frequency of open curlybrace] * 255.89 +
+[Frequency of open squarebrace] * 488.38 +
+[Frequency of semicolon] * -63.98 +
+[Frequency of colon] * 17.52 +
+[Use of upper case] * -20.42 +
+[Upper case word mean] * 0.06 +
+[Quotation length stddev] * -0.06 +
+[Quotation part of the text] * -5.05 +
+[Emoticon smile] * -2154.29 +
+[Sentence length mean] * 0.03 +
+[Sentence length stddev] * -0.36 +
+[Sentence length hist bin 0] * 0.53 +
+[Sentence length hist bin 1] * 0.47 +
+[Sentence length hist bin 2] * -0.61 +
+[Sentence length hist bin 3] * -0.72 +
+[Sentence length hist bin 4] * -0.3 +
+[Sentence length hist bin 5] * 0.48 +
+[Sentence length hist bin 6] * -0.74 +
+[Sentence length hist bin 7] * 0.87 +
+[Coleman�Liau index] * -0.06 +
+[Emotion circumplex] * 0    +
+[Emotion circumplex mean] * 0.01 +
+[Emotion circumplex hist bin 2] * -9.04 +
+[Emotion circumplex hist bin 4] * 34.58 +
+[Emotion circumplex hist bin 5] * 3.98 +
+[Emotion circumplex hist bin 7] * 4.01 +
+[Word repetition span 7] * -0.16 +
+[Use of numbers] * 11.2 +
+[Number diversity] * 17.05 +
+[Mean of numbers] * -0 +
+[positive words frequency] * 6.83 +
+[positive words min] * 136.62 +
+[positive words hist bin 6] * 4.37 +
+[negative words frequency] * 2.84 +
+[negative words hist bin 0] * -1.7 +
+[negative words hist bin 4] * -0.82 +
+[negative words hist bin 6] * -3.02 +
+[hapiness words hist bin 3] * -2.59 +
+[hapiness words hist bin 4] * -3.35 +
+[hapiness words hist bin 7] * 5.79 +
+[happy words frequency] * -5.01 +
+[prepositions frequency] * -0.92 +
+[pronouns frequency] * -0.98 +
+[verbs frequency] * -0.74 +
+[verbs that are nouns frequency] * -6.71 +
+[sport frequency] * -3 +
+[math frequency] * 1.93 +
+[science frequency] * 54.54 +
+[science fields frequency] * 12.39 +
+[US states frequency] * -9.55 +
+[shapes frequency] * 20.77 +
+[school frequency] * 1.31 +
+[lanuages frequency] * -20.14 +
+[money frequency] * 6.74 +
+[driving frequency] * -2.76 +
+[military frequency] * -4.15 +
+[countries frequency] * -2.5 +
+[emotions frequency] * 1.55 +
+[energy frequency] * -11.71 +
+[familiy frequency] * -3.63 +
+[musical instruments frequency] * 1.76 +
+[land forms frequency] * 3.63 +
+[colors frequency] * -7.84 +
+[animals frequency] * 2.06 +
+[cats frequency] * 15.05 +
+[fish frequency] * -17.58 +
+[insects frequency] * -5.87 +
+[car parts frequency] * 4.93 +
+[fall frequency] * -6.3 +
+[summer frequency] * -8.31 +
+[weather frequency] * -2.65 +
+[vacation frequency] * 14.01 +
+[medical frequency] * 6.61 +
+[body frequency] * 9.12 +
+[farm frequency] * 12.87 +
+[transportation frequency] * -5.1 +
+[time frequency] * -1.22 +
+[shoes frequency] * -4.7 +
+[hats frequency] * 16.44 +
+[buildings frequency] * -6.8 +
+[public buildings frequency] * 25.17 +
+[birthday frequency] * 2.87 +
+[monsters frequency] * -7.06 +
+[camping frequency] * 11.6 +
+[fair frequency] * 3.9  +
+[castles and kings and queens frequency] * -9.24 +
+[circus frequency] * -9.02 +
+[computer frequency] * 18.88 +
+[fruits frequency] * -75.79 +
+[geography frequency] * 4.42 +
+[furnitures frequency] * 2.61 +
+[occupation frequency] * 25.03 +
+[leaders frequency] * -7.21 +
+[house frequency] * -6.27 +
+[restaurants frequency] * 3.23 +
+[roads frequency] * 4.22 +
+[weapons frequency] * 12.6 +
+[acquaintances frequency] * 1.65 +
+[yard frequency] * 3.16 +
+[acronyms frequency] * -0.77 +
+[self frequency] * -2.39 +
+[female frequency] * 13.59 +
+[Soundex diversity] * -0.57 +
+[Soundex homogeneity maximum] * -0.57 +
+[Soundex homoganity hist bin 0] * -0.5 +
+[Soundex homoganity hist bin 2] * -0.31
+
+Class Top_Artists :
+-11.43 + 
+[Word diversity] * 3.16 +
+[FFT mean] * 0.01 +
+[FFT median] * -0 +
+[FFT min] * 0.04 +
+[FFT histogram bin 1] * 5.82 +
+[FFT histogram bin 3] * -5.32 +
+[FFT histogram bin 4] * 20.94 +
+[FFT histogram bin 5] * -8.24 +
+[Words of length 1] * 5.67 +
+[Words of length 2] * 0.69 +
+[Words of length 3] * 0.59 +
+[Words of length 5] * -0.16 +
+[Words of length 6] * -5.87 +
+[Words of length 7] * -0.96 +
+[Words of length 9] * 8.45 +
+[Words of length 11] * -21.73 +
+[Words of length 12] * -6.48 +
+[Words of length 13] * 71.71 +
+[Words of length 15] * 97.87 +
+[Words of length 16] * 32.2 +
+[Word homogeneity mean] * -1.59 +
+[Word homoganity hist bin 1] * -0.33 +
+[Word homoganity hist bin 2] * -0.26 +
+[Word homoganity hist bin 3] * -0.99 +
+[Word homoganity hist bin 4] * -0.48 +
+[Word homoganity hist bin 5] * -1.21 +
+[Word homoganity hist bin 6] * 1.99 +
+[Word homoganity hist bin 7] * 0.26 +
+[Punctuation characters ratio] * 2.81 +
+[Frequency of fullstop] * -5.43 +
+[Frequency of single quotes] * 3.02 +
+[,Frequency of double quotes] * 2.05 +
+[Frequency of apostepe] * -0.72 +
+[Frequency of plus] * -280.67 +
+[Frequency of forwardslash] * -114.56 +
+[Frequency of exclamation] * -32.37 +
+[Frequency of question mark] * 3.25 +
+[Frequency of star] * -10.91 +
+[Frequency of and sign] * 63.4 +
+[Frequency of open curlybrace] * -255.89 +
+[Frequency of open squarebrace] * -488.38 +
+[Frequency of semicolon] * 63.98 +
+[Frequency of colon] * -17.52 +
+[Use of upper case] * 20.42 +
+[Upper case word mean] * -0.06 +
+[Quotation length stddev] * 0.06 +
+[Quotation part of the text] * 5.05 +
+[Emoticon smile] * 2154.29 +
+[Sentence length mean] * -0.03 +
+[Sentence length stddev] * 0.36 +
+[Sentence length hist bin 0] * -0.53 +
+[Sentence length hist bin 1] * -0.47 +
+[Sentence length hist bin 2] * 0.61 +
+[Sentence length hist bin 3] * 0.72 +
+[Sentence length hist bin 4] * 0.3  +
+[Sentence length hist bin 5] * -0.48 +
+[Sentence length hist bin 6] * 0.74 +
+[Sentence length hist bin 7] * -0.87 +
+[Coleman�Liau index] * 0.06 +
+[Emotion circumplex] * -0 +
+[Emotion circumplex mean] * -0.01 +
+[Emotion circumplex hist bin 2] * 9.04 +
+[Emotion circumplex hist bin 4] * -34.58 +
+[Emotion circumplex hist bin 5] * -3.98 +
+[Emotion circumplex hist bin 7] * -4.01 +
+[Word repetition span 7] * 0.16 +
+[Use of numbers] * -11.2 +
+[Number diversity] * -17.05 +
+[Mean of numbers] * 0    +
+[positive words frequency] * -6.83 +
+[positive words min] * -136.62 +
+[positive words hist bin 6] * -4.37 +
+[negative words frequency] * -2.84 +
+[negative words hist bin 0] * 1.7  +
+[negative words hist bin 4] * 0.82 +
+[negative words hist bin 6] * 3.02 +
+[hapiness words hist bin 3] * 2.59 +
+[hapiness words hist bin 4] * 3.35 +
+[hapiness words hist bin 7] * -5.79 +
+[happy words frequency] * 5.01 +
+[prepositions frequency] * 0.92 +
+[pronouns frequency] * 0.98 +
+[verbs frequency] * 0.74 +
+[verbs that are nouns frequency] * 6.71 +
+[sport frequency] * 3    +
+[math frequency] * -1.93 +
+[science frequency] * -54.54 +
+[science fields frequency] * -12.39 +
+[US states frequency] * 9.55 +
+[shapes frequency] * -20.77 +
+[school frequency] * -1.31 +
+[lanuages frequency] * 20.14 +
+[money frequency] * -6.74 +
+[driving frequency] * 2.76 +
+[military frequency] * 4.15 +
+[countries frequency] * 2.5  +
+[emotions frequency] * -1.55 +
+[energy frequency] * 11.71 +
+[familiy frequency] * 3.63 +
+[musical instruments frequency] * -1.76 +
+[land forms frequency] * -3.63 +
+[colors frequency] * 7.84 +
+[animals frequency] * -2.06 +
+[cats frequency] * -15.05 +
+[fish frequency] * 17.58 +
+[insects frequency] * 5.87 +
+[car parts frequency] * -4.93 +
+[fall frequency] * 6.3  +
+[summer frequency] * 8.31 +
+[weather frequency] * 2.65 +
+[vacation frequency] * -14.01 +
+[medical frequency] * -6.61 +
+[body frequency] * -9.12 +
+[farm frequency] * -12.87 +
+[transportation frequency] * 5.1  +
+[time frequency] * 1.22 +
+[shoes frequency] * 4.7  +
+[hats frequency] * -16.44 +
+[buildings frequency] * 6.8  +
+[public buildings frequency] * -25.17 +
+[birthday frequency] * -2.87 +
+[monsters frequency] * 7.06 +
+[camping frequency] * -11.6 +
+[fair frequency] * -3.9 +
+[castles and kings and queens frequency] * 9.24 +
+[circus frequency] * 9.02 +
+[computer frequency] * -18.88 +
+[fruits frequency] * 75.79 +
+[geography frequency] * -4.42 +
+[furnitures frequency] * -2.61 +
+[occupation frequency] * -25.03 +
+[leaders frequency] * 7.21 +
+[house frequency] * 6.27 +
+[restaurants frequency] * -3.23 +
+[roads frequency] * -4.22 +
+[weapons frequency] * -12.6 +
+[acquaintances frequency] * -1.65 +
+[yard frequency] * -3.16 +
+[acronyms frequency] * 0.77 +
+[self frequency] * 2.39 +
+[female frequency] * -13.59 +
+[Soundex diversity] * 0.57 +
+[Soundex homogeneity maximum] * 0.57 +
+[Soundex homoganity hist bin 0] * 0.5  +
+[Soundex homoganity hist bin 2] * 0.31
+
+LM_3:
+Class Low_Artists :
+4.04 + 
+[Word diversity] * 3.59 +
+[FFT mean] * -0 +
+[FFT median] * -0 +
+[FFT min] * -0.03 +
+[FFT histogram bin 1] * -2.96 +
+[FFT histogram bin 4] * -20.94 +
+[FFT histogram bin 5] * 1.15 +
+[Words of length 2] * -0.69 +
+[Words of length 3] * -1.47 +
+[Words of length 5] * 2.54 +
+[Words of length 6] * 1.97 +
+[Words of length 7] * 2.06 +
+[Words of length 8] * -1.47 +
+[Words of length 9] * -3.79 +
+[Words of length 11] * -40.83 +
+[Words of length 12] * -11.04 +
+[Words of length 13] * 39.06 +
+[Words of length 15] * -164.11 +
+[Words of length 16] * -246.68 +
+[Word homogeneity mean] * 1.59 +
+[Word homoganity hist bin 0] * -0.13 +
+[Word homoganity hist bin 2] * 0.26 +
+[Word homoganity hist bin 3] * -0.26 +
+[Word homoganity hist bin 4] * 0.48 +
+[Word homoganity hist bin 5] * -0.67 +
+[Word homoganity hist bin 6] * -1.99 +
+[Word homoganity hist bin 7] * 0.96 +
+[Punctuation characters ratio] * -2.81 +
+[Frequency of fullstop] * 5.43 +
+[Frequency of single quotes] * -0.72 +
+[,Frequency of double quotes] * -3.5 +
+[Frequency of apostepe] * 0.72 +
+[Frequency of plus] * 280.67 +
+[Frequency of forwardslash] * 227.58 +
+[Frequency of exclamation] * 32.37 +
+[Frequency of question mark] * -3.25 +
+[Frequency of star] * 32.25 +
+[Frequency of and sign] * -63.4 +
+[Frequency of open curlybrace] * 255.89 +
+[Frequency of open squarebrace] * 488.38 +
+[Frequency of semicolon] * -63.98 +
+[Frequency of colon] * 17.52 +
+[Use of upper case] * 4.91 +
+[Upper case word mean] * 0.06 +
+[Quotation part of the text] * -0.49 +
+[Emoticon smile] * -2154.29 +
+[Sentence length mean] * 0.03 +
+[Sentence length stddev] * 0.03 +
+[Sentence length hist bin 0] * -0.43 +
+[Sentence length hist bin 2] * -0.61 +
+[Sentence length hist bin 3] * -0.72 +
+[Sentence length hist bin 4] * -0.3 +
+[Sentence length hist bin 5] * 0.48 +
+[Sentence length hist bin 6] * 0.33 +
+[Sentence length hist bin 7] * 0.23 +
+[Coleman�Liau index] * -0.07 +
+[Emotion circumplex] * 0    +
+[Emotion circumplex mean] * 0.01 +
+[Emotion circumplex hist bin 2] * -9.04 +
+[Emotion circumplex hist bin 4] * 34.58 +
+[Emotion circumplex hist bin 5] * 3.98 +
+[Emotion circumplex hist bin 7] * 4.01 +
+[Word repetition span 3] * 0.69 +
+[Number diversity] * -15.65 +
+[Mean of numbers] * -0 +
+[positive words frequency] * 1.16 +
+[positive words min] * 136.62 +
+[positive words hist bin 6] * 4.37 +
+[negative words frequency] * 2.84 +
+[negative words hist bin 0] * -1.7 +
+[negative words hist bin 4] * -0.82 +
+[negative words hist bin 6] * -5.71 +
+[hapiness words hist bin 3] * -2.59 +
+[hapiness words hist bin 4] * -3.35 +
+[hapiness words hist bin 7] * 5.79 +
+[happy words frequency] * -5.01 +
+[prepositions frequency] * -0.92 +
+[pronouns frequency] * 1.01 +
+[verbs frequency] * 1.96 +
+[sport frequency] * -3 +
+[math frequency] * 3.78 +
+[science frequency] * -5.79 +
+[science fields frequency] * 41.74 +
+[US states frequency] * -18.12 +
+[shapes frequency] * -3.1 +
+[school frequency] * 9.83 +
+[lanuages frequency] * -20.14 +
+[elections frequency] * -4.91 +
+[food frequency] * -2.37 +
+[driving frequency] * -2.76 +
+[countries frequency] * -5.66 +
+[emotions frequency] * 1.55 +
+[familiy frequency] * -3.63 +
+[musical instruments frequency] * 1.76 +
+[land forms frequency] * 7.3  +
+[animals frequency] * 2.06 +
+[cats frequency] * 15.05 +
+[fish frequency] * -63.58 +
+[birds frequency] * 8.47 +
+[insects frequency] * -5.87 +
+[cars frequency] * 7.92 +
+[car parts frequency] * -4.91 +
+[fall frequency] * -6.3 +
+[spring frequency] * -4.12 +
+[summer frequency] * 8.67 +
+[weather frequency] * -2.65 +
+[vacation frequency] * 4.96 +
+[medical frequency] * 3.5  +
+[body frequency] * -4.65 +
+[farm frequency] * -8.11 +
+[transportation frequency] * -5.1 +
+[time frequency] * -1.22 +
+[clothing frequency] * -2.92 +
+[shoes frequency] * -8.51 +
+[hats frequency] * -12.07 +
+[buildings frequency] * -10.21 +
+[public buildings frequency] * 8.63 +
+[birthday frequency] * -4.31 +
+[fair frequency] * 3.9  +
+[castles and kings and queens frequency] * -3.57 +
+[circus frequency] * 0.48 +
+[computer frequency] * -1.91 +
+[fruits frequency] * 6.08 +
+[occupation frequency] * 13.3 +
+[leaders frequency] * 9.33 +
+[house frequency] * -6.27 +
+[restaurants frequency] * 1.41 +
+[roads frequency] * -5.15 +
+[weapons frequency] * -0.31 +
+[containers frequency] * 2.83 +
+[acquaintances frequency] * 1.65 +
+[yard frequency] * 7.94 +
+[acronyms frequency] * -3.92 +
+[self frequency] * -2.39 +
+[female frequency] * -5.62 +
+[Soundex diversity] * -3.72 +
+[Soundex homoganity hist bin 0] * -0.27 +
+[Soundex homoganity hist bin 1] * 0.29 +
+[Soundex homoganity hist bin 2] * -0.31 +
+[Soundex homoganity hist bin 4] * -1.38
+
+Class Top_Artists :
+-4.04 + 
+[Word diversity] * -3.59 +
+[FFT mean] * 0    +
+[FFT median] * 0    +
+[FFT min] * 0.03 +
+[FFT histogram bin 1] * 2.96 +
+[FFT histogram bin 4] * 20.94 +
+[FFT histogram bin 5] * -1.15 +
+[Words of length 2] * 0.69 +
+[Words of length 3] * 1.47 +
+[Words of length 5] * -2.54 +
+[Words of length 6] * -1.97 +
+[Words of length 7] * -2.06 +
+[Words of length 8] * 1.47 +
+[Words of length 9] * 3.79 +
+[Words of length 11] * 40.83 +
+[Words of length 12] * 11.04 +
+[Words of length 13] * -39.06 +
+[Words of length 15] * 164.11 +
+[Words of length 16] * 246.68 +
+[Word homogeneity mean] * -1.59 +
+[Word homoganity hist bin 0] * 0.13 +
+[Word homoganity hist bin 2] * -0.26 +
+[Word homoganity hist bin 3] * 0.26 +
+[Word homoganity hist bin 4] * -0.48 +
+[Word homoganity hist bin 5] * 0.67 +
+[Word homoganity hist bin 6] * 1.99 +
+[Word homoganity hist bin 7] * -0.96 +
+[Punctuation characters ratio] * 2.81 +
+[Frequency of fullstop] * -5.43 +
+[Frequency of single quotes] * 0.72 +
+[,Frequency of double quotes] * 3.5  +
+[Frequency of apostepe] * -0.72 +
+[Frequency of plus] * -280.67 +
+[Frequency of forwardslash] * -227.58 +
+[Frequency of exclamation] * -32.37 +
+[Frequency of question mark] * 3.25 +
+[Frequency of star] * -32.25 +
+[Frequency of and sign] * 63.4 +
+[Frequency of open curlybrace] * -255.89 +
+[Frequency of open squarebrace] * -488.38 +
+[Frequency of semicolon] * 63.98 +
+[Frequency of colon] * -17.52 +
+[Use of upper case] * -4.91 +
+[Upper case word mean] * -0.06 +
+[Quotation part of the text] * 0.49 +
+[Emoticon smile] * 2154.29 +
+[Sentence length mean] * -0.03 +
+[Sentence length stddev] * -0.03 +
+[Sentence length hist bin 0] * 0.43 +
+[Sentence length hist bin 2] * 0.61 +
+[Sentence length hist bin 3] * 0.72 +
+[Sentence length hist bin 4] * 0.3  +
+[Sentence length hist bin 5] * -0.48 +
+[Sentence length hist bin 6] * -0.33 +
+[Sentence length hist bin 7] * -0.23 +
+[Coleman�Liau index] * 0.07 +
+[Emotion circumplex] * -0 +
+[Emotion circumplex mean] * -0.01 +
+[Emotion circumplex hist bin 2] * 9.04 +
+[Emotion circumplex hist bin 4] * -34.58 +
+[Emotion circumplex hist bin 5] * -3.98 +
+[Emotion circumplex hist bin 7] * -4.01 +
+[Word repetition span 3] * -0.69 +
+[Number diversity] * 15.65 +
+[Mean of numbers] * 0    +
+[positive words frequency] * -1.16 +
+[positive words min] * -136.62 +
+[positive words hist bin 6] * -4.37 +
+[negative words frequency] * -2.84 +
+[negative words hist bin 0] * 1.7  +
+[negative words hist bin 4] * 0.82 +
+[negative words hist bin 6] * 5.71 +
+[hapiness words hist bin 3] * 2.59 +
+[hapiness words hist bin 4] * 3.35 +
+[hapiness words hist bin 7] * -5.79 +
+[happy words frequency] * 5.01 +
+[prepositions frequency] * 0.92 +
+[pronouns frequency] * -1.01 +
+[verbs frequency] * -1.96 +
+[sport frequency] * 3    +
+[math frequency] * -3.78 +
+[science frequency] * 5.79 +
+[science fields frequency] * -41.74 +
+[US states frequency] * 18.12 +
+[shapes frequency] * 3.1  +
+[school frequency] * -9.83 +
+[lanuages frequency] * 20.14 +
+[elections frequency] * 4.91 +
+[food frequency] * 2.37 +
+[driving frequency] * 2.76 +
+[countries frequency] * 5.66 +
+[emotions frequency] * -1.55 +
+[familiy frequency] * 3.63 +
+[musical instruments frequency] * -1.76 +
+[land forms frequency] * -7.3 +
+[animals frequency] * -2.06 +
+[cats frequency] * -15.05 +
+[fish frequency] * 63.58 +
+[birds frequency] * -8.47 +
+[insects frequency] * 5.87 +
+[cars frequency] * -7.92 +
+[car parts frequency] * 4.91 +
+[fall frequency] * 6.3  +
+[spring frequency] * 4.12 +
+[summer frequency] * -8.67 +
+[weather frequency] * 2.65 +
+[vacation frequency] * -4.96 +
+[medical frequency] * -3.5 +
+[body frequency] * 4.65 +
+[farm frequency] * 8.11 +
+[transportation frequency] * 5.1  +
+[time frequency] * 1.22 +
+[clothing frequency] * 2.92 +
+[shoes frequency] * 8.51 +
+[hats frequency] * 12.07 +
+[buildings frequency] * 10.21 +
+[public buildings frequency] * -8.63 +
+[birthday frequency] * 4.31 +
+[fair frequency] * -3.9 +
+[castles and kings and queens frequency] * 3.57 +
+[circus frequency] * -0.48 +
+[computer frequency] * 1.91 +
+[fruits frequency] * -6.08 +
+[occupation frequency] * -13.3 +
+[leaders frequency] * -9.33 +
+[house frequency] * 6.27 +
+[restaurants frequency] * -1.41 +
+[roads frequency] * 5.15 +
+[weapons frequency] * 0.31 +
+[containers frequency] * -2.83 +
+[acquaintances frequency] * -1.65 +
+[yard frequency] * -7.94 +
+[acronyms frequency] * 3.92 +
+[self frequency] * 2.39 +
+[female frequency] * 5.62 +
+[Soundex diversity] * 3.72 +
+[Soundex homoganity hist bin 0] * 0.27 +
+[Soundex homoganity hist bin 1] * -0.29 +
+[Soundex homoganity hist bin 2] * 0.31 +
+[Soundex homoganity hist bin 4] * 1.38
+
+
+Time taken to build model: 12.99 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1688               73.6475 %
+Incorrectly Classified Instances       604               26.3525 %
+Kappa statistic                          0.473 
+Mean absolute error                      0.328 
+Root mean squared error                  0.4254
+Relative absolute error                 65.5949 %
+Root relative squared error             85.077  %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.719    0.246    0.747      0.719    0.733      0.473    0.808     0.806     Low_Artists
+                 0.754    0.281    0.727      0.754    0.740      0.473    0.808     0.772     Top_Artists
+Weighted Avg.    0.736    0.263    0.737      0.736    0.736      0.473    0.808     0.789     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 828 323 |   a = Low_Artists
+ 281 860 |   b = Top_Artists
+

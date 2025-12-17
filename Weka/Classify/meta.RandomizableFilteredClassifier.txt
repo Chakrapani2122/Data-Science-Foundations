@@ -1,0 +1,63 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.RandomizableFilteredClassifier -F "weka.filters.unsupervised.attribute.RandomProjection -N 10 -R 42 -D Sparse1" -S 1 -W weka.classifiers.lazy.IBk -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomizableFilteredClassifier using weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" on data filtered through weka.filters.unsupervised.attribute.RandomProjection -N 10 -R 771826358 -D Sparse1
+
+Filtered Header
+@relation output-weka.filters.supervised.attribute.NominalToBinary-weka.filters.unsupervised.attribute.RandomProjection-N10-R771826358-DSparse1
+
+@attribute K1 numeric
+@attribute K2 numeric
+@attribute K3 numeric
+@attribute K4 numeric
+@attribute K5 numeric
+@attribute K6 numeric
+@attribute K7 numeric
+@attribute K8 numeric
+@attribute K9 numeric
+@attribute K10 numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1401               61.1257 %
+Incorrectly Classified Instances       891               38.8743 %
+Kappa statistic                          0.2225
+Mean absolute error                      0.3889
+Root mean squared error                  0.6232
+Relative absolute error                 77.7717 %
+Root relative squared error            124.6394 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.619    0.396    0.612      0.619    0.615      0.222    0.616     0.579     Low_Artists
+                 0.604    0.381    0.611      0.604    0.607      0.222    0.616     0.576     Top_Artists
+Weighted Avg.    0.611    0.389    0.611      0.611    0.611      0.222    0.616     0.577     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 712 439 |   a = Low_Artists
+ 452 689 |   b = Top_Artists
+

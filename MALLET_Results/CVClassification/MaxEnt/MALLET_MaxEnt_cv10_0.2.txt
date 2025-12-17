@@ -1,0 +1,200 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 1.0
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7695652173913043 most-frequent-tag baseline=0.5304347826086957
+          label   0   1  |total
+  0 Top_Artists  91  31  |122
+  1 Low_Artists  22  86  |108
+
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.8053097345132744
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7350427350427351
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7459016393442623
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7962962962962963
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.774468085106383
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7644444444444445
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7695652173913043
+
+-------------------- Trial 1  --------------------
+
+Trial 1 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 1 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7086956521739131 most-frequent-tag baseline=0.5130434782608696
+          label   0   1  |total
+  0 Top_Artists  75  37  |112
+  1 Low_Artists  30  88  |118
+
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.7142857142857143
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.704
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.6696428571428571
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7457627118644068
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.6912442396313364
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7242798353909465
+Trial 1 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7086956521739131
+
+-------------------- Trial 2  --------------------
+
+Trial 2 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 2 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.717391304347826 most-frequent-tag baseline=0.5347826086956522
+          label   0   1  |total
+  0 Top_Artists  87  36  |123
+  1 Low_Artists  29  78  |107
+
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.75
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.6842105263157895
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7073170731707317
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7289719626168224
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.7280334728033473
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7058823529411765
+Trial 2 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.717391304347826
+
+-------------------- Trial 3  --------------------
+
+Trial 3 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 3 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7739130434782608 most-frequent-tag baseline=0.5347826086956522
+          label   0   1  |total
+  0 Top_Artists  96  27  |123
+  1 Low_Artists  25  82  |107
+
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.7933884297520661
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7522935779816514
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7804878048780488
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7663551401869159
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.7868852459016394
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7592592592592593
+Trial 3 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7739130434782608
+
+-------------------- Trial 4  --------------------
+
+Trial 4 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2070 instances
+Trial 4 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995169082125603
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7229437229437229 most-frequent-tag baseline=0.5324675324675324
+          label   0   1  |total
+  0 Top_Artists  91  32  |123
+  1 Low_Artists  32  76  |108
+
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.7398373983739838
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7037037037037037
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7398373983739838
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7037037037037037
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.7398373983739838
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7037037037037037
+Trial 4 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7229437229437229
+
+-------------------- Trial 5  --------------------
+
+Trial 5 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 5 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7347826086956522 most-frequent-tag baseline=0.5608695652173913
+          label   0   1  |total
+  0 Top_Artists  73  28  |101
+  1 Low_Artists  33  96  |129
+
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.6886792452830188
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7741935483870968
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7227722772277227
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7441860465116279
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.7053140096618357
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.758893280632411
+Trial 5 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7347826086956522
+
+-------------------- Trial 6  --------------------
+
+Trial 6 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 6 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7043478260869566 most-frequent-tag baseline=0.508695652173913
+          label   0   1  |total
+  0 Top_Artists  76  41  |117
+  1 Low_Artists  27  86  |113
+
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.7378640776699029
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.6771653543307087
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.6495726495726496
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7610619469026548
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.6909090909090909
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7166666666666666
+Trial 6 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7043478260869566
+
+-------------------- Trial 7  --------------------
+
+Trial 7 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 7 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7652173913043478 most-frequent-tag baseline=0.5478260869565217
+          label   0   1  |total
+  0 Top_Artists  96  30  |126
+  1 Low_Artists  24  80  |104
+
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.8
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7272727272727273
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7619047619047619
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7692307692307693
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.7804878048780488
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7476635514018691
+Trial 7 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7652173913043478
+
+-------------------- Trial 8  --------------------
+
+Trial 8 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 8 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7086956521739131 most-frequent-tag baseline=0.5565217391304348
+          label   0   1  |total
+  0 Top_Artists  65  37  |102
+  1 Low_Artists  30  98  |128
+
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.6842105263157895
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.725925925925926
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.6372549019607843
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.765625
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.6598984771573604
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7452471482889734
+Trial 8 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7086956521739131
+
+-------------------- Trial 9  --------------------
+
+Trial 9 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2071 instances
+Trial 9 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9995171414775471
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7260869565217392 most-frequent-tag baseline=0.5652173913043478
+          label   0   1  |total
+  0 Top_Artists  72  28  |100
+  1 Low_Artists  35  95  |130
+
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.6728971962616822
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7723577235772358
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.72
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7307692307692307
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.6956521739130436
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.7509881422924901
+Trial 9 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7260869565217392
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. train accuracy mean = 0.9995654040032937 stddev = 1.448653489291065E-4 stderr = 4.5810445665101066E-5
+Summary. test accuracy mean = 0.7331639375117636 stddev = 0.025390276614173195 stderr = 0.008029110452249553
+Summary. test precision(Top_Artists) mean = 0.7386472322455432 stddev = 0.046596427598176 stderr = 0.014735084203736528
+Summary. test precision(Low_Artists) mean = 0.7256165822537575 stddev = 0.03218267038098575 stderr = 0.010177053959035382
+Summary. test recall(Top_Artists) mean = 0.7134691363575801 stddev = 0.04534735497636451 stderr = 0.014340092758948287
+Summary. test recall(Low_Artists) mean = 0.7511962808082427 stddev = 0.024778944935387282 stderr = 0.00783579040117176
+Summary. test f1(Top_Artists) mean = 0.7252729998336069 stddev = 0.041681002245645596 stderr = 0.013180690225483311
+Summary. test f1(Low_Artists) mean = 0.7377028385021941 stddev = 0.02180055347171869 stderr = 0.006893940322292221

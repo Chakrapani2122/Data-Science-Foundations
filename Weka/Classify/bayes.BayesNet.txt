@@ -1,0 +1,289 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=240 #classindex=0
+Network structure (nodes followed by parents)
+Class(2): 
+Total number of words(3): Class 
+Word diversity(2): Class 
+FFT mean(3): Class 
+FFT median(4): Class 
+FFT stddev(3): Class 
+FFT min(1): Class 
+FFT max(4): Class 
+FFT histogram bin 1(3): Class 
+FFT histogram bin 2(2): Class 
+FFT histogram bin 3(1): Class 
+FFT histogram bin 4(1): Class 
+FFT histogram bin 5(2): Class 
+Word length mean(2): Class 
+Words of length 1(2): Class 
+Words of length 2(2): Class 
+Words of length 3(1): Class 
+Words of length 4(2): Class 
+Words of length 5(2): Class 
+Words of length 6(2): Class 
+Words of length 7(3): Class 
+Words of length 8(3): Class 
+Words of length 9(3): Class 
+Words of length 10(4): Class 
+Words of length 11(2): Class 
+Words of length 12(1): Class 
+Words of length 13(1): Class 
+Words of length 14(1): Class 
+Words of length 15(1): Class 
+Words of length 16(1): Class 
+Word homogeneity mean(3): Class 
+Word homogeneity StdDev(3): Class 
+Word homogeneity maximum(3): Class 
+Word homoganity hist bin 0(3): Class 
+Word homoganity hist bin 1(2): Class 
+Word homoganity hist bin 2(3): Class 
+Word homoganity hist bin 3(4): Class 
+Word homoganity hist bin 4(3): Class 
+Word homoganity hist bin 5(3): Class 
+Word homoganity hist bin 6(2): Class 
+Word homoganity hist bin 7(4): Class 
+Punctuation characters ratio(4): Class 
+Frequency of fullstop(1): Class 
+Frequency of single quotes(3): Class 
+,Frequency of double quotes(2): Class 
+Frequency of apostepe(2): Class 
+Frequency of plus(1): Class 
+Frequency of backslash(1): Class 
+Frequency of forwardslash(2): Class 
+Frequency of exclamation(2): Class 
+Frequency of question mark(2): Class 
+Frequency of open parenthesis(2): Class 
+Frequency of equal(1): Class 
+Frequency of star(1): Class 
+Frequency of and sign(1): Class 
+Frequency of open curlybrace(1): Class 
+Frequency of open squarebrace(1): Class 
+Frequency of semicolon(1): Class 
+Frequency of colon(1): Class 
+Use of upper case(3): Class 
+Upper case word mean(1): Class 
+Quotations number(2): Class 
+Quotation length mean(2): Class 
+Quotation length stddev(2): Class 
+Quotation part of the text(2): Class 
+Emoticon smile(1): Class 
+Emoticon wink(1): Class 
+Emoticon sad(1): Class 
+Sentence length mean(3): Class 
+Sentence length stddev(4): Class 
+Sentence length character mean(3): Class 
+Sentence length hist bin 0(2): Class 
+Sentence length hist bin 1(2): Class 
+Sentence length hist bin 2(2): Class 
+Sentence length hist bin 3(2): Class 
+Sentence length hist bin 4(2): Class 
+Sentence length hist bin 5(3): Class 
+Sentence length hist bin 6(1): Class 
+Sentence length hist bin 7(3): Class 
+Automated readability index(2): Class 
+Coleman�Liau index(2): Class 
+Emotion circumplex(1): Class 
+Emotion circumplex mean(1): Class 
+Emotion circumplex stddev(1): Class 
+Emotion circumplex hist bin 0(1): Class 
+Emotion circumplex hist bin 1(1): Class 
+Emotion circumplex hist bin 2(1): Class 
+Emotion circumplex hist bin 3(1): Class 
+Emotion circumplex hist bin 4(1): Class 
+Emotion circumplex hist bin 5(1): Class 
+Emotion circumplex hist bin 6(1): Class 
+Emotion circumplex hist bin 7(1): Class 
+Word repetition span 3(3): Class 
+Word repetition span 7(3): Class 
+Word repetition span 11(3): Class 
+Word repetition span 17(3): Class 
+Use of numbers(2): Class 
+Number diversity(2): Class 
+Mean of numbers(2): Class 
+positive words frequency(2): Class 
+positive words mean(2): Class 
+positive words stddev(2): Class 
+positive words min(1): Class 
+positive words max(2): Class 
+positive words dif(2): Class 
+positive words hist bin 0(2): Class 
+positive words hist bin 1(2): Class 
+positive words hist bin 2(2): Class 
+positive words hist bin 3(2): Class 
+positive words hist bin 4(2): Class 
+positive words hist bin 5(1): Class 
+positive words hist bin 6(2): Class 
+positive words hist bin 7(2): Class 
+negative words frequency(4): Class 
+negative words mean(2): Class 
+negative words stddev(3): Class 
+negative words min(1): Class 
+negative words max(2): Class 
+negative words dif(2): Class 
+negative words hist bin 0(2): Class 
+negative words hist bin 1(1): Class 
+negative words hist bin 2(1): Class 
+negative words hist bin 3(1): Class 
+negative words hist bin 4(2): Class 
+negative words hist bin 5(1): Class 
+negative words hist bin 6(2): Class 
+negative words hist bin 7(2): Class 
+hapiness words frequency(2): Class 
+hapiness words mean(2): Class 
+hapiness words stddev(2): Class 
+hapiness words min(2): Class 
+hapiness words max(2): Class 
+hapiness words dif(2): Class 
+hapiness words hist bin 0(2): Class 
+hapiness words hist bin 1(2): Class 
+hapiness words hist bin 2(2): Class 
+hapiness words hist bin 3(2): Class 
+hapiness words hist bin 4(2): Class 
+hapiness words hist bin 5(2): Class 
+hapiness words hist bin 6(2): Class 
+hapiness words hist bin 7(2): Class 
+happy words frequency(2): Class 
+adjectives frequency(1): Class 
+adverbs frequency(3): Class 
+prepositions frequency(2): Class 
+pronouns frequency(2): Class 
+verbs frequency(2): Class 
+verbs that are nouns frequency(2): Class 
+sport frequency(2): Class 
+math frequency(3): Class 
+science frequency(2): Class 
+science fields frequency(1): Class 
+US states frequency(2): Class 
+shapes frequency(3): Class 
+school frequency(1): Class 
+lanuages frequency(1): Class 
+elections frequency(3): Class 
+food frequency(2): Class 
+money frequency(3): Class 
+driving frequency(2): Class 
+military frequency(2): Class 
+law frequency(3): Class 
+countries frequency(2): Class 
+emotions frequency(3): Class 
+dance frequency(2): Class 
+boats frequency(3): Class 
+energy frequency(2): Class 
+familiy frequency(3): Class 
+musical instruments frequency(2): Class 
+music frequency(3): Class 
+land forms frequency(3): Class 
+art frequency(2): Class 
+astronomy frequency(2): Class 
+colors frequency(3): Class 
+animals frequency(2): Class 
+dogs frequency(1): Class 
+cats frequency(1): Class 
+fish frequency(3): Class 
+birds frequency(3): Class 
+reptiles frequency(1): Class 
+insects frequency(2): Class 
+cars frequency(3): Class 
+car parts frequency(2): Class 
+beach frequency(2): Class 
+fall frequency(3): Class 
+spring frequency(2): Class 
+summer frequency(2): Class 
+winter frequency(3): Class 
+weather frequency(2): Class 
+vacation frequency(3): Class 
+medical frequency(3): Class 
+body frequency(2): Class 
+farm frequency(1): Class 
+trees frequency(3): Class 
+transportation frequency(2): Class 
+time frequency(2): Class 
+clothing frequency(2): Class 
+shoes frequency(2): Class 
+hats frequency(2): Class 
+buildings frequency(3): Class 
+public buildings frequency(3): Class 
+birthday frequency(2): Class 
+monsters frequency(1): Class 
+office frequency(3): Class 
+tools frequency(3): Class 
+camping frequency(1): Class 
+fair frequency(3): Class 
+castles and kings and queens frequency(2): Class 
+circus frequency(2): Class 
+computer frequency(2): Class 
+cooking frequency(2): Class 
+kitchen frequency(3): Class 
+fruits frequency(1): Class 
+geography frequency(4): Class 
+furnitures frequency(2): Class 
+occupation frequency(3): Class 
+leaders frequency(2): Class 
+house frequency(2): Class 
+restaurants frequency(3): Class 
+roads frequency(3): Class 
+rocks and minerals frequency(3): Class 
+weapons frequency(2): Class 
+measurements frequency(3): Class 
+containers frequency(3): Class 
+acquaintances frequency(3): Class 
+yard frequency(2): Class 
+flowers frequency(1): Class 
+acronyms frequency(2): Class 
+self frequency(2): Class 
+female frequency(3): Class 
+male frequency(3): Class 
+Soundex diversity(3): Class 
+Soundex homogeneity mean(3): Class 
+Soundex homogeneity StdDev(3): Class 
+Soundex homogeneity maximum(3): Class 
+Soundex homoganity hist bin 0(3): Class 
+Soundex homoganity hist bin 1(4): Class 
+Soundex homoganity hist bin 2(3): Class 
+Soundex homoganity hist bin 3(1): Class 
+Soundex homoganity hist bin 4(5): Class 
+LogScore Bayes: -225315.06784802696
+LogScore BDeu: -225981.10277755375
+LogScore MDL: -226180.05001616763
+LogScore ENTROPY: -224063.93126488032
+LogScore AIC: -224610.93126488032
+
+
+Time taken to build model: 0.32 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1578               68.8482 %
+Incorrectly Classified Instances       714               31.1518 %
+Kappa statistic                          0.3774
+Mean absolute error                      0.3112
+Root mean squared error                  0.5461
+Relative absolute error                 62.2444 %
+Root relative squared error            109.2261 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.615    0.238    0.723      0.615    0.665      0.382    0.736     0.753     Low_Artists
+                 0.762    0.385    0.663      0.762    0.709      0.382    0.736     0.700     Top_Artists
+Weighted Avg.    0.688    0.311    0.693      0.688    0.687      0.382    0.736     0.727     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 708 443 |   a = Low_Artists
+ 271 870 |   b = Top_Artists
+

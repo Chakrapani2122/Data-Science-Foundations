@@ -1,0 +1,200 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 2071 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer training data accuracy = 0.932882665379044
+Trial 0 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7521739130434782 most-frequent-tag baseline=0.5
+          label   0   1  |total
+  0 Top_Artists  90  25  |115
+  1 Low_Artists  32  83  |115
+
+Trial 0 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7377049180327869
+Trial 0 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7685185185185185
+Trial 0 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.782608695652174
+Trial 0 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7217391304347827
+Trial 0 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7594936708860759
+Trial 0 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7443946188340808
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.7521739130434782
+
+-------------------- Trial 1  --------------------
+
+Trial 1 Training NaiveBayesTrainer with 2071 instances
+Trial 1 Training NaiveBayesTrainer finished
+Trial 1 Trainer NaiveBayesTrainer training data accuracy = 0.9299855142443264
+Trial 1 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6608695652173913 most-frequent-tag baseline=0.5217391304347826
+          label   0   1  |total
+  0 Top_Artists  78  42  |120
+  1 Low_Artists  36  74  |110
+
+Trial 1 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.6842105263157895
+Trial 1 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.6379310344827587
+Trial 1 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.65
+Trial 1 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.6727272727272727
+Trial 1 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.6666666666666667
+Trial 1 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.6548672566371682
+Trial 1 Trainer NaiveBayesTrainer test data accuracy = 0.6608695652173913
+
+-------------------- Trial 2  --------------------
+
+Trial 2 Training NaiveBayesTrainer with 2071 instances
+Trial 2 Training NaiveBayesTrainer finished
+Trial 2 Trainer NaiveBayesTrainer training data accuracy = 0.9338483824239497
+Trial 2 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7521739130434782 most-frequent-tag baseline=0.508695652173913
+          label   0   1  |total
+  0 Top_Artists  89  28  |117
+  1 Low_Artists  29  84  |113
+
+Trial 2 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7542372881355932
+Trial 2 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.75
+Trial 2 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.7606837606837606
+Trial 2 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7433628318584071
+Trial 2 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7574468085106383
+Trial 2 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7466666666666666
+Trial 2 Trainer NaiveBayesTrainer test data accuracy = 0.7521739130434782
+
+-------------------- Trial 3  --------------------
+
+Trial 3 Training NaiveBayesTrainer with 2071 instances
+Trial 3 Training NaiveBayesTrainer finished
+Trial 3 Trainer NaiveBayesTrainer training data accuracy = 0.9304683727667793
+Trial 3 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7434782608695653 most-frequent-tag baseline=0.5043478260869565
+          label   0   1  |total
+  0 Top_Artists  89  25  |114
+  1 Low_Artists  34  82  |116
+
+Trial 3 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7235772357723578
+Trial 3 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7663551401869159
+Trial 3 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.7807017543859649
+Trial 3 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7068965517241379
+Trial 3 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7510548523206751
+Trial 3 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7354260089686098
+Trial 3 Trainer NaiveBayesTrainer test data accuracy = 0.7434782608695653
+
+-------------------- Trial 4  --------------------
+
+Trial 4 Training NaiveBayesTrainer with 2070 instances
+Trial 4 Training NaiveBayesTrainer finished
+Trial 4 Trainer NaiveBayesTrainer training data accuracy = 0.9342995169082126
+Trial 4 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7575757575757576 most-frequent-tag baseline=0.5151515151515151
+          label   0   1  |total
+  0 Top_Artists  84  28  |112
+  1 Low_Artists  28  91  |119
+
+Trial 4 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.75
+Trial 4 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7647058823529411
+Trial 4 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.75
+Trial 4 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7647058823529411
+Trial 4 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.75
+Trial 4 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7647058823529412
+Trial 4 Trainer NaiveBayesTrainer test data accuracy = 0.7575757575757576
+
+-------------------- Trial 5  --------------------
+
+Trial 5 Training NaiveBayesTrainer with 2071 instances
+Trial 5 Training NaiveBayesTrainer finished
+Trial 5 Trainer NaiveBayesTrainer training data accuracy = 0.9319169483341381
+Trial 5 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7608695652173914 most-frequent-tag baseline=0.5260869565217391
+          label   0   1  |total
+  0 Top_Artists  93  28  |121
+  1 Low_Artists  27  82  |109
+
+Trial 5 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.775
+Trial 5 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7454545454545455
+Trial 5 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.768595041322314
+Trial 5 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7522935779816514
+Trial 5 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7717842323651453
+Trial 5 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7488584474885845
+Trial 5 Trainer NaiveBayesTrainer test data accuracy = 0.7608695652173914
+
+-------------------- Trial 6  --------------------
+
+Trial 6 Training NaiveBayesTrainer with 2071 instances
+Trial 6 Training NaiveBayesTrainer finished
+Trial 6 Trainer NaiveBayesTrainer training data accuracy = 0.9323998068565911
+Trial 6 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7434782608695653 most-frequent-tag baseline=0.508695652173913
+          label   0   1  |total
+  0 Top_Artists  88  25  |113
+  1 Low_Artists  34  83  |117
+
+Trial 6 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7213114754098361
+Trial 6 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7685185185185185
+Trial 6 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.7787610619469026
+Trial 6 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7094017094017094
+Trial 6 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.748936170212766
+Trial 6 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7377777777777778
+Trial 6 Trainer NaiveBayesTrainer test data accuracy = 0.7434782608695653
+
+-------------------- Trial 7  --------------------
+
+Trial 7 Training NaiveBayesTrainer with 2071 instances
+Trial 7 Training NaiveBayesTrainer finished
+Trial 7 Trainer NaiveBayesTrainer training data accuracy = 0.9270883631096088
+Trial 7 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7565217391304347 most-frequent-tag baseline=0.5260869565217391
+          label   0   1  |total
+  0 Top_Artists  89  32  |121
+  1 Low_Artists  24  85  |109
+
+Trial 7 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7876106194690266
+Trial 7 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7264957264957265
+Trial 7 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.7355371900826446
+Trial 7 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7798165137614679
+Trial 7 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7606837606837605
+Trial 7 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7522123893805308
+Trial 7 Trainer NaiveBayesTrainer test data accuracy = 0.7565217391304347
+
+-------------------- Trial 8  --------------------
+
+Trial 8 Training NaiveBayesTrainer with 2071 instances
+Trial 8 Training NaiveBayesTrainer finished
+Trial 8 Trainer NaiveBayesTrainer training data accuracy = 0.9309512312892323
+Trial 8 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7304347826086957 most-frequent-tag baseline=0.5478260869565217
+          label   0   1  |total
+  0 Top_Artists  76  28  |104
+  1 Low_Artists  34  92  |126
+
+Trial 8 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.6909090909090909
+Trial 8 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7666666666666667
+Trial 8 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.7307692307692307
+Trial 8 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7301587301587301
+Trial 8 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7102803738317757
+Trial 8 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7479674796747968
+Trial 8 Trainer NaiveBayesTrainer test data accuracy = 0.7304347826086957
+
+-------------------- Trial 9  --------------------
+
+Trial 9 Training NaiveBayesTrainer with 2071 instances
+Trial 9 Training NaiveBayesTrainer finished
+Trial 9 Trainer NaiveBayesTrainer training data accuracy = 0.9343312409464027
+Trial 9 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7391304347826086 most-frequent-tag baseline=0.5130434782608696
+          label   0   1  |total
+  0 Top_Artists  77  35  |112
+  1 Low_Artists  25  93  |118
+
+Trial 9 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7549019607843137
+Trial 9 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7265625
+Trial 9 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.6875
+Trial 9 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.788135593220339
+Trial 9 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7196261682242991
+Trial 9 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7560975609756098
+Trial 9 Trainer NaiveBayesTrainer test data accuracy = 0.7391304347826086
+
+NaiveBayesTrainer
+Summary. train accuracy mean = 0.9318172042258285 stddev = 0.002153573910089718 stderr = 6.810198665398181E-4
+Summary. test accuracy mean = 0.7396706192358367 stddev = 0.02773230806292477 stderr = 0.008769725825229441
+Summary. test precision(Top_Artists) mean = 0.7379463114828794 stddev = 0.031813490529093595 stderr = 0.010060309039213098
+Summary. test precision(Low_Artists) mean = 0.7421208532676591 stddev = 0.03808999127904462 stderr = 0.012045112849773118
+Summary. test recall(Top_Artists) mean = 0.7425156734842993 stddev = 0.04149474143181116 stderr = 0.013121789384427969
+Summary. test recall(Low_Artists) mean = 0.7369237793621439 stddev = 0.034012649924060674 stderr = 0.010755744301798478
+Summary. test f1(Top_Artists) mean = 0.7395972703701803 stddev = 0.03016458134936335 stderr = 0.009538878172942347
+Summary. test f1(Low_Artists) mean = 0.7388974088756766 stddev = 0.02913014087876638 stderr = 0.00921175937384806

@@ -1,0 +1,40 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.VotedPerceptron -I 1 -E 1.0 -S 1 -M 10000
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+VotedPerceptron: Number of perceptrons=1049
+
+Time taken to build model: 0.26 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1338               58.377  %
+Incorrectly Classified Instances       954               41.623  %
+Kappa statistic                          0.1698
+Mean absolute error                      0.4165
+Root mean squared error                  0.645 
+Relative absolute error                 83.3111 %
+Root relative squared error            129.0108 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.271    0.101    0.731      0.271    0.395      0.219    0.595     0.574     Low_Artists
+                 0.899    0.729    0.550      0.899    0.683      0.219    0.595     0.554     Top_Artists
+Weighted Avg.    0.584    0.413    0.641      0.584    0.538      0.219    0.595     0.564     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  312  839 |    a = Low_Artists
+  115 1026 |    b = Top_Artists
+

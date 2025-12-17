@@ -1,0 +1,525 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.MultiClassClassifier -M 0 -R 2.0 -S 1 -W weka.classifiers.functions.Logistic -- -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+MultiClassClassifier
+
+Classifier 1
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                           Class
+Variable                                             Low_Artists
+================================================================
+Total number of words                                      0.011
+Word diversity                                            14.374
+FFT mean                                                 -0.0046
+FFT median                                               -0.0008
+FFT stddev                                                0.0019
+FFT min                                                  -0.0473
+FFT max                                                  -0.0064
+FFT histogram bin 1                                      34.1502
+FFT histogram bin 2                                      58.3626
+FFT histogram bin 3                                      -7.0593
+FFT histogram bin 4                                      45.3658
+FFT histogram bin 5                                      45.4685
+Word length mean                                         -2.7165
+Words of length 1                                      -150.1677
+Words of length 2                                       -71.9479
+Words of length 3                                         8.6312
+Words of length 4                                        92.7875
+Words of length 5                                       175.8738
+Words of length 6                                       259.6069
+Words of length 7                                        339.172
+Words of length 8                                       416.6504
+Words of length 9                                       489.6885
+Words of length 10                                      577.3992
+Words of length 11                                      630.3049
+Words of length 12                                      753.1212
+Words of length 13                                      833.5584
+Words of length 14                                      932.2322
+Words of length 15                                      917.7665
+Words of length 16                                       1030.28
+Word homogeneity mean                                    25.4841
+Word homogeneity StdDev                                  -9.2888
+Word homogeneity maximum                                  3.6449
+Word homoganity hist bin 0                                -6.139
+Word homoganity hist bin 1                               -6.4362
+Word homoganity hist bin 2                               -5.6628
+Word homoganity hist bin 3                               -6.4998
+Word homoganity hist bin 4                               -5.1622
+Word homoganity hist bin 5                               -5.3135
+Word homoganity hist bin 6                              -11.2535
+Word homoganity hist bin 7                                -4.855
+Punctuation characters ratio                           -298.7327
+Frequency of fullstop                                    305.639
+Frequency of single quotes                              288.0016
+,Frequency of double quotes                             287.4952
+Frequency of apostepe                                   295.0469
+Frequency of plus                                      6994.0617
+Frequency of forwardslash                                724.216
+Frequency of exclamation                                338.0312
+Frequency of question mark                              285.6831
+Frequency of open parenthesis                           294.0303
+Frequency of equal                                    -6104.2418
+Frequency of star                                       311.3331
+Frequency of and sign                                    23.3496
+Frequency of open curlybrace                           2905.8245
+Frequency of open squarebrace                           416.6845
+Frequency of semicolon                                  205.2914
+Frequency of colon                                      345.7034
+Use of upper case                                        -6.4641
+Upper case word mean                                      0.1515
+Quotations number                                         0.0099
+Quotation length mean                                    -0.0006
+Quotation length stddev                                   0.0116
+Quotation part of the text                               -3.0361
+Emoticon smile                                       -85093.2777
+Sentence length mean                                      8.3977
+Sentence length stddev                                   -0.2752
+Sentence length character mean                           -0.0282
+Sentence length hist bin 0                               10.1184
+Sentence length hist bin 1                                9.9888
+Sentence length hist bin 2                                8.4682
+Sentence length hist bin 3                                8.1222
+Sentence length hist bin 4                                9.0578
+Sentence length hist bin 5                               10.4567
+Sentence length hist bin 6                                9.8478
+Sentence length hist bin 7                               11.3191
+Automated readability index                             -15.4638
+Coleman�Liau index                                        -1.039
+Emotion circumplex                                        0.0009
+Emotion circumplex mean                                  -0.3877
+Emotion circumplex stddev                                 0.2812
+Emotion circumplex hist bin 0                            80.4333
+Emotion circumplex hist bin 1                          -463.1518
+Emotion circumplex hist bin 2                         -1436.4116
+Emotion circumplex hist bin 4                          1346.0769
+Emotion circumplex hist bin 5                           708.3762
+Emotion circumplex hist bin 6                           1971.341
+Emotion circumplex hist bin 7                            185.317
+Word repetition span 3                                    2.3791
+Word repetition span 7                                   -1.3404
+Word repetition span 11                                  -3.2601
+Word repetition span 17                                   2.3998
+Use of numbers                                            2.1498
+Number diversity                                        -18.7316
+Mean of numbers                                          -0.0005
+positive words frequency                                  2.1282
+positive words mean                                     -10.5662
+positive words stddev                                   128.5165
+positive words min                                     3601.0649
+positive words max                                      144.5232
+positive words dif                                      137.9391
+positive words hist bin 0                               -25.5766
+positive words hist bin 1                               -64.9465
+positive words hist bin 2                               -28.0241
+positive words hist bin 3                               -19.5721
+positive words hist bin 4                                 23.624
+positive words hist bin 5                                -24.428
+positive words hist bin 6                                83.3394
+positive words hist bin 7                               -57.8618
+negative words frequency                                  5.4145
+negative words mean                                    -146.9103
+negative words stddev                                   435.1243
+negative words max                                       55.7307
+negative words dif                                       55.7307
+negative words hist bin 0                               -10.6903
+negative words hist bin 1                               -22.9354
+negative words hist bin 2                               -28.5352
+negative words hist bin 3                               -11.0888
+negative words hist bin 4                               -39.7819
+negative words hist bin 5                              -103.7862
+negative words hist bin 6                               115.5708
+negative words hist bin 7                                -1.5025
+hapiness words frequency                                  1.4119
+hapiness words mean                                      -9.7239
+hapiness words stddev                                  -292.9338
+hapiness words min                                     -810.0724
+hapiness words max                                      -16.6336
+hapiness words dif                                       -11.578
+hapiness words hist bin 0                                 54.523
+hapiness words hist bin 1                                52.8271
+hapiness words hist bin 2                               -58.3372
+hapiness words hist bin 3                              -120.7726
+hapiness words hist bin 4                               -86.9173
+hapiness words hist bin 5                               -21.1771
+hapiness words hist bin 6                                72.3324
+hapiness words hist bin 7                                59.6405
+happy words frequency                                   -15.6259
+adjectives frequency                                      0.5489
+adverbs frequency                                        -2.5935
+prepositions frequency                                    0.0978
+pronouns frequency                                        2.4421
+verbs frequency                                          -0.9421
+verbs that are nouns frequency                           -0.3618
+sport frequency                                          -2.4332
+math frequency                                            4.7385
+science frequency                                         0.5238
+science fields frequency                                 65.5439
+US states frequency                                     -19.1819
+shapes frequency                                          1.2756
+school frequency                                         14.6879
+lanuages frequency                                        -16.27
+elections frequency                                       4.0958
+food frequency                                           -2.1807
+money frequency                                          -5.5945
+driving frequency                                       -13.5056
+military frequency                                       -3.8018
+law frequency                                             0.4392
+countries frequency                                      -3.8479
+emotions frequency                                        0.3965
+dance frequency                                           7.5655
+boats frequency                                         -12.6025
+energy frequency                                         -5.8789
+familiy frequency                                        -9.1594
+musical instruments frequency                            -0.9748
+music frequency                                          -3.8676
+land forms frequency                                     23.9699
+art frequency                                             0.7167
+astronomy frequency                                      -2.0251
+colors frequency                                         -1.6267
+animals frequency                                        13.1896
+dogs frequency                                          -10.2514
+cats frequency                                           28.5917
+fish frequency                                          -31.0732
+birds frequency                                           0.8193
+reptiles frequency                                       -3.2233
+insects frequency                                        -8.4273
+cars frequency                                           10.1424
+car parts frequency                                      -0.6502
+beach frequency                                          -5.0391
+fall frequency                                          -12.9783
+spring frequency                                          -4.794
+summer frequency                                          4.8913
+winter frequency                                          2.0372
+weather frequency                                         0.3311
+vacation frequency                                       11.6569
+medical frequency                                         14.469
+body frequency                                          -12.5025
+farm frequency                                            2.0391
+trees frequency                                          -3.2183
+transportation frequency                                 -3.5645
+time frequency                                            0.8544
+clothing frequency                                        -9.996
+shoes frequency                                         -17.5016
+hats frequency                                          -13.3162
+buildings frequency                                     -26.4037
+public buildings frequency                                22.494
+birthday frequency                                       -6.6056
+monsters frequency                                        0.0941
+office frequency                                          6.0589
+tools frequency                                          -4.3557
+camping frequency                                         8.9779
+fair frequency                                            4.4745
+castles and kings and queens frequency                  -21.2051
+circus frequency                                         -5.3818
+computer frequency                                       17.3765
+cooking frequency                                        -11.593
+kitchen frequency                                         6.6475
+fruits frequency                                        -12.9305
+geography frequency                                      -5.0542
+furnitures frequency                                      1.2528
+occupation frequency                                      17.983
+leaders frequency                                         5.7703
+house frequency                                         -11.4295
+restaurants frequency                                      0.595
+roads frequency                                           0.9992
+rocks and minerals frequency                             -3.3331
+weapons frequency                                        -3.1743
+measurements frequency                                   18.6462
+containers frequency                                      9.4603
+acquaintances frequency                                   1.6693
+yard frequency                                            23.828
+flowers frequency                                       -10.5704
+acronyms frequency                                       -3.8178
+self frequency                                           -6.2159
+female frequency                                         -8.3166
+male frequency                                            2.0914
+Soundex diversity                                       -18.0951
+Soundex homogeneity mean                                -20.5618
+Soundex homogeneity StdDev                                6.9091
+Soundex homogeneity maximum                              -2.5347
+Soundex homoganity hist bin 0                             5.1445
+Soundex homoganity hist bin 1                             5.7799
+Soundex homoganity hist bin 2                             5.1687
+Soundex homoganity hist bin 3                             5.0946
+Soundex homoganity hist bin 4                             5.0132
+Intercept                                              -160.2833
+
+
+Odds Ratios...
+                                                           Class
+Variable                                             Low_Artists
+================================================================
+Total number of words                                     1.0111
+Word diversity                                      1747966.5139
+FFT mean                                                  0.9955
+FFT median                                                0.9992
+FFT stddev                                                1.0019
+FFT min                                                   0.9538
+FFT max                                                   0.9936
+FFT histogram bin 1                         6.780059624312681E14
+FFT histogram bin 2                         2.221018411751118E25
+FFT histogram bin 3                                       0.0009
+FFT histogram bin 4                         5.036258859084265E19
+FFT histogram bin 5                        5.5809266893431095E19
+Word length mean                                          0.0661
+Words of length 1                                              0
+Words of length 2                                              0
+Words of length 3                                      5604.0138
+Words of length 4                          1.9820198267573392E40
+Words of length 5                          2.4044419324302923E76
+Words of length 6                         5.5697383110395034E112
+Words of length 7                          1.997724531688596E147
+Words of length 8                          8.891696292035192E180
+Words of length 9                          4.666902469182036E212
+Words of length 10                          5.77137096169236E250
+Words of length 11                         5.469288997755338E273
+Words of length 12                                      Infinity
+Words of length 13                                      Infinity
+Words of length 14                                      Infinity
+Words of length 15                                      Infinity
+Words of length 16                                      Infinity
+Word homogeneity mean                      1.1684289163160806E11
+Word homogeneity StdDev                                   0.0001
+Word homogeneity maximum                                 38.2775
+Word homoganity hist bin 0                                0.0022
+Word homoganity hist bin 1                                0.0016
+Word homoganity hist bin 2                                0.0035
+Word homoganity hist bin 3                                0.0015
+Word homoganity hist bin 4                                0.0057
+Word homoganity hist bin 5                                0.0049
+Word homoganity hist bin 6                                     0
+Word homoganity hist bin 7                                0.0078
+Punctuation characters ratio                                   0
+Frequency of fullstop                      5.461620640551239E132
+Frequency of single quotes                1.1953573657182657E125
+,Frequency of double quotes                7.204189347933542E124
+Frequency of apostepe                     1.3716337359261777E128
+Frequency of plus                                       Infinity
+Frequency of forwardslash                               Infinity
+Frequency of exclamation                   6.384086856354505E146
+Frequency of question mark                1.1765195302677468E124
+Frequency of open parenthesis               4.96308908291514E127
+Frequency of equal                                             0
+Frequency of star                          1.622756309061928E135
+Frequency of and sign                      1.3823648795292793E10
+Frequency of open curlybrace                            Infinity
+Frequency of open squarebrace              9.200058574187943E180
+Frequency of semicolon                     1.4351703039168736E89
+Frequency of colon                        1.3710980407811279E150
+Use of upper case                                         0.0016
+Upper case word mean                                      1.1636
+Quotations number                                           1.01
+Quotation length mean                                     0.9994
+Quotation length stddev                                   1.0117
+Quotation part of the text                                 0.048
+Emoticon smile                                                 0
+Sentence length mean                                   4436.9226
+Sentence length stddev                                    0.7595
+Sentence length character mean                            0.9722
+Sentence length hist bin 0                            24795.4923
+Sentence length hist bin 1                            21781.2384
+Sentence length hist bin 2                             4760.9789
+Sentence length hist bin 3                             3368.4065
+Sentence length hist bin 4                             8585.2938
+Sentence length hist bin 5                            34776.5734
+Sentence length hist bin 6                            18917.3622
+Sentence length hist bin 7                            82379.0229
+Automated readability index                                    0
+Coleman�Liau index                                        0.3538
+Emotion circumplex                                        1.0009
+Emotion circumplex mean                                   0.6786
+Emotion circumplex stddev                                 1.3247
+Emotion circumplex hist bin 0               8.545146032688396E34
+Emotion circumplex hist bin 1                                  0
+Emotion circumplex hist bin 2                                  0
+Emotion circumplex hist bin 4                           Infinity
+Emotion circumplex hist bin 5              4.404174098146644E307
+Emotion circumplex hist bin 6                           Infinity
+Emotion circumplex hist bin 7               3.034973237047963E80
+Word repetition span 3                                   10.7954
+Word repetition span 7                                    0.2617
+Word repetition span 11                                   0.0384
+Word repetition span 17                                  11.0212
+Use of numbers                                            8.5827
+Number diversity                                               0
+Mean of numbers                                           0.9995
+positive words frequency                                  8.3997
+positive words mean                                            0
+positive words stddev                        6.51651432144718E55
+positive words min                                      Infinity
+positive words max                          5.829303943841975E62
+positive words dif                           8.05707257014123E59
+positive words hist bin 0                                      0
+positive words hist bin 1                                      0
+positive words hist bin 2                                      0
+positive words hist bin 3                                      0
+positive words hist bin 4                   1.818679959524549E10
+positive words hist bin 5                                      0
+positive words hist bin 6                  1.5625379417463404E36
+positive words hist bin 7                                      0
+negative words frequency                                224.6323
+negative words mean                                            0
+negative words stddev                      9.377269937508591E188
+negative words max                         1.5978025735440902E24
+negative words dif                          1.597802450120635E24
+negative words hist bin 0                                      0
+negative words hist bin 1                                      0
+negative words hist bin 2                                      0
+negative words hist bin 3                                      0
+negative words hist bin 4                                      0
+negative words hist bin 5                                      0
+negative words hist bin 6                  1.5550812526141912E50
+negative words hist bin 7                                 0.2226
+hapiness words frequency                                  4.1038
+hapiness words mean                                       0.0001
+hapiness words stddev                                          0
+hapiness words min                                             0
+hapiness words max                                             0
+hapiness words dif                                             0
+hapiness words hist bin 0                   4.775521029206197E23
+hapiness words hist bin 1                   8.760157027600525E22
+hapiness words hist bin 2                                      0
+hapiness words hist bin 3                                      0
+hapiness words hist bin 4                                      0
+hapiness words hist bin 5                                      0
+hapiness words hist bin 6                  2.5915058910222404E31
+hapiness words hist bin 7                   7.971116013977394E25
+happy words frequency                                          0
+adjectives frequency                                      1.7314
+adverbs frequency                                         0.0748
+prepositions frequency                                    1.1027
+pronouns frequency                                       11.4972
+verbs frequency                                           0.3898
+verbs that are nouns frequency                            0.6964
+sport frequency                                           0.0878
+math frequency                                          114.2648
+science frequency                                         1.6885
+science fields frequency                   2.9198104291117066E28
+US states frequency                                            0
+shapes frequency                                           3.581
+school frequency                                    2392571.1544
+lanuages frequency                                             0
+elections frequency                                      60.0886
+food frequency                                             0.113
+money frequency                                           0.0037
+driving frequency                                              0
+military frequency                                        0.0223
+law frequency                                             1.5515
+countries frequency                                       0.0213
+emotions frequency                                        1.4866
+dance frequency                                        1930.4785
+boats frequency                                                0
+energy frequency                                          0.0028
+familiy frequency                                         0.0001
+musical instruments frequency                             0.3773
+music frequency                                           0.0209
+land forms frequency                        2.570462563142681E10
+art frequency                                             2.0476
+astronomy frequency                                        0.132
+colors frequency                                          0.1966
+animals frequency                                     534771.335
+dogs frequency                                                 0
+cats frequency                              2.613537191739358E12
+fish frequency                                                 0
+birds frequency                                           2.2689
+reptiles frequency                                        0.0398
+insects frequency                                         0.0002
+cars frequency                                        25397.7369
+car parts frequency                                       0.5219
+beach frequency                                           0.0065
+fall frequency                                                 0
+spring frequency                                          0.0083
+summer frequency                                        133.1288
+winter frequency                                           7.669
+weather frequency                                         1.3925
+vacation frequency                                   115483.8554
+medical frequency                                   1922276.0573
+body frequency                                                 0
+farm frequency                                            7.6839
+trees frequency                                             0.04
+transportation frequency                                  0.0283
+time frequency                                              2.35
+clothing frequency                                             0
+shoes frequency                                                0
+hats frequency                                                 0
+buildings frequency                                            0
+public buildings frequency                       5874964803.9681
+birthday frequency                                        0.0014
+monsters frequency                                        1.0986
+office frequency                                        427.9075
+tools frequency                                           0.0128
+camping frequency                                        7925.58
+fair frequency                                           87.7517
+castles and kings and queens frequency                         0
+circus frequency                                          0.0046
+computer frequency                                 35197664.1884
+cooking frequency                                              0
+kitchen frequency                                       770.8234
+fruits frequency                                               0
+geography frequency                                       0.0064
+furnitures frequency                                      3.5003
+occupation frequency                                64555210.017
+leaders frequency                                        320.624
+house frequency                                                0
+restaurants frequency                                     1.8131
+roads frequency                                           2.7162
+rocks and minerals frequency                              0.0357
+weapons frequency                                         0.0418
+measurements frequency                            125297683.7682
+containers frequency                                  12840.1773
+acquaintances frequency                                   5.3087
+yard frequency                             2.2303728901060844E10
+flowers frequency                                              0
+acronyms frequency                                         0.022
+self frequency                                             0.002
+female frequency                                          0.0002
+male frequency                                            8.0963
+Soundex diversity                                              0
+Soundex homogeneity mean                                       0
+Soundex homogeneity StdDev                             1001.3543
+Soundex homogeneity maximum                               0.0793
+Soundex homoganity hist bin 0                            171.483
+Soundex homoganity hist bin 1                           323.7289
+Soundex homoganity hist bin 2                            175.692
+Soundex homoganity hist bin 3                           163.1434
+Soundex homoganity hist bin 4                           150.3854
+
+
+
+
+Time taken to build model: 3.76 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1652               72.0768 %
+Incorrectly Classified Instances       640               27.9232 %
+Kappa statistic                          0.4416
+Mean absolute error                      0.3418
+Root mean squared error                  0.4418
+Relative absolute error                 68.3592 %
+Root relative squared error             88.3595 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.702    0.260    0.731      0.702    0.716      0.442    0.782     0.757     Low_Artists
+                 0.740    0.298    0.711      0.740    0.725      0.442    0.782     0.751     Top_Artists
+Weighted Avg.    0.721    0.279    0.721      0.721    0.721      0.442    0.782     0.754     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 808 343 |   a = Low_Artists
+ 297 844 |   b = Top_Artists
+

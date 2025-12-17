@@ -1,0 +1,42 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 10 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bagging with 10 iterations and base learner
+
+weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+
+Time taken to build model: 1.95 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1721               75.0873 %
+Incorrectly Classified Instances       571               24.9127 %
+Kappa statistic                          0.5019
+Mean absolute error                      0.3568
+Root mean squared error                  0.4187
+Relative absolute error                 71.3634 %
+Root relative squared error             83.739  %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.720    0.218    0.769      0.720    0.744      0.503    0.817     0.808     Low_Artists
+                 0.782    0.280    0.735      0.782    0.758      0.503    0.817     0.807     Top_Artists
+Weighted Avg.    0.751    0.249    0.752      0.751    0.751      0.503    0.817     0.808     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 829 322 |   a = Low_Artists
+ 249 892 |   b = Top_Artists
+

@@ -1,0 +1,263 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.GainRatioAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 1 Class):
+	Gain Ratio feature evaluator
+
+Ranked attributes:
+ 0.11351     49 Frequency of forwardslash
+ 0.09938     56 Frequency of open curlybrace
+ 0.08386    197 clothing frequency
+ 0.08322    116 negative words stddev
+ 0.08203    137 hapiness words hist bin 3
+ 0.08139     75 Sentence length hist bin 3
+ 0.08089     35 Word homoganity hist bin 1
+ 0.07864    134 hapiness words hist bin 0
+ 0.07736      4 FFT mean
+ 0.07667    120 negative words hist bin 0
+ 0.07531      6 FFT stddev
+ 0.07416     57 Frequency of open squarebrace
+ 0.07393    233 Soundex homogeneity mean
+ 0.07318    138 hapiness words hist bin 4
+ 0.07177    107 positive words hist bin 1
+ 0.07007    229 self frequency
+ 0.06995     71 Sentence length character mean
+ 0.06932     50 Frequency of exclamation
+ 0.06852    131 hapiness words min
+ 0.0679       8 FFT max
+ 0.06774      2 Total number of words
+ 0.06768    228 acronyms frequency
+ 0.06718    118 negative words max
+ 0.06718    119 negative words dif
+ 0.06705     44 Frequency of single quotes
+ 0.06608     74 Sentence length hist bin 2
+ 0.06523    106 positive words hist bin 0
+ 0.06523    127 negative words hist bin 7
+ 0.0629     136 hapiness words hist bin 2
+ 0.0629     105 positive words dif
+ 0.0629     104 positive words max
+ 0.06172    139 hapiness words hist bin 5
+ 0.061      124 negative words hist bin 4
+ 0.06052    110 positive words hist bin 4
+ 0.06023    130 hapiness words stddev
+ 0.06023    101 positive words mean
+ 0.06023    113 positive words hist bin 7
+ 0.06023    102 positive words stddev
+ 0.06023    141 hapiness words hist bin 7
+ 0.06023    140 hapiness words hist bin 6
+ 0.06023    115 negative words mean
+ 0.06023    129 hapiness words mean
+ 0.06023    133 hapiness words dif
+ 0.06023    132 hapiness words max
+ 0.05965     81 Coleman�Liau index
+ 0.05949    189 weather frequency
+ 0.05933     45 ,Frequency of double quotes
+ 0.05896    109 positive words hist bin 3
+ 0.05791    135 hapiness words hist bin 1
+ 0.05737    211 cooking frequency
+ 0.05664     31 Word homogeneity mean
+ 0.05635     69 Sentence length mean
+ 0.05581    100 positive words frequency
+ 0.05556    112 positive words hist bin 6
+ 0.05347    196 time frequency
+ 0.05297    126 negative words hist bin 6
+ 0.05195    160 driving frequency
+ 0.05033    108 positive words hist bin 2
+ 0.04981     42 Punctuation characters ratio
+ 0.04881      3 Word diversity
+ 0.04784     10 FFT histogram bin 2
+ 0.04684    122 negative words hist bin 2
+ 0.04653     46 Frequency of apostepe
+ 0.04553     76 Sentence length hist bin 4
+ 0.04516    161 military frequency
+ 0.04502    142 happy words frequency
+ 0.0448     111 positive words hist bin 5
+ 0.04414     15 Words of length 1
+ 0.04386    173 astronomy frequency
+ 0.04313      5 FFT median
+ 0.04288     70 Sentence length stddev
+ 0.04275     14 Word length mean
+ 0.04273     52 Frequency of open parenthesis
+ 0.04255    195 transportation frequency
+ 0.04094     13 FFT histogram bin 5
+ 0.0409     183 car parts frequency
+ 0.04055    217 leaders frequency
+ 0.04025    128 hapiness words frequency
+ 0.03962    232 Soundex diversity
+ 0.03942    237 Soundex homoganity hist bin 1
+ 0.03872    200 buildings frequency
+ 0.03754     21 Words of length 7
+ 0.03715    191 medical frequency
+ 0.03714    169 musical instruments frequency
+ 0.03687    236 Soundex homoganity hist bin 0
+ 0.03631    147 verbs frequency
+ 0.0362      41 Word homoganity hist bin 7
+ 0.03619    230 female frequency
+ 0.03612    121 negative words hist bin 1
+ 0.03595    186 spring frequency
+ 0.03574    223 measurements frequency
+ 0.0357     150 math frequency
+ 0.03502     99 Mean of numbers
+ 0.034       37 Word homoganity hist bin 3
+ 0.0339      20 Words of length 6
+ 0.0327     172 art frequency
+ 0.03258    168 familiy frequency
+ 0.03251    215 furnitures frequency
+ 0.03216    204 office frequency
+ 0.03179    238 Soundex homoganity hist bin 2
+ 0.03159    163 countries frequency
+ 0.03141     51 Frequency of question mark
+ 0.03131    145 prepositions frequency
+ 0.03091     36 Word homoganity hist bin 2
+ 0.03085    240 Soundex homoganity hist bin 4
+ 0.03078     77 Sentence length hist bin 5
+ 0.03048     22 Words of length 8
+ 0.02985    114 negative words frequency
+ 0.0296     148 verbs that are nouns frequency
+ 0.02949    225 acquaintances frequency
+ 0.02936     60 Use of upper case
+ 0.02916     93 Word repetition span 3
+ 0.02896    166 boats frequency
+ 0.02867     73 Sentence length hist bin 1
+ 0.02822    212 kitchen frequency
+ 0.0279     170 music frequency
+ 0.02789    205 tools frequency
+ 0.02774    218 house frequency
+ 0.02763    171 land forms frequency
+ 0.02731     38 Word homoganity hist bin 4
+ 0.02731     79 Sentence length hist bin 7
+ 0.02725     34 Word homoganity hist bin 0
+ 0.02671     65 Quotation part of the text
+ 0.02638      9 FFT histogram bin 1
+ 0.02596    164 emotions frequency
+ 0.02586    198 shoes frequency
+ 0.0257      95 Word repetition span 11
+ 0.02561     63 Quotation length mean
+ 0.02561     62 Quotations number
+ 0.0251     190 vacation frequency
+ 0.02502    188 winter frequency
+ 0.02481     19 Words of length 5
+ 0.02442     72 Sentence length hist bin 0
+ 0.02341     40 Word homoganity hist bin 6
+ 0.02237    178 fish frequency
+ 0.02236    219 restaurants frequency
+ 0.02217    149 sport frequency
+ 0.02213    221 rocks and minerals frequency
+ 0.02212     94 Word repetition span 7
+ 0.02197    146 pronouns frequency
+ 0.02162     17 Words of length 3
+ 0.02161    159 money frequency
+ 0.02161     98 Number diversity
+ 0.02122     80 Automated readability index
+ 0.02117     96 Word repetition span 17
+ 0.02108    184 beach frequency
+ 0.02081    153 US states frequency
+ 0.02059    167 energy frequency
+ 0.02051    144 adverbs frequency
+ 0.02041     33 Word homogeneity maximum
+ 0.02039    220 roads frequency
+ 0.0202     199 hats frequency
+ 0.02011    192 body frequency
+ 0.01973     18 Words of length 4
+ 0.01968    174 colors frequency
+ 0.01962     32 Word homogeneity StdDev
+ 0.01944    214 geography frequency
+ 0.01905    158 food frequency
+ 0.01881    231 male frequency
+ 0.01848    235 Soundex homogeneity maximum
+ 0.01837    209 circus frequency
+ 0.0183      97 Use of numbers
+ 0.01826    157 elections frequency
+ 0.01809     23 Words of length 9
+ 0.01747    207 fair frequency
+ 0.01712    187 summer frequency
+ 0.01698    234 Soundex homogeneity StdDev
+ 0.01692     24 Words of length 10
+ 0.01644    202 birthday frequency
+ 0.01643    181 insects frequency
+ 0.01621    201 public buildings frequency
+ 0.01602    224 containers frequency
+ 0.01557    185 fall frequency
+ 0.01555    179 birds frequency
+ 0.01552    165 dance frequency
+ 0.01506    182 cars frequency
+ 0.01444     39 Word homoganity hist bin 5
+ 0.01443     64 Quotation length stddev
+ 0.014      151 science frequency
+ 0.01393    162 law frequency
+ 0.01392    208 castles and kings and queens frequency
+ 0.01377    216 occupation frequency
+ 0.01336    203 monsters frequency
+ 0.01294    210 computer frequency
+ 0.01289     16 Words of length 2
+ 0.0127     193 farm frequency
+ 0.0126     154 shapes frequency
+ 0.01242    175 animals frequency
+ 0.01221     61 Upper case word mean
+ 0.01197     25 Words of length 11
+ 0.01076    194 trees frequency
+ 0.00993     78 Sentence length hist bin 6
+ 0.00942    222 weapons frequency
+ 0.00896    239 Soundex homoganity hist bin 3
+ 0.00846    226 yard frequency
+ 0.00675    176 dogs frequency
+ 0          125 negative words hist bin 5
+ 0          123 negative words hist bin 3
+ 0          177 cats frequency
+ 0          117 negative words min
+ 0           68 Emoticon sad
+ 0           67 Emoticon wink
+ 0          143 adjectives frequency
+ 0          152 science fields frequency
+ 0            7 FFT min
+ 0          155 school frequency
+ 0          227 flowers frequency
+ 0           27 Words of length 13
+ 0           12 FFT histogram bin 4
+ 0           11 FFT histogram bin 3
+ 0          156 lanuages frequency
+ 0           26 Words of length 12
+ 0           58 Frequency of semicolon
+ 0           28 Words of length 14
+ 0          213 fruits frequency
+ 0           47 Frequency of plus
+ 0           88 Emotion circumplex hist bin 3
+ 0           89 Emotion circumplex hist bin 4
+ 0           48 Frequency of backslash
+ 0           87 Emotion circumplex hist bin 2
+ 0           85 Emotion circumplex hist bin 0
+ 0           86 Emotion circumplex hist bin 1
+ 0           55 Frequency of and sign
+ 0           54 Frequency of star
+ 0           53 Frequency of equal
+ 0           59 Frequency of colon
+ 0           43 Frequency of fullstop
+ 0           90 Emotion circumplex hist bin 5
+ 0           91 Emotion circumplex hist bin 6
+ 0          180 reptiles frequency
+ 0           66 Emoticon smile
+ 0           30 Words of length 16
+ 0           82 Emotion circumplex
+ 0           83 Emotion circumplex mean
+ 0          206 camping frequency
+ 0           92 Emotion circumplex hist bin 7
+ 0           84 Emotion circumplex stddev
+ 0          103 positive words min
+ 0           29 Words of length 15
+
+Selected attributes: 49,56,197,116,137,75,35,134,4,120,6,57,233,138,107,229,71,50,131,8,2,228,118,119,44,74,106,127,136,105,104,139,124,110,130,101,113,102,141,140,115,129,133,132,81,189,45,109,135,211,31,69,100,112,196,126,160,108,42,3,10,122,46,76,161,142,111,15,173,5,70,14,52,195,13,183,217,128,232,237,200,21,191,169,236,147,41,230,121,186,223,150,99,37,20,172,168,215,204,238,163,51,145,36,240,77,22,114,148,225,60,93,166,73,212,170,205,218,171,38,79,34,65,9,164,198,95,63,62,190,188,19,72,40,178,219,149,221,94,146,17,159,98,80,96,184,153,167,144,33,220,199,192,18,174,32,214,158,231,235,209,97,157,23,207,187,234,24,202,181,201,224,185,179,165,182,39,64,151,162,208,216,203,210,16,193,154,175,61,25,194,78,222,239,226,176,125,123,177,117,68,67,143,152,7,155,227,27,12,11,156,26,58,28,213,47,88,89,48,87,85,86,55,54,53,59,43,90,91,180,66,30,82,83,206,92,84,103,29 : 239
+

@@ -1,0 +1,287 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.rules.ZeroR
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+ZeroR predicts class value: Low_Artists
+Attribute mappings:
+
+Model attributes                                  	    Incoming attributes
+--------------------------------------------------	    ----------------
+(nominal) Class                                   	--> 1 (nominal) Class
+(numeric) Total number of words                   	--> 2 (numeric) Total number of words
+(numeric) Word diversity                          	--> 3 (numeric) Word diversity
+(numeric) FFT mean                                	--> 4 (numeric) FFT mean
+(numeric) FFT median                              	--> 5 (numeric) FFT median
+(numeric) FFT stddev                              	--> 6 (numeric) FFT stddev
+(numeric) FFT min                                 	--> 7 (numeric) FFT min
+(numeric) FFT max                                 	--> 8 (numeric) FFT max
+(numeric) FFT histogram bin 1                     	--> 9 (numeric) FFT histogram bin 1
+(numeric) FFT histogram bin 2                     	--> 10 (numeric) FFT histogram bin 2
+(numeric) FFT histogram bin 3                     	--> 11 (numeric) FFT histogram bin 3
+(numeric) FFT histogram bin 4                     	--> 12 (numeric) FFT histogram bin 4
+(numeric) FFT histogram bin 5                     	--> 13 (numeric) FFT histogram bin 5
+(numeric) Word length mean                        	--> 14 (numeric) Word length mean
+(numeric) Words of length 1                       	--> 15 (numeric) Words of length 1
+(numeric) Words of length 2                       	--> 16 (numeric) Words of length 2
+(numeric) Words of length 3                       	--> 17 (numeric) Words of length 3
+(numeric) Words of length 4                       	--> 18 (numeric) Words of length 4
+(numeric) Words of length 5                       	--> 19 (numeric) Words of length 5
+(numeric) Words of length 6                       	--> 20 (numeric) Words of length 6
+(numeric) Words of length 7                       	--> 21 (numeric) Words of length 7
+(numeric) Words of length 8                       	--> 22 (numeric) Words of length 8
+(numeric) Words of length 9                       	--> 23 (numeric) Words of length 9
+(numeric) Words of length 10                      	--> 24 (numeric) Words of length 10
+(numeric) Words of length 11                      	--> 25 (numeric) Words of length 11
+(numeric) Words of length 12                      	--> 26 (numeric) Words of length 12
+(numeric) Words of length 13                      	--> 27 (numeric) Words of length 13
+(numeric) Words of length 14                      	--> 28 (numeric) Words of length 14
+(numeric) Words of length 15                      	--> 29 (numeric) Words of length 15
+(numeric) Words of length 16                      	--> 30 (numeric) Words of length 16
+(numeric) Word homogeneity mean                   	--> 31 (numeric) Word homogeneity mean
+(numeric) Word homogeneity StdDev                 	--> 32 (numeric) Word homogeneity StdDev
+(numeric) Word homogeneity maximum                	--> 33 (numeric) Word homogeneity maximum
+(numeric) Word homoganity hist bin 0              	--> 34 (numeric) Word homoganity hist bin 0
+(numeric) Word homoganity hist bin 1              	--> 35 (numeric) Word homoganity hist bin 1
+(numeric) Word homoganity hist bin 2              	--> 36 (numeric) Word homoganity hist bin 2
+(numeric) Word homoganity hist bin 3              	--> 37 (numeric) Word homoganity hist bin 3
+(numeric) Word homoganity hist bin 4              	--> 38 (numeric) Word homoganity hist bin 4
+(numeric) Word homoganity hist bin 5              	--> 39 (numeric) Word homoganity hist bin 5
+(numeric) Word homoganity hist bin 6              	--> 40 (numeric) Word homoganity hist bin 6
+(numeric) Word homoganity hist bin 7              	--> 41 (numeric) Word homoganity hist bin 7
+(numeric) Punctuation characters ratio            	--> 42 (numeric) Punctuation characters ratio
+(numeric) Frequency of fullstop                   	--> 43 (numeric) Frequency of fullstop
+(numeric) Frequency of single quotes              	--> 44 (numeric) Frequency of single quotes
+(numeric) ,Frequency of double quotes             	--> 45 (numeric) ,Frequency of double quotes
+(numeric) Frequency of apostepe                   	--> 46 (numeric) Frequency of apostepe
+(numeric) Frequency of plus                       	--> 47 (numeric) Frequency of plus
+(numeric) Frequency of backslash                  	--> 48 (numeric) Frequency of backslash
+(numeric) Frequency of forwardslash               	--> 49 (numeric) Frequency of forwardslash
+(numeric) Frequency of exclamation                	--> 50 (numeric) Frequency of exclamation
+(numeric) Frequency of question mark              	--> 51 (numeric) Frequency of question mark
+(numeric) Frequency of open parenthesis           	--> 52 (numeric) Frequency of open parenthesis
+(numeric) Frequency of equal                      	--> 53 (numeric) Frequency of equal
+(numeric) Frequency of star                       	--> 54 (numeric) Frequency of star
+(numeric) Frequency of and sign                   	--> 55 (numeric) Frequency of and sign
+(numeric) Frequency of open curlybrace            	--> 56 (numeric) Frequency of open curlybrace
+(numeric) Frequency of open squarebrace           	--> 57 (numeric) Frequency of open squarebrace
+(numeric) Frequency of semicolon                  	--> 58 (numeric) Frequency of semicolon
+(numeric) Frequency of colon                      	--> 59 (numeric) Frequency of colon
+(numeric) Use of upper case                       	--> 60 (numeric) Use of upper case
+(numeric) Upper case word mean                    	--> 61 (numeric) Upper case word mean
+(numeric) Quotations number                       	--> 62 (numeric) Quotations number
+(numeric) Quotation length mean                   	--> 63 (numeric) Quotation length mean
+(numeric) Quotation length stddev                 	--> 64 (numeric) Quotation length stddev
+(numeric) Quotation part of the text              	--> 65 (numeric) Quotation part of the text
+(numeric) Emoticon smile                          	--> 66 (numeric) Emoticon smile
+(numeric) Emoticon wink                           	--> 67 (numeric) Emoticon wink
+(numeric) Emoticon sad                            	--> 68 (numeric) Emoticon sad
+(numeric) Sentence length mean                    	--> 69 (numeric) Sentence length mean
+(numeric) Sentence length stddev                  	--> 70 (numeric) Sentence length stddev
+(numeric) Sentence length character mean          	--> 71 (numeric) Sentence length character mean
+(numeric) Sentence length hist bin 0              	--> 72 (numeric) Sentence length hist bin 0
+(numeric) Sentence length hist bin 1              	--> 73 (numeric) Sentence length hist bin 1
+(numeric) Sentence length hist bin 2              	--> 74 (numeric) Sentence length hist bin 2
+(numeric) Sentence length hist bin 3              	--> 75 (numeric) Sentence length hist bin 3
+(numeric) Sentence length hist bin 4              	--> 76 (numeric) Sentence length hist bin 4
+(numeric) Sentence length hist bin 5              	--> 77 (numeric) Sentence length hist bin 5
+(numeric) Sentence length hist bin 6              	--> 78 (numeric) Sentence length hist bin 6
+(numeric) Sentence length hist bin 7              	--> 79 (numeric) Sentence length hist bin 7
+(numeric) Automated readability index             	--> 80 (numeric) Automated readability index
+(numeric) Coleman�Liau index                      	--> 81 (numeric) Coleman�Liau index
+(numeric) Emotion circumplex                      	--> 82 (numeric) Emotion circumplex
+(numeric) Emotion circumplex mean                 	--> 83 (numeric) Emotion circumplex mean
+(numeric) Emotion circumplex stddev               	--> 84 (numeric) Emotion circumplex stddev
+(numeric) Emotion circumplex hist bin 0           	--> 85 (numeric) Emotion circumplex hist bin 0
+(numeric) Emotion circumplex hist bin 1           	--> 86 (numeric) Emotion circumplex hist bin 1
+(numeric) Emotion circumplex hist bin 2           	--> 87 (numeric) Emotion circumplex hist bin 2
+(numeric) Emotion circumplex hist bin 3           	--> 88 (numeric) Emotion circumplex hist bin 3
+(numeric) Emotion circumplex hist bin 4           	--> 89 (numeric) Emotion circumplex hist bin 4
+(numeric) Emotion circumplex hist bin 5           	--> 90 (numeric) Emotion circumplex hist bin 5
+(numeric) Emotion circumplex hist bin 6           	--> 91 (numeric) Emotion circumplex hist bin 6
+(numeric) Emotion circumplex hist bin 7           	--> 92 (numeric) Emotion circumplex hist bin 7
+(numeric) Word repetition span 3                  	--> 93 (numeric) Word repetition span 3
+(numeric) Word repetition span 7                  	--> 94 (numeric) Word repetition span 7
+(numeric) Word repetition span 11                 	--> 95 (numeric) Word repetition span 11
+(numeric) Word repetition span 17                 	--> 96 (numeric) Word repetition span 17
+(numeric) Use of numbers                          	--> 97 (numeric) Use of numbers
+(numeric) Number diversity                        	--> 98 (numeric) Number diversity
+(numeric) Mean of numbers                         	--> 99 (numeric) Mean of numbers
+(numeric) positive words frequency                	--> 100 (numeric) positive words frequency
+(numeric) positive words mean                     	--> 101 (numeric) positive words mean
+(numeric) positive words stddev                   	--> 102 (numeric) positive words stddev
+(numeric) positive words min                      	--> 103 (numeric) positive words min
+(numeric) positive words max                      	--> 104 (numeric) positive words max
+(numeric) positive words dif                      	--> 105 (numeric) positive words dif
+(numeric) positive words hist bin 0               	--> 106 (numeric) positive words hist bin 0
+(numeric) positive words hist bin 1               	--> 107 (numeric) positive words hist bin 1
+(numeric) positive words hist bin 2               	--> 108 (numeric) positive words hist bin 2
+(numeric) positive words hist bin 3               	--> 109 (numeric) positive words hist bin 3
+(numeric) positive words hist bin 4               	--> 110 (numeric) positive words hist bin 4
+(numeric) positive words hist bin 5               	--> 111 (numeric) positive words hist bin 5
+(numeric) positive words hist bin 6               	--> 112 (numeric) positive words hist bin 6
+(numeric) positive words hist bin 7               	--> 113 (numeric) positive words hist bin 7
+(numeric) negative words frequency                	--> 114 (numeric) negative words frequency
+(numeric) negative words mean                     	--> 115 (numeric) negative words mean
+(numeric) negative words stddev                   	--> 116 (numeric) negative words stddev
+(numeric) negative words min                      	--> 117 (numeric) negative words min
+(numeric) negative words max                      	--> 118 (numeric) negative words max
+(numeric) negative words dif                      	--> 119 (numeric) negative words dif
+(numeric) negative words hist bin 0               	--> 120 (numeric) negative words hist bin 0
+(numeric) negative words hist bin 1               	--> 121 (numeric) negative words hist bin 1
+(numeric) negative words hist bin 2               	--> 122 (numeric) negative words hist bin 2
+(numeric) negative words hist bin 3               	--> 123 (numeric) negative words hist bin 3
+(numeric) negative words hist bin 4               	--> 124 (numeric) negative words hist bin 4
+(numeric) negative words hist bin 5               	--> 125 (numeric) negative words hist bin 5
+(numeric) negative words hist bin 6               	--> 126 (numeric) negative words hist bin 6
+(numeric) negative words hist bin 7               	--> 127 (numeric) negative words hist bin 7
+(numeric) hapiness words frequency                	--> 128 (numeric) hapiness words frequency
+(numeric) hapiness words mean                     	--> 129 (numeric) hapiness words mean
+(numeric) hapiness words stddev                   	--> 130 (numeric) hapiness words stddev
+(numeric) hapiness words min                      	--> 131 (numeric) hapiness words min
+(numeric) hapiness words max                      	--> 132 (numeric) hapiness words max
+(numeric) hapiness words dif                      	--> 133 (numeric) hapiness words dif
+(numeric) hapiness words hist bin 0               	--> 134 (numeric) hapiness words hist bin 0
+(numeric) hapiness words hist bin 1               	--> 135 (numeric) hapiness words hist bin 1
+(numeric) hapiness words hist bin 2               	--> 136 (numeric) hapiness words hist bin 2
+(numeric) hapiness words hist bin 3               	--> 137 (numeric) hapiness words hist bin 3
+(numeric) hapiness words hist bin 4               	--> 138 (numeric) hapiness words hist bin 4
+(numeric) hapiness words hist bin 5               	--> 139 (numeric) hapiness words hist bin 5
+(numeric) hapiness words hist bin 6               	--> 140 (numeric) hapiness words hist bin 6
+(numeric) hapiness words hist bin 7               	--> 141 (numeric) hapiness words hist bin 7
+(numeric) happy words frequency                   	--> 142 (numeric) happy words frequency
+(numeric) adjectives frequency                    	--> 143 (numeric) adjectives frequency
+(numeric) adverbs frequency                       	--> 144 (numeric) adverbs frequency
+(numeric) prepositions frequency                  	--> 145 (numeric) prepositions frequency
+(numeric) pronouns frequency                      	--> 146 (numeric) pronouns frequency
+(numeric) verbs frequency                         	--> 147 (numeric) verbs frequency
+(numeric) verbs that are nouns frequency          	--> 148 (numeric) verbs that are nouns frequency
+(numeric) sport frequency                         	--> 149 (numeric) sport frequency
+(numeric) math frequency                          	--> 150 (numeric) math frequency
+(numeric) science frequency                       	--> 151 (numeric) science frequency
+(numeric) science fields frequency                	--> 152 (numeric) science fields frequency
+(numeric) US states frequency                     	--> 153 (numeric) US states frequency
+(numeric) shapes frequency                        	--> 154 (numeric) shapes frequency
+(numeric) school frequency                        	--> 155 (numeric) school frequency
+(numeric) lanuages frequency                      	--> 156 (numeric) lanuages frequency
+(numeric) elections frequency                     	--> 157 (numeric) elections frequency
+(numeric) food frequency                          	--> 158 (numeric) food frequency
+(numeric) money frequency                         	--> 159 (numeric) money frequency
+(numeric) driving frequency                       	--> 160 (numeric) driving frequency
+(numeric) military frequency                      	--> 161 (numeric) military frequency
+(numeric) law frequency                           	--> 162 (numeric) law frequency
+(numeric) countries frequency                     	--> 163 (numeric) countries frequency
+(numeric) emotions frequency                      	--> 164 (numeric) emotions frequency
+(numeric) dance frequency                         	--> 165 (numeric) dance frequency
+(numeric) boats frequency                         	--> 166 (numeric) boats frequency
+(numeric) energy frequency                        	--> 167 (numeric) energy frequency
+(numeric) familiy frequency                       	--> 168 (numeric) familiy frequency
+(numeric) musical instruments frequency           	--> 169 (numeric) musical instruments frequency
+(numeric) music frequency                         	--> 170 (numeric) music frequency
+(numeric) land forms frequency                    	--> 171 (numeric) land forms frequency
+(numeric) art frequency                           	--> 172 (numeric) art frequency
+(numeric) astronomy frequency                     	--> 173 (numeric) astronomy frequency
+(numeric) colors frequency                        	--> 174 (numeric) colors frequency
+(numeric) animals frequency                       	--> 175 (numeric) animals frequency
+(numeric) dogs frequency                          	--> 176 (numeric) dogs frequency
+(numeric) cats frequency                          	--> 177 (numeric) cats frequency
+(numeric) fish frequency                          	--> 178 (numeric) fish frequency
+(numeric) birds frequency                         	--> 179 (numeric) birds frequency
+(numeric) reptiles frequency                      	--> 180 (numeric) reptiles frequency
+(numeric) insects frequency                       	--> 181 (numeric) insects frequency
+(numeric) cars frequency                          	--> 182 (numeric) cars frequency
+(numeric) car parts frequency                     	--> 183 (numeric) car parts frequency
+(numeric) beach frequency                         	--> 184 (numeric) beach frequency
+(numeric) fall frequency                          	--> 185 (numeric) fall frequency
+(numeric) spring frequency                        	--> 186 (numeric) spring frequency
+(numeric) summer frequency                        	--> 187 (numeric) summer frequency
+(numeric) winter frequency                        	--> 188 (numeric) winter frequency
+(numeric) weather frequency                       	--> 189 (numeric) weather frequency
+(numeric) vacation frequency                      	--> 190 (numeric) vacation frequency
+(numeric) medical frequency                       	--> 191 (numeric) medical frequency
+(numeric) body frequency                          	--> 192 (numeric) body frequency
+(numeric) farm frequency                          	--> 193 (numeric) farm frequency
+(numeric) trees frequency                         	--> 194 (numeric) trees frequency
+(numeric) transportation frequency                	--> 195 (numeric) transportation frequency
+(numeric) time frequency                          	--> 196 (numeric) time frequency
+(numeric) clothing frequency                      	--> 197 (numeric) clothing frequency
+(numeric) shoes frequency                         	--> 198 (numeric) shoes frequency
+(numeric) hats frequency                          	--> 199 (numeric) hats frequency
+(numeric) buildings frequency                     	--> 200 (numeric) buildings frequency
+(numeric) public buildings frequency              	--> 201 (numeric) public buildings frequency
+(numeric) birthday frequency                      	--> 202 (numeric) birthday frequency
+(numeric) monsters frequency                      	--> 203 (numeric) monsters frequency
+(numeric) office frequency                        	--> 204 (numeric) office frequency
+(numeric) tools frequency                         	--> 205 (numeric) tools frequency
+(numeric) camping frequency                       	--> 206 (numeric) camping frequency
+(numeric) fair frequency                          	--> 207 (numeric) fair frequency
+(numeric) castles and kings and queens frequency  	--> 208 (numeric) castles and kings and queens frequency
+(numeric) circus frequency                        	--> 209 (numeric) circus frequency
+(numeric) computer frequency                      	--> 210 (numeric) computer frequency
+(numeric) cooking frequency                       	--> 211 (numeric) cooking frequency
+(numeric) kitchen frequency                       	--> 212 (numeric) kitchen frequency
+(numeric) fruits frequency                        	--> 213 (numeric) fruits frequency
+(numeric) geography frequency                     	--> 214 (numeric) geography frequency
+(numeric) furnitures frequency                    	--> 215 (numeric) furnitures frequency
+(numeric) occupation frequency                    	--> 216 (numeric) occupation frequency
+(numeric) leaders frequency                       	--> 217 (numeric) leaders frequency
+(numeric) house frequency                         	--> 218 (numeric) house frequency
+(numeric) restaurants frequency                   	--> 219 (numeric) restaurants frequency
+(numeric) roads frequency                         	--> 220 (numeric) roads frequency
+(numeric) rocks and minerals frequency            	--> 221 (numeric) rocks and minerals frequency
+(numeric) weapons frequency                       	--> 222 (numeric) weapons frequency
+(numeric) measurements frequency                  	--> 223 (numeric) measurements frequency
+(numeric) containers frequency                    	--> 224 (numeric) containers frequency
+(numeric) acquaintances frequency                 	--> 225 (numeric) acquaintances frequency
+(numeric) yard frequency                          	--> 226 (numeric) yard frequency
+(numeric) flowers frequency                       	--> 227 (numeric) flowers frequency
+(numeric) acronyms frequency                      	--> 228 (numeric) acronyms frequency
+(numeric) self frequency                          	--> 229 (numeric) self frequency
+(numeric) female frequency                        	--> 230 (numeric) female frequency
+(numeric) male frequency                          	--> 231 (numeric) male frequency
+(numeric) Soundex diversity                       	--> 232 (numeric) Soundex diversity
+(numeric) Soundex homogeneity mean                	--> 233 (numeric) Soundex homogeneity mean
+(numeric) Soundex homogeneity StdDev              	--> 234 (numeric) Soundex homogeneity StdDev
+(numeric) Soundex homogeneity maximum             	--> 235 (numeric) Soundex homogeneity maximum
+(numeric) Soundex homoganity hist bin 0           	--> 236 (numeric) Soundex homoganity hist bin 0
+(numeric) Soundex homoganity hist bin 1           	--> 237 (numeric) Soundex homoganity hist bin 1
+(numeric) Soundex homoganity hist bin 2           	--> 238 (numeric) Soundex homoganity hist bin 2
+(numeric) Soundex homoganity hist bin 3           	--> 239 (numeric) Soundex homoganity hist bin 3
+(numeric) Soundex homoganity hist bin 4           	--> 240 (numeric) Soundex homoganity hist bin 4
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1151               50.2182 %
+Incorrectly Classified Instances      1141               49.7818 %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.502      1.000    0.669      ?        0.499     0.502     Low_Artists
+                 0.000    0.000    ?          0.000    ?          ?        0.499     0.497     Top_Artists
+Weighted Avg.    0.502    0.502    ?          0.502    ?          ?        0.499     0.500     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1151    0 |    a = Low_Artists
+ 1141    0 |    b = Top_Artists
+

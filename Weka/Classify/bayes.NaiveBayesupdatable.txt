@@ -1,0 +1,1480 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesUpdateable 
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                               Class
+Attribute                                Low_Artists Top_Artists
+                                               (0.5)       (0.5)
+=================================================================
+Total number of words
+  mean                                       329.7025    491.4537
+  std. dev.                                  225.2186    257.2583
+  weight sum                                     1151        1141
+  precision                                    2.6234      2.6234
+
+Word diversity
+  mean                                         0.4138      0.3548
+  std. dev.                                    0.1467      0.0971
+  weight sum                                     1151        1141
+  precision                                    0.0018      0.0018
+
+FFT mean
+  mean                                       171.3335    267.9973
+  std. dev.                                  125.5084    140.6841
+  weight sum                                     1151        1141
+  precision                                    1.7131      1.7131
+
+FFT median
+  mean                                        45.3212     94.3466
+  std. dev.                                   93.2128    147.1513
+  weight sum                                     1151        1141
+  precision                                     1.975       1.975
+
+FFT stddev
+  mean                                       199.2775    297.0828
+  std. dev.                                  149.3009    169.0635
+  weight sum                                     1151        1141
+  precision                                    1.5914      1.5914
+
+FFT min
+  mean                                         0.2687       0.684
+  std. dev.                                    1.8606      4.3768
+  weight sum                                     1151        1141
+  precision                                    0.9043      0.9043
+
+FFT max
+  mean                                       655.3299    974.5738
+  std. dev.                                   444.513    513.4894
+  weight sum                                     1151        1141
+  precision                                    5.0228      5.0228
+
+FFT histogram bin 1
+  mean                                         0.9629      0.9782
+  std. dev.                                    0.0525      0.0357
+  weight sum                                     1151        1141
+  precision                                    0.0027      0.0027
+
+FFT histogram bin 2
+  mean                                         0.0047      0.0017
+  std. dev.                                    0.0183      0.0057
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+FFT histogram bin 3
+  mean                                         0.0006      0.0002
+  std. dev.                                    0.0074      0.0019
+  weight sum                                     1151        1141
+  precision                                    0.0023      0.0023
+
+FFT histogram bin 4
+  mean                                         0.0003           0
+  std. dev.                                    0.0062      0.0016
+  weight sum                                     1151        1141
+  precision                                    0.0096      0.0096
+
+FFT histogram bin 5
+  mean                                         0.0315      0.0198
+  std. dev.                                    0.0458      0.0356
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+Word length mean
+  mean                                         3.6292      3.5631
+  std. dev.                                    0.3398      0.2734
+  weight sum                                     1151        1141
+  precision                                    0.0199      0.0199
+
+Words of length 1
+  mean                                         0.1098      0.1143
+  std. dev.                                    0.0508      0.0428
+  weight sum                                     1151        1141
+  precision                                    0.0006      0.0006
+
+Words of length 2
+  mean                                         0.1808      0.1866
+  std. dev.                                    0.0564      0.0505
+  weight sum                                     1151        1141
+  precision                                    0.0019      0.0019
+
+Words of length 3
+  mean                                         0.2291      0.2314
+  std. dev.                                    0.0641      0.0508
+  weight sum                                     1151        1141
+  precision                                    0.0035      0.0035
+
+Words of length 4
+  mean                                         0.2299      0.2336
+  std. dev.                                    0.0615      0.0509
+  weight sum                                     1151        1141
+  precision                                    0.0022      0.0022
+
+Words of length 5
+  mean                                         0.1087      0.1036
+  std. dev.                                     0.043      0.0422
+  weight sum                                     1151        1141
+  precision                                    0.0016      0.0016
+
+Words of length 6
+  mean                                         0.0602      0.0549
+  std. dev.                                    0.0325      0.0252
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+Words of length 7
+  mean                                         0.0417      0.0383
+  std. dev.                                    0.0277      0.0218
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Words of length 8
+  mean                                         0.0198      0.0186
+  std. dev.                                    0.0201      0.0151
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+Words of length 9
+  mean                                         0.0105      0.0097
+  std. dev.                                    0.0143      0.0104
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+Words of length 10
+  mean                                          0.006      0.0055
+  std. dev.                                    0.0108      0.0111
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Words of length 11
+  mean                                         0.0018      0.0018
+  std. dev.                                     0.006      0.0043
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+Words of length 12
+  mean                                          0.001       0.001
+  std. dev.                                    0.0043      0.0034
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+Words of length 13
+  mean                                         0.0005      0.0004
+  std. dev.                                     0.003      0.0015
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Words of length 14
+  mean                                         0.0001      0.0001
+  std. dev.                                    0.0015      0.0005
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+Words of length 15
+  mean                                         0.0001      0.0002
+  std. dev.                                    0.0013      0.0033
+  weight sum                                     1151        1141
+  precision                                    0.0039      0.0039
+
+Words of length 16
+  mean                                              0      0.0001
+  std. dev.                                    0.0008      0.0011
+  weight sum                                     1151        1141
+  precision                                     0.001       0.001
+
+Word homogeneity mean
+  mean                                         0.0924      0.0693
+  std. dev.                                    0.0631      0.0381
+  weight sum                                     1151        1141
+  precision                                    0.0013      0.0013
+
+Word homogeneity StdDev
+  mean                                         0.0445       0.043
+  std. dev.                                    0.0298      0.0274
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Word homogeneity maximum
+  mean                                         0.2174      0.2193
+  std. dev.                                    0.1326      0.1385
+  weight sum                                     1151        1141
+  precision                                    0.0027      0.0027
+
+Word homoganity hist bin 0
+  mean                                         0.3125      0.3812
+  std. dev.                                    0.2263      0.2302
+  weight sum                                     1151        1141
+  precision                                    0.0015      0.0015
+
+Word homoganity hist bin 1
+  mean                                         0.1543      0.2336
+  std. dev.                                    0.1899      0.1705
+  weight sum                                     1151        1141
+  precision                                    0.0017      0.0017
+
+Word homoganity hist bin 2
+  mean                                         0.1661      0.1462
+  std. dev.                                    0.1903      0.1447
+  weight sum                                     1151        1141
+  precision                                    0.0017      0.0017
+
+Word homoganity hist bin 3
+  mean                                         0.0616      0.0681
+  std. dev.                                    0.1181      0.0888
+  weight sum                                     1151        1141
+  precision                                    0.0023      0.0023
+
+Word homoganity hist bin 4
+  mean                                          0.072      0.0557
+  std. dev.                                    0.1348      0.0826
+  weight sum                                     1151        1141
+  precision                                    0.0023      0.0023
+
+Word homoganity hist bin 5
+  mean                                         0.0356       0.027
+  std. dev.                                    0.0746      0.0496
+  weight sum                                     1151        1141
+  precision                                    0.0021      0.0021
+
+Word homoganity hist bin 6
+  mean                                         0.0155      0.0222
+  std. dev.                                    0.0363      0.0398
+  weight sum                                     1151        1141
+  precision                                    0.0016      0.0016
+
+Word homoganity hist bin 7
+  mean                                         0.0764      0.0467
+  std. dev.                                    0.1153      0.0576
+  weight sum                                     1151        1141
+  precision                                    0.0036      0.0036
+
+Punctuation characters ratio
+  mean                                         0.1545      0.2135
+  std. dev.                                    0.0879      0.0904
+  weight sum                                     1151        1141
+  precision                                    0.0014      0.0014
+
+Frequency of fullstop
+  mean                                         0.0038       0.002
+  std. dev.                                    0.0177      0.0077
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+Frequency of single quotes
+  mean                                         0.0528      0.0829
+  std. dev.                                    0.0463      0.0481
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+,Frequency of double quotes
+  mean                                         0.0057      0.0124
+  std. dev.                                    0.0165      0.0261
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Frequency of apostepe
+  mean                                         0.0654      0.0725
+  std. dev.                                    0.0361      0.0304
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Frequency of plus
+  mean                                              0           0
+  std. dev.                                    0.0004      0.0004
+  weight sum                                     1151        1141
+  precision                                    0.0027      0.0027
+
+Frequency of backslash
+  mean                                              0           0
+  std. dev.                                    0.0017      0.0017
+  weight sum                                     1151        1141
+  precision                                      0.01        0.01
+
+Frequency of forwardslash
+  mean                                         0.0001           0
+  std. dev.                                    0.0013      0.0001
+  weight sum                                     1151        1141
+  precision                                    0.0008      0.0008
+
+Frequency of exclamation
+  mean                                         0.0027      0.0007
+  std. dev.                                     0.014      0.0063
+  weight sum                                     1151        1141
+  precision                                    0.0008      0.0008
+
+Frequency of question mark
+  mean                                          0.007      0.0079
+  std. dev.                                    0.0158      0.0113
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+Frequency of open parenthesis
+  mean                                         0.0161      0.0348
+  std. dev.                                    0.0332       0.046
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+Frequency of equal
+  mean                                              0           0
+  std. dev.                                    0.0006      0.0006
+  weight sum                                     1151        1141
+  precision                                    0.0037      0.0037
+
+Frequency of star
+  mean                                         0.0003      0.0001
+  std. dev.                                     0.006      0.0021
+  weight sum                                     1151        1141
+  precision                                    0.0087      0.0087
+
+Frequency of and sign
+  mean                                              0      0.0001
+  std. dev.                                    0.0002      0.0006
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Frequency of open curlybrace
+  mean                                         0.0001           0
+  std. dev.                                    0.0014      0.0009
+  weight sum                                     1151        1141
+  precision                                    0.0054      0.0054
+
+Frequency of open squarebrace
+  mean                                         0.0003           0
+  std. dev.                                     0.003      0.0008
+  weight sum                                     1151        1141
+  precision                                    0.0037      0.0037
+
+Frequency of semicolon
+  mean                                              0           0
+  std. dev.                                    0.0002      0.0004
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+Frequency of colon
+  mean                                         0.0003      0.0001
+  std. dev.                                    0.0034      0.0006
+  weight sum                                     1151        1141
+  precision                                    0.0013      0.0013
+
+Use of upper case
+  mean                                         0.0422      0.0398
+  std. dev.                                    0.0218      0.0095
+  weight sum                                     1151        1141
+  precision                                    0.0014      0.0014
+
+Upper case word mean
+  mean                                         0.5407      0.6725
+  std. dev.                                    1.3071      1.2455
+  weight sum                                     1151        1141
+  precision                                    0.1809      0.1809
+
+Quotations number
+  mean                                         1.4773      2.4234
+  std. dev.                                    4.3726      4.7189
+  weight sum                                     1151        1141
+  precision                                       3.9         3.9
+
+Quotation length mean
+  mean                                         6.7957     11.5804
+  std. dev.                                   20.7146     33.2368
+  weight sum                                     1151        1141
+  precision                                    3.1565      3.1565
+
+Quotation length stddev
+  mean                                         1.2886      2.7247
+  std. dev.                                    9.3488     15.3996
+  weight sum                                     1151        1141
+  precision                                    1.7186      1.7186
+
+Quotation part of the text
+  mean                                         0.0097      0.0137
+  std. dev.                                    0.0368      0.0475
+  weight sum                                     1151        1141
+  precision                                    0.0016      0.0016
+
+Emoticon smile
+  mean                                              0           0
+  std. dev.                                    0.0001      0.0001
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+Emoticon wink
+  mean                                              0           0
+  std. dev.                                    0.0017      0.0017
+  weight sum                                     1151        1141
+  precision                                      0.01        0.01
+
+Emoticon sad
+  mean                                              0           0
+  std. dev.                                    0.0017      0.0017
+  weight sum                                     1151        1141
+  precision                                      0.01        0.01
+
+Sentence length mean
+  mean                                         7.1746      7.9678
+  std. dev.                                    1.9162      1.4635
+  weight sum                                     1151        1141
+  precision                                     0.024       0.024
+
+Sentence length stddev
+  mean                                         2.4569      2.8413
+  std. dev.                                    0.8771      0.7093
+  weight sum                                     1151        1141
+  precision                                    0.0216      0.0216
+
+Sentence length character mean
+  mean                                        34.0695     37.7281
+  std. dev.                                    8.7586      7.0635
+  weight sum                                     1151        1141
+  precision                                    0.1464      0.1464
+
+Sentence length hist bin 0
+  mean                                          0.136      0.1044
+  std. dev.                                    0.1203      0.0894
+  weight sum                                     1151        1141
+  precision                                    0.0014      0.0014
+
+Sentence length hist bin 1
+  mean                                         0.1133       0.114
+  std. dev.                                    0.1106      0.0945
+  weight sum                                     1151        1141
+  precision                                    0.0011      0.0011
+
+Sentence length hist bin 2
+  mean                                         0.1517      0.1757
+  std. dev.                                    0.1237      0.1107
+  weight sum                                     1151        1141
+  precision                                    0.0014      0.0014
+
+Sentence length hist bin 3
+  mean                                          0.123      0.1529
+  std. dev.                                    0.1053      0.0946
+  weight sum                                     1151        1141
+  precision                                    0.0012      0.0012
+
+Sentence length hist bin 4
+  mean                                         0.1687      0.1871
+  std. dev.                                    0.1172      0.1039
+  weight sum                                     1151        1141
+  precision                                    0.0016      0.0016
+
+Sentence length hist bin 5
+  mean                                         0.1152       0.114
+  std. dev.                                    0.1051      0.0827
+  weight sum                                     1151        1141
+  precision                                    0.0013      0.0013
+
+Sentence length hist bin 6
+  mean                                         0.0898      0.0819
+  std. dev.                                    0.0905      0.0733
+  weight sum                                     1151        1141
+  precision                                    0.0013      0.0013
+
+Sentence length hist bin 7
+  mean                                          0.102      0.0699
+  std. dev.                                    0.1091       0.066
+  weight sum                                     1151        1141
+  precision                                    0.0021      0.0021
+
+Automated readability index
+  mean                                        -0.7459     -0.6577
+  std. dev.                                    1.6112      1.3698
+  weight sum                                     1151        1141
+  precision                                    0.0141      0.0141
+
+Coleman�Liau index
+  mean                                         1.0921      1.3048
+  std. dev.                                    1.9429      1.6393
+  weight sum                                     1151        1141
+  precision                                    0.0195      0.0195
+
+Emotion circumplex
+  mean                                        47.6733     46.5092
+  std. dev.                                   99.1115     98.1803
+  weight sum                                     1151        1141
+  precision                                    3.6465      3.6465
+
+Emotion circumplex mean
+  mean                                          0.363      0.7178
+  std. dev.                                    4.9926      6.3879
+  weight sum                                     1151        1141
+  precision                                    3.3429      3.3429
+
+Emotion circumplex stddev
+  mean                                         0.5763      1.2989
+  std. dev.                                    7.2058      9.7085
+  weight sum                                     1151        1141
+  precision                                    3.4545      3.4545
+
+Emotion circumplex hist bin 0
+  mean                                         0.0005       0.001
+  std. dev.                                    0.0079      0.0147
+  weight sum                                     1151        1141
+  precision                                    0.0261      0.0261
+
+Emotion circumplex hist bin 1
+  mean                                              0      0.0002
+  std. dev.                                    0.0063      0.0063
+  weight sum                                     1151        1141
+  precision                                    0.0377      0.0377
+
+Emotion circumplex hist bin 2
+  mean                                              0      0.0001
+  std. dev.                                    0.0092      0.0092
+  weight sum                                     1151        1141
+  precision                                    0.0555      0.0555
+
+Emotion circumplex hist bin 3
+  mean                                              0           0
+  std. dev.                                    0.0017      0.0017
+  weight sum                                     1151        1141
+  precision                                      0.01        0.01
+
+Emotion circumplex hist bin 4
+  mean                                              0      0.0001
+  std. dev.                                    0.0084      0.0084
+  weight sum                                     1151        1141
+  precision                                    0.0505      0.0505
+
+Emotion circumplex hist bin 5
+  mean                                         0.0002           0
+  std. dev.                                    0.0422      0.0422
+  weight sum                                     1151        1141
+  precision                                     0.253       0.253
+
+Emotion circumplex hist bin 6
+  mean                                         0.0001           0
+  std. dev.                                     0.006       0.006
+  weight sum                                     1151        1141
+  precision                                    0.0361      0.0361
+
+Emotion circumplex hist bin 7
+  mean                                         0.0012      0.0027
+  std. dev.                                    0.0166      0.0194
+  weight sum                                     1151        1141
+  precision                                    0.0193      0.0193
+
+Word repetition span 3
+  mean                                         0.0683      0.0914
+  std. dev.                                    0.1193      0.1274
+  weight sum                                     1151        1141
+  precision                                    0.0028      0.0028
+
+Word repetition span 7
+  mean                                         0.1971      0.2444
+  std. dev.                                      0.25      0.2605
+  weight sum                                     1151        1141
+  precision                                    0.0073      0.0073
+
+Word repetition span 11
+  mean                                         0.3069      0.3719
+  std. dev.                                    0.3654      0.3689
+  weight sum                                     1151        1141
+  precision                                     0.012       0.012
+
+Word repetition span 17
+  mean                                         0.4447      0.5259
+  std. dev.                                    0.5044      0.4986
+  weight sum                                     1151        1141
+  precision                                    0.0148      0.0148
+
+Use of numbers
+  mean                                         0.0064      0.0074
+  std. dev.                                    0.0134      0.0103
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+Number diversity
+  mean                                         0.0083      0.0113
+  std. dev.                                     0.013      0.0115
+  weight sum                                     1151        1141
+  precision                                    0.0006      0.0006
+
+Mean of numbers
+  mean                                        12.4919    100.5663
+  std. dev.                                   125.599   1861.2217
+  weight sum                                     1151        1141
+  precision                                  139.5939    139.5939
+
+positive words frequency
+  mean                                         0.0256      0.0254
+  std. dev.                                    0.0224      0.0205
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+positive words mean
+  mean                                         0.0002      0.0009
+  std. dev.                                    0.0025      0.0046
+  weight sum                                     1151        1141
+  precision                                     0.001       0.001
+
+positive words stddev
+  mean                                         0.0001      0.0007
+  std. dev.                                    0.0016      0.0035
+  weight sum                                     1151        1141
+  precision                                    0.0006      0.0006
+
+positive words min
+  mean                                              0           0
+  std. dev.                                    0.0015      0.0015
+  weight sum                                     1151        1141
+  precision                                    0.0089      0.0089
+
+positive words max
+  mean                                         0.0006      0.0028
+  std. dev.                                    0.0066      0.0138
+  weight sum                                     1151        1141
+  precision                                    0.0022      0.0022
+
+positive words dif
+  mean                                         0.0006      0.0028
+  std. dev.                                    0.0063      0.0138
+  weight sum                                     1151        1141
+  precision                                    0.0022      0.0022
+
+positive words hist bin 0
+  mean                                         0.0016      0.0109
+  std. dev.                                    0.0199      0.0575
+  weight sum                                     1151        1141
+  precision                                      0.01        0.01
+
+positive words hist bin 1
+  mean                                         0.0014      0.0083
+  std. dev.                                    0.0168      0.0443
+  weight sum                                     1151        1141
+  precision                                    0.0085      0.0085
+
+positive words hist bin 2
+  mean                                         0.0016       0.009
+  std. dev.                                    0.0193      0.0511
+  weight sum                                     1151        1141
+  precision                                    0.0117      0.0117
+
+positive words hist bin 3
+  mean                                         0.0011      0.0059
+  std. dev.                                    0.0155      0.0359
+  weight sum                                     1151        1141
+  precision                                    0.0095      0.0095
+
+positive words hist bin 4
+  mean                                         0.0012       0.006
+  std. dev.                                    0.0149      0.0328
+  weight sum                                     1151        1141
+  precision                                    0.0079      0.0079
+
+positive words hist bin 5
+  mean                                         0.0007       0.003
+  std. dev.                                    0.0106       0.022
+  weight sum                                     1151        1141
+  precision                                    0.0069      0.0069
+
+positive words hist bin 6
+  mean                                         0.0006      0.0027
+  std. dev.                                    0.0084      0.0167
+  weight sum                                     1151        1141
+  precision                                     0.005       0.005
+
+positive words hist bin 7
+  mean                                         0.0005      0.0024
+  std. dev.                                    0.0056      0.0142
+  weight sum                                     1151        1141
+  precision                                    0.0056      0.0056
+
+negative words frequency
+  mean                                         0.0123      0.0116
+  std. dev.                                    0.0137      0.0109
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+negative words mean
+  mean                                         0.0002      0.0006
+  std. dev.                                    0.0019       0.003
+  weight sum                                     1151        1141
+  precision                                    0.0006      0.0006
+
+negative words stddev
+  mean                                         0.0001      0.0005
+  std. dev.                                    0.0014      0.0026
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+negative words min
+  mean                                              0           0
+  std. dev.                                    0.0017      0.0017
+  weight sum                                     1151        1141
+  precision                                      0.01        0.01
+
+negative words max
+  mean                                         0.0005       0.002
+  std. dev.                                    0.0058      0.0099
+  weight sum                                     1151        1141
+  precision                                    0.0019      0.0019
+
+negative words dif
+  mean                                         0.0005       0.002
+  std. dev.                                    0.0058      0.0099
+  weight sum                                     1151        1141
+  precision                                    0.0019      0.0019
+
+negative words hist bin 0
+  mean                                         0.0017      0.0148
+  std. dev.                                    0.0241      0.0761
+  weight sum                                     1151        1141
+  precision                                    0.0123      0.0123
+
+negative words hist bin 1
+  mean                                         0.0018      0.0077
+  std. dev.                                    0.0228      0.0505
+  weight sum                                     1151        1141
+  precision                                     0.016       0.016
+
+negative words hist bin 2
+  mean                                         0.0016      0.0067
+  std. dev.                                    0.0228      0.0429
+  weight sum                                     1151        1141
+  precision                                    0.0135      0.0135
+
+negative words hist bin 3
+  mean                                         0.0011      0.0039
+  std. dev.                                    0.0148      0.0322
+  weight sum                                     1151        1141
+  precision                                    0.0167      0.0167
+
+negative words hist bin 4
+  mean                                          0.001      0.0081
+  std. dev.                                    0.0178      0.0493
+  weight sum                                     1151        1141
+  precision                                    0.0131      0.0131
+
+negative words hist bin 5
+  mean                                         0.0004      0.0015
+  std. dev.                                    0.0069      0.0147
+  weight sum                                     1151        1141
+  precision                                    0.0095      0.0095
+
+negative words hist bin 6
+  mean                                         0.0004      0.0026
+  std. dev.                                    0.0058      0.0164
+  weight sum                                     1151        1141
+  precision                                     0.005       0.005
+
+negative words hist bin 7
+  mean                                         0.0007       0.003
+  std. dev.                                    0.0107      0.0187
+  weight sum                                     1151        1141
+  precision                                    0.0081      0.0081
+
+hapiness words frequency
+  mean                                          0.036      0.0374
+  std. dev.                                     0.025      0.0215
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+hapiness words mean
+  mean                                         0.0003      0.0017
+  std. dev.                                    0.0035       0.008
+  weight sum                                     1151        1141
+  precision                                    0.0016      0.0016
+
+hapiness words stddev
+  mean                                         0.0002      0.0009
+  std. dev.                                    0.0018      0.0043
+  weight sum                                     1151        1141
+  precision                                    0.0014      0.0014
+
+hapiness words min
+  mean                                              0      0.0003
+  std. dev.                                    0.0008      0.0017
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+hapiness words max
+  mean                                         0.0007      0.0037
+  std. dev.                                    0.0081      0.0177
+  weight sum                                     1151        1141
+  precision                                    0.0043      0.0043
+
+hapiness words dif
+  mean                                         0.0007      0.0035
+  std. dev.                                    0.0077      0.0166
+  weight sum                                     1151        1141
+  precision                                    0.0046      0.0046
+
+hapiness words hist bin 0
+  mean                                         0.0009      0.0055
+  std. dev.                                    0.0129      0.0303
+  weight sum                                     1151        1141
+  precision                                    0.0072      0.0072
+
+hapiness words hist bin 1
+  mean                                         0.0015      0.0072
+  std. dev.                                     0.018      0.0362
+  weight sum                                     1151        1141
+  precision                                    0.0076      0.0076
+
+hapiness words hist bin 2
+  mean                                         0.0017       0.009
+  std. dev.                                    0.0213      0.0445
+  weight sum                                     1151        1141
+  precision                                    0.0099      0.0099
+
+hapiness words hist bin 3
+  mean                                          0.001      0.0079
+  std. dev.                                    0.0124      0.0406
+  weight sum                                     1151        1141
+  precision                                    0.0077      0.0077
+
+hapiness words hist bin 4
+  mean                                         0.0012      0.0073
+  std. dev.                                    0.0151       0.037
+  weight sum                                     1151        1141
+  precision                                    0.0064      0.0064
+
+hapiness words hist bin 5
+  mean                                          0.001      0.0053
+  std. dev.                                    0.0122      0.0287
+  weight sum                                     1151        1141
+  precision                                    0.0057      0.0057
+
+hapiness words hist bin 6
+  mean                                         0.0008      0.0037
+  std. dev.                                    0.0105      0.0195
+  weight sum                                     1151        1141
+  precision                                    0.0052      0.0052
+
+hapiness words hist bin 7
+  mean                                         0.0006      0.0023
+  std. dev.                                    0.0073      0.0125
+  weight sum                                     1151        1141
+  precision                                     0.004       0.004
+
+happy words frequency
+  mean                                         0.0229      0.0245
+  std. dev.                                    0.0182      0.0159
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+adjectives frequency
+  mean                                         0.0818      0.0781
+  std. dev.                                    0.0387      0.0322
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+adverbs frequency
+  mean                                         0.0634      0.0633
+  std. dev.                                    0.0341       0.029
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+prepositions frequency
+  mean                                         0.1028      0.0994
+  std. dev.                                    0.0381      0.0299
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+pronouns frequency
+  mean                                         0.1678      0.1689
+  std. dev.                                     0.054      0.0468
+  weight sum                                     1151        1141
+  precision                                    0.0013      0.0013
+
+verbs frequency
+  mean                                          0.078      0.0771
+  std. dev.                                    0.0362       0.031
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+verbs that are nouns frequency
+  mean                                         0.0678      0.0695
+  std. dev.                                    0.0329      0.0312
+  weight sum                                     1151        1141
+  precision                                    0.0005      0.0005
+
+sport frequency
+  mean                                         0.0481      0.0507
+  std. dev.                                    0.0311      0.0274
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+math frequency
+  mean                                         0.0126       0.013
+  std. dev.                                    0.0149      0.0132
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+science frequency
+  mean                                         0.0011      0.0014
+  std. dev.                                    0.0037      0.0036
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+science fields frequency
+  mean                                         0.0002      0.0001
+  std. dev.                                    0.0018       0.001
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+US states frequency
+  mean                                         0.0009      0.0015
+  std. dev.                                    0.0034      0.0051
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+shapes frequency
+  mean                                         0.0044       0.004
+  std. dev.                                    0.0085      0.0066
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+school frequency
+  mean                                         0.0045      0.0039
+  std. dev.                                    0.0089      0.0077
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+lanuages frequency
+  mean                                         0.0002      0.0003
+  std. dev.                                    0.0019      0.0014
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+elections frequency
+  mean                                         0.0033      0.0032
+  std. dev.                                    0.0072      0.0052
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+food frequency
+  mean                                         0.0061      0.0066
+  std. dev.                                    0.0133      0.0125
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+money frequency
+  mean                                         0.0065      0.0071
+  std. dev.                                    0.0112      0.0122
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+driving frequency
+  mean                                          0.018      0.0199
+  std. dev.                                    0.0193       0.018
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+military frequency
+  mean                                         0.0177      0.0198
+  std. dev.                                    0.0164      0.0178
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+law frequency
+  mean                                         0.0054      0.0047
+  std. dev.                                    0.0096      0.0073
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+countries frequency
+  mean                                         0.0328      0.0323
+  std. dev.                                    0.0264      0.0194
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+emotions frequency
+  mean                                           0.02      0.0181
+  std. dev.                                    0.0224      0.0173
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+dance frequency
+  mean                                         0.0054      0.0056
+  std. dev.                                    0.0102       0.009
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+boats frequency
+  mean                                         0.0163       0.015
+  std. dev.                                    0.0184      0.0127
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+energy frequency
+  mean                                         0.0026       0.003
+  std. dev.                                    0.0066      0.0066
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+familiy frequency
+  mean                                         0.0125      0.0124
+  std. dev.                                    0.0203      0.0164
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+musical instruments frequency
+  mean                                         0.0181      0.0178
+  std. dev.                                    0.0201      0.0147
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+music frequency
+  mean                                         0.0214      0.0201
+  std. dev.                                    0.0211      0.0168
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+land forms frequency
+  mean                                         0.0178      0.0155
+  std. dev.                                    0.0202      0.0126
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+art frequency
+  mean                                         0.0186      0.0174
+  std. dev.                                    0.0188      0.0138
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+astronomy frequency
+  mean                                         0.0239      0.0228
+  std. dev.                                    0.0221      0.0169
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+colors frequency
+  mean                                         0.0036      0.0034
+  std. dev.                                     0.008      0.0063
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+animals frequency
+  mean                                         0.0099      0.0089
+  std. dev.                                    0.0164      0.0112
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+dogs frequency
+  mean                                         0.0024      0.0023
+  std. dev.                                    0.0067      0.0061
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+cats frequency
+  mean                                         0.0004      0.0002
+  std. dev.                                    0.0023       0.001
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+fish frequency
+  mean                                         0.0009       0.001
+  std. dev.                                    0.0042      0.0046
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+birds frequency
+  mean                                         0.0032       0.003
+  std. dev.                                    0.0084      0.0061
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+reptiles frequency
+  mean                                         0.0022       0.002
+  std. dev.                                    0.0053      0.0059
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+insects frequency
+  mean                                         0.0024      0.0025
+  std. dev.                                    0.0062      0.0052
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+cars frequency
+  mean                                         0.0013      0.0014
+  std. dev.                                    0.0035      0.0039
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+car parts frequency
+  mean                                         0.0078      0.0092
+  std. dev.                                     0.013      0.0118
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+beach frequency
+  mean                                         0.0199      0.0189
+  std. dev.                                    0.0252      0.0159
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+fall frequency
+  mean                                         0.0019      0.0018
+  std. dev.                                    0.0061      0.0059
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+spring frequency
+  mean                                         0.0062      0.0072
+  std. dev.                                    0.0123      0.0104
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+summer frequency
+  mean                                         0.0038      0.0035
+  std. dev.                                    0.0081      0.0056
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+winter frequency
+  mean                                         0.0204      0.0194
+  std. dev.                                    0.0204       0.016
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+weather frequency
+  mean                                         0.0247      0.0255
+  std. dev.                                    0.0254      0.0186
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+vacation frequency
+  mean                                         0.0092      0.0091
+  std. dev.                                    0.0134      0.0131
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+medical frequency
+  mean                                         0.0214      0.0188
+  std. dev.                                    0.0218      0.0138
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+body frequency
+  mean                                         0.0099      0.0098
+  std. dev.                                    0.0133      0.0112
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+farm frequency
+  mean                                         0.0024      0.0019
+  std. dev.                                    0.0066      0.0041
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+trees frequency
+  mean                                         0.0025      0.0024
+  std. dev.                                    0.0068      0.0051
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+transportation frequency
+  mean                                         0.0091      0.0113
+  std. dev.                                    0.0136      0.0134
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+time frequency
+  mean                                         0.0292      0.0294
+  std. dev.                                    0.0241      0.0186
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+clothing frequency
+  mean                                         0.0208      0.0238
+  std. dev.                                      0.02      0.0173
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+shoes frequency
+  mean                                         0.0019      0.0029
+  std. dev.                                    0.0048      0.0095
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+hats frequency
+  mean                                         0.0019      0.0022
+  std. dev.                                    0.0052      0.0049
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+buildings frequency
+  mean                                         0.0177      0.0172
+  std. dev.                                    0.0194       0.013
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+public buildings frequency
+  mean                                         0.0067      0.0064
+  std. dev.                                    0.0115      0.0077
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+birthday frequency
+  mean                                         0.0109      0.0111
+  std. dev.                                    0.0151      0.0138
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+monsters frequency
+  mean                                         0.0025      0.0019
+  std. dev.                                    0.0067      0.0046
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+office frequency
+  mean                                         0.0112      0.0112
+  std. dev.                                    0.0213      0.0147
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+tools frequency
+  mean                                         0.0154      0.0144
+  std. dev.                                    0.0182      0.0122
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+camping frequency
+  mean                                         0.0039      0.0031
+  std. dev.                                    0.0096      0.0056
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+fair frequency
+  mean                                         0.0036      0.0035
+  std. dev.                                    0.0086      0.0062
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+castles and kings and queens frequency
+  mean                                         0.0031      0.0037
+  std. dev.                                    0.0071      0.0099
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+circus frequency
+  mean                                         0.0056      0.0061
+  std. dev.                                     0.011      0.0092
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+computer frequency
+  mean                                         0.0072      0.0053
+  std. dev.                                    0.0117      0.0071
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+cooking frequency
+  mean                                         0.0259      0.0261
+  std. dev.                                    0.0219      0.0179
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+kitchen frequency
+  mean                                         0.0232       0.022
+  std. dev.                                    0.0208      0.0157
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+fruits frequency
+  mean                                         0.0005      0.0006
+  std. dev.                                    0.0023      0.0026
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+geography frequency
+  mean                                         0.0072      0.0061
+  std. dev.                                    0.0139      0.0087
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+furnitures frequency
+  mean                                         0.0113      0.0111
+  std. dev.                                    0.0174      0.0146
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+occupation frequency
+  mean                                         0.0028      0.0025
+  std. dev.                                    0.0066      0.0046
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+leaders frequency
+  mean                                           0.01      0.0113
+  std. dev.                                    0.0155       0.014
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+house frequency
+  mean                                         0.0087      0.0091
+  std. dev.                                    0.0126      0.0093
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+restaurants frequency
+  mean                                         0.0418      0.0385
+  std. dev.                                    0.0258      0.0197
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+roads frequency
+  mean                                         0.0081      0.0076
+  std. dev.                                    0.0122        0.01
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+rocks and minerals frequency
+  mean                                         0.0012      0.0012
+  std. dev.                                    0.0048      0.0039
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+weapons frequency
+  mean                                         0.0039      0.0042
+  std. dev.                                    0.0074      0.0097
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+measurements frequency
+  mean                                         0.0174      0.0164
+  std. dev.                                    0.0188      0.0126
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+containers frequency
+  mean                                         0.0079      0.0077
+  std. dev.                                    0.0104      0.0091
+  weight sum                                     1151        1141
+  precision                                    0.0001      0.0001
+
+acquaintances frequency
+  mean                                         0.0137      0.0132
+  std. dev.                                    0.0242      0.0142
+  weight sum                                     1151        1141
+  precision                                    0.0007      0.0007
+
+yard frequency
+  mean                                         0.0038      0.0037
+  std. dev.                                    0.0078      0.0067
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+flowers frequency
+  mean                                         0.0018      0.0014
+  std. dev.                                    0.0091      0.0048
+  weight sum                                     1151        1141
+  precision                                    0.0006      0.0006
+
+acronyms frequency
+  mean                                         0.0327      0.0391
+  std. dev.                                    0.0378      0.0282
+  weight sum                                     1151        1141
+  precision                                    0.0012      0.0012
+
+self frequency
+  mean                                         0.0896      0.0958
+  std. dev.                                     0.045      0.0365
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+female frequency
+  mean                                          0.007       0.008
+  std. dev.                                     0.018      0.0152
+  weight sum                                     1151        1141
+  precision                                    0.0002      0.0002
+
+male frequency
+  mean                                         0.0069      0.0063
+  std. dev.                                    0.0173      0.0109
+  weight sum                                     1151        1141
+  precision                                    0.0003      0.0003
+
+Soundex diversity
+  mean                                         0.3465      0.2834
+  std. dev.                                    0.1413      0.0846
+  weight sum                                     1151        1141
+  precision                                     0.002       0.002
+
+Soundex homogeneity mean
+  mean                                         0.0971      0.0736
+  std. dev.                                    0.0638      0.0392
+  weight sum                                     1151        1141
+  precision                                    0.0013      0.0013
+
+Soundex homogeneity StdDev
+  mean                                         0.0496      0.0478
+  std. dev.                                    0.0301      0.0272
+  weight sum                                     1151        1141
+  precision                                    0.0004      0.0004
+
+Soundex homogeneity maximum
+  mean                                         0.2382      0.2407
+  std. dev.                                    0.1349        0.14
+  weight sum                                     1151        1141
+  precision                                    0.0028      0.0028
+
+Soundex homoganity hist bin 0
+  mean                                         0.4398      0.5748
+  std. dev.                                    0.2623      0.2202
+  weight sum                                     1151        1141
+  precision                                    0.0017      0.0017
+
+Soundex homoganity hist bin 1
+  mean                                         0.2303      0.2136
+  std. dev.                                    0.1857      0.1394
+  weight sum                                     1151        1141
+  precision                                    0.0019      0.0019
+
+Soundex homoganity hist bin 2
+  mean                                         0.0993      0.0895
+  std. dev.                                    0.1317      0.0888
+  weight sum                                     1151        1141
+  precision                                     0.002       0.002
+
+Soundex homoganity hist bin 3
+  mean                                         0.0594      0.0488
+  std. dev.                                    0.0821      0.0606
+  weight sum                                     1151        1141
+  precision                                    0.0023      0.0023
+
+Soundex homoganity hist bin 4
+  mean                                         0.0747       0.054
+  std. dev.                                    0.0935      0.0459
+  weight sum                                     1151        1141
+  precision                                    0.0032      0.0032
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1330               58.0279 %
+Incorrectly Classified Instances       962               41.9721 %
+Kappa statistic                          0.1585
+Mean absolute error                      0.4174
+Root mean squared error                  0.6314
+Relative absolute error                 83.4872 %
+Root relative squared error            126.2856 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.858    0.699    0.553      0.858    0.672      0.190    0.695     0.684     Low_Artists
+                 0.301    0.142    0.677      0.301    0.416      0.190    0.695     0.652     Top_Artists
+Weighted Avg.    0.580    0.422    0.614      0.580    0.545      0.190    0.695     0.668     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 987 164 |   a = Low_Artists
+ 798 343 |   b = Top_Artists
+

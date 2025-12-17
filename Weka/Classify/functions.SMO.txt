@@ -1,0 +1,287 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Low_Artists, Top_Artists
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6435 * (normalized) Total number of words
+ +      -1.1257 * (normalized) Word diversity
+ +       3.069  * (normalized) FFT mean
+ +       2.3044 * (normalized) FFT median
+ +       0.3603 * (normalized) FFT stddev
+ +       1.734  * (normalized) FFT min
+ +       0.8024 * (normalized) FFT max
+ +       1.0501 * (normalized) FFT histogram bin 1
+ +      -0.9053 * (normalized) FFT histogram bin 2
+ +       0.3255 * (normalized) FFT histogram bin 3
+ +       0.1186 * (normalized) FFT histogram bin 4
+ +      -1.2559 * (normalized) FFT histogram bin 5
+ +      -0.3484 * (normalized) Word length mean
+ +      -0.0793 * (normalized) Words of length 1
+ +       0.5452 * (normalized) Words of length 2
+ +       1.1878 * (normalized) Words of length 3
+ +      -0.1824 * (normalized) Words of length 4
+ +      -1.5085 * (normalized) Words of length 5
+ +      -0.7062 * (normalized) Words of length 6
+ +      -0.3591 * (normalized) Words of length 7
+ +       0.1931 * (normalized) Words of length 8
+ +       1.003  * (normalized) Words of length 9
+ +       0.385  * (normalized) Words of length 10
+ +       0.9715 * (normalized) Words of length 11
+ +       0.2421 * (normalized) Words of length 12
+ +      -0.4022 * (normalized) Words of length 13
+ +      -0.0461 * (normalized) Words of length 14
+ +       0.2775 * (normalized) Words of length 15
+ +       0.1071 * (normalized) Words of length 16
+ +      -0.7923 * (normalized) Word homogeneity mean
+ +      -0.1642 * (normalized) Word homogeneity StdDev
+ +      -0.5163 * (normalized) Word homogeneity maximum
+ +       0.3153 * (normalized) Word homoganity hist bin 0
+ +       0.4336 * (normalized) Word homoganity hist bin 1
+ +      -0.2619 * (normalized) Word homoganity hist bin 2
+ +      -0.1253 * (normalized) Word homoganity hist bin 3
+ +      -0.5571 * (normalized) Word homoganity hist bin 4
+ +       0.0011 * (normalized) Word homoganity hist bin 5
+ +       1.4146 * (normalized) Word homoganity hist bin 6
+ +      -0.1103 * (normalized) Word homoganity hist bin 7
+ +       2.2661 * (normalized) Punctuation characters ratio
+ +      -1.1492 * (normalized) Frequency of fullstop
+ +       2.8567 * (normalized) Frequency of single quotes
+ +       1.8603 * (normalized) ,Frequency of double quotes
+ +       0.2539 * (normalized) Frequency of apostepe
+ +      -1.15   * (normalized) Frequency of plus
+ +      -0.7142 * (normalized) Frequency of forwardslash
+ +      -2.1668 * (normalized) Frequency of exclamation
+ +       0.733  * (normalized) Frequency of question mark
+ +       0.3476 * (normalized) Frequency of open parenthesis
+ +      -0.3872 * (normalized) Frequency of star
+ +       0.9987 * (normalized) Frequency of and sign
+ +      -0.8207 * (normalized) Frequency of open curlybrace
+ +      -1.7278 * (normalized) Frequency of open squarebrace
+ +       0.2044 * (normalized) Frequency of semicolon
+ +      -0.645  * (normalized) Frequency of colon
+ +      -0.4274 * (normalized) Use of upper case
+ +      -1.1585 * (normalized) Upper case word mean
+ +      -0.7401 * (normalized) Quotations number
+ +       0.4101 * (normalized) Quotation length mean
+ +      -0.5223 * (normalized) Quotation length stddev
+ +       1.1268 * (normalized) Quotation part of the text
+ +       0.14   * (normalized) Emoticon smile
+ +      -0.4437 * (normalized) Sentence length mean
+ +       1.1678 * (normalized) Sentence length stddev
+ +      -0.0965 * (normalized) Sentence length character mean
+ +      -0.1377 * (normalized) Sentence length hist bin 0
+ +      -0.0383 * (normalized) Sentence length hist bin 1
+ +       0.7032 * (normalized) Sentence length hist bin 2
+ +       0.6317 * (normalized) Sentence length hist bin 3
+ +       0.3798 * (normalized) Sentence length hist bin 4
+ +      -0.6181 * (normalized) Sentence length hist bin 5
+ +      -0.0517 * (normalized) Sentence length hist bin 6
+ +      -0.5831 * (normalized) Sentence length hist bin 7
+ +      -0.5055 * (normalized) Automated readability index
+ +       1.8639 * (normalized) Coleman�Liau index
+ +      -0.4008 * (normalized) Emotion circumplex
+ +      -0.6041 * (normalized) Emotion circumplex mean
+ +      -0.964  * (normalized) Emotion circumplex stddev
+ +      -0.5359 * (normalized) Emotion circumplex hist bin 0
+ +       0.6446 * (normalized) Emotion circumplex hist bin 1
+ +       0.2784 * (normalized) Emotion circumplex hist bin 2
+ +      -0.4257 * (normalized) Emotion circumplex hist bin 4
+ +      -0.4237 * (normalized) Emotion circumplex hist bin 5
+ +      -0.5947 * (normalized) Emotion circumplex hist bin 7
+ +      -0.2363 * (normalized) Word repetition span 3
+ +       0.0652 * (normalized) Word repetition span 7
+ +      -0.0247 * (normalized) Word repetition span 11
+ +      -0.7314 * (normalized) Word repetition span 17
+ +       0.3209 * (normalized) Use of numbers
+ +       2.0921 * (normalized) Number diversity
+ +       0.7464 * (normalized) Mean of numbers
+ +      -0.3157 * (normalized) positive words frequency
+ +      -0.3629 * (normalized) positive words mean
+ +      -0.1263 * (normalized) positive words stddev
+ +      -1      * (normalized) positive words min
+ +      -0.2065 * (normalized) positive words max
+ +      -0.0621 * (normalized) positive words dif
+ +       0.0518 * (normalized) positive words hist bin 0
+ +       0.5545 * (normalized) positive words hist bin 1
+ +       0.644  * (normalized) positive words hist bin 2
+ +      -0.0724 * (normalized) positive words hist bin 3
+ +       0.1241 * (normalized) positive words hist bin 4
+ +      -0.1204 * (normalized) positive words hist bin 5
+ +      -0.4634 * (normalized) positive words hist bin 6
+ +      -0.0076 * (normalized) positive words hist bin 7
+ +      -0.566  * (normalized) negative words frequency
+ +      -0.1473 * (normalized) negative words mean
+ +       0.0906 * (normalized) negative words stddev
+ +      -0.104  * (normalized) negative words max
+ +      -0.104  * (normalized) negative words dif
+ +       0.3944 * (normalized) negative words hist bin 0
+ +       0.4676 * (normalized) negative words hist bin 1
+ +      -0.1994 * (normalized) negative words hist bin 2
+ +      -0.3122 * (normalized) negative words hist bin 3
+ +       0.4291 * (normalized) negative words hist bin 4
+ +      -0.1602 * (normalized) negative words hist bin 5
+ +       0.5245 * (normalized) negative words hist bin 6
+ +      -0.2071 * (normalized) negative words hist bin 7
+ +      -0.0056 * (normalized) hapiness words frequency
+ +      -0.1395 * (normalized) hapiness words mean
+ +      -0.1832 * (normalized) hapiness words stddev
+ +       0.3862 * (normalized) hapiness words min
+ +      -0.1658 * (normalized) hapiness words max
+ +      -0.1958 * (normalized) hapiness words dif
+ +      -0.0108 * (normalized) hapiness words hist bin 0
+ +       0.3515 * (normalized) hapiness words hist bin 1
+ +       0.3828 * (normalized) hapiness words hist bin 2
+ +       0.4048 * (normalized) hapiness words hist bin 3
+ +       0.387  * (normalized) hapiness words hist bin 4
+ +      -0.1291 * (normalized) hapiness words hist bin 5
+ +      -0.2844 * (normalized) hapiness words hist bin 6
+ +      -0.0762 * (normalized) hapiness words hist bin 7
+ +       1.3414 * (normalized) happy words frequency
+ +       0.1386 * (normalized) adjectives frequency
+ +       0.6241 * (normalized) adverbs frequency
+ +       0.127  * (normalized) prepositions frequency
+ +      -0.1347 * (normalized) pronouns frequency
+ +      -0.5354 * (normalized) verbs frequency
+ +       0.4215 * (normalized) verbs that are nouns frequency
+ +       0.6087 * (normalized) sport frequency
+ +      -0.3861 * (normalized) math frequency
+ +       0.0956 * (normalized) science frequency
+ +      -0.8918 * (normalized) science fields frequency
+ +       1.1788 * (normalized) US states frequency
+ +      -0.7287 * (normalized) shapes frequency
+ +      -0.7909 * (normalized) school frequency
+ +       0.008  * (normalized) lanuages frequency
+ +       0.0726 * (normalized) elections frequency
+ +       0.2823 * (normalized) food frequency
+ +      -0.1841 * (normalized) money frequency
+ +       1.1008 * (normalized) driving frequency
+ +       0.2991 * (normalized) military frequency
+ +       0.101  * (normalized) law frequency
+ +       0.5861 * (normalized) countries frequency
+ +      -0.3791 * (normalized) emotions frequency
+ +      -0.2339 * (normalized) dance frequency
+ +       0.1347 * (normalized) boats frequency
+ +       0.3407 * (normalized) energy frequency
+ +       0.5317 * (normalized) familiy frequency
+ +      -0.3353 * (normalized) musical instruments frequency
+ +       0.4307 * (normalized) music frequency
+ +      -1.176  * (normalized) land forms frequency
+ +       0.112  * (normalized) art frequency
+ +       0.1978 * (normalized) astronomy frequency
+ +       0.0328 * (normalized) colors frequency
+ +      -0.1037 * (normalized) animals frequency
+ +       0.2144 * (normalized) dogs frequency
+ +      -0.8387 * (normalized) cats frequency
+ +       1.6334 * (normalized) fish frequency
+ +      -0.4149 * (normalized) birds frequency
+ +       0.413  * (normalized) reptiles frequency
+ +       0.4632 * (normalized) insects frequency
+ +      -0.5671 * (normalized) cars frequency
+ +       0.7905 * (normalized) car parts frequency
+ +       0.396  * (normalized) beach frequency
+ +       0.2255 * (normalized) fall frequency
+ +       0.0174 * (normalized) spring frequency
+ +      -0.2878 * (normalized) summer frequency
+ +      -0.2379 * (normalized) winter frequency
+ +       0.0842 * (normalized) weather frequency
+ +      -0.9694 * (normalized) vacation frequency
+ +      -1.1273 * (normalized) medical frequency
+ +       0.2407 * (normalized) body frequency
+ +      -0.1945 * (normalized) farm frequency
+ +       0.5041 * (normalized) trees frequency
+ +       0.7146 * (normalized) transportation frequency
+ +       0.1578 * (normalized) time frequency
+ +       0.9397 * (normalized) clothing frequency
+ +       0.8046 * (normalized) shoes frequency
+ +       0.4865 * (normalized) hats frequency
+ +       0.8393 * (normalized) buildings frequency
+ +      -0.9732 * (normalized) public buildings frequency
+ +       0.229  * (normalized) birthday frequency
+ +      -0.0974 * (normalized) monsters frequency
+ +      -0.2446 * (normalized) office frequency
+ +       0.0995 * (normalized) tools frequency
+ +      -0.4997 * (normalized) camping frequency
+ +      -0.5519 * (normalized) fair frequency
+ +       1.2901 * (normalized) castles and kings and queens frequency
+ +       0.069  * (normalized) circus frequency
+ +      -1.0165 * (normalized) computer frequency
+ +       0.956  * (normalized) cooking frequency
+ +      -0.1348 * (normalized) kitchen frequency
+ +       0.3808 * (normalized) fruits frequency
+ +       0.2295 * (normalized) geography frequency
+ +       0.7481 * (normalized) furnitures frequency
+ +      -1.2508 * (normalized) occupation frequency
+ +      -0.4506 * (normalized) leaders frequency
+ +       1.0139 * (normalized) house frequency
+ +      -0.4935 * (normalized) restaurants frequency
+ +       0.1117 * (normalized) roads frequency
+ +       0.1738 * (normalized) rocks and minerals frequency
+ +       0.0188 * (normalized) weapons frequency
+ +      -0.2341 * (normalized) measurements frequency
+ +      -0.5263 * (normalized) containers frequency
+ +      -0.315  * (normalized) acquaintances frequency
+ +      -0.6392 * (normalized) yard frequency
+ +      -0.5919 * (normalized) flowers frequency
+ +       1.4174 * (normalized) acronyms frequency
+ +       1.2886 * (normalized) self frequency
+ +       0.5337 * (normalized) female frequency
+ +      -0.2142 * (normalized) male frequency
+ +       1.4897 * (normalized) Soundex diversity
+ +      -0.5731 * (normalized) Soundex homogeneity mean
+ +       0.2027 * (normalized) Soundex homogeneity StdDev
+ +       0.4303 * (normalized) Soundex homogeneity maximum
+ +      -0.1031 * (normalized) Soundex homoganity hist bin 0
+ +      -0.3843 * (normalized) Soundex homoganity hist bin 1
+ +      -0.061  * (normalized) Soundex homoganity hist bin 2
+ +      -0.2034 * (normalized) Soundex homoganity hist bin 3
+ +      -0.1577 * (normalized) Soundex homoganity hist bin 4
+ -       4.1522
+
+Number of kernel evaluations: 1399390 (79.234% cached)
+
+
+
+Time taken to build model: 0.54 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1658               72.3386 %
+Incorrectly Classified Instances       634               27.6614 %
+Kappa statistic                          0.4469
+Mean absolute error                      0.2766
+Root mean squared error                  0.5259
+Relative absolute error                 55.3239 %
+Root relative squared error            105.1892 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.695    0.248    0.739      0.695    0.716      0.448    0.724     0.667     Low_Artists
+                 0.752    0.305    0.710      0.752    0.730      0.448    0.724     0.657     Top_Artists
+Weighted Avg.    0.723    0.276    0.724      0.723    0.723      0.448    0.724     0.662     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 800 351 |   a = Low_Artists
+ 283 858 |   b = Top_Artists
+

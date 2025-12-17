@@ -1,0 +1,29 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 1611 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer training data accuracy = 0.9391682184978274
+Trial 0 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.736231884057971 most-frequent-tag baseline=0.5028985507246376
+          label   0   1  |total
+  0 Top_Artists 261  86  |347
+  1 Low_Artists  96 247  |343
+
+Trial 0 Trainer NaiveBayesTrainer test data precision(Top_Artists) = 0.7310924369747899
+Trial 0 Trainer NaiveBayesTrainer test data precision(Low_Artists) = 0.7417417417417418
+Trial 0 Trainer NaiveBayesTrainer test data recall(Top_Artists) = 0.7521613832853026
+Trial 0 Trainer NaiveBayesTrainer test data recall(Low_Artists) = 0.7201166180758017
+Trial 0 Trainer NaiveBayesTrainer test data F1(Top_Artists) = 0.7414772727272727
+Trial 0 Trainer NaiveBayesTrainer test data F1(Low_Artists) = 0.7307692307692308
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.736231884057971
+
+NaiveBayesTrainer
+Summary. train accuracy mean = 0.9391682184978274 stddev = 0.0 stderr = 0.0
+Summary. test accuracy mean = 0.736231884057971 stddev = 0.0 stderr = 0.0
+Summary. test precision(Top_Artists) mean = 0.7310924369747899 stddev = 0.0 stderr = 0.0
+Summary. test precision(Low_Artists) mean = 0.7417417417417418 stddev = 0.0 stderr = 0.0
+Summary. test recall(Top_Artists) mean = 0.7521613832853026 stddev = 0.0 stderr = 0.0
+Summary. test recall(Low_Artists) mean = 0.7201166180758017 stddev = 0.0 stderr = 0.0
+Summary. test f1(Top_Artists) mean = 0.7414772727272727 stddev = 0.0 stderr = 0.0
+Summary. test f1(Low_Artists) mean = 0.7307692307692308 stddev = 0.0 stderr = 0.0

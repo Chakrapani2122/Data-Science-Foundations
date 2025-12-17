@@ -1,0 +1,58 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Greedy Stepwise (forwards).
+	Start set: no attributes
+	Merit of best subset found:    0.182
+
+Attribute Subset Evaluator (supervised, Class (nominal): 1 Class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 3,4,5,6,8,19,35,42,44,45,46,49,50,52,60,69,70,71,74,75,95,99,114,116,168,183,186,191,197,228,229,230,237 : 33
+                     Word diversity
+                     FFT mean
+                     FFT median
+                     FFT stddev
+                     FFT max
+                     Words of length 5
+                     Word homoganity hist bin 1
+                     Punctuation characters ratio
+                     Frequency of single quotes
+                     ,Frequency of double quotes
+                     Frequency of apostepe
+                     Frequency of forwardslash
+                     Frequency of exclamation
+                     Frequency of open parenthesis
+                     Use of upper case
+                     Sentence length mean
+                     Sentence length stddev
+                     Sentence length character mean
+                     Sentence length hist bin 2
+                     Sentence length hist bin 3
+                     Word repetition span 11
+                     Mean of numbers
+                     negative words frequency
+                     negative words stddev
+                     familiy frequency
+                     car parts frequency
+                     spring frequency
+                     medical frequency
+                     clothing frequency
+                     acronyms frequency
+                     self frequency
+                     female frequency
+                     Soundex homoganity hist bin 1
+

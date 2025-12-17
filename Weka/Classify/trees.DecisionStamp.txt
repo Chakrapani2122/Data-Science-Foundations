@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+FFT mean <= 183.5 : Low_Artists
+FFT mean > 183.5 : Top_Artists
+FFT mean is missing : Low_Artists
+
+Class distributions
+
+FFT mean <= 183.5
+Low_Artists	Top_Artists	
+0.7193149381541389	0.28068506184586106	
+FFT mean > 183.5
+Low_Artists	Top_Artists	
+0.3182917002417405	0.6817082997582594	
+FFT mean is missing
+Low_Artists	Top_Artists	
+0.5021815008726004	0.49781849912739967	
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1567               68.3682 %
+Incorrectly Classified Instances       725               31.6318 %
+Kappa statistic                          0.3679
+Mean absolute error                      0.4249
+Root mean squared error                  0.4636
+Relative absolute error                 84.9815 %
+Root relative squared error             92.7273 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.589    0.221    0.729      0.589    0.652      0.375    0.690     0.668     Low_Artists
+                 0.779    0.411    0.653      0.779    0.710      0.375    0.690     0.634     Top_Artists
+Weighted Avg.    0.684    0.315    0.691      0.684    0.681      0.375    0.690     0.651     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 678 473 |   a = Low_Artists
+ 252 889 |   b = Top_Artists
+

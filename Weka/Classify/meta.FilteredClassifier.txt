@@ -1,0 +1,791 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.FilteredClassifier -F "weka.filters.supervised.attribute.Discretize -R first-last -precision 6" -S 1 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.supervised.attribute.Discretize -R first-last -precision 6
+
+Filtered Header
+@relation output-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6
+
+@attribute Class {Low_Artists,Top_Artists}
+@attribute 'Total number of words' {'\'(-inf-245.5]\'','\'(245.5-348.5]\'','\'(348.5-inf)\''}
+@attribute 'Word diversity' {'\'(-inf-0.5035]\'','\'(0.5035-inf)\''}
+@attribute 'FFT mean' {'\'(-inf-108.5]\'','\'(108.5-183.5]\'','\'(183.5-inf)\''}
+@attribute 'FFT median' {'\'(-inf-2.1]\'','\'(2.1-89.1]\'','\'(89.1-125.5]\'','\'(125.5-inf)\''}
+@attribute 'FFT stddev' {'\'(-inf-126.5]\'','\'(126.5-186.5]\'','\'(186.5-inf)\''}
+@attribute 'FFT min' {'\'All\''}
+@attribute 'FFT max' {'\'(-inf-347.5]\'','\'(347.5-489.5]\'','\'(489.5-704.5]\'','\'(704.5-inf)\''}
+@attribute 'FFT histogram bin 1' {'\'(-inf-0.8295]\'','\'(0.8295-0.9905]\'','\'(0.9905-inf)\''}
+@attribute 'FFT histogram bin 2' {'\'(-inf-0.007015]\'','\'(0.007015-inf)\''}
+@attribute 'FFT histogram bin 3' {'\'All\''}
+@attribute 'FFT histogram bin 4' {'\'All\''}
+@attribute 'FFT histogram bin 5' {'\'(-inf-0.003405]\'','\'(0.003405-inf)\''}
+@attribute 'Word length mean' {'\'(-inf-4.025]\'','\'(4.025-inf)\''}
+@attribute 'Words of length 1' {'\'(-inf-0.0375]\'','\'(0.0375-inf)\''}
+@attribute 'Words of length 2' {'\'(-inf-0.1405]\'','\'(0.1405-inf)\''}
+@attribute 'Words of length 3' {'\'All\''}
+@attribute 'Words of length 4' {'\'(-inf-0.1545]\'','\'(0.1545-inf)\''}
+@attribute 'Words of length 5' {'\'(-inf-0.1475]\'','\'(0.1475-inf)\''}
+@attribute 'Words of length 6' {'\'(-inf-0.1005]\'','\'(0.1005-inf)\''}
+@attribute 'Words of length 7' {'\'(-inf-0.00079]\'','\'(0.00079-0.0742]\'','\'(0.0742-inf)\''}
+@attribute 'Words of length 8' {'\'(-inf-0.00188]\'','\'(0.00188-0.04825]\'','\'(0.04825-inf)\''}
+@attribute 'Words of length 9' {'\'(-inf-0.000495]\'','\'(0.000495-0.01575]\'','\'(0.01575-inf)\''}
+@attribute 'Words of length 10' {'\'(-inf-0.000495]\'','\'(0.000495-0.00262]\'','\'(0.00262-0.0268]\'','\'(0.0268-inf)\''}
+@attribute 'Words of length 11' {'\'(-inf-0.000382]\'','\'(0.000382-inf)\''}
+@attribute 'Words of length 12' {'\'All\''}
+@attribute 'Words of length 13' {'\'All\''}
+@attribute 'Words of length 14' {'\'All\''}
+@attribute 'Words of length 15' {'\'All\''}
+@attribute 'Words of length 16' {'\'All\''}
+@attribute 'Word homogeneity mean' {'\'(-inf-0.0089]\'','\'(0.0089-0.08565]\'','\'(0.08565-inf)\''}
+@attribute 'Word homogeneity StdDev' {'\'(-inf-0.014]\'','\'(0.014-0.04835]\'','\'(0.04835-inf)\''}
+@attribute 'Word homogeneity maximum' {'\'(-inf-0.03755]\'','\'(0.03755-0.142]\'','\'(0.142-inf)\''}
+@attribute 'Word homoganity hist bin 0' {'\'(-inf-0.0168]\'','\'(0.0168-0.3765]\'','\'(0.3765-inf)\''}
+@attribute 'Word homoganity hist bin 1' {'\'(-inf-0.0077]\'','\'(0.0077-inf)\''}
+@attribute 'Word homoganity hist bin 2' {'\'(-inf-0.0121]\'','\'(0.0121-0.312]\'','\'(0.312-inf)\''}
+@attribute 'Word homoganity hist bin 3' {'\'(-inf-0.01165]\'','\'(0.01165-0.2455]\'','\'(0.2455-0.596]\'','\'(0.596-inf)\''}
+@attribute 'Word homoganity hist bin 4' {'\'(-inf-0.00373]\'','\'(0.00373-0.208]\'','\'(0.208-inf)\''}
+@attribute 'Word homoganity hist bin 5' {'\'(-inf-0.0155]\'','\'(0.0155-0.2155]\'','\'(0.2155-inf)\''}
+@attribute 'Word homoganity hist bin 6' {'\'(-inf-0.00329]\'','\'(0.00329-inf)\''}
+@attribute 'Word homoganity hist bin 7' {'\'(-inf-0.00357]\'','\'(0.00357-0.05335]\'','\'(0.05335-0.1155]\'','\'(0.1155-inf)\''}
+@attribute 'Punctuation characters ratio' {'\'(-inf-0.0691]\'','\'(0.0691-0.1315]\'','\'(0.1315-0.1935]\'','\'(0.1935-inf)\''}
+@attribute 'Frequency of fullstop' {'\'All\''}
+@attribute 'Frequency of single quotes' {'\'(-inf-0.01865]\'','\'(0.01865-0.07585]\'','\'(0.07585-inf)\''}
+@attribute ',Frequency of double quotes' {'\'(-inf-0.00139]\'','\'(0.00139-inf)\''}
+@attribute 'Frequency of apostepe' {'\'(-inf-0.0344]\'','\'(0.0344-inf)\''}
+@attribute 'Frequency of plus' {'\'All\''}
+@attribute 'Frequency of backslash' {'\'All\''}
+@attribute 'Frequency of forwardslash' {'\'(-inf-0.001805]\'','\'(0.001805-inf)\''}
+@attribute 'Frequency of exclamation' {'\'(-inf-0.01115]\'','\'(0.01115-inf)\''}
+@attribute 'Frequency of question mark' {'\'(-inf-0.000489]\'','\'(0.000489-inf)\''}
+@attribute 'Frequency of open parenthesis' {'\'(-inf-0.002685]\'','\'(0.002685-inf)\''}
+@attribute 'Frequency of equal' {'\'All\''}
+@attribute 'Frequency of star' {'\'All\''}
+@attribute 'Frequency of and sign' {'\'All\''}
+@attribute 'Frequency of open curlybrace' {'\'All\''}
+@attribute 'Frequency of open squarebrace' {'\'All\''}
+@attribute 'Frequency of semicolon' {'\'All\''}
+@attribute 'Frequency of colon' {'\'All\''}
+@attribute 'Use of upper case' {'\'(-inf-0.02955]\'','\'(0.02955-0.05045]\'','\'(0.05045-inf)\''}
+@attribute 'Upper case word mean' {'\'All\''}
+@attribute 'Quotations number' {'\'(-inf-1]\'','\'(1-inf)\''}
+@attribute 'Quotation length mean' {'\'(-inf-1]\'','\'(1-inf)\''}
+@attribute 'Quotation length stddev' {'\'(-inf-0.3435]\'','\'(0.3435-inf)\''}
+@attribute 'Quotation part of the text' {'\'(-inf-0.00224]\'','\'(0.00224-inf)\''}
+@attribute 'Emoticon smile' {'\'All\''}
+@attribute 'Emoticon wink' {'\'All\''}
+@attribute 'Emoticon sad' {'\'All\''}
+@attribute 'Sentence length mean' {'\'(-inf-5.145]\'','\'(5.145-6.195]\'','\'(6.195-inf)\''}
+@attribute 'Sentence length stddev' {'\'(-inf-1.355]\'','\'(1.355-1.945]\'','\'(1.945-2.825]\'','\'(2.825-inf)\''}
+@attribute 'Sentence length character mean' {'\'(-inf-26.65]\'','\'(26.65-29.15]\'','\'(29.15-inf)\''}
+@attribute 'Sentence length hist bin 0' {'\'(-inf-0.2065]\'','\'(0.2065-inf)\''}
+@attribute 'Sentence length hist bin 1' {'\'(-inf-0.008785]\'','\'(0.008785-inf)\''}
+@attribute 'Sentence length hist bin 2' {'\'(-inf-0.0143]\'','\'(0.0143-inf)\''}
+@attribute 'Sentence length hist bin 3' {'\'(-inf-0.01225]\'','\'(0.01225-inf)\''}
+@attribute 'Sentence length hist bin 4' {'\'(-inf-0.010555]\'','\'(0.010555-inf)\''}
+@attribute 'Sentence length hist bin 5' {'\'(-inf-0.0136]\'','\'(0.0136-0.2635]\'','\'(0.2635-inf)\''}
+@attribute 'Sentence length hist bin 6' {'\'All\''}
+@attribute 'Sentence length hist bin 7' {'\'(-inf-0.03545]\'','\'(0.03545-0.3425]\'','\'(0.3425-inf)\''}
+@attribute 'Automated readability index' {'\'(-inf--2.915]\'','\'(-2.915-inf)\''}
+@attribute 'Coleman�Liau index' {'\'(-inf--2.565]\'','\'(-2.565-inf)\''}
+@attribute 'Emotion circumplex' {'\'All\''}
+@attribute 'Emotion circumplex mean' {'\'All\''}
+@attribute 'Emotion circumplex stddev' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 0' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 1' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 2' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 3' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 4' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 5' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 6' {'\'All\''}
+@attribute 'Emotion circumplex hist bin 7' {'\'All\''}
+@attribute 'Word repetition span 3' {'\'(-inf-0.00293]\'','\'(0.00293-0.08615]\'','\'(0.08615-inf)\''}
+@attribute 'Word repetition span 7' {'\'(-inf-0.07025]\'','\'(0.07025-0.1715]\'','\'(0.1715-inf)\''}
+@attribute 'Word repetition span 11' {'\'(-inf-0.0976]\'','\'(0.0976-0.2355]\'','\'(0.2355-inf)\''}
+@attribute 'Word repetition span 17' {'\'(-inf-0.1965]\'','\'(0.1965-0.4565]\'','\'(0.4565-inf)\''}
+@attribute 'Use of numbers' {'\'(-inf-0.000452]\'','\'(0.000452-inf)\''}
+@attribute 'Number diversity' {'\'(-inf-0.00553]\'','\'(0.00553-inf)\''}
+@attribute 'Mean of numbers' {'\'(-inf-5.79]\'','\'(5.79-inf)\''}
+@attribute 'positive words frequency' {'\'(-inf-0.001825]\'','\'(0.001825-inf)\''}
+@attribute 'positive words mean' {'\'(-inf-0.003175]\'','\'(0.003175-inf)\''}
+@attribute 'positive words stddev' {'\'(-inf-0.003095]\'','\'(0.003095-inf)\''}
+@attribute 'positive words min' {'\'All\''}
+@attribute 'positive words max' {'\'(-inf-0.0287]\'','\'(0.0287-inf)\''}
+@attribute 'positive words dif' {'\'(-inf-0.0287]\'','\'(0.0287-inf)\''}
+@attribute 'positive words hist bin 0' {'\'(-inf-0.0157]\'','\'(0.0157-inf)\''}
+@attribute 'positive words hist bin 1' {'\'(-inf-0.152]\'','\'(0.152-inf)\''}
+@attribute 'positive words hist bin 2' {'\'(-inf-0.02105]\'','\'(0.02105-inf)\''}
+@attribute 'positive words hist bin 3' {'\'(-inf-0.00545]\'','\'(0.00545-inf)\''}
+@attribute 'positive words hist bin 4' {'\'(-inf-0.01055]\'','\'(0.01055-inf)\''}
+@attribute 'positive words hist bin 5' {'\'All\''}
+@attribute 'positive words hist bin 6' {'\'(-inf-0.00525]\'','\'(0.00525-inf)\''}
+@attribute 'positive words hist bin 7' {'\'(-inf-0.00515]\'','\'(0.00515-inf)\''}
+@attribute 'negative words frequency' {'\'(-inf-0.000535]\'','\'(0.000535-0.002665]\'','\'(0.002665-0.01375]\'','\'(0.01375-inf)\''}
+@attribute 'negative words mean' {'\'(-inf-0.001905]\'','\'(0.001905-inf)\''}
+@attribute 'negative words stddev' {'\'(-inf-0.005975]\'','\'(0.005975-0.0112]\'','\'(0.0112-inf)\''}
+@attribute 'negative words min' {'\'All\''}
+@attribute 'negative words max' {'\'(-inf-0.01885]\'','\'(0.01885-inf)\''}
+@attribute 'negative words dif' {'\'(-inf-0.01885]\'','\'(0.01885-inf)\''}
+@attribute 'negative words hist bin 0' {'\'(-inf-0.0532]\'','\'(0.0532-inf)\''}
+@attribute 'negative words hist bin 1' {'\'All\''}
+@attribute 'negative words hist bin 2' {'\'All\''}
+@attribute 'negative words hist bin 3' {'\'All\''}
+@attribute 'negative words hist bin 4' {'\'(-inf-0.01055]\'','\'(0.01055-inf)\''}
+@attribute 'negative words hist bin 5' {'\'All\''}
+@attribute 'negative words hist bin 6' {'\'(-inf-0.0053]\'','\'(0.0053-inf)\''}
+@attribute 'negative words hist bin 7' {'\'(-inf-0.01025]\'','\'(0.01025-inf)\''}
+@attribute 'hapiness words frequency' {'\'(-inf-0.00698]\'','\'(0.00698-inf)\''}
+@attribute 'hapiness words mean' {'\'(-inf-0.00855]\'','\'(0.00855-inf)\''}
+@attribute 'hapiness words stddev' {'\'(-inf-0.00355]\'','\'(0.00355-inf)\''}
+@attribute 'hapiness words min' {'\'(-inf-0.00643]\'','\'(0.00643-inf)\''}
+@attribute 'hapiness words max' {'\'(-inf-0.01975]\'','\'(0.01975-inf)\''}
+@attribute 'hapiness words dif' {'\'(-inf-0.01315]\'','\'(0.01315-inf)\''}
+@attribute 'hapiness words hist bin 0' {'\'(-inf-0.02125]\'','\'(0.02125-inf)\''}
+@attribute 'hapiness words hist bin 1' {'\'(-inf-0.0055]\'','\'(0.0055-inf)\''}
+@attribute 'hapiness words hist bin 2' {'\'(-inf-0.03095]\'','\'(0.03095-inf)\''}
+@attribute 'hapiness words hist bin 3' {'\'(-inf-0.1185]\'','\'(0.1185-inf)\''}
+@attribute 'hapiness words hist bin 4' {'\'(-inf-0.03665]\'','\'(0.03665-inf)\''}
+@attribute 'hapiness words hist bin 5' {'\'(-inf-0.0055]\'','\'(0.0055-inf)\''}
+@attribute 'hapiness words hist bin 6' {'\'(-inf-0.0051]\'','\'(0.0051-inf)\''}
+@attribute 'hapiness words hist bin 7' {'\'(-inf-0.00515]\'','\'(0.00515-inf)\''}
+@attribute 'happy words frequency' {'\'(-inf-0.001885]\'','\'(0.001885-inf)\''}
+@attribute 'adjectives frequency' {'\'All\''}
+@attribute 'adverbs frequency' {'\'(-inf-0.02285]\'','\'(0.02285-0.07855]\'','\'(0.07855-inf)\''}
+@attribute 'prepositions frequency' {'\'(-inf-0.1445]\'','\'(0.1445-inf)\''}
+@attribute 'pronouns frequency' {'\'(-inf-0.1015]\'','\'(0.1015-inf)\''}
+@attribute 'verbs frequency' {'\'(-inf-0.02615]\'','\'(0.02615-inf)\''}
+@attribute 'verbs that are nouns frequency' {'\'(-inf-0.02885]\'','\'(0.02885-inf)\''}
+@attribute 'sport frequency' {'\'(-inf-0.0251]\'','\'(0.0251-inf)\''}
+@attribute 'math frequency' {'\'(-inf-0.00128]\'','\'(0.00128-0.002205]\'','\'(0.002205-inf)\''}
+@attribute 'science frequency' {'\'(-inf-0.000365]\'','\'(0.000365-inf)\''}
+@attribute 'science fields frequency' {'\'All\''}
+@attribute 'US states frequency' {'\'(-inf-0.000234]\'','\'(0.000234-inf)\''}
+@attribute 'shapes frequency' {'\'(-inf-0.000358]\'','\'(0.000358-0.007655]\'','\'(0.007655-inf)\''}
+@attribute 'school frequency' {'\'All\''}
+@attribute 'lanuages frequency' {'\'All\''}
+@attribute 'elections frequency' {'\'(-inf-0.000382]\'','\'(0.000382-0.01625]\'','\'(0.01625-inf)\''}
+@attribute 'food frequency' {'\'(-inf-0.001295]\'','\'(0.001295-inf)\''}
+@attribute 'money frequency' {'\'(-inf-0.000334]\'','\'(0.000334-0.002815]\'','\'(0.002815-inf)\''}
+@attribute 'driving frequency' {'\'(-inf-0.000715]\'','\'(0.000715-inf)\''}
+@attribute 'military frequency' {'\'(-inf-0.00079]\'','\'(0.00079-inf)\''}
+@attribute 'law frequency' {'\'(-inf-0.000419]\'','\'(0.000419-0.00835]\'','\'(0.00835-inf)\''}
+@attribute 'countries frequency' {'\'(-inf-0.00226]\'','\'(0.00226-inf)\''}
+@attribute 'emotions frequency' {'\'(-inf-0.000665]\'','\'(0.000665-0.02885]\'','\'(0.02885-inf)\''}
+@attribute 'dance frequency' {'\'(-inf-0.000424]\'','\'(0.000424-inf)\''}
+@attribute 'boats frequency' {'\'(-inf-0.00128]\'','\'(0.00128-0.0376]\'','\'(0.0376-inf)\''}
+@attribute 'energy frequency' {'\'(-inf-0.000349]\'','\'(0.000349-inf)\''}
+@attribute 'familiy frequency' {'\'(-inf-0.000418]\'','\'(0.000418-0.00237]\'','\'(0.00237-inf)\''}
+@attribute 'musical instruments frequency' {'\'(-inf-0.00128]\'','\'(0.00128-inf)\''}
+@attribute 'music frequency' {'\'(-inf-0.000745]\'','\'(0.000745-0.04825]\'','\'(0.04825-inf)\''}
+@attribute 'land forms frequency' {'\'(-inf-0.00065]\'','\'(0.00065-0.03565]\'','\'(0.03565-inf)\''}
+@attribute 'art frequency' {'\'(-inf-0.00073]\'','\'(0.00073-inf)\''}
+@attribute 'astronomy frequency' {'\'(-inf-0.00083]\'','\'(0.00083-inf)\''}
+@attribute 'colors frequency' {'\'(-inf-0.000431]\'','\'(0.000431-0.004215]\'','\'(0.004215-inf)\''}
+@attribute 'animals frequency' {'\'(-inf-0.00106]\'','\'(0.00106-inf)\''}
+@attribute 'dogs frequency' {'\'All\''}
+@attribute 'cats frequency' {'\'All\''}
+@attribute 'fish frequency' {'\'(-inf-0.000234]\'','\'(0.000234-0.004705]\'','\'(0.004705-inf)\''}
+@attribute 'birds frequency' {'\'(-inf-0.000385]\'','\'(0.000385-0.005835]\'','\'(0.005835-inf)\''}
+@attribute 'reptiles frequency' {'\'All\''}
+@attribute 'insects frequency' {'\'(-inf-0.000349]\'','\'(0.000349-inf)\''}
+@attribute 'cars frequency' {'\'(-inf-0.000227]\'','\'(0.000227-0.002915]\'','\'(0.002915-inf)\''}
+@attribute 'car parts frequency' {'\'(-inf-0.000499]\'','\'(0.000499-inf)\''}
+@attribute 'beach frequency' {'\'(-inf-0.000645]\'','\'(0.000645-inf)\''}
+@attribute 'fall frequency' {'\'(-inf-0.000303]\'','\'(0.000303-0.003475]\'','\'(0.003475-inf)\''}
+@attribute 'spring frequency' {'\'(-inf-0.000385]\'','\'(0.000385-inf)\''}
+@attribute 'summer frequency' {'\'(-inf-0.000365]\'','\'(0.000365-inf)\''}
+@attribute 'winter frequency' {'\'(-inf-0.00128]\'','\'(0.00128-0.03845]\'','\'(0.03845-inf)\''}
+@attribute 'weather frequency' {'\'(-inf-0.002925]\'','\'(0.002925-inf)\''}
+@attribute 'vacation frequency' {'\'(-inf-0.000443]\'','\'(0.000443-0.02705]\'','\'(0.02705-inf)\''}
+@attribute 'medical frequency' {'\'(-inf-0.00065]\'','\'(0.00065-0.04245]\'','\'(0.04245-inf)\''}
+@attribute 'body frequency' {'\'(-inf-0.0012]\'','\'(0.0012-inf)\''}
+@attribute 'farm frequency' {'\'All\''}
+@attribute 'trees frequency' {'\'(-inf-0.000334]\'','\'(0.000334-0.004125]\'','\'(0.004125-inf)\''}
+@attribute 'transportation frequency' {'\'(-inf-0.001455]\'','\'(0.001455-inf)\''}
+@attribute 'time frequency' {'\'(-inf-0.001775]\'','\'(0.001775-inf)\''}
+@attribute 'clothing frequency' {'\'(-inf-0.00095]\'','\'(0.00095-inf)\''}
+@attribute 'shoes frequency' {'\'(-inf-0.000382]\'','\'(0.000382-inf)\''}
+@attribute 'hats frequency' {'\'(-inf-0.000331]\'','\'(0.000331-inf)\''}
+@attribute 'buildings frequency' {'\'(-inf-0.000645]\'','\'(0.000645-0.04345]\'','\'(0.04345-inf)\''}
+@attribute 'public buildings frequency' {'\'(-inf-0.000434]\'','\'(0.000434-0.01675]\'','\'(0.01675-inf)\''}
+@attribute 'birthday frequency' {'\'(-inf-0.00153]\'','\'(0.00153-inf)\''}
+@attribute 'monsters frequency' {'\'All\''}
+@attribute 'office frequency' {'\'(-inf-0.001495]\'','\'(0.001495-0.002365]\'','\'(0.002365-inf)\''}
+@attribute 'tools frequency' {'\'(-inf-0.001275]\'','\'(0.001275-0.0285]\'','\'(0.0285-inf)\''}
+@attribute 'camping frequency' {'\'All\''}
+@attribute 'fair frequency' {'\'(-inf-0.000415]\'','\'(0.000415-0.007155]\'','\'(0.007155-inf)\''}
+@attribute 'castles and kings and queens frequency' {'\'(-inf-0.000382]\'','\'(0.000382-inf)\''}
+@attribute 'circus frequency' {'\'(-inf-0.00171]\'','\'(0.00171-inf)\''}
+@attribute 'computer frequency' {'\'(-inf-0.01915]\'','\'(0.01915-inf)\''}
+@attribute 'cooking frequency' {'\'(-inf-0.000745]\'','\'(0.000745-inf)\''}
+@attribute 'kitchen frequency' {'\'(-inf-0.000745]\'','\'(0.000745-0.03485]\'','\'(0.03485-inf)\''}
+@attribute 'fruits frequency' {'\'All\''}
+@attribute 'geography frequency' {'\'(-inf-0.000435]\'','\'(0.000435-0.002415]\'','\'(0.002415-0.01385]\'','\'(0.01385-inf)\''}
+@attribute 'furnitures frequency' {'\'(-inf-0.00051]\'','\'(0.00051-inf)\''}
+@attribute 'occupation frequency' {'\'(-inf-0.001003]\'','\'(0.001003-0.01375]\'','\'(0.01375-inf)\''}
+@attribute 'leaders frequency' {'\'(-inf-0.001275]\'','\'(0.001275-inf)\''}
+@attribute 'house frequency' {'\'(-inf-0.001655]\'','\'(0.001655-inf)\''}
+@attribute 'restaurants frequency' {'\'(-inf-0.007405]\'','\'(0.007405-0.05585]\'','\'(0.05585-inf)\''}
+@attribute 'roads frequency' {'\'(-inf-0.0012]\'','\'(0.0012-0.02395]\'','\'(0.02395-inf)\''}
+@attribute 'rocks and minerals frequency' {'\'(-inf-0.000234]\'','\'(0.000234-0.005165]\'','\'(0.005165-inf)\''}
+@attribute 'weapons frequency' {'\'(-inf-0.000227]\'','\'(0.000227-inf)\''}
+@attribute 'measurements frequency' {'\'(-inf-0.00128]\'','\'(0.00128-0.04275]\'','\'(0.04275-inf)\''}
+@attribute 'containers frequency' {'\'(-inf-0.001155]\'','\'(0.001155-0.006935]\'','\'(0.006935-inf)\''}
+@attribute 'acquaintances frequency' {'\'(-inf-0.000449]\'','\'(0.000449-0.002715]\'','\'(0.002715-inf)\''}
+@attribute 'yard frequency' {'\'(-inf-0.001495]\'','\'(0.001495-inf)\''}
+@attribute 'flowers frequency' {'\'All\''}
+@attribute 'acronyms frequency' {'\'(-inf-0.00759]\'','\'(0.00759-inf)\''}
+@attribute 'self frequency' {'\'(-inf-0.0232]\'','\'(0.0232-inf)\''}
+@attribute 'female frequency' {'\'(-inf-0.002045]\'','\'(0.002045-0.03935]\'','\'(0.03935-inf)\''}
+@attribute 'male frequency' {'\'(-inf-0.001033]\'','\'(0.001033-0.08015]\'','\'(0.08015-inf)\''}
+@attribute 'Soundex diversity' {'\'(-inf-0.3835]\'','\'(0.3835-0.4325]\'','\'(0.4325-inf)\''}
+@attribute 'Soundex homogeneity mean' {'\'(-inf-0.00955]\'','\'(0.00955-0.09955]\'','\'(0.09955-inf)\''}
+@attribute 'Soundex homogeneity StdDev' {'\'(-inf-0.0076]\'','\'(0.0076-0.04905]\'','\'(0.04905-inf)\''}
+@attribute 'Soundex homogeneity maximum' {'\'(-inf-0.0369]\'','\'(0.0369-0.168]\'','\'(0.168-inf)\''}
+@attribute 'Soundex homoganity hist bin 0' {'\'(-inf-0.07415]\'','\'(0.07415-0.402]\'','\'(0.402-inf)\''}
+@attribute 'Soundex homoganity hist bin 1' {'\'(-inf-0.00875]\'','\'(0.00875-0.2585]\'','\'(0.2585-0.4305]\'','\'(0.4305-inf)\''}
+@attribute 'Soundex homoganity hist bin 2' {'\'(-inf-0.0138]\'','\'(0.0138-0.21]\'','\'(0.21-inf)\''}
+@attribute 'Soundex homoganity hist bin 3' {'\'All\''}
+@attribute 'Soundex homoganity hist bin 4' {'\'(-inf-0.00515]\'','\'(0.00515-0.032]\'','\'(0.032-0.0978]\'','\'(0.0978-0.293]\'','\'(0.293-inf)\''}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+FFT mean = '(-inf-108.5]'
+|   Quotations number = '(-inf-1]'
+|   |   Frequency of single quotes = '(-inf-0.01865]'
+|   |   |   Word homoganity hist bin 6 = '(-inf-0.00329]': Low_Artists (189.0/12.0)
+|   |   |   Word homoganity hist bin 6 = '(0.00329-inf)'
+|   |   |   |   FFT histogram bin 1 = '(-inf-0.8295]': Low_Artists (0.0)
+|   |   |   |   FFT histogram bin 1 = '(0.8295-0.9905]': Low_Artists (4.0)
+|   |   |   |   FFT histogram bin 1 = '(0.9905-inf)': Top_Artists (3.0)
+|   |   Frequency of single quotes = '(0.01865-0.07585]'
+|   |   |   Frequency of question mark = '(-inf-0.000489]': Low_Artists (126.0/10.0)
+|   |   |   Frequency of question mark = '(0.000489-inf)'
+|   |   |   |   Frequency of apostepe = '(-inf-0.0344]': Low_Artists (16.0)
+|   |   |   |   Frequency of apostepe = '(0.0344-inf)'
+|   |   |   |   |   castles and kings and queens frequency = '(-inf-0.000382]'
+|   |   |   |   |   |   Sentence length hist bin 2 = '(-inf-0.0143]': Low_Artists (9.0)
+|   |   |   |   |   |   Sentence length hist bin 2 = '(0.0143-inf)'
+|   |   |   |   |   |   |   male frequency = '(-inf-0.001033]'
+|   |   |   |   |   |   |   |   hapiness words frequency = '(-inf-0.00698]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   hapiness words frequency = '(0.00698-inf)'
+|   |   |   |   |   |   |   |   |   summer frequency = '(-inf-0.000365]': Low_Artists (12.0/1.0)
+|   |   |   |   |   |   |   |   |   summer frequency = '(0.000365-inf)': Top_Artists (4.0/1.0)
+|   |   |   |   |   |   |   male frequency = '(0.001033-0.08015]': Top_Artists (5.0)
+|   |   |   |   |   |   |   male frequency = '(0.08015-inf)': Low_Artists (0.0)
+|   |   |   |   |   castles and kings and queens frequency = '(0.000382-inf)': Top_Artists (6.0/2.0)
+|   |   Frequency of single quotes = '(0.07585-inf)'
+|   |   |   music frequency = '(-inf-0.000745]'
+|   |   |   |   Word homogeneity StdDev = '(-inf-0.014]'
+|   |   |   |   |   Sentence length character mean = '(-inf-26.65]': Top_Artists (3.0)
+|   |   |   |   |   Sentence length character mean = '(26.65-29.15]': Low_Artists (0.0)
+|   |   |   |   |   Sentence length character mean = '(29.15-inf)': Low_Artists (5.0/1.0)
+|   |   |   |   Word homogeneity StdDev = '(0.014-0.04835]': Top_Artists (3.0/1.0)
+|   |   |   |   Word homogeneity StdDev = '(0.04835-inf)': Low_Artists (17.0)
+|   |   |   music frequency = '(0.000745-0.04825]'
+|   |   |   |   computer frequency = '(-inf-0.01915]'
+|   |   |   |   |   Use of upper case = '(-inf-0.02955]': Low_Artists (6.0)
+|   |   |   |   |   Use of upper case = '(0.02955-0.05045]'
+|   |   |   |   |   |   Soundex homogeneity StdDev = '(-inf-0.0076]': Top_Artists (1.0)
+|   |   |   |   |   |   Soundex homogeneity StdDev = '(0.0076-0.04905]': Low_Artists (8.0/1.0)
+|   |   |   |   |   |   Soundex homogeneity StdDev = '(0.04905-inf)'
+|   |   |   |   |   |   |   Sentence length hist bin 2 = '(-inf-0.0143]': Low_Artists (2.0)
+|   |   |   |   |   |   |   Sentence length hist bin 2 = '(0.0143-inf)'
+|   |   |   |   |   |   |   |   energy frequency = '(-inf-0.000349]'
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 3 = '(-inf-0.01225]': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 3 = '(0.01225-inf)'
+|   |   |   |   |   |   |   |   |   |   Word diversity = '(-inf-0.5035]'
+|   |   |   |   |   |   |   |   |   |   |   vacation frequency = '(-inf-0.000443]': Top_Artists (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   vacation frequency = '(0.000443-0.02705]': Low_Artists (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   vacation frequency = '(0.02705-inf)': Top_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   Word diversity = '(0.5035-inf)': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   energy frequency = '(0.000349-inf)': Top_Artists (11.0)
+|   |   |   |   |   Use of upper case = '(0.05045-inf)'
+|   |   |   |   |   |   Word homoganity hist bin 7 = '(-inf-0.00357]': Low_Artists (2.0)
+|   |   |   |   |   |   Word homoganity hist bin 7 = '(0.00357-0.05335]': Top_Artists (4.0/1.0)
+|   |   |   |   |   |   Word homoganity hist bin 7 = '(0.05335-0.1155]': Low_Artists (5.0)
+|   |   |   |   |   |   Word homoganity hist bin 7 = '(0.1155-inf)': Low_Artists (0.0)
+|   |   |   |   computer frequency = '(0.01915-inf)': Low_Artists (6.0)
+|   |   |   music frequency = '(0.04825-inf)': Low_Artists (15.0)
+|   Quotations number = '(1-inf)'
+|   |   Word length mean = '(-inf-4.025]'
+|   |   |   Word repetition span 3 = '(-inf-0.00293]': Low_Artists (2.0)
+|   |   |   Word repetition span 3 = '(0.00293-0.08615]'
+|   |   |   |   FFT histogram bin 2 = '(-inf-0.007015]'
+|   |   |   |   |   summer frequency = '(-inf-0.000365]'
+|   |   |   |   |   |   containers frequency = '(-inf-0.001155]': Low_Artists (4.0)
+|   |   |   |   |   |   containers frequency = '(0.001155-0.006935]': Top_Artists (2.0)
+|   |   |   |   |   |   containers frequency = '(0.006935-inf)': Low_Artists (5.0)
+|   |   |   |   |   summer frequency = '(0.000365-inf)': Top_Artists (3.0)
+|   |   |   |   FFT histogram bin 2 = '(0.007015-inf)': Top_Artists (3.0)
+|   |   |   Word repetition span 3 = '(0.08615-inf)': Top_Artists (6.0)
+|   |   Word length mean = '(4.025-inf)': Low_Artists (7.0)
+FFT mean = '(108.5-183.5]'
+|   self frequency = '(-inf-0.0232]': Low_Artists (33.0/2.0)
+|   self frequency = '(0.0232-inf)'
+|   |   Frequency of exclamation = '(-inf-0.01115]'
+|   |   |   Coleman�Liau index = '(-inf--2.565]': Low_Artists (10.0/1.0)
+|   |   |   Coleman�Liau index = '(-2.565-inf)'
+|   |   |   |   Frequency of single quotes = '(-inf-0.01865]'
+|   |   |   |   |   Quotation length stddev = '(-inf-0.3435]': Low_Artists (79.0/9.0)
+|   |   |   |   |   Quotation length stddev = '(0.3435-inf)': Top_Artists (2.0)
+|   |   |   |   Frequency of single quotes = '(0.01865-0.07585]'
+|   |   |   |   |   Words of length 4 = '(-inf-0.1545]'
+|   |   |   |   |   |   cars frequency = '(-inf-0.000227]': Top_Artists (8.0)
+|   |   |   |   |   |   cars frequency = '(0.000227-0.002915]': Top_Artists (0.0)
+|   |   |   |   |   |   cars frequency = '(0.002915-inf)': Low_Artists (2.0)
+|   |   |   |   |   Words of length 4 = '(0.1545-inf)'
+|   |   |   |   |   |   Word diversity = '(-inf-0.5035]'
+|   |   |   |   |   |   |   FFT histogram bin 2 = '(-inf-0.007015]'
+|   |   |   |   |   |   |   |   birds frequency = '(-inf-0.000385]'
+|   |   |   |   |   |   |   |   |   pronouns frequency = '(-inf-0.1015]': Top_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   pronouns frequency = '(0.1015-inf)'
+|   |   |   |   |   |   |   |   |   |   acronyms frequency = '(-inf-0.00759]': Low_Artists (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   acronyms frequency = '(0.00759-inf)'
+|   |   |   |   |   |   |   |   |   |   |   Words of length 7 = '(-inf-0.00079]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   Words of length 7 = '(0.00079-0.0742]'
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homogeneity maximum = '(-inf-0.0369]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homogeneity maximum = '(0.0369-0.168]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers = '(-inf-5.79]': Low_Artists (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers = '(5.79-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words = '(-inf-245.5]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words = '(245.5-348.5]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words = '(348.5-inf)': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homogeneity maximum = '(0.168-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 11 = '(-inf-0.000382]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum = '(-inf-0.03755]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum = '(0.03755-0.142]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum = '(0.142-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotations number = '(-inf-1]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   time frequency = '(-inf-0.001775]': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   time frequency = '(0.001775-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   positive words frequency = '(-inf-0.001825]': Top_Artists (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   positive words frequency = '(0.001825-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe = '(-inf-0.0344]': Low_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe = '(0.0344-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(-inf-0.000745]': Top_Artists (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(0.000745-0.04825]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   boats frequency = '(-inf-0.00128]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   boats frequency = '(0.00128-0.0376]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   science frequency = '(-inf-0.000365]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   kitchen frequency = '(-inf-0.000745]': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   kitchen frequency = '(0.000745-0.03485]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fall frequency = '(-inf-0.000303]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 = '(-inf-0.00373]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(-inf-0.07025]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(0.07025-0.1715]': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(0.1715-inf)': Top_Artists (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 = '(0.00373-0.208]': Low_Artists (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 = '(0.208-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fall frequency = '(0.000303-0.003475]': Top_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fall frequency = '(0.003475-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 = '(-inf-0.003405]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 = '(0.003405-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   kitchen frequency = '(0.03485-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   science frequency = '(0.000365-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   boats frequency = '(0.0376-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(0.04825-inf)': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotations number = '(1-inf)': Top_Artists (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 11 = '(0.000382-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency = '(-inf-0.000418]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency = '(0.000418-0.00237]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency = '(0.00237-inf)': Top_Artists (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Words of length 7 = '(0.0742-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(-inf-0.07025]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(0.07025-0.1715]': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(0.1715-inf)': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   birds frequency = '(0.000385-0.005835]'
+|   |   |   |   |   |   |   |   |   medical frequency = '(-inf-0.00065]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   medical frequency = '(0.00065-0.04245]'
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(-inf-0.2065]': Top_Artists (14.0)
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(0.2065-inf)'
+|   |   |   |   |   |   |   |   |   |   |   energy frequency = '(-inf-0.000349]': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   energy frequency = '(0.000349-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   medical frequency = '(0.04245-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   birds frequency = '(0.005835-inf)'
+|   |   |   |   |   |   |   |   |   sport frequency = '(-inf-0.0251]': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   sport frequency = '(0.0251-inf)'
+|   |   |   |   |   |   |   |   |   |   tools frequency = '(-inf-0.001275]': Top_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   tools frequency = '(0.001275-0.0285]'
+|   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 = '(-inf-0.0077]'
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(-inf-0.2065]': Top_Artists (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(0.2065-inf)': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 = '(0.0077-inf)': Low_Artists (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   tools frequency = '(0.0285-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   FFT histogram bin 2 = '(0.007015-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   Word diversity = '(0.5035-inf)'
+|   |   |   |   |   |   |   fish frequency = '(-inf-0.000234]'
+|   |   |   |   |   |   |   |   Word homogeneity maximum = '(-inf-0.03755]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   Word homogeneity maximum = '(0.03755-0.142]'
+|   |   |   |   |   |   |   |   |   Total number of words = '(-inf-245.5]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   Total number of words = '(245.5-348.5]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   Total number of words = '(348.5-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   Word homogeneity maximum = '(0.142-inf)': Low_Artists (17.0)
+|   |   |   |   |   |   |   fish frequency = '(0.000234-0.004705]': Top_Artists (4.0/1.0)
+|   |   |   |   |   |   |   fish frequency = '(0.004705-inf)': Low_Artists (3.0/1.0)
+|   |   |   |   Frequency of single quotes = '(0.07585-inf)'
+|   |   |   |   |   positive words frequency = '(-inf-0.001825]': Top_Artists (3.0)
+|   |   |   |   |   positive words frequency = '(0.001825-inf)'
+|   |   |   |   |   |   Use of upper case = '(-inf-0.02955]'
+|   |   |   |   |   |   |   Use of numbers = '(-inf-0.000452]': Low_Artists (4.0/1.0)
+|   |   |   |   |   |   |   Use of numbers = '(0.000452-inf)': Top_Artists (7.0)
+|   |   |   |   |   |   Use of upper case = '(0.02955-0.05045]'
+|   |   |   |   |   |   |   Automated readability index = '(-inf--2.915]': Low_Artists (2.0)
+|   |   |   |   |   |   |   Automated readability index = '(-2.915-inf)'
+|   |   |   |   |   |   |   |   Words of length 6 = '(-inf-0.1005]'
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 1 = '(-inf-0.008785]': Top_Artists (14.0/1.0)
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 1 = '(0.008785-inf)'
+|   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(-inf-0.1965]': Low_Artists (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(0.1965-0.4565]'
+|   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(-inf-0.007405]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.007405-0.05585]'
+|   |   |   |   |   |   |   |   |   |   |   |   prepositions frequency = '(-inf-0.1445]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 7 = '(-inf-0.00079]': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 7 = '(0.00079-0.0742]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   measurements frequency = '(-inf-0.00128]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   measurements frequency = '(0.00128-0.04275]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency = '(-inf-0.001295]': Top_Artists (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency = '(0.001295-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity = '(-inf-0.00553]': Low_Artists (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity = '(0.00553-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 = '(-inf-0.0976]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 = '(0.0976-0.2355]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   law frequency = '(-inf-0.000419]': Top_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   law frequency = '(0.000419-0.00835]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   law frequency = '(0.00835-inf)': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 = '(0.2355-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   measurements frequency = '(0.04275-inf)': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 7 = '(0.0742-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   prepositions frequency = '(0.1445-inf)': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.05585-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(0.4565-inf)'
+|   |   |   |   |   |   |   |   |   |   |   spring frequency = '(-inf-0.000385]'
+|   |   |   |   |   |   |   |   |   |   |   |   hats frequency = '(-inf-0.000331]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(-inf-0.0251]': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(0.0251-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   shoes frequency = '(-inf-0.000382]': Low_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   shoes frequency = '(0.000382-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   summer frequency = '(-inf-0.000365]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   summer frequency = '(0.000365-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   hats frequency = '(0.000331-inf)': Top_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   |   spring frequency = '(0.000385-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(-inf-0.000745]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(0.000745-0.04825]': Top_Artists (26.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(0.04825-inf)': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   Words of length 6 = '(0.1005-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   Use of upper case = '(0.05045-inf)': Low_Artists (21.0/3.0)
+|   |   Frequency of exclamation = '(0.01115-inf)': Low_Artists (17.0/1.0)
+FFT mean = '(183.5-inf)'
+|   Frequency of exclamation = '(-inf-0.01115]'
+|   |   Word diversity = '(-inf-0.5035]'
+|   |   |   Words of length 1 = '(-inf-0.0375]': Top_Artists (11.0)
+|   |   |   Words of length 1 = '(0.0375-inf)'
+|   |   |   |   weather frequency = '(-inf-0.002925]'
+|   |   |   |   |   Frequency of single quotes = '(-inf-0.01865]': Low_Artists (3.0)
+|   |   |   |   |   Frequency of single quotes = '(0.01865-0.07585]'
+|   |   |   |   |   |   summer frequency = '(-inf-0.000365]': Low_Artists (6.0)
+|   |   |   |   |   |   summer frequency = '(0.000365-inf)': Top_Artists (3.0/1.0)
+|   |   |   |   |   Frequency of single quotes = '(0.07585-inf)': Top_Artists (3.0)
+|   |   |   |   weather frequency = '(0.002925-inf)'
+|   |   |   |   |   negative words stddev = '(-inf-0.005975]'
+|   |   |   |   |   |   Word repetition span 11 = '(-inf-0.0976]'
+|   |   |   |   |   |   |   vacation frequency = '(-inf-0.000443]': Top_Artists (3.0)
+|   |   |   |   |   |   |   vacation frequency = '(0.000443-0.02705]'
+|   |   |   |   |   |   |   |   fish frequency = '(-inf-0.000234]': Low_Artists (8.0/1.0)
+|   |   |   |   |   |   |   |   fish frequency = '(0.000234-0.004705]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   fish frequency = '(0.004705-inf)': Low_Artists (0.0)
+|   |   |   |   |   |   |   vacation frequency = '(0.02705-inf)': Low_Artists (0.0)
+|   |   |   |   |   |   Word repetition span 11 = '(0.0976-0.2355]'
+|   |   |   |   |   |   |   Words of length 7 = '(-inf-0.00079]': Top_Artists (0.0)
+|   |   |   |   |   |   |   Words of length 7 = '(0.00079-0.0742]'
+|   |   |   |   |   |   |   |   Sentence length hist bin 2 = '(-inf-0.0143]'
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 6 = '(-inf-0.00329]': Low_Artists (10.0)
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 6 = '(0.00329-inf)': Top_Artists (4.0/1.0)
+|   |   |   |   |   |   |   |   Sentence length hist bin 2 = '(0.0143-inf)'
+|   |   |   |   |   |   |   |   |   Words of length 6 = '(-inf-0.1005]'
+|   |   |   |   |   |   |   |   |   |   hapiness words frequency = '(-inf-0.00698]': Low_Artists (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   hapiness words frequency = '(0.00698-inf)'
+|   |   |   |   |   |   |   |   |   |   |   Words of length 8 = '(-inf-0.00188]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Words of length 8 = '(0.00188-0.04825]'
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 3 = '(-inf-0.00293]': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 3 = '(0.00293-0.08615]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency = '(-inf-0.000418]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   leaders frequency = '(-inf-0.001275]': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   leaders frequency = '(0.001275-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(-inf-0.2065]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(-inf-0.007405]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.007405-0.05585]': Low_Artists (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.05585-inf)': Top_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(0.2065-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency = '(0.000418-0.00237]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation length stddev = '(-inf-0.3435]': Top_Artists (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation length stddev = '(0.3435-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers = '(-inf-5.79]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers = '(5.79-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency = '(0.00237-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   military frequency = '(-inf-0.00079]': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   military frequency = '(0.00079-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case = '(-inf-0.02955]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 = '(-inf-0.8295]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 = '(0.8295-0.9905]': Low_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 = '(0.9905-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes = '(-inf-0.01865]': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes = '(0.01865-0.07585]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   science frequency = '(-inf-0.000365]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   science frequency = '(0.000365-inf)': Low_Artists (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes = '(0.07585-inf)': Top_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case = '(0.02955-0.05045]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   computer frequency = '(-inf-0.01915]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   birthday frequency = '(-inf-0.00153]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   male frequency = '(-inf-0.001033]': Top_Artists (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   male frequency = '(0.001033-0.08015]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ,Frequency of double quotes = '(-inf-0.00139]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ,Frequency of double quotes = '(0.00139-inf)': Top_Artists (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   male frequency = '(0.08015-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   birthday frequency = '(0.00153-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   insects frequency = '(-inf-0.000349]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   vacation frequency = '(-inf-0.000443]': Top_Artists (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   vacation frequency = '(0.000443-0.02705]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 = '(-inf-0.1475]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev = '(-inf-126.5]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev = '(126.5-186.5]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev = '(186.5-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   leaders frequency = '(-inf-0.001275]': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   leaders frequency = '(0.001275-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 2 = '(-inf-0.007015]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency = '(-inf-0.00128]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency = '(0.00128-0.03845]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe = '(-inf-0.0344]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe = '(0.0344-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   law frequency = '(-inf-0.000419]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colors frequency = '(-inf-0.000431]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   geography frequency = '(-inf-0.000435]': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   geography frequency = '(0.000435-0.002415]': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   geography frequency = '(0.002415-0.01385]': Top_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   geography frequency = '(0.01385-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colors frequency = '(0.000431-0.004215]': Top_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colors frequency = '(0.004215-inf)': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   law frequency = '(0.000419-0.00835]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(-inf-0.07025]': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(0.07025-0.1715]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency = '(-inf-0.001295]': Low_Artists (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency = '(0.001295-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 = '(-inf-0.03545]': Top_Artists (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 = '(0.03545-0.3425]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency = '(-inf-0.002045]': Low_Artists (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency = '(0.002045-0.03935]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation length stddev = '(-inf-0.3435]': Top_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation length stddev = '(0.3435-inf)': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency = '(0.03935-inf)': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 = '(0.3425-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 = '(0.1715-inf)': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   law frequency = '(0.00835-inf)': Low_Artists (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency = '(0.03845-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 2 = '(0.007015-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 = '(0.1475-inf)': Low_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   vacation frequency = '(0.02705-inf)': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   insects frequency = '(0.000349-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(-inf-0.0251]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words = '(-inf-245.5]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words = '(245.5-348.5]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words = '(348.5-inf)': Low_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(0.0251-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   house frequency = '(-inf-0.001655]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 9 = '(-inf-0.000495]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 9 = '(0.000495-0.01575]': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 9 = '(0.01575-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   house frequency = '(0.001655-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   transportation frequency = '(-inf-0.001455]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotations number = '(-inf-1]': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotations number = '(1-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   transportation frequency = '(0.001455-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(-inf-0.007405]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.007405-0.05585]': Top_Artists (99.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.05585-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 5 = '(-inf-0.0155]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency = '(-inf-0.000234]': Low_Artists (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency = '(0.000234-0.005165]': Top_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency = '(0.005165-inf)': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 5 = '(0.0155-0.2155]': Top_Artists (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 5 = '(0.2155-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   computer frequency = '(0.01915-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 = '(-inf-0.0121]': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 = '(0.0121-0.312]': Low_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 = '(0.312-inf)': Top_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case = '(0.05045-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency = '(-inf-0.002045]': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency = '(0.002045-0.03935]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   dance frequency = '(-inf-0.000424]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   dance frequency = '(0.000424-inf)': Top_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency = '(0.03935-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 3 = '(0.08615-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of question mark = '(-inf-0.000489]': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of question mark = '(0.000489-inf)': Low_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Words of length 8 = '(0.04825-inf)': Top_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Words of length 6 = '(0.1005-inf)'
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 = '(-inf-0.00357]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 = '(0.00357-0.05335]'
+|   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(-inf-0.007405]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.007405-0.05585]': Low_Artists (11.0)
+|   |   |   |   |   |   |   |   |   |   |   restaurants frequency = '(0.05585-inf)': Top_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 = '(0.05335-0.1155]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 = '(0.1155-inf)': Low_Artists (0.0)
+|   |   |   |   |   |   |   Words of length 7 = '(0.0742-inf)': Low_Artists (7.0/1.0)
+|   |   |   |   |   |   Word repetition span 11 = '(0.2355-inf)'
+|   |   |   |   |   |   |   Coleman�Liau index = '(-inf--2.565]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   Coleman�Liau index = '(-2.565-inf)'
+|   |   |   |   |   |   |   |   Sentence length mean = '(-inf-5.145]': Low_Artists (5.0)
+|   |   |   |   |   |   |   |   Sentence length mean = '(5.145-6.195]'
+|   |   |   |   |   |   |   |   |   Word homogeneity mean = '(-inf-0.0089]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   Word homogeneity mean = '(0.0089-0.08565]'
+|   |   |   |   |   |   |   |   |   |   Words of length 2 = '(-inf-0.1405]': Low_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   Words of length 2 = '(0.1405-inf)'
+|   |   |   |   |   |   |   |   |   |   |   art frequency = '(-inf-0.00073]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   art frequency = '(0.00073-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(-inf-0.1965]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(0.1965-0.4565]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy frequency = '(-inf-0.000349]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 = '(-inf-0.03545]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 = '(0.03545-0.3425]': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 = '(0.3425-inf)': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy frequency = '(0.000349-inf)': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(0.4565-inf)': Top_Artists (9.0)
+|   |   |   |   |   |   |   |   |   Word homogeneity mean = '(0.08565-inf)': Top_Artists (8.0)
+|   |   |   |   |   |   |   |   Sentence length mean = '(6.195-inf)'
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 3 = '(-inf-0.01225]'
+|   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(-inf-0.1965]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(0.1965-0.4565]': Low_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Word repetition span 17 = '(0.4565-inf)': Top_Artists (7.0/1.0)
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 3 = '(0.01225-inf)'
+|   |   |   |   |   |   |   |   |   |   FFT stddev = '(-inf-126.5]': Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   FFT stddev = '(126.5-186.5]': Top_Artists (43.0/2.0)
+|   |   |   |   |   |   |   |   |   |   FFT stddev = '(186.5-inf)'
+|   |   |   |   |   |   |   |   |   |   |   ,Frequency of double quotes = '(-inf-0.00139]'
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(-inf-0.000745]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(0.000745-0.04825]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   medical frequency = '(-inf-0.00065]': Low_Artists (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   medical frequency = '(0.00065-0.04245]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   car parts frequency = '(-inf-0.000499]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   containers frequency = '(-inf-0.001155]': Low_Artists (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   containers frequency = '(0.001155-0.006935]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   adverbs frequency = '(-inf-0.02285]': Top_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   adverbs frequency = '(0.02285-0.07855]': Top_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   adverbs frequency = '(0.07855-inf)': Low_Artists (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   containers frequency = '(0.006935-inf)': Low_Artists (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   car parts frequency = '(0.000499-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fall frequency = '(-inf-0.000303]': Top_Artists (75.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fall frequency = '(0.000303-0.003475]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio = '(-inf-0.0691]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio = '(0.0691-0.1315]': Low_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio = '(0.1315-0.1935]': Low_Artists (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio = '(0.1935-inf)': Top_Artists (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fall frequency = '(0.003475-inf)': Top_Artists (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   medical frequency = '(0.04245-inf)': Low_Artists (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency = '(0.04825-inf)': Top_Artists (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   ,Frequency of double quotes = '(0.00139-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   leaders frequency = '(-inf-0.001275]': Top_Artists (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   leaders frequency = '(0.001275-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   military frequency = '(-inf-0.00079]': Top_Artists (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   military frequency = '(0.00079-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   body frequency = '(-inf-0.0012]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(-inf-0.0251]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(0.0251-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   castles and kings and queens frequency = '(-inf-0.000382]': Top_Artists (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   castles and kings and queens frequency = '(0.000382-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency = '(-inf-0.000535]': Low_Artists (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency = '(0.000535-0.002665]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency = '(0.002665-0.01375]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency = '(-inf-0.000334]': Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency = '(0.000334-0.002815]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency = '(0.002815-inf)': Top_Artists (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency = '(0.01375-inf)': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   body frequency = '(0.0012-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 = '(-inf-0.1475]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case = '(-inf-0.02955]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency = '(-inf-0.000665]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency = '(0.000665-0.02885]': Top_Artists (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency = '(0.02885-inf)': Low_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case = '(0.02955-0.05045]': Top_Artists (281.0/35.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case = '(0.05045-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(-inf-0.2065]': Top_Artists (19.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 = '(0.2065-inf)': Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 = '(0.1475-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes = '(-inf-0.01865]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes = '(0.01865-0.07585]': Low_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes = '(0.07585-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(-inf-0.0251]': Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency = '(0.0251-inf)'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 = '(-inf-0.8295]': Top_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 = '(0.8295-0.9905]'
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   birds frequency = '(-inf-0.000385]': Low_Artists (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   birds frequency = '(0.000385-0.005835]': Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   birds frequency = '(0.005835-inf)': Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 = '(0.9905-inf)': Top_Artists (12.0/1.0)
+|   |   |   |   |   negative words stddev = '(0.005975-0.0112]': Top_Artists (35.0)
+|   |   |   |   |   negative words stddev = '(0.0112-inf)'
+|   |   |   |   |   |   Frequency of open parenthesis = '(-inf-0.002685]': Low_Artists (8.0/1.0)
+|   |   |   |   |   |   Frequency of open parenthesis = '(0.002685-inf)': Top_Artists (17.0)
+|   |   Word diversity = '(0.5035-inf)'
+|   |   |   Word homoganity hist bin 0 = '(-inf-0.0168]': Low_Artists (0.0)
+|   |   |   Word homoganity hist bin 0 = '(0.0168-0.3765]'
+|   |   |   |   winter frequency = '(-inf-0.00128]': Low_Artists (0.0)
+|   |   |   |   winter frequency = '(0.00128-0.03845]'
+|   |   |   |   |   emotions frequency = '(-inf-0.000665]': Top_Artists (1.0)
+|   |   |   |   |   emotions frequency = '(0.000665-0.02885]'
+|   |   |   |   |   |   male frequency = '(-inf-0.001033]': Top_Artists (2.0)
+|   |   |   |   |   |   male frequency = '(0.001033-0.08015]'
+|   |   |   |   |   |   |   castles and kings and queens frequency = '(-inf-0.000382]'
+|   |   |   |   |   |   |   |   female frequency = '(-inf-0.002045]': Low_Artists (6.0/1.0)
+|   |   |   |   |   |   |   |   female frequency = '(0.002045-0.03935]': Top_Artists (2.0)
+|   |   |   |   |   |   |   |   female frequency = '(0.03935-inf)': Top_Artists (1.0)
+|   |   |   |   |   |   |   castles and kings and queens frequency = '(0.000382-inf)': Low_Artists (15.0)
+|   |   |   |   |   |   male frequency = '(0.08015-inf)': Low_Artists (0.0)
+|   |   |   |   |   emotions frequency = '(0.02885-inf)': Low_Artists (3.0)
+|   |   |   |   winter frequency = '(0.03845-inf)': Top_Artists (2.0)
+|   |   |   Word homoganity hist bin 0 = '(0.3765-inf)': Top_Artists (3.0)
+|   Frequency of exclamation = '(0.01115-inf)': Low_Artists (36.0/7.0)
+
+Number of Leaves  : 	299
+
+Size of the tree : 	495
+
+
+Time taken to build model: 0.63 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1516               66.1431 %
+Incorrectly Classified Instances       776               33.8569 %
+Kappa statistic                          0.3228
+Mean absolute error                      0.3637
+Root mean squared error                  0.5434
+Relative absolute error                 72.7485 %
+Root relative squared error            108.6753 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.670    0.347    0.661      0.670    0.665      0.323    0.652     0.608     Low_Artists
+                 0.653    0.330    0.662      0.653    0.658      0.323    0.652     0.607     Top_Artists
+Weighted Avg.    0.661    0.339    0.661      0.661    0.661      0.323    0.652     0.608     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 771 380 |   a = Low_Artists
+ 396 745 |   b = Top_Artists
+

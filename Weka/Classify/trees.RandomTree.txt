@@ -1,0 +1,915 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+Sentence length hist bin 5 < 0.01
+|   Word repetition span 3 < 0.14
+|   |   Quotation part of the text < 0
+|   |   |   Sentence length stddev < 2.56
+|   |   |   |   Punctuation characters ratio < 0.04 : Low_Artists (25/0)
+|   |   |   |   Punctuation characters ratio >= 0.04
+|   |   |   |   |   adverbs frequency < 0.1
+|   |   |   |   |   |   Words of length 3 < 0.13
+|   |   |   |   |   |   |   Words of length 4 < 0.27 : Top_Artists (3/0)
+|   |   |   |   |   |   |   Words of length 4 >= 0.27 : Low_Artists (2/0)
+|   |   |   |   |   |   Words of length 3 >= 0.13
+|   |   |   |   |   |   |   art frequency < 0.01
+|   |   |   |   |   |   |   |   pronouns frequency < 0.14
+|   |   |   |   |   |   |   |   |   office frequency < 0.06 : Low_Artists (12/0)
+|   |   |   |   |   |   |   |   |   office frequency >= 0.06 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   pronouns frequency >= 0.14
+|   |   |   |   |   |   |   |   |   pronouns frequency < 0.18
+|   |   |   |   |   |   |   |   |   |   school frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   leaders frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 < 0.28 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 >= 0.28 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   leaders frequency >= 0.01 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   school frequency >= 0 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   pronouns frequency >= 0.18
+|   |   |   |   |   |   |   |   |   |   Total number of words < 479 : Low_Artists (13/0)
+|   |   |   |   |   |   |   |   |   |   Total number of words >= 479 : Top_Artists (2/0)
+|   |   |   |   |   |   |   art frequency >= 0.01
+|   |   |   |   |   |   |   |   Words of length 4 < 0.27
+|   |   |   |   |   |   |   |   |   Sentence length character mean < 30.6
+|   |   |   |   |   |   |   |   |   |   money frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 < 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   vacation frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 6 < 0.32 : Low_Artists (9/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 6 >= 0.32 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   vacation frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   math frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.72 : Top_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.72 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   math frequency >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean < 60.05 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean >= 60.05 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 >= 0.22 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   money frequency >= 0 : Low_Artists (21/0)
+|   |   |   |   |   |   |   |   |   Sentence length character mean >= 30.6 : Low_Artists (18/0)
+|   |   |   |   |   |   |   |   Words of length 4 >= 0.27 : Low_Artists (17/0)
+|   |   |   |   |   adverbs frequency >= 0.1 : Low_Artists (25/0)
+|   |   |   Sentence length stddev >= 2.56
+|   |   |   |   Use of numbers < 0.01
+|   |   |   |   |   restaurants frequency < 0.03
+|   |   |   |   |   |   adverbs frequency < 0.02 : Low_Artists (1/0)
+|   |   |   |   |   |   adverbs frequency >= 0.02 : Top_Artists (11/0)
+|   |   |   |   |   restaurants frequency >= 0.03
+|   |   |   |   |   |   circus frequency < 0
+|   |   |   |   |   |   |   roads frequency < 0 : Low_Artists (11/0)
+|   |   |   |   |   |   |   roads frequency >= 0
+|   |   |   |   |   |   |   |   hats frequency < 0.01
+|   |   |   |   |   |   |   |   |   weather frequency < 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   weather frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   furnitures frequency < 0.02 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   furnitures frequency >= 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   hats frequency >= 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   circus frequency >= 0
+|   |   |   |   |   |   |   camping frequency < 0
+|   |   |   |   |   |   |   |   Words of length 10 < 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   Words of length 10 >= 0
+|   |   |   |   |   |   |   |   |   FFT max < 440.5
+|   |   |   |   |   |   |   |   |   |   Sentence length stddev < 3.12 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Sentence length stddev >= 3.12 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   FFT max >= 440.5 : Low_Artists (3/0)
+|   |   |   |   |   |   |   camping frequency >= 0 : Top_Artists (4/0)
+|   |   |   |   Use of numbers >= 0.01
+|   |   |   |   |   house frequency < 0.01 : Low_Artists (7/0)
+|   |   |   |   |   house frequency >= 0.01
+|   |   |   |   |   |   science frequency < 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   science frequency >= 0.01 : Top_Artists (1/0)
+|   |   Quotation part of the text >= 0
+|   |   |   circus frequency < 0.01
+|   |   |   |   Word homogeneity maximum < 0.13 : Low_Artists (5/0)
+|   |   |   |   Word homogeneity maximum >= 0.13
+|   |   |   |   |   law frequency < 0
+|   |   |   |   |   |   Sentence length mean < 6.64 : Low_Artists (4/0)
+|   |   |   |   |   |   Sentence length mean >= 6.64
+|   |   |   |   |   |   |   Sentence length hist bin 2 < 0.38 : Top_Artists (7/0)
+|   |   |   |   |   |   |   Sentence length hist bin 2 >= 0.38 : Low_Artists (1/0)
+|   |   |   |   |   law frequency >= 0 : Top_Artists (10/0)
+|   |   |   circus frequency >= 0.01 : Low_Artists (6/0)
+|   Word repetition span 3 >= 0.14
+|   |   boats frequency < 0.01
+|   |   |   Words of length 7 < 0.06
+|   |   |   |   Word repetition span 3 < 0.14 : Top_Artists (3/0)
+|   |   |   |   Word repetition span 3 >= 0.14
+|   |   |   |   |   Word homoganity hist bin 1 < 0.4
+|   |   |   |   |   |   FFT histogram bin 2 < 0.07
+|   |   |   |   |   |   |   adverbs frequency < 0.02 : Top_Artists (4/0)
+|   |   |   |   |   |   |   adverbs frequency >= 0.02
+|   |   |   |   |   |   |   |   shapes frequency < 0.01
+|   |   |   |   |   |   |   |   |   elections frequency < 0
+|   |   |   |   |   |   |   |   |   |   medical frequency < 0.01 : Top_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   medical frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   boats frequency < 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   boats frequency >= 0.01 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   elections frequency >= 0 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   shapes frequency >= 0.01 : Low_Artists (2/0)
+|   |   |   |   |   |   FFT histogram bin 2 >= 0.07 : Low_Artists (3/0)
+|   |   |   |   |   Word homoganity hist bin 1 >= 0.4 : Low_Artists (3/0)
+|   |   |   Words of length 7 >= 0.06 : Low_Artists (5/0)
+|   |   boats frequency >= 0.01
+|   |   |   Sentence length mean < 6.26
+|   |   |   |   Word homogeneity mean < 0.29
+|   |   |   |   |   Coleman�Liau index < 0.56
+|   |   |   |   |   |   Soundex homogeneity mean < 0.11 : Low_Artists (2/0)
+|   |   |   |   |   |   Soundex homogeneity mean >= 0.11
+|   |   |   |   |   |   |   Sentence length hist bin 4 < 0.07 : Low_Artists (1/0)
+|   |   |   |   |   |   |   Sentence length hist bin 4 >= 0.07 : Top_Artists (3/0)
+|   |   |   |   |   Coleman�Liau index >= 0.56 : Top_Artists (2/0)
+|   |   |   |   Word homogeneity mean >= 0.29 : Low_Artists (2/0)
+|   |   |   Sentence length mean >= 6.26 : Top_Artists (8/0)
+Sentence length hist bin 5 >= 0.01
+|   Sentence length mean < 6.2
+|   |   acronyms frequency < 0.02
+|   |   |   Sentence length stddev < 3.29
+|   |   |   |   Soundex diversity < 0.32
+|   |   |   |   |   time frequency < 0.01 : Low_Artists (12/0)
+|   |   |   |   |   time frequency >= 0.01
+|   |   |   |   |   |   Mean of numbers < 4.5
+|   |   |   |   |   |   |   camping frequency < 0
+|   |   |   |   |   |   |   |   Sentence length hist bin 3 < 0.19
+|   |   |   |   |   |   |   |   |   Word repetition span 7 < 0.11 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   Word repetition span 7 >= 0.11
+|   |   |   |   |   |   |   |   |   |   Total number of words < 293
+|   |   |   |   |   |   |   |   |   |   |   driving frequency < 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   driving frequency >= 0.01 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   Total number of words >= 293 : Top_Artists (5/0)
+|   |   |   |   |   |   |   |   Sentence length hist bin 3 >= 0.19 : Low_Artists (6/0)
+|   |   |   |   |   |   |   camping frequency >= 0 : Low_Artists (11/0)
+|   |   |   |   |   |   Mean of numbers >= 4.5
+|   |   |   |   |   |   |   Total number of words < 454 : Low_Artists (1/0)
+|   |   |   |   |   |   |   Total number of words >= 454 : Top_Artists (2/0)
+|   |   |   |   Soundex diversity >= 0.32
+|   |   |   |   |   FFT stddev < 153 : Low_Artists (61/0)
+|   |   |   |   |   FFT stddev >= 153
+|   |   |   |   |   |   Word repetition span 11 < 0.09 : Top_Artists (1/0)
+|   |   |   |   |   |   Word repetition span 11 >= 0.09 : Low_Artists (5/0)
+|   |   |   Sentence length stddev >= 3.29
+|   |   |   |   FFT max < 295.5 : Low_Artists (1/0)
+|   |   |   |   FFT max >= 295.5 : Top_Artists (2/0)
+|   |   acronyms frequency >= 0.02
+|   |   |   Word repetition span 11 < 0.27
+|   |   |   |   FFT histogram bin 1 < 0.95
+|   |   |   |   |   Sentence length hist bin 3 < 0.34 : Low_Artists (28/0)
+|   |   |   |   |   Sentence length hist bin 3 >= 0.34
+|   |   |   |   |   |   Words of length 10 < 0 : Top_Artists (1/0)
+|   |   |   |   |   |   Words of length 10 >= 0 : Low_Artists (2/0)
+|   |   |   |   FFT histogram bin 1 >= 0.95
+|   |   |   |   |   musical instruments frequency < 0.01
+|   |   |   |   |   |   Words of length 7 < 0.03 : Top_Artists (1/0)
+|   |   |   |   |   |   Words of length 7 >= 0.03 : Low_Artists (16/0)
+|   |   |   |   |   musical instruments frequency >= 0.01
+|   |   |   |   |   |   Word homoganity hist bin 0 < 0.31
+|   |   |   |   |   |   |   computer frequency < 0.01
+|   |   |   |   |   |   |   |   leaders frequency < 0
+|   |   |   |   |   |   |   |   |   FFT stddev < 115
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 < 0.07
+|   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 2 < 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 2 >= 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.07 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   FFT stddev >= 115 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   leaders frequency >= 0 : Low_Artists (8/0)
+|   |   |   |   |   |   |   computer frequency >= 0.01 : Low_Artists (18/0)
+|   |   |   |   |   |   Word homoganity hist bin 0 >= 0.31
+|   |   |   |   |   |   |   computer frequency < 0.02
+|   |   |   |   |   |   |   |   Word repetition span 7 < 0.11
+|   |   |   |   |   |   |   |   |   furnitures frequency < 0
+|   |   |   |   |   |   |   |   |   |   Frequency of single quotes < 0 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   Frequency of single quotes >= 0 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   furnitures frequency >= 0 : Top_Artists (13/0)
+|   |   |   |   |   |   |   |   Word repetition span 7 >= 0.11
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 < 0.09
+|   |   |   |   |   |   |   |   |   |   Soundex homogeneity mean < 0.07
+|   |   |   |   |   |   |   |   |   |   |   weapons frequency < 0.01 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   weapons frequency >= 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Soundex homogeneity mean >= 0.07 : Low_Artists (10/0)
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 >= 0.09
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 1 < 0.2 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 1 >= 0.2 : Low_Artists (1/0)
+|   |   |   |   |   |   |   computer frequency >= 0.02 : Low_Artists (4/0)
+|   |   |   Word repetition span 11 >= 0.27
+|   |   |   |   buildings frequency < 0
+|   |   |   |   |   Words of length 2 < 0.25
+|   |   |   |   |   |   self frequency < 0.13 : Low_Artists (13/0)
+|   |   |   |   |   |   self frequency >= 0.13
+|   |   |   |   |   |   |   Sentence length hist bin 7 < 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.02 : Low_Artists (4/0)
+|   |   |   |   |   Words of length 2 >= 0.25
+|   |   |   |   |   |   Word length mean < 3.42
+|   |   |   |   |   |   |   Word repetition span 17 < 0.64 : Top_Artists (1/0)
+|   |   |   |   |   |   |   Word repetition span 17 >= 0.64 : Low_Artists (2/0)
+|   |   |   |   |   |   Word length mean >= 3.42 : Top_Artists (2/0)
+|   |   |   |   buildings frequency >= 0
+|   |   |   |   |   yard frequency < 0
+|   |   |   |   |   |   cooking frequency < 0.05
+|   |   |   |   |   |   |   Words of length 5 < 0.03 : Top_Artists (2/0)
+|   |   |   |   |   |   |   Words of length 5 >= 0.03
+|   |   |   |   |   |   |   |   flowers frequency < 0
+|   |   |   |   |   |   |   |   |   astronomy frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 < 0.01
+|   |   |   |   |   |   |   |   |   |   |   Sentence length character mean < 24.65 : Low_Artists (11/0)
+|   |   |   |   |   |   |   |   |   |   |   Sentence length character mean >= 24.65
+|   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 < 0.98 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 >= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |   |   male frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency < 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   time frequency < 0.05 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   time frequency >= 0.05 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency >= 0.05 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   male frequency >= 0.02 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 < 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   hapiness words frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of question mark < 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of question mark >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT median < 35.25 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT median >= 35.25 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   hapiness words frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   furnitures frequency < 0.01 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   furnitures frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 < 0.13 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 >= 0.13 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 >= 0.31 : Top_Artists (10/0)
+|   |   |   |   |   |   |   |   |   astronomy frequency >= 0.04 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   flowers frequency >= 0 : Low_Artists (13/0)
+|   |   |   |   |   |   cooking frequency >= 0.05 : Low_Artists (6/0)
+|   |   |   |   |   yard frequency >= 0
+|   |   |   |   |   |   Sentence length character mean < 23.35 : Low_Artists (2/0)
+|   |   |   |   |   |   Sentence length character mean >= 23.35
+|   |   |   |   |   |   |   Number diversity < 0.02
+|   |   |   |   |   |   |   |   Word homoganity hist bin 2 < 0.55
+|   |   |   |   |   |   |   |   |   adverbs frequency < 0.05
+|   |   |   |   |   |   |   |   |   |   Word homogeneity mean < 0.14 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   Word homogeneity mean >= 0.14 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   adverbs frequency >= 0.05 : Top_Artists (12/0)
+|   |   |   |   |   |   |   |   Word homoganity hist bin 2 >= 0.55 : Low_Artists (1/0)
+|   |   |   |   |   |   |   Number diversity >= 0.02 : Low_Artists (2/0)
+|   Sentence length mean >= 6.2
+|   |   FFT median < 144.5
+|   |   |   hapiness words hist bin 6 < 0.01
+|   |   |   |   car parts frequency < 0
+|   |   |   |   |   FFT max < 503.5
+|   |   |   |   |   |   astronomy frequency < 0.04
+|   |   |   |   |   |   |   ,Frequency of double quotes < 0.03
+|   |   |   |   |   |   |   |   measurements frequency < 0.02
+|   |   |   |   |   |   |   |   |   birthday frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 < 0.04
+|   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes < 0.09 : Low_Artists (19/0)
+|   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes >= 0.09 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 >= 0.04
+|   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum < 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 < 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 7 < 0.05 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 7 >= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fruits frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   art frequency < 0.01 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   art frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 2 < 0.16 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 2 >= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency < 0.03 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   familiy frequency >= 0.03 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   fruits frequency >= 0 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.06 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 >= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio < 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 < 0.06 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 >= 0.06 : Top_Artists (11/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio >= 0.3 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum >= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   furnitures frequency < 0.05 : Low_Artists (9/0)
+|   |   |   |   |   |   |   |   |   |   |   |   furnitures frequency >= 0.05 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   birthday frequency >= 0.02 : Low_Artists (11/0)
+|   |   |   |   |   |   |   |   measurements frequency >= 0.02
+|   |   |   |   |   |   |   |   |   insects frequency < 0
+|   |   |   |   |   |   |   |   |   |   positive words frequency < 0.02 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   positive words frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   Number diversity < 0.01 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   Number diversity >= 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   insects frequency >= 0
+|   |   |   |   |   |   |   |   |   |   Soundex diversity < 0.57 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   Soundex diversity >= 0.57 : Low_Artists (1/0)
+|   |   |   |   |   |   |   ,Frequency of double quotes >= 0.03 : Top_Artists (8/0)
+|   |   |   |   |   |   astronomy frequency >= 0.04
+|   |   |   |   |   |   |   Words of length 5 < 0.07
+|   |   |   |   |   |   |   |   medical frequency < 0.03 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   medical frequency >= 0.03 : Low_Artists (4/0)
+|   |   |   |   |   |   |   Words of length 5 >= 0.07 : Low_Artists (24/0)
+|   |   |   |   |   FFT max >= 503.5
+|   |   |   |   |   |   colors frequency < 0
+|   |   |   |   |   |   |   animals frequency < 0.01
+|   |   |   |   |   |   |   |   energy frequency < 0.01
+|   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.03
+|   |   |   |   |   |   |   |   |   |   countries frequency < 0.02 : Low_Artists (11/0)
+|   |   |   |   |   |   |   |   |   |   countries frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   medical frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   leaders frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 0 < 0.71 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 0 >= 0.71
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 10 < 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 10 >= 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency >= 0 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   leaders frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   adjectives frequency < 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   camping frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity mean < 0.05 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity mean >= 0.05 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   camping frequency >= 0 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   adjectives frequency >= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency < 0.02 : Low_Artists (26/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   transportation frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev < 557.5 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev >= 557.5 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   transportation frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   happy words frequency < 0.02 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   happy words frequency >= 0.02 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   verbs frequency < 0.08 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   verbs frequency >= 0.08 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   medical frequency >= 0.02 : Low_Artists (14/0)
+|   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.03
+|   |   |   |   |   |   |   |   |   |   Words of length 6 < 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Words of length 6 >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   countries frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   female frequency < 0 : Low_Artists (13/0)
+|   |   |   |   |   |   |   |   |   |   |   |   female frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   office frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean < 102.55 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean >= 102.55 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   office frequency >= 0 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   countries frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length character mean < 45.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   US states frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   cooking frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency < 0.01 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency >= 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency >= 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   cooking frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   buildings frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 6 < 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 < 0.99 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 >= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 < 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 < 0.03 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean < 8.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean < 129.5 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean >= 129.5 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean >= 8.33 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 >= 0.22 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 6 >= 0.08 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   buildings frequency >= 0.02 : Top_Artists (10/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   US states frequency >= 0 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length character mean >= 45.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   birthday frequency < 0.01 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   birthday frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation length mean < 32.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of question mark < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   math frequency < 0.02 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   math frequency >= 0.02 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of question mark >= 0 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation length mean >= 32.35 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   energy frequency >= 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   animals frequency >= 0.01
+|   |   |   |   |   |   |   |   Sentence length hist bin 7 < 0.06
+|   |   |   |   |   |   |   |   |   happy words frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   Punctuation characters ratio < 0.16
+|   |   |   |   |   |   |   |   |   |   |   beach frequency < 0.01 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   beach frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   elections frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 2 < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length stddev < 2.23
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 < 0.08 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 >= 0.08 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length stddev >= 2.23 : Low_Artists (10/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 2 >= 0 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   elections frequency >= 0.01 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   Punctuation characters ratio >= 0.16
+|   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 < 0.99 : Top_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 >= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |   circus frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum < 0.58 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity maximum >= 0.58 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 >= 0.01 : Top_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   circus frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 < 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 >= 0.02 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   happy words frequency >= 0.04 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.06
+|   |   |   |   |   |   |   |   |   circus frequency < 0
+|   |   |   |   |   |   |   |   |   |   boats frequency < 0.01 : Top_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   boats frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   beach frequency < 0.02 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   beach frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   yard frequency < 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   yard frequency >= 0 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   circus frequency >= 0
+|   |   |   |   |   |   |   |   |   |   Word repetition span 7 < 0.31
+|   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 < 0.31 : Low_Artists (12/0)
+|   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 >= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   self frequency < 0.12 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   self frequency >= 0.12 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   Word repetition span 7 >= 0.31
+|   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.62 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.62 : Low_Artists (1/0)
+|   |   |   |   |   |   colors frequency >= 0
+|   |   |   |   |   |   |   Soundex homogeneity StdDev < 0.06
+|   |   |   |   |   |   |   |   money frequency < 0.01
+|   |   |   |   |   |   |   |   |   astronomy frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   FFT mean < 179.5 : Low_Artists (15/0)
+|   |   |   |   |   |   |   |   |   |   FFT mean >= 179.5
+|   |   |   |   |   |   |   |   |   |   |   Words of length 1 < 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word length mean < 3.83 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word length mean >= 3.83
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT max < 1370 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT max >= 1370 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.03 : Low_Artists (10/0)
+|   |   |   |   |   |   |   |   |   |   |   Words of length 1 >= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   verbs frequency < 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers < 28.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   summer frequency < 0.01 : Top_Artists (14/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   summer frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes < 0.04 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes >= 0.04 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers >= 28.35 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   verbs frequency >= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   roads frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word length mean < 3.54 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word length mean >= 3.54
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 1 < 0.14 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 1 >= 0.14 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 < 1 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 >= 1 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   roads frequency >= 0.02 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   astronomy frequency >= 0.04
+|   |   |   |   |   |   |   |   |   |   money frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.03 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.03 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   money frequency >= 0 : Top_Artists (7/0)
+|   |   |   |   |   |   |   |   money frequency >= 0.01
+|   |   |   |   |   |   |   |   |   cooking frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   pronouns frequency < 0.13
+|   |   |   |   |   |   |   |   |   |   |   tools frequency < 0.01 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   tools frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   art frequency < 0.02 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   art frequency >= 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   pronouns frequency >= 0.13 : Top_Artists (23/0)
+|   |   |   |   |   |   |   |   |   cooking frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   elections frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   Mean of numbers < 15.9
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 < 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 8 < 0.03 : Low_Artists (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 8 >= 0.03 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 >= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length character mean < 42.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 6 < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length stddev < 2.64
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 4 < 0.31 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 4 >= 0.31 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length stddev >= 2.64
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   yard frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 < 0.36 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 >= 0.36 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   yard frequency >= 0 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 6 >= 0.01 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length character mean >= 42.3 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   Mean of numbers >= 15.9 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   elections frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   Mean of numbers < 1.21
+|   |   |   |   |   |   |   |   |   |   |   |   adverbs frequency < 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   driving frequency < 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   driving frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.02 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   adverbs frequency >= 0.08 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Mean of numbers >= 1.21 : Top_Artists (10/0)
+|   |   |   |   |   |   |   Soundex homogeneity StdDev >= 0.06
+|   |   |   |   |   |   |   |   Word homogeneity mean < 0.14 : Top_Artists (14/0)
+|   |   |   |   |   |   |   |   Word homogeneity mean >= 0.14 : Low_Artists (1/0)
+|   |   |   |   car parts frequency >= 0
+|   |   |   |   |   music frequency < 0.05
+|   |   |   |   |   |   FFT max < 740.5
+|   |   |   |   |   |   |   energy frequency < 0
+|   |   |   |   |   |   |   |   happy words frequency < 0.01
+|   |   |   |   |   |   |   |   |   shapes frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   elections frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   driving frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   verbs that are nouns frequency < 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity mean < 0.09 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity mean >= 0.09 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   verbs that are nouns frequency >= 0.06 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   driving frequency >= 0 : Low_Artists (27/0)
+|   |   |   |   |   |   |   |   |   |   elections frequency >= 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   shapes frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   medical frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   weapons frequency < 0.01 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   weapons frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   animals frequency < 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   animals frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio < 0.2 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio >= 0.2 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   medical frequency >= 0.03 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   happy words frequency >= 0.01
+|   |   |   |   |   |   |   |   |   weapons frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   astronomy frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   |   acronyms frequency < 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   sport frequency < 0.03 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   sport frequency >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   kitchen frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Emotion circumplex < 3.4 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Emotion circumplex >= 3.4 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.04 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   kitchen frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 3 < 0.11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   containers frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   astronomy frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev < 97.65 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev >= 97.65 : Top_Artists (11/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   astronomy frequency >= 0.03 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   containers frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   countries frequency < 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   countries frequency >= 0.01 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 3 >= 0.11 : Top_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   acronyms frequency >= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   leaders frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   time frequency < 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   time frequency >= 0.01 : Top_Artists (19/0)
+|   |   |   |   |   |   |   |   |   |   |   |   leaders frequency >= 0.04 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   astronomy frequency >= 0.04 : Low_Artists (9/0)
+|   |   |   |   |   |   |   |   |   weapons frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   acquaintances frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   military frequency < 0.05 : Low_Artists (17/0)
+|   |   |   |   |   |   |   |   |   |   |   military frequency >= 0.05 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   acquaintances frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   Sentence length stddev < 2.77
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 < 0.26 : Low_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 >= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 < 0.13 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 0 >= 0.13 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   Sentence length stddev >= 2.77 : Top_Artists (2/0)
+|   |   |   |   |   |   |   energy frequency >= 0
+|   |   |   |   |   |   |   |   restaurants frequency < 0.09
+|   |   |   |   |   |   |   |   |   Coleman�Liau index < 1.79
+|   |   |   |   |   |   |   |   |   |   circus frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 6 < 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   reptiles frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   body frequency < 0.01 : Top_Artists (17/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   body frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   body frequency < 0.01 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   body frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 < 0.23 : Top_Artists (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 7 >= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Automated readability index < -1.26 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Automated readability index >= -1.26 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   reptiles frequency >= 0.01 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 6 >= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 0 < 0.69
+|   |   |   |   |   |   |   |   |   |   |   |   |   roads frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 < 0.28 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 >= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean < 120.5 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean >= 120.5 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   roads frequency >= 0.01 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 0 >= 0.69 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   circus frequency >= 0.01 : Top_Artists (7/0)
+|   |   |   |   |   |   |   |   |   Coleman�Liau index >= 1.79
+|   |   |   |   |   |   |   |   |   |   Sentence length stddev < 1.79 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Sentence length stddev >= 1.79
+|   |   |   |   |   |   |   |   |   |   |   hapiness words frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 < 0.99 : Low_Artists (11/0)
+|   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 1 >= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 < 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 >= 0.02 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   hapiness words frequency >= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   flowers frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 < 0.41
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev < 188.5 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT stddev >= 188.5 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.04 : Low_Artists (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 >= 0.41 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   flowers frequency >= 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   restaurants frequency >= 0.09 : Low_Artists (3/0)
+|   |   |   |   |   |   FFT max >= 740.5
+|   |   |   |   |   |   |   Use of upper case < 0.03
+|   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 < 0.04
+|   |   |   |   |   |   |   |   |   office frequency < 0
+|   |   |   |   |   |   |   |   |   |   Soundex diversity < 0.28 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   Soundex diversity >= 0.28 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   office frequency >= 0
+|   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 < 0.05 : Low_Artists (11/0)
+|   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 >= 0.05
+|   |   |   |   |   |   |   |   |   |   |   Quotation length stddev < 3.99
+|   |   |   |   |   |   |   |   |   |   |   |   Total number of words < 568.5 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Total number of words >= 568.5 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Quotation length stddev >= 3.99 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 >= 0.04
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.63 : Top_Artists (8/0)
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.63 : Low_Artists (1/0)
+|   |   |   |   |   |   |   Use of upper case >= 0.03
+|   |   |   |   |   |   |   |   acronyms frequency < 0.05
+|   |   |   |   |   |   |   |   |   yard frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   car parts frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 < 0.23
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length character mean < 32.45 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length character mean >= 32.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   US states frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 < 0.24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 2 < 0.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   shapes frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   furnitures frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   reptiles frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency < 0.01 : Low_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency >= 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   reptiles frequency >= 0 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   furnitures frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   elections frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   verbs frequency < 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency < 0.02 : Top_Artists (28/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emotions frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 < 0.08 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 >= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 < 0.18 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 >= 0.18 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   verbs frequency >= 0.1 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   elections frequency >= 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   shapes frequency >= 0.02 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 2 >= 0.21 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 >= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 < 0.21 : Low_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 17 >= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 < 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   adjectives frequency < 0.07 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   adjectives frequency >= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 4 < 0.27 : Low_Artists (13/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 4 >= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency < 0.01 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   money frequency >= 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity >= 0.02 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 >= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   energy frequency < 0.01 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   energy frequency >= 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   US states frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   tools frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean < 8.55 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean >= 8.55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity < 0.02 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity >= 0.02 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   tools frequency >= 0.01 : Top_Artists (18/0)
+|   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 >= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   shoes frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency < 0 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   female frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word length mean < 3.45 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word length mean >= 3.45 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 >= 0.03 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   shoes frequency >= 0 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   restaurants frequency >= 0.03 : Top_Artists (27/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.02 : Top_Artists (12/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 1 < 0.03 : Top_Artists (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 1 >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   leaders frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   vacation frequency < 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   vacation frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   countries frequency < 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 6 < 0.03 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 6 >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.03 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   house frequency < 0 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   house frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.04 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.04 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   food frequency >= 0.01 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   countries frequency >= 0.06 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 >= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean < 9.06 : Low_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean >= 9.06 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   leaders frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   geography frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   occupation frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   hapiness words frequency < 0.04 : Top_Artists (9/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   hapiness words frequency >= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   house frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 4 < 0.2 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 4 >= 0.2 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   house frequency >= 0.02 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   occupation frequency >= 0.01 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   geography frequency >= 0 : Top_Artists (13/0)
+|   |   |   |   |   |   |   |   |   |   car parts frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   public buildings frequency < 0.01 : Top_Artists (23/0)
+|   |   |   |   |   |   |   |   |   |   |   public buildings frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency < 0.02 : Top_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   happy words frequency < 0.03 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   happy words frequency >= 0.03 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   yard frequency >= 0.02 : Top_Artists (7/0)
+|   |   |   |   |   |   |   |   acronyms frequency >= 0.05
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 < 0.08
+|   |   |   |   |   |   |   |   |   |   female frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   male frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   measurements frequency < 0 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   measurements frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   birds frequency < 0 : Top_Artists (13/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   birds frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   time frequency < 0.02 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   time frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT max < 942 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT max >= 942 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   male frequency >= 0.01 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   female frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   Frequency of question mark < 0.01 : Top_Artists (28/0)
+|   |   |   |   |   |   |   |   |   |   |   Frequency of question mark >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 4 < 0.27 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 4 >= 0.27 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 >= 0.08 : Top_Artists (13/0)
+|   |   |   |   |   music frequency >= 0.05
+|   |   |   |   |   |   Sentence length mean < 6.83 : Low_Artists (9/0)
+|   |   |   |   |   |   Sentence length mean >= 6.83
+|   |   |   |   |   |   |   shapes frequency < 0
+|   |   |   |   |   |   |   |   camping frequency < 0
+|   |   |   |   |   |   |   |   |   military frequency < 0 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   military frequency >= 0 : Top_Artists (9/0)
+|   |   |   |   |   |   |   |   camping frequency >= 0 : Low_Artists (4/0)
+|   |   |   |   |   |   |   shapes frequency >= 0
+|   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.02
+|   |   |   |   |   |   |   |   |   Total number of words < 465 : Low_Artists (12/0)
+|   |   |   |   |   |   |   |   |   Total number of words >= 465
+|   |   |   |   |   |   |   |   |   |   Words of length 9 < 0.01 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   Words of length 9 >= 0.01 : Low_Artists (1/0)
+|   |   |   hapiness words hist bin 6 >= 0.01
+|   |   |   |   Words of length 10 < 0.01
+|   |   |   |   |   hapiness words hist bin 3 < 0.13
+|   |   |   |   |   |   camping frequency < 0 : Low_Artists (5/0)
+|   |   |   |   |   |   camping frequency >= 0 : Top_Artists (3/0)
+|   |   |   |   |   hapiness words hist bin 3 >= 0.13
+|   |   |   |   |   |   farm frequency < 0
+|   |   |   |   |   |   |   Words of length 14 < 0 : Low_Artists (3/0)
+|   |   |   |   |   |   |   Words of length 14 >= 0 : Top_Artists (1/0)
+|   |   |   |   |   |   farm frequency >= 0 : Top_Artists (11/0)
+|   |   |   |   Words of length 10 >= 0.01
+|   |   |   |   |   Quotation length mean < 4.5
+|   |   |   |   |   |   Words of length 9 < 0.02 : Low_Artists (1/0)
+|   |   |   |   |   |   Words of length 9 >= 0.02 : Top_Artists (1/0)
+|   |   |   |   |   Quotation length mean >= 4.5 : Top_Artists (28/0)
+|   |   FFT median >= 144.5
+|   |   |   Soundex diversity < 0.35
+|   |   |   |   boats frequency < 0.04
+|   |   |   |   |   Soundex homogeneity mean < 0.05
+|   |   |   |   |   |   hapiness words max < 0.07
+|   |   |   |   |   |   |   castles and kings and queens frequency < 0
+|   |   |   |   |   |   |   |   food frequency < 0.01
+|   |   |   |   |   |   |   |   |   adverbs frequency < 0.07
+|   |   |   |   |   |   |   |   |   |   US states frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   verbs that are nouns frequency < 0.05 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   verbs that are nouns frequency >= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   money frequency < 0 : Top_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   money frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words < 871.5 : Low_Artists (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words >= 871.5 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   US states frequency >= 0 : Top_Artists (6/0)
+|   |   |   |   |   |   |   |   |   adverbs frequency >= 0.07
+|   |   |   |   |   |   |   |   |   |   rocks and minerals frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   Mean of numbers < 44 : Low_Artists (17/0)
+|   |   |   |   |   |   |   |   |   |   |   Mean of numbers >= 44 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   rocks and minerals frequency >= 0 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   food frequency >= 0.01
+|   |   |   |   |   |   |   |   |   castles and kings and queens frequency < 0 : Top_Artists (14/0)
+|   |   |   |   |   |   |   |   |   castles and kings and queens frequency >= 0 : Low_Artists (2/0)
+|   |   |   |   |   |   |   castles and kings and queens frequency >= 0 : Top_Artists (17/0)
+|   |   |   |   |   |   hapiness words max >= 0.07 : Top_Artists (8/0)
+|   |   |   |   |   Soundex homogeneity mean >= 0.05
+|   |   |   |   |   |   FFT max < 565.5
+|   |   |   |   |   |   |   law frequency < 0
+|   |   |   |   |   |   |   |   elections frequency < 0.01
+|   |   |   |   |   |   |   |   |   Automated readability index < 0.02
+|   |   |   |   |   |   |   |   |   |   colors frequency < 0.01 : Low_Artists (5/0)
+|   |   |   |   |   |   |   |   |   |   colors frequency >= 0.01 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   Automated readability index >= 0.02 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   elections frequency >= 0.01 : Top_Artists (2/0)
+|   |   |   |   |   |   |   law frequency >= 0 : Top_Artists (5/0)
+|   |   |   |   |   |   FFT max >= 565.5
+|   |   |   |   |   |   |   food frequency < 0.01
+|   |   |   |   |   |   |   |   adverbs frequency < 0.07
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 5 < 0.28
+|   |   |   |   |   |   |   |   |   |   Words of length 8 < 0.01 : Top_Artists (25/0)
+|   |   |   |   |   |   |   |   |   |   Words of length 8 >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   furnitures frequency < 0 : Top_Artists (15/0)
+|   |   |   |   |   |   |   |   |   |   |   furnitures frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 9 < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 < 0.06 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 5 >= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency < 0.01 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency >= 0.01 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 9 >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   tools frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation part of the text < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   science frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   body frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   happy words frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words < 660.5 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Total number of words >= 660.5 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   happy words frequency >= 0.02 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   body frequency >= 0.01 : Top_Artists (10/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   science frequency >= 0 : Low_Artists (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation part of the text >= 0.01 : Top_Artists (9/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   tools frequency >= 0.01 : Top_Artists (24/0)
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 5 >= 0.28
+|   |   |   |   |   |   |   |   |   |   Words of length 3 < 0.25
+|   |   |   |   |   |   |   |   |   |   |   measurements frequency < 0 : Low_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   |   measurements frequency >= 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   |   |   Words of length 3 >= 0.25 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   adverbs frequency >= 0.07
+|   |   |   |   |   |   |   |   |   roads frequency < 0.03 : Top_Artists (67/0)
+|   |   |   |   |   |   |   |   |   roads frequency >= 0.03
+|   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.05 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.05 : Low_Artists (1/0)
+|   |   |   |   |   |   |   food frequency >= 0.01
+|   |   |   |   |   |   |   |   Frequency of single quotes < 0.08
+|   |   |   |   |   |   |   |   |   FFT max < 952
+|   |   |   |   |   |   |   |   |   |   body frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 < 0 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 >= 0 : Low_Artists (3/0)
+|   |   |   |   |   |   |   |   |   |   body frequency >= 0.01 : Top_Artists (3/0)
+|   |   |   |   |   |   |   |   |   FFT max >= 952 : Low_Artists (4/0)
+|   |   |   |   |   |   |   |   Frequency of single quotes >= 0.08 : Top_Artists (15/0)
+|   |   |   |   boats frequency >= 0.04 : Top_Artists (16/0)
+|   |   |   Soundex diversity >= 0.35
+|   |   |   |   Soundex homogeneity mean < 0.07 : Low_Artists (9/0)
+|   |   |   |   Soundex homogeneity mean >= 0.07
+|   |   |   |   |   Total number of words < 195.5 : Low_Artists (2/0)
+|   |   |   |   |   Total number of words >= 195.5
+|   |   |   |   |   |   Sentence length stddev < 2.97
+|   |   |   |   |   |   |   Frequency of exclamation < 0
+|   |   |   |   |   |   |   |   body frequency < 0.01 : Top_Artists (12/0)
+|   |   |   |   |   |   |   |   body frequency >= 0.01 : Low_Artists (1/0)
+|   |   |   |   |   |   |   Frequency of exclamation >= 0 : Low_Artists (1/0)
+|   |   |   |   |   |   Sentence length stddev >= 2.97
+|   |   |   |   |   |   |   Soundex diversity < 0.43
+|   |   |   |   |   |   |   |   Frequency of question mark < 0 : Top_Artists (4/0)
+|   |   |   |   |   |   |   |   Frequency of question mark >= 0
+|   |   |   |   |   |   |   |   |   FFT median < 182 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   FFT median >= 182
+|   |   |   |   |   |   |   |   |   |   FFT max < 416 : Top_Artists (1/0)
+|   |   |   |   |   |   |   |   |   |   FFT max >= 416 : Low_Artists (2/0)
+|   |   |   |   |   |   |   Soundex diversity >= 0.43 : Low_Artists (3/0)
+
+Size of the tree : 871
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1472               64.2234 %
+Incorrectly Classified Instances       820               35.7766 %
+Kappa statistic                          0.2844
+Mean absolute error                      0.3578
+Root mean squared error                  0.5981
+Relative absolute error                 71.5546 %
+Root relative squared error            119.6282 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.660    0.376    0.639      0.660    0.650      0.285    0.642     0.593     Low_Artists
+                 0.624    0.340    0.646      0.624    0.635      0.285    0.642     0.590     Top_Artists
+Weighted Avg.    0.642    0.358    0.642      0.642    0.642      0.285    0.642     0.591     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 760 391 |   a = Low_Artists
+ 429 712 |   b = Top_Artists
+

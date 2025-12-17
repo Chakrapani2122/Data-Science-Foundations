@@ -1,0 +1,273 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+FFT mean <= 183.5 : Low_Artists
+FFT mean > 183.5 : Top_Artists
+FFT mean is missing : Low_Artists
+
+Class distributions
+
+FFT mean <= 183.5
+Low_Artists	Top_Artists	
+0.7193149381541389	0.28068506184586106	
+FFT mean > 183.5
+Low_Artists	Top_Artists	
+0.3182917002417405	0.6817082997582594	
+FFT mean is missing
+Low_Artists	Top_Artists	
+0.5021815008726004	0.49781849912739967	
+
+
+Weight: 0.84
+
+Decision Stump
+
+Classifications
+
+Frequency of single quotes <= 0.01865 : Low_Artists
+Frequency of single quotes > 0.01865 : Top_Artists
+Frequency of single quotes is missing : Low_Artists
+
+Class distributions
+
+Frequency of single quotes <= 0.01865
+Low_Artists	Top_Artists	
+0.8154741526874365	0.18452584731256347	
+Frequency of single quotes > 0.01865
+Low_Artists	Top_Artists	
+0.4733698026478228	0.5266301973521772	
+Frequency of single quotes is missing
+Low_Artists	Top_Artists	
+0.5221869402377456	0.4778130597622545	
+
+
+Weight: 0.27
+
+Decision Stump
+
+Classifications
+
+Punctuation characters ratio <= 0.1625 : Low_Artists
+Punctuation characters ratio > 0.1625 : Top_Artists
+Punctuation characters ratio is missing : Low_Artists
+
+Class distributions
+
+Punctuation characters ratio <= 0.1625
+Low_Artists	Top_Artists	
+0.683855387173441	0.31614461282655915	
+Punctuation characters ratio > 0.1625
+Low_Artists	Top_Artists	
+0.47685603786764147	0.5231439621323586	
+Punctuation characters ratio is missing
+Low_Artists	Top_Artists	
+0.5719967225786227	0.4280032774213774	
+
+
+Weight: 0.39
+
+Decision Stump
+
+Classifications
+
+FFT histogram bin 1 <= 0.9495 : Low_Artists
+FFT histogram bin 1 > 0.9495 : Low_Artists
+FFT histogram bin 1 is missing : Low_Artists
+
+Class distributions
+
+FFT histogram bin 1 <= 0.9495
+Low_Artists	Top_Artists	
+0.7533994388382371	0.24660056116176296	
+FFT histogram bin 1 > 0.9495
+Low_Artists	Top_Artists	
+0.5446914676598958	0.45530853234010404	
+FFT histogram bin 1 is missing
+Low_Artists	Top_Artists	
+0.5829542761972677	0.4170457238027324	
+
+
+Weight: 0.33
+
+Decision Stump
+
+Classifications
+
+FFT histogram bin 1 <= 0.9495 : Low_Artists
+FFT histogram bin 1 > 0.9495 : Top_Artists
+FFT histogram bin 1 is missing : Top_Artists
+
+Class distributions
+
+FFT histogram bin 1 <= 0.9495
+Low_Artists	Top_Artists	
+0.686092218453702	0.31390778154629795	
+FFT histogram bin 1 > 0.9495
+Low_Artists	Top_Artists	
+0.46116123615407895	0.5388387638459211	
+FFT histogram bin 1 is missing
+Low_Artists	Top_Artists	
+0.4999999999999873	0.5000000000000127	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+Frequency of exclamation <= 0.003445 : Low_Artists
+Frequency of exclamation > 0.003445 : Low_Artists
+Frequency of exclamation is missing : Low_Artists
+
+Class distributions
+
+Frequency of exclamation <= 0.003445
+Low_Artists	Top_Artists	
+0.5178665304606933	0.4821334695393067	
+Frequency of exclamation > 0.003445
+Low_Artists	Top_Artists	
+0.7983309299741934	0.20166907002580664	
+Frequency of exclamation is missing
+Low_Artists	Top_Artists	
+0.5427784440488215	0.4572215559511784	
+
+
+Weight: 0.17
+
+Decision Stump
+
+Classifications
+
+Frequency of exclamation <= 0.003445 : Top_Artists
+Frequency of exclamation > 0.003445 : Low_Artists
+Frequency of exclamation is missing : Low_Artists
+
+Class distributions
+
+Frequency of exclamation <= 0.003445
+Low_Artists	Top_Artists	
+0.47501169191915915	0.524988308080841	
+Frequency of exclamation > 0.003445
+Low_Artists	Top_Artists	
+0.7692998478200295	0.2307001521799705	
+Frequency of exclamation is missing
+Low_Artists	Top_Artists	
+0.5000000000000041	0.49999999999999584	
+
+
+Weight: 0.18
+
+Decision Stump
+
+Classifications
+
+FFT median <= 89.1 : Low_Artists
+FFT median > 89.1 : Top_Artists
+FFT median is missing : Low_Artists
+
+Class distributions
+
+FFT median <= 89.1
+Low_Artists	Top_Artists	
+0.5864943286688832	0.4135056713311168	
+FFT median > 89.1
+Low_Artists	Top_Artists	
+0.4053080078742182	0.5946919921257817	
+FFT median is missing
+Low_Artists	Top_Artists	
+0.5382868803405629	0.46171311965943707	
+
+
+Weight: 0.36
+
+Decision Stump
+
+Classifications
+
+female frequency <= 0.002555 : Low_Artists
+female frequency > 0.002555 : Top_Artists
+female frequency is missing : Top_Artists
+
+Class distributions
+
+female frequency <= 0.002555
+Low_Artists	Top_Artists	
+0.5516162380351869	0.4483837619648131	
+female frequency > 0.002555
+Low_Artists	Top_Artists	
+0.4114123296510913	0.5885876703489086	
+female frequency is missing
+Low_Artists	Top_Artists	
+0.49669443645524575	0.5033055635447542	
+
+
+Weight: 0.27
+
+Decision Stump
+
+Classifications
+
+Frequency of exclamation <= 0.01115 : Top_Artists
+Frequency of exclamation > 0.01115 : Low_Artists
+Frequency of exclamation is missing : Top_Artists
+
+Class distributions
+
+Frequency of exclamation <= 0.01115
+Low_Artists	Top_Artists	
+0.46950336770656675	0.5304966322934332	
+Frequency of exclamation > 0.01115
+Low_Artists	Top_Artists	
+0.8512046027623297	0.1487953972376704	
+Frequency of exclamation is missing
+Low_Artists	Top_Artists	
+0.48206771252152525	0.5179322874784748	
+
+
+Weight: 0.16
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.96 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1604               69.9825 %
+Incorrectly Classified Instances       688               30.0175 %
+Kappa statistic                          0.3998
+Mean absolute error                      0.3827
+Root mean squared error                  0.4463
+Relative absolute error                 76.5464 %
+Root relative squared error             89.2541 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.675    0.275    0.712      0.675    0.693      0.400    0.762     0.761     Low_Artists
+                 0.725    0.325    0.689      0.725    0.706      0.400    0.762     0.730     Top_Artists
+Weighted Avg.    0.700    0.300    0.700      0.700    0.700      0.400    0.762     0.746     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 777 374 |   a = Low_Artists
+ 314 827 |   b = Top_Artists
+

@@ -1,0 +1,335 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@6fc6f14e with 2071 instances
+DecisionTree learned:
+!tryna&!ooh&!gon&!know: Low_Artists
+!tryna&!ooh&!gon&know: Low_Artists
+!tryna&!ooh&gon&!peggy: Top_Artists
+!tryna&!ooh&gon&peggy: Low_Artists
+!tryna&ooh&!peggy&!til: Top_Artists
+!tryna&ooh&!peggy&til: Top_Artists
+!tryna&ooh&peggy: Low_Artists
+tryna&!peggy&!she&!done: Top_Artists
+tryna&!peggy&!she&done: Top_Artists
+tryna&!peggy&she&!fame: Top_Artists
+tryna&!peggy&she&fame: Low_Artists
+tryna&peggy: Low_Artists
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@6fc6f14e finished
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e training data accuracy = 0.6846933848382424
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6478260869565218 most-frequent-tag baseline=0.508695652173913
+          label   0   1  |total
+  0 Top_Artists  46  71  |117
+  1 Low_Artists  10 103  |113
+
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data precision(Top_Artists) = 0.8214285714285714
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data precision(Low_Artists) = 0.5919540229885057
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data recall(Top_Artists) = 0.39316239316239315
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data recall(Low_Artists) = 0.911504424778761
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data F1(Top_Artists) = 0.5317919075144508
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data F1(Low_Artists) = 0.7177700348432055
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@6fc6f14e test data accuracy = 0.6478260869565218
+
+-------------------- Trial 1  --------------------
+
+Trial 1 Training cc.mallet.classify.DecisionTreeTrainer@6b09bb57 with 2071 instances
+DecisionTree learned:
+!ain't&!ooh&!but&!i'ma: Low_Artists
+!ain't&!ooh&!but&i'ma: Top_Artists
+!ain't&!ooh&but&!ninja: Low_Artists
+!ain't&!ooh&but&ninja: Low_Artists
+!ain't&ooh&!take&!still: Top_Artists
+!ain't&ooh&!take&still: Top_Artists
+!ain't&ooh&take&!catch: Top_Artists
+!ain't&ooh&take&catch: Low_Artists
+ain't&!peggy&!guru&!she: Top_Artists
+ain't&!peggy&!guru&she: Top_Artists
+ain't&!peggy&guru: Low_Artists
+ain't&peggy: Low_Artists
+Trial 1 Training cc.mallet.classify.DecisionTreeTrainer@6b09bb57 finished
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 training data accuracy = 0.6798647996137132
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.691304347826087 most-frequent-tag baseline=0.5782608695652174
+          label   0   1  |total
+  0 Top_Artists  55  42  |97
+  1 Low_Artists  29 104  |133
+
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data precision(Top_Artists) = 0.6547619047619048
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data precision(Low_Artists) = 0.7123287671232876
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data recall(Top_Artists) = 0.5670103092783505
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data recall(Low_Artists) = 0.7819548872180451
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data F1(Top_Artists) = 0.6077348066298343
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data F1(Low_Artists) = 0.7455197132616488
+Trial 1 Trainer cc.mallet.classify.DecisionTreeTrainer@6b09bb57 test data accuracy = 0.691304347826087
+
+-------------------- Trial 2  --------------------
+
+Trial 2 Training cc.mallet.classify.DecisionTreeTrainer@6536e911 with 2071 instances
+DecisionTree learned:
+!tryna&!ooh&!gon&!know: Low_Artists
+!tryna&!ooh&!gon&know: Low_Artists
+!tryna&!ooh&gon&!peggy: Top_Artists
+!tryna&!ooh&gon&peggy: Low_Artists
+!tryna&ooh&!peggy&!shake: Top_Artists
+!tryna&ooh&!peggy&shake: Low_Artists
+!tryna&ooh&peggy: Low_Artists
+tryna&!she&!honestly&!treated: Top_Artists
+tryna&!she&!honestly&treated: Low_Artists
+tryna&!she&honestly: Low_Artists
+tryna&she&!hatin&!diss: Top_Artists
+tryna&she&!hatin&diss: Top_Artists
+tryna&she&hatin&!boy: Low_Artists
+tryna&she&hatin&boy: Top_Artists
+Trial 2 Training cc.mallet.classify.DecisionTreeTrainer@6536e911 finished
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 training data accuracy = 0.6909705456301304
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6304347826086957 most-frequent-tag baseline=0.5173913043478261
+          label   0   1  |total
+  0 Top_Artists  43  68  |111
+  1 Low_Artists  17 102  |119
+
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data precision(Top_Artists) = 0.7166666666666667
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data precision(Low_Artists) = 0.6
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data recall(Top_Artists) = 0.38738738738738737
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data recall(Low_Artists) = 0.8571428571428571
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data F1(Top_Artists) = 0.5029239766081871
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data F1(Low_Artists) = 0.7058823529411764
+Trial 2 Trainer cc.mallet.classify.DecisionTreeTrainer@6536e911 test data accuracy = 0.6304347826086957
+
+-------------------- Trial 3  --------------------
+
+Trial 3 Training cc.mallet.classify.DecisionTreeTrainer@520a3426 with 2071 instances
+DecisionTree learned:
+!tryna&!ooh&!ain't&!but: Low_Artists
+!tryna&!ooh&!ain't&but: Low_Artists
+!tryna&!ooh&ain't&!guru: Top_Artists
+!tryna&!ooh&ain't&guru: Low_Artists
+!tryna&ooh&!peggy&!crackers: Top_Artists
+!tryna&ooh&!peggy&crackers: Low_Artists
+!tryna&ooh&peggy: Low_Artists
+tryna&!she&!honestly&!case: Top_Artists
+tryna&!she&!honestly&case: Low_Artists
+tryna&!she&honestly: Low_Artists
+tryna&she&!hatin&!sing: Top_Artists
+tryna&she&!hatin&sing: Top_Artists
+tryna&she&hatin&!let: Low_Artists
+tryna&she&hatin&let: Top_Artists
+Trial 3 Training cc.mallet.classify.DecisionTreeTrainer@520a3426 finished
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 training data accuracy = 0.6938676967648479
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6608695652173913 most-frequent-tag baseline=0.5434782608695652
+          label   0   1  |total
+  0 Top_Artists  74  51  |125
+  1 Low_Artists  27  78  |105
+
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data precision(Top_Artists) = 0.7326732673267327
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data precision(Low_Artists) = 0.6046511627906976
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data recall(Top_Artists) = 0.592
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data recall(Low_Artists) = 0.7428571428571429
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data F1(Top_Artists) = 0.6548672566371682
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data F1(Low_Artists) = 0.6666666666666666
+Trial 3 Trainer cc.mallet.classify.DecisionTreeTrainer@520a3426 test data accuracy = 0.6608695652173913
+
+-------------------- Trial 4  --------------------
+
+Trial 4 Training cc.mallet.classify.DecisionTreeTrainer@18eed359 with 2070 instances
+DecisionTree learned:
+!tryna&!ooh&!gon&!but: Low_Artists
+!tryna&!ooh&!gon&but: Low_Artists
+!tryna&!ooh&gon&!peggy: Top_Artists
+!tryna&!ooh&gon&peggy: Low_Artists
+!tryna&ooh&!peggy&!crackers: Top_Artists
+!tryna&ooh&!peggy&crackers: Low_Artists
+!tryna&ooh&peggy: Low_Artists
+tryna&!peggy&!niggas&!honestly: Top_Artists
+tryna&!peggy&!niggas&honestly: Low_Artists
+tryna&!peggy&niggas&!historically: Top_Artists
+tryna&!peggy&niggas&historically: Low_Artists
+tryna&peggy: Low_Artists
+Trial 4 Training cc.mallet.classify.DecisionTreeTrainer@18eed359 finished
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 training data accuracy = 0.6859903381642513
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.683982683982684 most-frequent-tag baseline=0.5108225108225108
+          label   0   1  |total
+  0 Top_Artists  57  61  |118
+  1 Low_Artists  12 101  |113
+
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data precision(Top_Artists) = 0.8260869565217391
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data precision(Low_Artists) = 0.6234567901234568
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data recall(Top_Artists) = 0.4830508474576271
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data recall(Low_Artists) = 0.8938053097345132
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data F1(Top_Artists) = 0.6096256684491979
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data F1(Low_Artists) = 0.7345454545454545
+Trial 4 Trainer cc.mallet.classify.DecisionTreeTrainer@18eed359 test data accuracy = 0.683982683982684
+
+-------------------- Trial 5  --------------------
+
+Trial 5 Training cc.mallet.classify.DecisionTreeTrainer@3e9b1010 with 2071 instances
+DecisionTree learned:
+!ain't&!ooh&!know&!til: Low_Artists
+!ain't&!ooh&!know&til: Top_Artists
+!ain't&!ooh&know&!motherfucker: Low_Artists
+!ain't&!ooh&know&motherfucker: Low_Artists
+!ain't&ooh&!write&!then: Top_Artists
+!ain't&ooh&!write&then: Top_Artists
+!ain't&ooh&write: Low_Artists
+ain't&!peggy&!guru&!her: Top_Artists
+ain't&!peggy&!guru&her: Top_Artists
+ain't&!peggy&guru: Low_Artists
+ain't&peggy: Low_Artists
+Trial 5 Training cc.mallet.classify.DecisionTreeTrainer@3e9b1010 finished
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 training data accuracy = 0.6813133751810719
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6956521739130435 most-frequent-tag baseline=0.5434782608695652
+          label   0   1  |total
+  0 Top_Artists  76  49  |125
+  1 Low_Artists  21  84  |105
+
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data precision(Top_Artists) = 0.7835051546391752
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data precision(Low_Artists) = 0.631578947368421
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data recall(Top_Artists) = 0.608
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data recall(Low_Artists) = 0.8
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data F1(Top_Artists) = 0.6846846846846847
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data F1(Low_Artists) = 0.7058823529411765
+Trial 5 Trainer cc.mallet.classify.DecisionTreeTrainer@3e9b1010 test data accuracy = 0.6956521739130435
+
+-------------------- Trial 6  --------------------
+
+Trial 6 Training cc.mallet.classify.DecisionTreeTrainer@6c3708b3 with 2071 instances
+DecisionTree learned:
+!ain't&!ooh&!tryna&!cause: Low_Artists
+!ain't&!ooh&!tryna&cause: Low_Artists
+!ain't&!ooh&tryna&!voice: Top_Artists
+!ain't&!ooh&tryna&voice: Low_Artists
+!ain't&ooh&!take&!you: Low_Artists
+!ain't&ooh&!take&you: Top_Artists
+!ain't&ooh&take&!catch: Top_Artists
+!ain't&ooh&take&catch: Low_Artists
+ain't&!peggy&!guru&!she: Top_Artists
+ain't&!peggy&!guru&she: Top_Artists
+ain't&!peggy&guru: Low_Artists
+ain't&peggy: Low_Artists
+Trial 6 Training cc.mallet.classify.DecisionTreeTrainer@6c3708b3 finished
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 training data accuracy = 0.6972477064220184
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6782608695652174 most-frequent-tag baseline=0.5260869565217391
+          label   0   1  |total
+  0 Top_Artists  66  43  |109
+  1 Low_Artists  31  90  |121
+
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data precision(Top_Artists) = 0.6804123711340206
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data precision(Low_Artists) = 0.6766917293233082
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data recall(Top_Artists) = 0.6055045871559633
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data recall(Low_Artists) = 0.743801652892562
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data F1(Top_Artists) = 0.6407766990291263
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data F1(Low_Artists) = 0.7086614173228347
+Trial 6 Trainer cc.mallet.classify.DecisionTreeTrainer@6c3708b3 test data accuracy = 0.6782608695652174
+
+-------------------- Trial 7  --------------------
+
+Trial 7 Training cc.mallet.classify.DecisionTreeTrainer@6f1fba17 with 2071 instances
+DecisionTree learned:
+!tryna&!ain't&!ooh&!cause: Low_Artists
+!tryna&!ain't&!ooh&cause: Low_Artists
+!tryna&!ain't&ooh&!peggy: Top_Artists
+!tryna&!ain't&ooh&peggy: Low_Artists
+!tryna&ain't&!peggy&!guru: Top_Artists
+!tryna&ain't&!peggy&guru: Low_Artists
+!tryna&ain't&peggy: Low_Artists
+tryna&!honestly&!ninja&!peggy: Top_Artists
+tryna&!honestly&!ninja&peggy: Low_Artists
+tryna&!honestly&ninja: Low_Artists
+tryna&honestly&!say: Top_Artists
+tryna&honestly&say: Low_Artists
+Trial 7 Training cc.mallet.classify.DecisionTreeTrainer@6f1fba17 finished
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 training data accuracy = 0.6972477064220184
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7086956521739131 most-frequent-tag baseline=0.5173913043478261
+          label   0   1  |total
+  0 Top_Artists  73  38  |111
+  1 Low_Artists  29  90  |119
+
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data precision(Top_Artists) = 0.7156862745098039
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data precision(Low_Artists) = 0.703125
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data recall(Top_Artists) = 0.6576576576576577
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data recall(Low_Artists) = 0.7563025210084033
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data F1(Top_Artists) = 0.6854460093896714
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data F1(Low_Artists) = 0.728744939271255
+Trial 7 Trainer cc.mallet.classify.DecisionTreeTrainer@6f1fba17 test data accuracy = 0.7086956521739131
+
+-------------------- Trial 8  --------------------
+
+Trial 8 Training cc.mallet.classify.DecisionTreeTrainer@185d8b6 with 2071 instances
+DecisionTree learned:
+!tryna&!ooh&!ain't&!know: Low_Artists
+!tryna&!ooh&!ain't&know: Low_Artists
+!tryna&!ooh&ain't&!guru: Top_Artists
+!tryna&!ooh&ain't&guru: Low_Artists
+!tryna&ooh&!peggy&!lets: Top_Artists
+!tryna&ooh&!peggy&lets: Low_Artists
+!tryna&ooh&peggy: Low_Artists
+tryna&!peggy&!bitch&!honestly: Top_Artists
+tryna&!peggy&!bitch&honestly: Low_Artists
+tryna&!peggy&bitch&!flash: Top_Artists
+tryna&!peggy&bitch&flash: Low_Artists
+tryna&peggy: Low_Artists
+Trial 8 Training cc.mallet.classify.DecisionTreeTrainer@185d8b6 finished
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 training data accuracy = 0.6943505552873008
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6608695652173913 most-frequent-tag baseline=0.5173913043478261
+          label   0   1  |total
+  0 Top_Artists  64  47  |111
+  1 Low_Artists  31  88  |119
+
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data precision(Top_Artists) = 0.6736842105263158
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data precision(Low_Artists) = 0.6518518518518519
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data recall(Top_Artists) = 0.5765765765765766
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data recall(Low_Artists) = 0.7394957983193278
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data F1(Top_Artists) = 0.6213592233009709
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data F1(Low_Artists) = 0.6929133858267718
+Trial 8 Trainer cc.mallet.classify.DecisionTreeTrainer@185d8b6 test data accuracy = 0.6608695652173913
+
+-------------------- Trial 9  --------------------
+
+Trial 9 Training cc.mallet.classify.DecisionTreeTrainer@67784306 with 2071 instances
+DecisionTree learned:
+!tryna&!ooh&!gon&!know: Low_Artists
+!tryna&!ooh&!gon&know: Low_Artists
+!tryna&!ooh&gon&!peggy: Top_Artists
+!tryna&!ooh&gon&peggy: Low_Artists
+!tryna&ooh&!peggy&!crackers: Top_Artists
+!tryna&ooh&!peggy&crackers: Low_Artists
+!tryna&ooh&peggy: Low_Artists
+tryna&!she&!honestly&!inside: Top_Artists
+tryna&!she&!honestly&inside: Top_Artists
+tryna&!she&honestly: Low_Artists
+tryna&she&!fame&!crackers: Top_Artists
+tryna&she&!fame&crackers: Low_Artists
+tryna&she&fame&!say: Top_Artists
+tryna&she&fame&say: Low_Artists
+Trial 9 Training cc.mallet.classify.DecisionTreeTrainer@67784306 finished
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 training data accuracy = 0.6846933848382424
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6826086956521739 most-frequent-tag baseline=0.5434782608695652
+          label   0   1  |total
+  0 Top_Artists  61  64  |125
+  1 Low_Artists   9  96  |105
+
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data precision(Top_Artists) = 0.8714285714285714
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data precision(Low_Artists) = 0.6
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data recall(Top_Artists) = 0.488
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data recall(Low_Artists) = 0.9142857142857143
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data F1(Top_Artists) = 0.6256410256410256
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data F1(Low_Artists) = 0.7245283018867924
+Trial 9 Trainer cc.mallet.classify.DecisionTreeTrainer@67784306 test data accuracy = 0.6826086956521739
+
+cc.mallet.classify.DecisionTreeTrainer@6fc6f14e
+Summary. train accuracy mean = 0.6890239493161838 stddev = 0.006172014017973792 stderr = 0.0019517622047284598
+Summary. test accuracy mean = 0.6740504423113117 stddev = 0.02256492206867524 stderr = 0.007135654896121216
+Summary. test precision(Top_Artists) mean = 0.7476333948943502 stddev = 0.07002024139518899 stderr = 0.022142344512360333
+Summary. test precision(Low_Artists) mean = 0.6395638271569528 stddev = 0.04219432571284887 stderr = 0.01334301735876102
+Summary. test recall(Top_Artists) mean = 0.5358349758675957 stddev = 0.08840543090253926 stderr = 0.027956251918065916
+Summary. test recall(Low_Artists) mean = 0.8141150308237327 stddev = 0.06919991117547264 stderr = 0.02188293331958333
+Summary. test f1(Top_Artists) mean = 0.6164851257884317 stddev = 0.05636518002586815 stderr = 0.017824234960717177
+Summary. test f1(Low_Artists) mean = 0.7131114619506983 stddev = 0.021437273986344357 stderr = 0.006779061262192549

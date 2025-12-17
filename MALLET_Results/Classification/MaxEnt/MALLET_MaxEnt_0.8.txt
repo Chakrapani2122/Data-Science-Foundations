@@ -1,0 +1,29 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1841 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 training data accuracy = 0.9994568169473113
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.7304347826086957 most-frequent-tag baseline=0.5195652173913043
+          label   0   1  |total
+  0 Top_Artists 156  65  |221
+  1 Low_Artists  59 180  |239
+
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Top_Artists) = 0.7255813953488373
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(Low_Artists) = 0.7346938775510204
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Top_Artists) = 0.7058823529411765
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(Low_Artists) = 0.7531380753138075
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Top_Artists) = 0.7155963302752294
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(Low_Artists) = 0.743801652892562
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.7304347826086957
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. train accuracy mean = 0.9994568169473113 stddev = 0.0 stderr = 0.0
+Summary. test accuracy mean = 0.7304347826086957 stddev = 0.0 stderr = 0.0
+Summary. test precision(Top_Artists) mean = 0.7255813953488373 stddev = 0.0 stderr = 0.0
+Summary. test precision(Low_Artists) mean = 0.7346938775510204 stddev = 0.0 stderr = 0.0
+Summary. test recall(Top_Artists) mean = 0.7058823529411765 stddev = 0.0 stderr = 0.0
+Summary. test recall(Low_Artists) mean = 0.7531380753138075 stddev = 0.0 stderr = 0.0
+Summary. test f1(Top_Artists) mean = 0.7155963302752294 stddev = 0.0 stderr = 0.0
+Summary. test f1(Low_Artists) mean = 0.743801652892562 stddev = 0.0 stderr = 0.0

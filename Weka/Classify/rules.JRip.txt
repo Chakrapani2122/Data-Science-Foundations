@@ -1,0 +1,52 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(car parts frequency >= 0.0042) and (FFT mean >= 234) and (female frequency >= 0.00202) => Class=Top_Artists (310.0/31.0)
+(FFT mean >= 176) and (,Frequency of double quotes >= 0.00343) and (Word diversity <= 0.413) => Class=Top_Artists (362.0/83.0)
+(FFT mean >= 171) and (car parts frequency >= 0.00727) => Class=Top_Artists (186.0/67.0)
+(FFT mean >= 138) and (Punctuation characters ratio >= 0.175) and (FFT median >= 85.6) => Class=Top_Artists (92.0/23.0)
+(FFT mean >= 131) and (Word repetition span 11 >= 0.328) and (Use of upper case <= 0.0451) => Class=Top_Artists (120.0/39.0)
+(FFT mean >= 133) and (transportation frequency >= 0.00412) and (Number diversity >= 0.0103) and (Mean of numbers >= 7) => Class=Top_Artists (64.0/21.0)
+ => Class=Low_Artists (1158.0/271.0)
+
+Number of Rules : 7
+
+
+Time taken to build model: 3.52 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1586               69.1972 %
+Incorrectly Classified Instances       706               30.8028 %
+Kappa statistic                          0.3838
+Mean absolute error                      0.3793
+Root mean squared error                  0.4674
+Relative absolute error                 75.8574 %
+Root relative squared error             93.4839 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.712    0.329    0.686      0.712    0.699      0.384    0.717     0.665     Low_Artists
+                 0.671    0.288    0.698      0.671    0.685      0.384    0.717     0.704     Top_Artists
+Weighted Avg.    0.692    0.308    0.692      0.692    0.692      0.384    0.717     0.684     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 820 331 |   a = Low_Artists
+ 375 766 |   b = Top_Artists
+

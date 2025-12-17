@@ -1,0 +1,187 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.IterativeClassifierOptimizer -W weka.classifiers.meta.LogitBoost -L 50 -P 1 -E 1 -I 1 -F 10 -R 1 -percentage 0.0 -metric RMSE -S 1 -- -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Best value found: 0.4357923846517008
+Best number of iterations found: 10
+
+
+
+LogitBoost: Base classifiers and their weights: 
+
+Iteration 1
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+FFT mean <= 183.5 : 0.8772597526165556
+FFT mean > 183.5 : -0.7268331990330379
+FFT mean is missing : 0.008726003490401396
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 2
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+Punctuation characters ratio <= 0.1625 : 0.5292630982717349
+Punctuation characters ratio > 0.1625 : -0.42044289503757154
+Punctuation characters ratio is missing : 0.008579457003446195
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 3
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+Frequency of exclamation <= 0.004115000000000001 : -0.0864031221623714
+Frequency of exclamation > 0.004115000000000001 : 1.1995621126881877
+Frequency of exclamation is missing : 0.0017506561123399073
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 4
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+Frequency of single quotes <= 0.01865 : 0.7715954291017675
+Frequency of single quotes > 0.01865 : -0.12525612375051742
+Frequency of single quotes is missing : 0.0034561626344511696
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 5
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+FFT median <= 89.1 : 0.20240610688276514
+FFT median > 89.1 : -0.47918478954492194
+FFT median is missing : 0.014751725699166131
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 6
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+FFT histogram bin 1 <= 0.9495 : 0.6420240023420168
+FFT histogram bin 1 > 0.9495 : -0.14185991979678764
+FFT histogram bin 1 is missing : -0.003665326538530096
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 7
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+car parts frequency <= 0.0041600000000000005 : 0.2820446024971028
+car parts frequency > 0.0041600000000000005 : -0.23693221235432763
+car parts frequency is missing : 0.0015637163531015425
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 8
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+Sentence length mean <= 9.94 : -0.08202971269964969
+Sentence length mean > 9.94 : 0.7769797421790268
+Sentence length mean is missing : -5.80705485567474E-4
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 9
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+female frequency <= 0.00234 : 0.21003670507948588
+female frequency > 0.00234 : -0.3007931426973191
+female frequency is missing : -0.0031187641866513055
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 10
+	Class 1 (Class=Low_Artists)
+
+Decision Stump
+
+Classifications
+
+Mean of numbers <= 12.25 : 0.10431324549708999
+Mean of numbers > 12.25 : -0.49522272999616784
+Mean of numbers is missing : 0.0010479374306536834
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+Number of performed iterations: 10
+
+
+Time taken to build model: 4.82 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1637               71.4223 %
+Incorrectly Classified Instances       655               28.5777 %
+Kappa statistic                          0.4285
+Mean absolute error                      0.3609
+Root mean squared error                  0.4365
+Relative absolute error                 72.1807 %
+Root relative squared error             87.3062 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.699    0.271    0.723      0.699    0.711      0.429    0.785     0.783     Low_Artists
+                 0.729    0.301    0.706      0.729    0.718      0.429    0.785     0.762     Top_Artists
+Weighted Avg.    0.714    0.286    0.714      0.714    0.714      0.429    0.785     0.772     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 805 346 |   a = Low_Artists
+ 309 832 |   b = Top_Artists
+

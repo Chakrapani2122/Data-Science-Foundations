@@ -1,0 +1,48 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 0
+
+Class = 
+
+ -       0.7   
+
+Time taken to build model: 0.22 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1151               50.2182 %
+Incorrectly Classified Instances      1141               49.7818 %
+Kappa statistic                          0     
+Mean absolute error                      0.4978
+Root mean squared error                  0.7056
+Relative absolute error                 99.5656 %
+Root relative squared error            141.1138 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.502      1.000    0.669      ?        0.500     0.502     Low_Artists
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.498     Top_Artists
+Weighted Avg.    0.502    0.502    ?          0.502    ?          ?        0.500     0.500     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1151    0 |    a = Low_Artists
+ 1141    0 |    b = Top_Artists
+

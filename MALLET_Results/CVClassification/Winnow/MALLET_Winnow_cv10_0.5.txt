@@ -1,0 +1,200 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training cc.mallet.classify.WinnowTrainer@20398b7c with 2071 instances
+Trial 0 Training cc.mallet.classify.WinnowTrainer@20398b7c finished
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c training data accuracy = 0.5480444229840656
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.49130434782608695 most-frequent-tag baseline=0.5478260869565217
+          label   0   1  |total
+  0 Top_Artists  12 114  |126
+  1 Low_Artists   3 101  |104
+
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data precision(Top_Artists) = 0.8
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data precision(Low_Artists) = 0.4697674418604651
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data recall(Top_Artists) = 0.09523809523809523
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data recall(Low_Artists) = 0.9711538461538461
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data F1(Top_Artists) = 0.1702127659574468
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data F1(Low_Artists) = 0.6332288401253918
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@20398b7c test data accuracy = 0.49130434782608695
+
+-------------------- Trial 1  --------------------
+
+Trial 1 Training cc.mallet.classify.WinnowTrainer@370736d9 with 2071 instances
+Trial 1 Training cc.mallet.classify.WinnowTrainer@370736d9 finished
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 training data accuracy = 0.5379043940125543
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.5304347826086957 most-frequent-tag baseline=0.508695652173913
+          label   0   1  |total
+  0 Top_Artists  12 101  |113
+  1 Low_Artists   7 110  |117
+
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data precision(Top_Artists) = 0.631578947368421
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data precision(Low_Artists) = 0.5213270142180095
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data recall(Top_Artists) = 0.10619469026548672
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data recall(Low_Artists) = 0.9401709401709402
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data F1(Top_Artists) = 0.18181818181818182
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data F1(Low_Artists) = 0.6707317073170732
+Trial 1 Trainer cc.mallet.classify.WinnowTrainer@370736d9 test data accuracy = 0.5304347826086957
+
+-------------------- Trial 2  --------------------
+
+Trial 2 Training cc.mallet.classify.WinnowTrainer@5f9d02cb with 2071 instances
+Trial 2 Training cc.mallet.classify.WinnowTrainer@5f9d02cb finished
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb training data accuracy = 0.49782713664896183
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.4956521739130435 most-frequent-tag baseline=0.5
+          label   0   1  |total
+  0 Top_Artists   5 110  |115
+  1 Low_Artists   6 109  |115
+
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data precision(Top_Artists) = 0.45454545454545453
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data precision(Low_Artists) = 0.4977168949771689
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data recall(Top_Artists) = 0.043478260869565216
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data recall(Low_Artists) = 0.9478260869565217
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data F1(Top_Artists) = 0.07936507936507936
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data F1(Low_Artists) = 0.652694610778443
+Trial 2 Trainer cc.mallet.classify.WinnowTrainer@5f9d02cb test data accuracy = 0.4956521739130435
+
+-------------------- Trial 3  --------------------
+
+Trial 3 Training cc.mallet.classify.WinnowTrainer@63753b6d with 2071 instances
+Trial 3 Training cc.mallet.classify.WinnowTrainer@63753b6d finished
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d training data accuracy = 0.509415741187832
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.5173913043478261 most-frequent-tag baseline=0.5173913043478261
+          label   0   1  |total
+  0 Top_Artists   3 108  |111
+  1 Low_Artists   3 116  |119
+
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data precision(Top_Artists) = 0.5
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data precision(Low_Artists) = 0.5178571428571429
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data recall(Top_Artists) = 0.02702702702702703
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data recall(Low_Artists) = 0.9747899159663865
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data F1(Top_Artists) = 0.05128205128205129
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data F1(Low_Artists) = 0.6763848396501457
+Trial 3 Trainer cc.mallet.classify.WinnowTrainer@63753b6d test data accuracy = 0.5173913043478261
+
+-------------------- Trial 4  --------------------
+
+Trial 4 Training cc.mallet.classify.WinnowTrainer@6b09bb57 with 2070 instances
+Trial 4 Training cc.mallet.classify.WinnowTrainer@6b09bb57 finished
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 training data accuracy = 0.5357487922705314
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.5411255411255411 most-frequent-tag baseline=0.5108225108225108
+          label   0   1  |total
+  0 Top_Artists   9 104  |113
+  1 Low_Artists   2 116  |118
+
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data precision(Top_Artists) = 0.8181818181818182
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data precision(Low_Artists) = 0.5272727272727272
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data recall(Top_Artists) = 0.07964601769911504
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data recall(Low_Artists) = 0.9830508474576272
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data F1(Top_Artists) = 0.14516129032258066
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data F1(Low_Artists) = 0.6863905325443785
+Trial 4 Trainer cc.mallet.classify.WinnowTrainer@6b09bb57 test data accuracy = 0.5411255411255411
+
+-------------------- Trial 5  --------------------
+
+Trial 5 Training cc.mallet.classify.WinnowTrainer@6536e911 with 2071 instances
+Trial 5 Training cc.mallet.classify.WinnowTrainer@6536e911 finished
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 training data accuracy = 0.5422501207146306
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.5391304347826087 most-frequent-tag baseline=0.5043478260869565
+          label   0   1  |total
+  0 Top_Artists  18  96  |114
+  1 Low_Artists  10 106  |116
+
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data precision(Top_Artists) = 0.6428571428571429
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data precision(Low_Artists) = 0.5247524752475248
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data recall(Top_Artists) = 0.15789473684210525
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data recall(Low_Artists) = 0.9137931034482759
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data F1(Top_Artists) = 0.25352112676056343
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data F1(Low_Artists) = 0.6666666666666667
+Trial 5 Trainer cc.mallet.classify.WinnowTrainer@6536e911 test data accuracy = 0.5391304347826087
+
+-------------------- Trial 6  --------------------
+
+Trial 6 Training cc.mallet.classify.WinnowTrainer@520a3426 with 2071 instances
+Trial 6 Training cc.mallet.classify.WinnowTrainer@520a3426 finished
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 training data accuracy = 0.5354901014002897
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.4782608695652174 most-frequent-tag baseline=0.5347826086956522
+          label   0   1  |total
+  0 Top_Artists  12 111  |123
+  1 Low_Artists   9  98  |107
+
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data precision(Top_Artists) = 0.5714285714285714
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data precision(Low_Artists) = 0.4688995215311005
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data recall(Top_Artists) = 0.0975609756097561
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data recall(Low_Artists) = 0.9158878504672897
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data F1(Top_Artists) = 0.16666666666666669
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data F1(Low_Artists) = 0.6202531645569621
+Trial 6 Trainer cc.mallet.classify.WinnowTrainer@520a3426 test data accuracy = 0.4782608695652174
+
+-------------------- Trial 7  --------------------
+
+Trial 7 Training cc.mallet.classify.WinnowTrainer@18eed359 with 2071 instances
+Trial 7 Training cc.mallet.classify.WinnowTrainer@18eed359 finished
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 training data accuracy = 0.4944471269917914
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.5173913043478261 most-frequent-tag baseline=0.508695652173913
+          label   0   1  |total
+  0 Top_Artists   7 106  |113
+  1 Low_Artists   5 112  |117
+
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data precision(Top_Artists) = 0.5833333333333334
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data precision(Low_Artists) = 0.5137614678899083
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data recall(Top_Artists) = 0.061946902654867256
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data recall(Low_Artists) = 0.9572649572649573
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data F1(Top_Artists) = 0.112
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data F1(Low_Artists) = 0.6686567164179105
+Trial 7 Trainer cc.mallet.classify.WinnowTrainer@18eed359 test data accuracy = 0.5173913043478261
+
+-------------------- Trial 8  --------------------
+
+Trial 8 Training cc.mallet.classify.WinnowTrainer@3e9b1010 with 2071 instances
+Trial 8 Training cc.mallet.classify.WinnowTrainer@3e9b1010 finished
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 training data accuracy = 0.5335586673104781
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.49130434782608695 most-frequent-tag baseline=0.5130434782608696
+          label   0   1  |total
+  0 Top_Artists   6 112  |118
+  1 Low_Artists   5 107  |112
+
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data precision(Top_Artists) = 0.5454545454545454
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data precision(Low_Artists) = 0.4885844748858447
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data recall(Top_Artists) = 0.05084745762711865
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data recall(Low_Artists) = 0.9553571428571429
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data F1(Top_Artists) = 0.0930232558139535
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data F1(Low_Artists) = 0.6465256797583082
+Trial 8 Trainer cc.mallet.classify.WinnowTrainer@3e9b1010 test data accuracy = 0.49130434782608695
+
+-------------------- Trial 9  --------------------
+
+Trial 9 Training cc.mallet.classify.WinnowTrainer@6c3708b3 with 2071 instances
+Trial 9 Training cc.mallet.classify.WinnowTrainer@6c3708b3 finished
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 training data accuracy = 0.7281506518590053
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6739130434782609 most-frequent-tag baseline=0.5521739130434783
+          label   0   1  |total
+  0 Top_Artists  88  15  |103
+  1 Low_Artists  60  67  |127
+
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data precision(Top_Artists) = 0.5945945945945946
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data precision(Low_Artists) = 0.8170731707317073
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data recall(Top_Artists) = 0.8543689320388349
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data recall(Low_Artists) = 0.5275590551181102
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data F1(Top_Artists) = 0.7011952191235059
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data F1(Low_Artists) = 0.6411483253588517
+Trial 9 Trainer cc.mallet.classify.WinnowTrainer@6c3708b3 test data accuracy = 0.6739130434782609
+
+cc.mallet.classify.WinnowTrainer@20398b7c
+Summary. train accuracy mean = 0.5462837155380141 stddev = 0.06320514107503145 stderr = 0.019987220562936274
+Summary. test accuracy mean = 0.5275908149821193 stddev = 0.05294301661288189 stderr = 0.016742051869683975
+Summary. test precision(Top_Artists) mean = 0.614197440776388 stddev = 0.11121022941746593 stderr = 0.03516776240690528
+Summary. test precision(Low_Artists) mean = 0.53470123314716 stddev = 0.09634832518631933 stderr = 0.030468015633133602
+Summary. test recall(Top_Artists) mean = 0.15742030958719713 stddev = 0.2350145575122061 stderr = 0.07431812850352061
+Summary. test recall(Low_Artists) mean = 0.9086853745861099 stddev = 0.12891824767756435 stderr = 0.04076752946188158
+Summary. test f1(Top_Artists) mean = 0.19542456371100295 stddev = 0.17749532435200807 stderr = 0.05612894989826956
+Summary. test f1(Low_Artists) mean = 0.656268108317413 stddev = 0.01986711688130101 stderr = 0.0062825339885692255

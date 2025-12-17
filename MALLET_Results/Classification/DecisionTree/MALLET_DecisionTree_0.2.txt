@@ -1,0 +1,42 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@71423665 with 460 instances
+DecisionTree learned:
+!ain't&!ooh&!four&!hide: Low_Artists
+!ain't&!ooh&!four&hide: Top_Artists
+!ain't&!ooh&four: Top_Artists
+!ain't&ooh&!heard&!don't: Top_Artists
+!ain't&ooh&!heard&don't: Top_Artists
+!ain't&ooh&heard: Low_Artists
+ain't&!might&!forever&!she: Low_Artists
+ain't&!might&!forever&she: Top_Artists
+ain't&!might&forever: Top_Artists
+ain't&might&!watch: Top_Artists
+ain't&might&watch&!make: Low_Artists
+ain't&might&watch&make: Top_Artists
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@71423665 finished
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 training data accuracy = 0.7326086956521739
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6268332428028246 most-frequent-tag baseline=0.503530689842477
+          label   0   1  |total
+  0 Top_Artists 391 536  |927
+  1 Low_Artists 151 763  |914
+
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data precision(Top_Artists) = 0.7214022140221402
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data precision(Low_Artists) = 0.5873749037721324
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data recall(Top_Artists) = 0.42179072276159657
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data recall(Low_Artists) = 0.8347921225382933
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data F1(Top_Artists) = 0.5323349217154527
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data F1(Low_Artists) = 0.6895616809760505
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@71423665 test data accuracy = 0.6268332428028246
+
+cc.mallet.classify.DecisionTreeTrainer@71423665
+Summary. train accuracy mean = 0.7326086956521739 stddev = 0.0 stderr = 0.0
+Summary. test accuracy mean = 0.6268332428028246 stddev = 0.0 stderr = 0.0
+Summary. test precision(Top_Artists) mean = 0.7214022140221402 stddev = 0.0 stderr = 0.0
+Summary. test precision(Low_Artists) mean = 0.5873749037721324 stddev = 0.0 stderr = 0.0
+Summary. test recall(Top_Artists) mean = 0.42179072276159657 stddev = 0.0 stderr = 0.0
+Summary. test recall(Low_Artists) mean = 0.8347921225382933 stddev = 0.0 stderr = 0.0
+Summary. test f1(Top_Artists) mean = 0.5323349217154527 stddev = 0.0 stderr = 0.0
+Summary. test f1(Low_Artists) mean = 0.6895616809760505 stddev = 0.0 stderr = 0.0

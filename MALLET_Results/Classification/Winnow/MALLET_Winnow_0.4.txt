@@ -1,0 +1,29 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training cc.mallet.classify.WinnowTrainer@2ac273d3 with 920 instances
+Trial 0 Training cc.mallet.classify.WinnowTrainer@2ac273d3 finished
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 training data accuracy = 0.7108695652173913
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.6603910209992759 most-frequent-tag baseline=0.5047067342505431
+          label   0   1  |total
+  0 Top_Artists 502 182  |684
+  1 Low_Artists 287 410  |697
+
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data precision(Top_Artists) = 0.6362484157160964
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data precision(Low_Artists) = 0.6925675675675675
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data recall(Top_Artists) = 0.7339181286549707
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data recall(Low_Artists) = 0.5882352941176471
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data F1(Top_Artists) = 0.681602172437203
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data F1(Low_Artists) = 0.6361520558572537
+Trial 0 Trainer cc.mallet.classify.WinnowTrainer@2ac273d3 test data accuracy = 0.6603910209992759
+
+cc.mallet.classify.WinnowTrainer@2ac273d3
+Summary. train accuracy mean = 0.7108695652173913 stddev = 0.0 stderr = 0.0
+Summary. test accuracy mean = 0.6603910209992759 stddev = 0.0 stderr = 0.0
+Summary. test precision(Top_Artists) mean = 0.6362484157160964 stddev = 0.0 stderr = 0.0
+Summary. test precision(Low_Artists) mean = 0.6925675675675675 stddev = 0.0 stderr = 0.0
+Summary. test recall(Top_Artists) mean = 0.7339181286549707 stddev = 0.0 stderr = 0.0
+Summary. test recall(Low_Artists) mean = 0.5882352941176471 stddev = 0.0 stderr = 0.0
+Summary. test f1(Top_Artists) mean = 0.681602172437203 stddev = 0.0 stderr = 0.0
+Summary. test f1(Low_Artists) mean = 0.6361520558572537 stddev = 0.0 stderr = 0.0

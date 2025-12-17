@@ -1,0 +1,370 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.PART -C 0.25 -M 2
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+PART decision list
+------------------
+
+Frequency of single quotes <= 0.0186 AND
+FFT mean <= 241 AND
+Word homoganity hist bin 6 <= 0.00862 AND
+FFT min <= 0.901 AND
+Mean of numbers <= 14 AND
+Number diversity > 0.00752: Low_Artists (86.0)
+
+FFT max <= 421 AND
+Quotations number <= 0 AND
+Frequency of single quotes <= 0.0773 AND
+castles and kings and queens frequency <= 0.0163 AND
+FFT min <= 0.188 AND
+Words of length 1 <= 0.139 AND
+Sentence length hist bin 5 > 0.0923: Low_Artists (96.0)
+
+FFT mean > 183 AND
+Frequency of exclamation > 0.0111 AND
+Words of length 15 <= 0.0028 AND
+Frequency of apostepe <= 0.0856: Low_Artists (24.0)
+
+FFT mean > 183 AND
+negative words hist bin 4 <= 0.0909 AND
+Sentence length mean <= 9.93 AND
+Word diversity <= 0.424 AND
+Punctuation characters ratio > 0.162 AND
+FFT mean > 219 AND
+female frequency > 0.00317 AND
+Frequency of exclamation <= 0.00366 AND
+driving frequency > 0.0047 AND
+positive words frequency <= 0.0492 AND
+positive words mean <= 0.00635 AND
+Quotations number <= 0: Top_Artists (111.0)
+
+Sentence length mean <= 5.29 AND
+castles and kings and queens frequency <= 0.026 AND
+Frequency of single quotes <= 0.0084: Low_Artists (48.0)
+
+negative words hist bin 4 <= 0.0909 AND
+FFT mean > 183 AND
+Number diversity > 0.0217 AND
+Words of length 13 <= 0.00363 AND
+Words of length 9 > 0.00117 AND
+weather frequency > 0.0171: Top_Artists (79.0)
+
+negative words hist bin 4 <= 0.0909 AND
+FFT mean <= 142 AND
+,Frequency of double quotes <= 0.0111 AND
+FFT histogram bin 1 > 0.882 AND
+female frequency <= 0.039 AND
+Quotations number <= 0 AND
+computer frequency <= 0.0244 AND
+Sentence length stddev <= 1.67 AND
+sport frequency <= 0.113 AND
+military frequency <= 0.0309 AND
+birds frequency <= 0.0163: Low_Artists (67.0/1.0)
+
+negative words hist bin 4 <= 0.0909 AND
+FFT mean > 183 AND
+Sentence length mean <= 9.88 AND
+Words of length 5 <= 0.145 AND
+fish frequency > 0.0021 AND
+Soundex homoganity hist bin 4 > 0.0395: Top_Artists (41.0)
+
+negative words hist bin 4 <= 0.0909 AND
+FFT mean > 183 AND
+Frequency of single quotes > 0.156 AND
+Words of length 2 > 0.141: Top_Artists (35.0)
+
+negative words hist bin 4 > 0.0909: Top_Artists (32.0/1.0)
+
+negative words hist bin 0 > 0.0722 AND
+Sentence length hist bin 3 > 0.173: Top_Artists (20.0)
+
+FFT mean <= 146 AND
+FFT histogram bin 1 <= 0.882: Low_Artists (37.0/1.0)
+
+FFT median > 102 AND
+Frequency of single quotes > 0.0181 AND
+Frequency of exclamation <= 0.00283 AND
+Soundex homogeneity mean > 0.0433 AND
+Upper case word mean <= 0 AND
+acronyms frequency > 0.00862 AND
+birds frequency <= 0.00816 AND
+Quotations number <= 4 AND
+male frequency <= 0.00599 AND
+public buildings frequency <= 0.022 AND
+buildings frequency > 0.00316 AND
+FFT histogram bin 1 > 0.994: Top_Artists (67.0)
+
+FFT median > 191 AND
+Soundex homogeneity mean > 0.0516 AND
+Quotations number <= 2 AND
+Words of length 13 <= 0.00209 AND
+Word repetition span 11 > 0.166 AND
+Quotations number <= 0 AND
+Words of length 4 > 0.185 AND
+roads frequency <= 0.0256 AND
+computer frequency <= 0.011: Top_Artists (47.0)
+
+acronyms frequency <= 0.00779 AND
+castles and kings and queens frequency <= 0.0281 AND
+medical frequency <= 0.032 AND
+weather frequency <= 0.0578 AND
+Frequency of single quotes <= 0.0723 AND
+Words of length 13 <= 0.0023 AND
+,Frequency of double quotes <= 0.0204: Low_Artists (43.0)
+
+Frequency of exclamation > 0.00329 AND
+Use of upper case > 0.0499: Low_Artists (27.0)
+
+,Frequency of double quotes > 0.00317 AND
+Word diversity > 0.484 AND
+Soundex homoganity hist bin 1 <= 0.579 AND
+Words of length 14 <= 0.00087 AND
+FFT histogram bin 2 <= 0.0115 AND
+science fields frequency <= 0.00209 AND
+leaders frequency <= 0.0127 AND
+Quotations number <= 4 AND
+female frequency <= 0.00209 AND
+Frequency of colon <= 0.000956 AND
+FFT histogram bin 2 <= 0.00577: Low_Artists (25.0)
+
+,Frequency of double quotes > 0.00317 AND
+Frequency of colon <= 0.00136 AND
+Sentence length character mean <= 26.6 AND
+FFT min <= 0.488 AND
+countries frequency > 0.0176: Low_Artists (18.0)
+
+,Frequency of double quotes > 0.00317 AND
+Frequency of colon <= 0.00136 AND
+time frequency > 0.038 AND
+FFT mean > 158 AND
+occupation frequency <= 0.00485 AND
+fall frequency <= 0.00662: Top_Artists (67.0)
+
+,Frequency of double quotes > 0.00317 AND
+Frequency of colon <= 0.000697 AND
+Upper case word mean <= 0 AND
+Quotations number > 0 AND
+Frequency of exclamation <= 0.00383 AND
+transportation frequency <= 0.00893 AND
+Sentence length hist bin 1 <= 0.304 AND
+countries frequency > 0.00316 AND
+fruits frequency <= 0.00159 AND
+FFT histogram bin 1 > 0.983: Top_Artists (36.0/1.0)
+
+transportation frequency <= 0.00424 AND
+medical frequency > 0.0346 AND
+Frequency of colon <= 0.00109 AND
+musical instruments frequency <= 0.042: Low_Artists (47.0/1.0)
+
+Mean of numbers > 16.2 AND
+camping frequency <= 0.00548 AND
+transportation frequency > 0.00536 AND
+buildings frequency > 0.00387 AND
+Word homoganity hist bin 0 > 0.344: Top_Artists (31.0)
+
+Words of length 11 > 0.00693 AND
+Word homoganity hist bin 7 > 0.0123 AND
+Words of length 4 > 0.146 AND
+fall frequency <= 0.00716 AND
+lanuages frequency <= 0.000661 AND
+Frequency of colon <= 0.00235 AND
+Emotion circumplex <= 317 AND
+military frequency <= 0.0302: Top_Artists (43.0)
+
+Use of upper case <= 0.0295 AND
+Word repetition span 11 <= 0.308 AND
+musical instruments frequency <= 0.0184: Low_Artists (44.0)
+
+Words of length 7 <= 0.00304 AND
+Soundex homogeneity maximum > 0.0738: Low_Artists (25.0/1.0)
+
+FFT min > 0.00838 AND
+winter frequency > 0.0273: Top_Artists (19.0)
+
+self frequency <= 0.0217 AND
+FFT histogram bin 1 <= 0.997 AND
+Words of length 3 > 0.119: Low_Artists (33.0/1.0)
+
+car parts frequency <= 0.00401 AND
+FFT min > 0.188 AND
+camping frequency <= 0.00698 AND
+law frequency <= 0.0218 AND
+farm frequency <= 0.00398 AND
+boats frequency <= 0.0194: Top_Artists (25.0/1.0)
+
+car parts frequency <= 0.00401 AND
+Punctuation characters ratio <= 0.127 AND
+Upper case word mean <= 2.25 AND
+Word length mean <= 3.71 AND
+cooking frequency <= 0.0374 AND
+insects frequency <= 0.00662: Low_Artists (59.0)
+
+Upper case word mean > 3.33 AND
+Word homoganity hist bin 7 > 0.0125 AND
+furnitures frequency <= 0.0148 AND
+fish frequency <= 0.00165 AND
+driving frequency <= 0.035: Low_Artists (33.0/1.0)
+
+positive words frequency > 0.0406 AND
+Words of length 1 > 0.106 AND
+adjectives frequency > 0.0257 AND
+Emotion circumplex <= 1.52 AND
+FFT histogram bin 3 <= 0 AND
+countries frequency <= 0.042 AND
+musical instruments frequency <= 0.0135: Low_Artists (22.0)
+
+hats frequency > 0.00295 AND
+Quotation length stddev > 5.04: Top_Artists (18.0/1.0)
+
+Word homoganity hist bin 2 > 0.313 AND
+astronomy frequency <= 0.0472 AND
+hats frequency <= 0.00662 AND
+animals frequency <= 0.0107 AND
+leaders frequency > 0.0131: Low_Artists (23.0)
+
+musical instruments frequency > 0.0603 AND
+Total number of words <= 427 AND
+Words of length 7 <= 0.0708: Low_Artists (23.0)
+
+Emotion circumplex <= 98.4 AND
+science frequency > 0.00304 AND
+Word homoganity hist bin 5 <= 0.147 AND
+FFT min <= 0.488 AND
+shapes frequency <= 0.0106 AND
+driving frequency > 0.0145: Top_Artists (42.0)
+
+car parts frequency > 0.0177 AND
+FFT min <= 0.488 AND
+castles and kings and queens frequency <= 0.0113 AND
+cooking frequency > 0.00347 AND
+Frequency of fullstop <= 0.00292 AND
+Quotations number <= 0 AND
+happy words frequency > 0.00385 AND
+Words of length 14 <= 0 AND
+Sentence length hist bin 0 <= 0.155: Top_Artists (34.0/1.0)
+
+Sentence length mean > 10 AND
+rocks and minerals frequency <= 0.00199 AND
+astronomy frequency <= 0.0335 AND
+science fields frequency <= 0.0011 AND
+Word homoganity hist bin 5 <= 0.0508 AND
+Word repetition span 3 > 0.0209: Low_Artists (45.0)
+
+Mean of numbers > 12.2 AND
+camping frequency > 0.00307: Top_Artists (36.0)
+
+Quotations number > 0 AND
+Frequency of fullstop > 0.00813 AND
+prepositions frequency > 0.0693: Low_Artists (11.0)
+
+Quotations number > 0 AND
+adverbs frequency > 0.0374 AND
+yard frequency <= 0.0134 AND
+Word homoganity hist bin 2 <= 0.137 AND
+Soundex homogeneity StdDev <= 0.067 AND
+Soundex homogeneity StdDev > 0.0237 AND
+Words of length 16 <= 0.000453 AND
+Word length mean <= 3.71 AND
+elections frequency <= 0.0024: Top_Artists (32.0)
+
+Soundex homoganity hist bin 2 > 0.214 AND
+fall frequency <= 0.00839 AND
+verbs that are nouns frequency <= 0.108 AND
+reptiles frequency > 0.00225: Low_Artists (21.0)
+
+Word homoganity hist bin 6 > 0.0357 AND
+science fields frequency <= 0.00157 AND
+fruits frequency > 0.000453: Top_Artists (11.0)
+
+cats frequency > 0 AND
+birthday frequency > 0.00413 AND
+containers frequency > 0.00489: Low_Artists (12.0)
+
+Quotations number > 0 AND
+negative words frequency <= 0.0093 AND
+countries frequency > 0.004 AND
+Emotion circumplex <= 69.8 AND
+lanuages frequency <= 0.00211 AND
+Frequency of single quotes > 0.0316: Top_Artists (45.0)
+
+math frequency > 0.0124 AND
+female frequency <= 0.00617 AND
+Frequency of fullstop > 0.0077 AND
+Frequency of apostepe <= 0.0838: Top_Artists (7.0)
+
+math frequency > 0.0124 AND
+female frequency <= 0.00617 AND
+Frequency of fullstop > 0.000861: Low_Artists (11.0)
+
+math frequency > 0.0124 AND
+female frequency <= 0.00617 AND
+Upper case word mean > 2.63 AND
+Soundex diversity <= 0.354: Top_Artists (7.0)
+
+math frequency > 0.0124 AND
+female frequency <= 0.00617 AND
+Upper case word mean <= 2.13 AND
+Word homoganity hist bin 2 <= 0.214 AND
+lanuages frequency <= 0 AND
+Word homoganity hist bin 0 <= 0.544 AND
+,Frequency of double quotes <= 0.0184 AND
+Sentence length mean <= 9.79 AND
+geography frequency <= 0.0105 AND
+fish frequency <= 0.000468 AND
+clothing frequency <= 0.0503: Low_Artists (32.0)
+
+lanuages frequency > 0 AND
+Frequency of fullstop <= 0.000697 AND
+rocks and minerals frequency <= 0.00211 AND
+fair frequency > 0: Low_Artists (12.0)
+
+,Frequency of double quotes > 0.00704 AND
+Soundex homogeneity maximum > 0.169 AND
+fruits frequency <= 0.000453 AND
+insects frequency <= 0.00803 AND
+FFT mean <= 320 AND
+Words of length 13 <= 0.00197 AND
+Automated readability index > -3.27 AND
+time frequency > 0.00319 AND
+Words of length 12 <= 0.00288 AND
+Words of length 4 > 0.211: Top_Artists (36.0)
+
+: Low_Artists (447.0/219.0)
+
+Number of Rules  : 	51
+
+
+Time taken to build model: 2.48 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1580               68.9354 %
+Incorrectly Classified Instances       712               31.0646 %
+Kappa statistic                          0.3787
+Mean absolute error                      0.3111
+Root mean squared error                  0.5307
+Relative absolute error                 62.2268 %
+Root relative squared error            106.1451 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.689    0.310    0.691      0.689    0.690      0.379    0.711     0.669     Low_Artists
+                 0.690    0.311    0.687      0.690    0.689      0.379    0.711     0.663     Top_Artists
+Weighted Avg.    0.689    0.311    0.689      0.689    0.689      0.379    0.711     0.666     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 793 358 |   a = Low_Artists
+ 354 787 |   b = Top_Artists
+

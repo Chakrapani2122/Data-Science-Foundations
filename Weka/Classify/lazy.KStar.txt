@@ -1,0 +1,45 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.KStar -B 20 -M a
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+KStar Beta Verion (0.1b).
+Copyright (c) 1995-97 by Len Trigg (trigg@cs.waikato.ac.nz).
+Java port to Weka by Abdelaziz Mahoui (am14@cs.waikato.ac.nz).
+
+KStar options : -B 20 -M a 
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1250               54.5375 %
+Incorrectly Classified Instances       952               41.5358 %
+Kappa statistic                          0.1374
+Mean absolute error                      0.4341
+Root mean squared error                  0.6483
+Relative absolute error                 90.3632 %
+Root relative squared error            132.2723 %
+UnClassified Instances                  90                3.9267 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.614    0.476    0.549      0.614    0.580      0.138    0.616     0.609     Low_Artists
+                 0.524    0.386    0.589      0.524    0.555      0.138    0.620     0.593     Top_Artists
+Weighted Avg.    0.568    0.430    0.570      0.568    0.567      0.138    0.618     0.601     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 657 413 |   a = Low_Artists
+ 539 593 |   b = Top_Artists
+

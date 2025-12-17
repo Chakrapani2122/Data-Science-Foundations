@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 0
+
+The independent frequency of a class
+--------------------------------------
+Low_Artists	1152.0
+Top_Artists	1142.0
+
+The frequency of a word given the class
+-----------------------------------------
+Low_Artists	Top_Artists	
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1151               50.2182 %
+Incorrectly Classified Instances      1141               49.7818 %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.502      1.000    0.669      ?        0.499     0.502     Low_Artists
+                 0.000    0.000    ?          0.000    ?          ?        0.499     0.497     Top_Artists
+Weighted Avg.    0.502    0.502    ?          0.502    ?          ?        0.499     0.500     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1151    0 |    a = Low_Artists
+ 1141    0 |    b = Top_Artists
+

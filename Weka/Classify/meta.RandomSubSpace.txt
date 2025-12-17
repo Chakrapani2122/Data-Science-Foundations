@@ -1,0 +1,2332 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.RandomSubSpace -P 0.5 -S 1 -num-slots 1 -I 10 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 662423486 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 237,24,80,238,53,78,173,203,3,239,5,208,119,50,222,108,142,235,117,67,6,21,149,217,86,162,38,17,113,211,233,88,42,47,197,209,182,75,57,223,231,159,72,123,174,188,139,192,33,73,199,200,60,32,20,126,100,98,114,110,160,169,93,240,71,201,39,135,189,221,48,215,52,187,91,37,116,84,30,155,40,70,4,150,153,178,74,127,194,15,87,137,121,82,204,31,99,64,184,104,51,13,129,12,65,61,120,25,205,22,89,14,136,176,69,225,66,27,2,191,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R237,24,80,238,53,78,173,203,3,239,5,208,119,50,222,108,142,235,117,67,6,21,149,217,86,162,38,17,113,211,233,88,42,47,197,209,182,75,57,223,231,159,72,123,174,188,139,192,33,73,199,200,60,32,20,126,100,98,114,110,160,169,93,240,71,201,39,135,189,221,48,215,52,187,91,37,116,84,30,155,40,70,4,150,153,178,74,127,194,15,87,137,121,82,204,31,99,64,184,104,51,13,129,12,65,61,120,25,205,22,89,14,136,176,69,225,66,27,2,191,1'
+
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute 'Words of length 10' numeric
+@attribute 'Automated readability index' numeric
+@attribute 'Soundex homoganity hist bin 2' numeric
+@attribute 'Frequency of equal' numeric
+@attribute 'Sentence length hist bin 6' numeric
+@attribute 'astronomy frequency' numeric
+@attribute 'monsters frequency' numeric
+@attribute 'Word diversity' numeric
+@attribute 'Soundex homoganity hist bin 3' numeric
+@attribute 'FFT median' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'negative words dif' numeric
+@attribute 'Frequency of exclamation' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'positive words hist bin 2' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'Soundex homogeneity maximum' numeric
+@attribute 'negative words min' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'FFT stddev' numeric
+@attribute 'Words of length 7' numeric
+@attribute 'sport frequency' numeric
+@attribute 'leaders frequency' numeric
+@attribute 'Emotion circumplex hist bin 1' numeric
+@attribute 'law frequency' numeric
+@attribute 'Word homoganity hist bin 4' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'positive words hist bin 7' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'Soundex homogeneity mean' numeric
+@attribute 'Emotion circumplex hist bin 3' numeric
+@attribute 'Punctuation characters ratio' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'clothing frequency' numeric
+@attribute 'circus frequency' numeric
+@attribute 'cars frequency' numeric
+@attribute 'Sentence length hist bin 3' numeric
+@attribute 'Frequency of open squarebrace' numeric
+@attribute 'measurements frequency' numeric
+@attribute 'male frequency' numeric
+@attribute 'money frequency' numeric
+@attribute 'Sentence length hist bin 0' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute 'colors frequency' numeric
+@attribute 'winter frequency' numeric
+@attribute 'hapiness words hist bin 5' numeric
+@attribute 'body frequency' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'hats frequency' numeric
+@attribute 'buildings frequency' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'Word homogeneity StdDev' numeric
+@attribute 'Words of length 6' numeric
+@attribute 'negative words hist bin 6' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'Number diversity' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'positive words hist bin 4' numeric
+@attribute 'driving frequency' numeric
+@attribute 'musical instruments frequency' numeric
+@attribute 'Word repetition span 3' numeric
+@attribute 'Soundex homoganity hist bin 4' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'public buildings frequency' numeric
+@attribute 'Word homoganity hist bin 5' numeric
+@attribute 'hapiness words hist bin 1' numeric
+@attribute 'weather frequency' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'Frequency of backslash' numeric
+@attribute 'furnitures frequency' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'summer frequency' numeric
+@attribute 'Emotion circumplex hist bin 6' numeric
+@attribute 'Word homoganity hist bin 3' numeric
+@attribute 'negative words stddev' numeric
+@attribute 'Emotion circumplex stddev' numeric
+@attribute 'Words of length 16' numeric
+@attribute 'school frequency' numeric
+@attribute 'Word homoganity hist bin 6' numeric
+@attribute 'Sentence length stddev' numeric
+@attribute 'FFT mean' numeric
+@attribute 'math frequency' numeric
+@attribute 'US states frequency' numeric
+@attribute 'fish frequency' numeric
+@attribute 'Sentence length hist bin 2' numeric
+@attribute 'negative words hist bin 7' numeric
+@attribute 'trees frequency' numeric
+@attribute 'Words of length 1' numeric
+@attribute 'Emotion circumplex hist bin 2' numeric
+@attribute 'hapiness words hist bin 3' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'Emotion circumplex' numeric
+@attribute 'office frequency' numeric
+@attribute 'Word homogeneity mean' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'beach frequency' numeric
+@attribute 'positive words max' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'FFT histogram bin 5' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'Quotation part of the text' numeric
+@attribute 'Upper case word mean' numeric
+@attribute 'negative words hist bin 0' numeric
+@attribute 'Words of length 11' numeric
+@attribute 'tools frequency' numeric
+@attribute 'Words of length 8' numeric
+@attribute 'Emotion circumplex hist bin 4' numeric
+@attribute 'Word length mean' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'dogs frequency' numeric
+@attribute 'Sentence length mean' numeric
+@attribute 'acquaintances frequency' numeric
+@attribute 'Emoticon smile' numeric
+@attribute 'Words of length 13' numeric
+@attribute 'Total number of words' numeric
+@attribute 'medical frequency' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+FFT mean < 183.5
+|   Punctuation characters ratio < 0.13
+|   |   FFT mean < 131
+|   |   |   clothing frequency < 0.01 : Low_Artists (97/2) [42/2]
+|   |   |   clothing frequency >= 0.01
+|   |   |   |   Use of upper case < 0.03 : Low_Artists (35/0) [9/2]
+|   |   |   |   Use of upper case >= 0.03
+|   |   |   |   |   Sentence length character mean < 30.05
+|   |   |   |   |   |   circus frequency < 0.01 : Low_Artists (73/3) [39/6]
+|   |   |   |   |   |   circus frequency >= 0.01
+|   |   |   |   |   |   |   leaders frequency < 0.03
+|   |   |   |   |   |   |   |   Sentence length hist bin 1 < 0.24 : Low_Artists (8/0) [4/0]
+|   |   |   |   |   |   |   |   Sentence length hist bin 1 >= 0.24 : Top_Artists (2/0) [1/0]
+|   |   |   |   |   |   |   leaders frequency >= 0.03 : Top_Artists (4/0) [0/0]
+|   |   |   |   |   Sentence length character mean >= 30.05 : Low_Artists (31/12) [18/3]
+|   |   FFT mean >= 131
+|   |   |   measurements frequency < 0.02
+|   |   |   |   Emotion circumplex < 258.5
+|   |   |   |   |   Soundex homoganity hist bin 3 < 0.1
+|   |   |   |   |   |   astronomy frequency < 0.01 : Low_Artists (5/0) [6/1]
+|   |   |   |   |   |   astronomy frequency >= 0.01 : Top_Artists (35/11) [19/9]
+|   |   |   |   |   Soundex homoganity hist bin 3 >= 0.1 : Low_Artists (20/3) [10/1]
+|   |   |   |   Emotion circumplex >= 258.5 : Low_Artists (11/0) [1/0]
+|   |   |   measurements frequency >= 0.02 : Low_Artists (14/0) [9/2]
+|   Punctuation characters ratio >= 0.13
+|   |   medical frequency < 0.06
+|   |   |   FFT histogram bin 5 < 0.03
+|   |   |   |   Sentence length character mean < 23.35 : Low_Artists (11/0) [13/4]
+|   |   |   |   Sentence length character mean >= 23.35
+|   |   |   |   |   Word homogeneity StdDev < 0.11
+|   |   |   |   |   |   Words of length 10 < 0.02
+|   |   |   |   |   |   |   FFT mean < 103.5
+|   |   |   |   |   |   |   |   Soundex homogeneity mean < 0.12 : Low_Artists (22/1) [14/5]
+|   |   |   |   |   |   |   |   Soundex homogeneity mean >= 0.12
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 3 < 0.03 : Low_Artists (24/3) [4/0]
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 3 >= 0.03
+|   |   |   |   |   |   |   |   |   |   FFT mean < 78.9
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 < 0.18 : Top_Artists (10/0) [8/4]
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 >= 0.18 : Low_Artists (3/1) [3/0]
+|   |   |   |   |   |   |   |   |   |   FFT mean >= 78.9
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 < 0.06 : Top_Artists (3/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 4 >= 0.06 : Low_Artists (9/0) [2/0]
+|   |   |   |   |   |   |   FFT mean >= 103.5
+|   |   |   |   |   |   |   |   Use of upper case < 0.04
+|   |   |   |   |   |   |   |   |   FFT median < 87.65
+|   |   |   |   |   |   |   |   |   |   Punctuation characters ratio < 0.25
+|   |   |   |   |   |   |   |   |   |   |   tools frequency < 0 : Top_Artists (6/0) [4/2]
+|   |   |   |   |   |   |   |   |   |   |   tools frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 < 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity < 0.01 : Low_Artists (10/3) [5/2]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number diversity >= 0.01 : Top_Artists (13/2) [11/3]
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 >= 0.17 : Low_Artists (6/0) [3/2]
+|   |   |   |   |   |   |   |   |   |   |   |   FFT histogram bin 5 >= 0 : Low_Artists (8/0) [6/1]
+|   |   |   |   |   |   |   |   |   |   Punctuation characters ratio >= 0.25 : Top_Artists (18/1) [5/3]
+|   |   |   |   |   |   |   |   |   FFT median >= 87.65 : Top_Artists (17/0) [4/1]
+|   |   |   |   |   |   |   |   Use of upper case >= 0.04
+|   |   |   |   |   |   |   |   |   Word diversity < 0.5
+|   |   |   |   |   |   |   |   |   |   hats frequency < 0 : Low_Artists (55/16) [26/13]
+|   |   |   |   |   |   |   |   |   |   hats frequency >= 0 : Top_Artists (13/3) [7/3]
+|   |   |   |   |   |   |   |   |   Word diversity >= 0.5 : Low_Artists (12/0) [6/1]
+|   |   |   |   |   |   Words of length 10 >= 0.02 : Top_Artists (15/1) [10/5]
+|   |   |   |   |   Word homogeneity StdDev >= 0.11 : Top_Artists (22/1) [9/3]
+|   |   |   FFT histogram bin 5 >= 0.03 : Low_Artists (56/9) [41/7]
+|   |   medical frequency >= 0.06 : Low_Artists (33/1) [8/3]
+FFT mean >= 183.5
+|   Punctuation characters ratio < 0.18
+|   |   Sentence length character mean < 46.85
+|   |   |   Sentence length character mean < 28.05
+|   |   |   |   Sentence length hist bin 0 < 0.05 : Top_Artists (3/1) [1/0]
+|   |   |   |   Sentence length hist bin 0 >= 0.05 : Low_Artists (14/0) [15/6]
+|   |   |   Sentence length character mean >= 28.05
+|   |   |   |   Frequency of exclamation < 0
+|   |   |   |   |   FFT median < 109.5
+|   |   |   |   |   |   Number diversity < 0.02
+|   |   |   |   |   |   |   Frequency of question mark < 0.02
+|   |   |   |   |   |   |   |   Words of length 1 < 0.16
+|   |   |   |   |   |   |   |   |   Word homogeneity maximum < 0.1 : Top_Artists (8/0) [1/0]
+|   |   |   |   |   |   |   |   |   Word homogeneity maximum >= 0.1
+|   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev < 0.05
+|   |   |   |   |   |   |   |   |   |   |   male frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   buildings frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   body frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   public buildings frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean < 287.5 : Top_Artists (11/4) [6/2]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean >= 287.5 : Low_Artists (8/0) [2/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   public buildings frequency >= 0 : Low_Artists (22/0) [11/6]
+|   |   |   |   |   |   |   |   |   |   |   |   |   body frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis < 0.02 : Top_Artists (9/0) [5/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis >= 0.02 : Low_Artists (5/1) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   |   buildings frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency < 0 : Low_Artists (4/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   medical frequency < 0.02 : Top_Artists (27/5) [17/6]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   medical frequency >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation part of the text < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 10 < 0.01 : Low_Artists (10/0) [6/2]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words of length 10 >= 0.01 : Top_Artists (5/2) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Quotation part of the text >= 0.02 : Top_Artists (4/0) [2/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency >= 0.03 : Top_Artists (11/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   male frequency >= 0.02 : Low_Artists (9/0) [4/0]
+|   |   |   |   |   |   |   |   |   |   Word homogeneity StdDev >= 0.05 : Top_Artists (7/0) [4/1]
+|   |   |   |   |   |   |   |   Words of length 1 >= 0.16 : Top_Artists (14/1) [8/3]
+|   |   |   |   |   |   |   Frequency of question mark >= 0.02 : Top_Artists (11/0) [5/1]
+|   |   |   |   |   |   Number diversity >= 0.02 : Top_Artists (18/1) [6/2]
+|   |   |   |   |   FFT median >= 109.5
+|   |   |   |   |   |   Sentence length hist bin 1 < 0.15
+|   |   |   |   |   |   |   Word diversity < 0.36 : Top_Artists (37/3) [18/4]
+|   |   |   |   |   |   |   Word diversity >= 0.36
+|   |   |   |   |   |   |   |   Sentence length hist bin 0 < 0.08
+|   |   |   |   |   |   |   |   |   happy words frequency < 0.02 : Low_Artists (9/0) [5/2]
+|   |   |   |   |   |   |   |   |   happy words frequency >= 0.02 : Top_Artists (6/2) [2/0]
+|   |   |   |   |   |   |   |   Sentence length hist bin 0 >= 0.08 : Top_Artists (12/1) [4/3]
+|   |   |   |   |   |   Sentence length hist bin 1 >= 0.15 : Top_Artists (27/0) [13/5]
+|   |   |   |   Frequency of exclamation >= 0
+|   |   |   |   |   tools frequency < 0.01 : Low_Artists (17/1) [1/1]
+|   |   |   |   |   tools frequency >= 0.01 : Top_Artists (4/0) [3/1]
+|   |   Sentence length character mean >= 46.85
+|   |   |   driving frequency < 0.02
+|   |   |   |   astronomy frequency < 0.03 : Low_Artists (33/0) [19/4]
+|   |   |   |   astronomy frequency >= 0.03
+|   |   |   |   |   Soundex homoganity hist bin 4 < 0.02 : Top_Artists (4/0) [1/0]
+|   |   |   |   |   Soundex homoganity hist bin 4 >= 0.02 : Low_Artists (5/0) [1/0]
+|   |   |   driving frequency >= 0.02 : Top_Artists (4/0) [7/3]
+|   Punctuation characters ratio >= 0.18
+|   |   driving frequency < 0.04
+|   |   |   Number diversity < 0.02
+|   |   |   |   Word diversity < 0.43
+|   |   |   |   |   FFT mean < 219.5
+|   |   |   |   |   |   FFT stddev < 264 : Top_Artists (32/11) [17/4]
+|   |   |   |   |   |   FFT stddev >= 264 : Low_Artists (14/2) [3/1]
+|   |   |   |   |   FFT mean >= 219.5
+|   |   |   |   |   |   Sentence length mean < 9.92 : Top_Artists (185/32) [86/18]
+|   |   |   |   |   |   Sentence length mean >= 9.92
+|   |   |   |   |   |   |   Frequency of open parenthesis < 0.05
+|   |   |   |   |   |   |   |   Soundex homoganity hist bin 2 < 0.09 : Low_Artists (16/1) [6/1]
+|   |   |   |   |   |   |   |   Soundex homoganity hist bin 2 >= 0.09 : Top_Artists (3/0) [2/0]
+|   |   |   |   |   |   |   Frequency of open parenthesis >= 0.05 : Top_Artists (7/0) [5/1]
+|   |   |   |   Word diversity >= 0.43 : Low_Artists (33/11) [17/7]
+|   |   |   Number diversity >= 0.02
+|   |   |   |   Words of length 8 < 0.01 : Top_Artists (27/9) [23/5]
+|   |   |   |   Words of length 8 >= 0.01
+|   |   |   |   |   Use of upper case < 0.05 : Top_Artists (97/1) [54/4]
+|   |   |   |   |   Use of upper case >= 0.05
+|   |   |   |   |   |   circus frequency < 0 : Low_Artists (4/0) [2/0]
+|   |   |   |   |   |   circus frequency >= 0 : Top_Artists (6/0) [4/1]
+|   |   driving frequency >= 0.04 : Top_Artists (45/0) [20/4]
+
+Size of the tree : 149
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S -1292247894 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 134,227,5,150,54,46,183,116,139,221,129,61,197,102,133,88,181,198,155,41,91,107,205,56,82,233,57,130,123,160,125,207,71,156,77,35,164,237,231,200,209,29,182,17,51,126,58,104,53,211,10,236,87,161,9,141,170,49,167,117,76,97,149,68,214,115,83,171,132,101,63,90,122,81,65,162,14,52,2,195,33,159,12,146,210,121,27,128,142,222,84,151,178,74,40,85,189,239,96,80,131,234,219,202,47,111,140,137,176,208,78,86,64,48,223,226,119,79,25,191,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R134,227,5,150,54,46,183,116,139,221,129,61,197,102,133,88,181,198,155,41,91,107,205,56,82,233,57,130,123,160,125,207,71,156,77,35,164,237,231,200,209,29,182,17,51,126,58,104,53,211,10,236,87,161,9,141,170,49,167,117,76,97,149,68,214,115,83,171,132,101,63,90,122,81,65,162,14,52,2,195,33,159,12,146,210,121,27,128,142,222,84,151,178,74,40,85,189,239,96,80,131,234,219,202,47,111,140,137,176,208,78,86,64,48,223,226,119,79,25,191,1'
+
+@attribute 'hapiness words hist bin 0' numeric
+@attribute 'flowers frequency' numeric
+@attribute 'FFT median' numeric
+@attribute 'math frequency' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'negative words stddev' numeric
+@attribute 'hapiness words hist bin 5' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'Upper case word mean' numeric
+@attribute 'clothing frequency' numeric
+@attribute 'positive words stddev' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'Emotion circumplex hist bin 3' numeric
+@attribute 'insects frequency' numeric
+@attribute 'shoes frequency' numeric
+@attribute 'school frequency' numeric
+@attribute 'Word homoganity hist bin 7' numeric
+@attribute 'Emotion circumplex hist bin 6' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'tools frequency' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'Emotion circumplex' numeric
+@attribute 'Soundex homogeneity mean' numeric
+@attribute 'Frequency of open squarebrace' numeric
+@attribute 'hapiness words stddev' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute 'driving frequency' numeric
+@attribute 'negative words hist bin 5' numeric
+@attribute 'fair frequency' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'lanuages frequency' numeric
+@attribute 'Sentence length hist bin 5' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'emotions frequency' numeric
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute 'male frequency' numeric
+@attribute 'buildings frequency' numeric
+@attribute 'circus frequency' numeric
+@attribute 'Words of length 15' numeric
+@attribute 'cars frequency' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'negative words hist bin 6' numeric
+@attribute 'Frequency of semicolon' numeric
+@attribute 'positive words max' numeric
+@attribute 'Frequency of equal' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'FFT histogram bin 2' numeric
+@attribute 'Soundex homoganity hist bin 0' numeric
+@attribute 'Emotion circumplex hist bin 2' numeric
+@attribute 'military frequency' numeric
+@attribute 'FFT histogram bin 1' numeric
+@attribute 'hapiness words hist bin 7' numeric
+@attribute 'music frequency' numeric
+@attribute 'Frequency of forwardslash' numeric
+@attribute 'energy frequency' numeric
+@attribute 'negative words min' numeric
+@attribute 'Sentence length hist bin 4' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'sport frequency' numeric
+@attribute 'Emoticon sad' numeric
+@attribute 'geography frequency' numeric
+@attribute 'negative words mean' numeric
+@attribute 'Emotion circumplex mean' numeric
+@attribute 'land forms frequency' numeric
+@attribute 'hapiness words max' numeric
+@attribute 'positive words mean' numeric
+@attribute 'Quotation length mean' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'negative words hist bin 2' numeric
+@attribute 'Coleman�Liau index' numeric
+@attribute 'Quotation part of the text' numeric
+@attribute 'law frequency' numeric
+@attribute 'Word length mean' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'Total number of words' numeric
+@attribute 'transportation frequency' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'money frequency' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'pronouns frequency' numeric
+@attribute 'computer frequency' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'Words of length 13' numeric
+@attribute 'hapiness words frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'Emotion circumplex stddev' numeric
+@attribute 'science frequency' numeric
+@attribute 'fish frequency' numeric
+@attribute 'Sentence length hist bin 2' numeric
+@attribute 'Word homoganity hist bin 6' numeric
+@attribute 'Emotion circumplex hist bin 0' numeric
+@attribute 'weather frequency' numeric
+@attribute 'Soundex homoganity hist bin 3' numeric
+@attribute 'Word repetition span 17' numeric
+@attribute 'Automated readability index' numeric
+@attribute 'hapiness words min' numeric
+@attribute 'Soundex homogeneity StdDev' numeric
+@attribute 'restaurants frequency' numeric
+@attribute 'birthday frequency' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'positive words hist bin 5' numeric
+@attribute 'hapiness words hist bin 6' numeric
+@attribute 'hapiness words hist bin 3' numeric
+@attribute 'dogs frequency' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'Sentence length hist bin 6' numeric
+@attribute 'Emotion circumplex hist bin 1' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'Frequency of backslash' numeric
+@attribute 'measurements frequency' numeric
+@attribute 'yard frequency' numeric
+@attribute 'negative words dif' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'Words of length 11' numeric
+@attribute 'medical frequency' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+Total number of words < 253.5
+|   FFT histogram bin 1 < 0.99
+|   |   Frequency of open parenthesis < 0.04 : Low_Artists (216/18) [119/16]
+|   |   Frequency of open parenthesis >= 0.04
+|   |   |   Word length mean < 3.96 : Top_Artists (13/4) [10/4]
+|   |   |   Word length mean >= 3.96 : Low_Artists (8/0) [4/1]
+|   FFT histogram bin 1 >= 0.99
+|   |   Sentence length character mean < 32.05
+|   |   |   emotions frequency < 0.01 : Low_Artists (51/3) [29/7]
+|   |   |   emotions frequency >= 0.01
+|   |   |   |   emotions frequency < 0.01 : Top_Artists (5/0) [0/0]
+|   |   |   |   emotions frequency >= 0.01
+|   |   |   |   |   Word homoganity hist bin 6 < 0.09
+|   |   |   |   |   |   Soundex homoganity hist bin 0 < 0.45 : Low_Artists (52/4) [16/6]
+|   |   |   |   |   |   Soundex homoganity hist bin 0 >= 0.45
+|   |   |   |   |   |   |   car parts frequency < 0.01
+|   |   |   |   |   |   |   |   transportation frequency < 0
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 < 0.24 : Top_Artists (4/0) [4/2]
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 >= 0.24
+|   |   |   |   |   |   |   |   |   |   insects frequency < 0 : Low_Artists (5/0) [0/0]
+|   |   |   |   |   |   |   |   |   |   insects frequency >= 0 : Top_Artists (3/1) [1/0]
+|   |   |   |   |   |   |   |   transportation frequency >= 0 : Low_Artists (11/0) [5/4]
+|   |   |   |   |   |   |   car parts frequency >= 0.01 : Top_Artists (6/0) [2/1]
+|   |   |   |   |   Word homoganity hist bin 6 >= 0.09 : Top_Artists (4/0) [4/2]
+|   |   Sentence length character mean >= 32.05
+|   |   |   Frequency of question mark < 0.01 : Low_Artists (70/25) [43/14]
+|   |   |   Frequency of question mark >= 0.01
+|   |   |   |   Frequency of apostepe < 0.06 : Top_Artists (11/0) [3/1]
+|   |   |   |   Frequency of apostepe >= 0.06
+|   |   |   |   |   Word homogeneity maximum < 0.23 : Low_Artists (4/0) [1/0]
+|   |   |   |   |   Word homogeneity maximum >= 0.23 : Top_Artists (5/0) [2/0]
+Total number of words >= 253.5
+|   car parts frequency < 0.01
+|   |   FFT median < 144
+|   |   |   Sentence length character mean < 23.8 : Low_Artists (13/0) [1/0]
+|   |   |   Sentence length character mean >= 23.8
+|   |   |   |   Sentence length hist bin 7 < 0.02 : Top_Artists (57/13) [31/12]
+|   |   |   |   Sentence length hist bin 7 >= 0.02
+|   |   |   |   |   Frequency of question mark < 0.01
+|   |   |   |   |   |   emotions frequency < 0.03
+|   |   |   |   |   |   |   Use of numbers < 0.03
+|   |   |   |   |   |   |   |   transportation frequency < 0
+|   |   |   |   |   |   |   |   |   happy words frequency < 0.03 : Low_Artists (101/26) [49/17]
+|   |   |   |   |   |   |   |   |   happy words frequency >= 0.03
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 < 0.18 : Low_Artists (8/3) [5/2]
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 >= 0.18 : Top_Artists (8/0) [4/0]
+|   |   |   |   |   |   |   |   transportation frequency >= 0
+|   |   |   |   |   |   |   |   |   school frequency < 0
+|   |   |   |   |   |   |   |   |   |   weather frequency < 0.01 : Low_Artists (19/6) [10/4]
+|   |   |   |   |   |   |   |   |   |   weather frequency >= 0.01 : Top_Artists (73/18) [45/14]
+|   |   |   |   |   |   |   |   |   school frequency >= 0
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 < 0.06
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 < 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 0 < 0.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   law frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of numbers < 0.01 : Low_Artists (13/1) [7/4]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Use of numbers >= 0.01 : Top_Artists (6/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   law frequency >= 0 : Low_Artists (20/0) [11/3]
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 0 >= 0.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   money frequency < 0.01 : Top_Artists (9/0) [5/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   money frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   math frequency < 0.01 : Top_Artists (13/4) [8/3]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   math frequency >= 0.01 : Low_Artists (8/0) [4/0]
+|   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 3 >= 0.06 : Top_Artists (25/6) [6/2]
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 7 >= 0.06 : Low_Artists (11/0) [3/0]
+|   |   |   |   |   |   |   Use of numbers >= 0.03 : Top_Artists (14/1) [6/3]
+|   |   |   |   |   |   emotions frequency >= 0.03
+|   |   |   |   |   |   |   Soundex homogeneity StdDev < 0.05 : Low_Artists (37/2) [15/6]
+|   |   |   |   |   |   |   Soundex homogeneity StdDev >= 0.05
+|   |   |   |   |   |   |   |   Words of length 3 < 0.17 : Top_Artists (5/0) [1/1]
+|   |   |   |   |   |   |   |   Words of length 3 >= 0.17
+|   |   |   |   |   |   |   |   |   geography frequency < 0 : Low_Artists (7/0) [8/3]
+|   |   |   |   |   |   |   |   |   geography frequency >= 0 : Top_Artists (10/4) [2/0]
+|   |   |   |   |   Frequency of question mark >= 0.01
+|   |   |   |   |   |   Sentence length character mean < 35.85
+|   |   |   |   |   |   |   Sentence length hist bin 5 < 0.15 : Top_Artists (21/9) [10/2]
+|   |   |   |   |   |   |   Sentence length hist bin 5 >= 0.15 : Low_Artists (7/0) [4/1]
+|   |   |   |   |   |   Sentence length character mean >= 35.85 : Top_Artists (43/6) [18/6]
+|   |   FFT median >= 144 : Top_Artists (134/33) [83/20]
+|   car parts frequency >= 0.01
+|   |   Total number of words < 327.5
+|   |   |   FFT median < 96.55
+|   |   |   |   school frequency < 0.01
+|   |   |   |   |   weather frequency < 0.04
+|   |   |   |   |   |   math frequency < 0.01 : Low_Artists (13/1) [5/0]
+|   |   |   |   |   |   math frequency >= 0.01
+|   |   |   |   |   |   |   math frequency < 0.02 : Top_Artists (9/1) [3/0]
+|   |   |   |   |   |   |   math frequency >= 0.02 : Low_Artists (7/1) [2/0]
+|   |   |   |   |   weather frequency >= 0.04 : Top_Artists (14/2) [3/2]
+|   |   |   |   school frequency >= 0.01 : Low_Artists (10/0) [5/0]
+|   |   |   FFT median >= 96.55
+|   |   |   |   medical frequency < 0 : Low_Artists (3/0) [1/0]
+|   |   |   |   medical frequency >= 0 : Top_Artists (26/3) [13/2]
+|   |   Total number of words >= 327.5 : Top_Artists (316/58) [150/46]
+
+Size of the tree : 95
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1069913617 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 38,119,27,123,215,192,152,10,239,211,219,86,222,207,156,95,139,83,133,155,188,146,89,137,136,71,16,204,213,129,65,172,44,124,99,232,162,81,72,203,32,79,230,228,90,24,14,11,121,149,161,100,2,117,77,180,60,104,17,125,150,221,92,151,64,143,73,168,158,227,115,220,69,31,196,170,160,82,56,238,186,53,68,52,84,187,225,229,171,127,116,223,176,34,97,148,26,175,157,224,114,36,33,194,93,49,205,46,106,183,130,19,37,18,237,110,216,7,147,189,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R38,119,27,123,215,192,152,10,239,211,219,86,222,207,156,95,139,83,133,155,188,146,89,137,136,71,16,204,213,129,65,172,44,124,99,232,162,81,72,203,32,79,230,228,90,24,14,11,121,149,161,100,2,117,77,180,60,104,17,125,150,221,92,151,64,143,73,168,158,227,115,220,69,31,196,170,160,82,56,238,186,53,68,52,84,187,225,229,171,127,116,223,176,34,97,148,26,175,157,224,114,36,33,194,93,49,205,46,106,183,130,19,37,18,237,110,216,7,147,189,1'
+
+@attribute 'Word homoganity hist bin 4' numeric
+@attribute 'negative words dif' numeric
+@attribute 'Words of length 13' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute 'furnitures frequency' numeric
+@attribute 'body frequency' numeric
+@attribute 'science fields frequency' numeric
+@attribute 'FFT histogram bin 2' numeric
+@attribute 'Soundex homoganity hist bin 3' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'restaurants frequency' numeric
+@attribute 'Emotion circumplex hist bin 1' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'fair frequency' numeric
+@attribute 'lanuages frequency' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'hapiness words hist bin 5' numeric
+@attribute 'Emotion circumplex mean' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'school frequency' numeric
+@attribute 'winter frequency' numeric
+@attribute 'pronouns frequency' numeric
+@attribute 'Emotion circumplex hist bin 4' numeric
+@attribute 'hapiness words hist bin 3' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'Words of length 2' numeric
+@attribute 'office frequency' numeric
+@attribute 'fruits frequency' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'Quotation part of the text' numeric
+@attribute 'art frequency' numeric
+@attribute 'Frequency of single quotes' numeric
+@attribute 'negative words hist bin 4' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'Soundex diversity' numeric
+@attribute 'law frequency' numeric
+@attribute 'Coleman�Liau index' numeric
+@attribute 'Sentence length hist bin 0' numeric
+@attribute 'monsters frequency' numeric
+@attribute 'Word homogeneity StdDev' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'female frequency' numeric
+@attribute 'acronyms frequency' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'Words of length 10' numeric
+@attribute 'Word length mean' numeric
+@attribute 'FFT histogram bin 3' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'sport frequency' numeric
+@attribute 'military frequency' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'Total number of words' numeric
+@attribute 'negative words min' numeric
+@attribute 'Sentence length hist bin 5' numeric
+@attribute 'reptiles frequency' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'positive words max' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'negative words hist bin 5' numeric
+@attribute 'math frequency' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'Emotion circumplex hist bin 7' numeric
+@attribute 'science frequency' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'adjectives frequency' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'familiy frequency' numeric
+@attribute 'food frequency' numeric
+@attribute 'flowers frequency' numeric
+@attribute 'negative words mean' numeric
+@attribute 'roads frequency' numeric
+@attribute 'Sentence length mean' numeric
+@attribute 'Word homogeneity mean' numeric
+@attribute 'time frequency' numeric
+@attribute 'music frequency' numeric
+@attribute 'driving frequency' numeric
+@attribute 'Emotion circumplex' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'Soundex homoganity hist bin 2' numeric
+@attribute 'spring frequency' numeric
+@attribute 'Frequency of equal' numeric
+@attribute 'Emoticon sad' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'Emotion circumplex stddev' numeric
+@attribute 'summer frequency' numeric
+@attribute 'acquaintances frequency' numeric
+@attribute 'self frequency' numeric
+@attribute 'land forms frequency' numeric
+@attribute 'negative words hist bin 7' numeric
+@attribute 'negative words stddev' numeric
+@attribute 'measurements frequency' numeric
+@attribute 'dogs frequency' numeric
+@attribute 'Word homoganity hist bin 0' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'verbs that are nouns frequency' numeric
+@attribute 'Words of length 12' numeric
+@attribute 'animals frequency' numeric
+@attribute 'elections frequency' numeric
+@attribute 'containers frequency' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'Word homoganity hist bin 2' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'trees frequency' numeric
+@attribute 'Word repetition span 3' numeric
+@attribute 'Frequency of forwardslash' numeric
+@attribute 'tools frequency' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'positive words hist bin 0' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'hapiness words stddev' numeric
+@attribute 'Words of length 5' numeric
+@attribute 'Word homoganity hist bin 3' numeric
+@attribute 'Words of length 4' numeric
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute 'positive words hist bin 4' numeric
+@attribute 'occupation frequency' numeric
+@attribute 'FFT min' numeric
+@attribute 'verbs frequency' numeric
+@attribute 'weather frequency' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+Total number of words < 293.5
+|   Frequency of single quotes < 0.02 : Low_Artists (184/17) [103/8]
+|   Frequency of single quotes >= 0.02
+|   |   acronyms frequency < 0.03
+|   |   |   Frequency of open parenthesis < 0.02
+|   |   |   |   Words of length 3 < 0.2 : Low_Artists (56/14) [25/5]
+|   |   |   |   Words of length 3 >= 0.2
+|   |   |   |   |   FFT min < 1.5 : Low_Artists (71/2) [42/7]
+|   |   |   |   |   FFT min >= 1.5 : Top_Artists (3/1) [3/1]
+|   |   |   Frequency of open parenthesis >= 0.02
+|   |   |   |   Sentence length character mean < 39.15
+|   |   |   |   |   Words of length 2 < 0.14 : Low_Artists (12/0) [9/5]
+|   |   |   |   |   Words of length 2 >= 0.14
+|   |   |   |   |   |   Soundex diversity < 0.27 : Low_Artists (11/1) [2/1]
+|   |   |   |   |   |   Soundex diversity >= 0.27 : Top_Artists (14/5) [7/3]
+|   |   |   |   Sentence length character mean >= 39.15 : Top_Artists (8/1) [1/0]
+|   |   acronyms frequency >= 0.03
+|   |   |   Use of upper case < 0.03 : Low_Artists (15/0) [4/0]
+|   |   |   Use of upper case >= 0.03
+|   |   |   |   FFT min < 2.5
+|   |   |   |   |   positive words frequency < 0.04
+|   |   |   |   |   |   Soundex diversity < 0.22 : Low_Artists (9/0) [5/2]
+|   |   |   |   |   |   Soundex diversity >= 0.22
+|   |   |   |   |   |   |   Frequency of apostepe < 0.04 : Low_Artists (24/5) [10/0]
+|   |   |   |   |   |   |   Frequency of apostepe >= 0.04
+|   |   |   |   |   |   |   |   verbs that are nouns frequency < 0.09
+|   |   |   |   |   |   |   |   |   occupation frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   positive words frequency < 0.01 : Top_Artists (23/3) [22/8]
+|   |   |   |   |   |   |   |   |   |   positive words frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   Use of numbers < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency < 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 1 < 0.04 : Top_Artists (7/1) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 1 >= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes < 0.14 : Low_Artists (10/0) [8/3]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes >= 0.14 : Top_Artists (3/1) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   sport frequency >= 0.08 : Top_Artists (5/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   |   music frequency >= 0.03 : Low_Artists (14/1) [8/3]
+|   |   |   |   |   |   |   |   |   |   |   Use of numbers >= 0.01 : Top_Artists (10/1) [10/5]
+|   |   |   |   |   |   |   |   |   occupation frequency >= 0.01 : Low_Artists (7/0) [1/1]
+|   |   |   |   |   |   |   |   verbs that are nouns frequency >= 0.09 : Top_Artists (23/0) [12/5]
+|   |   |   |   |   positive words frequency >= 0.04 : Low_Artists (45/8) [25/12]
+|   |   |   |   FFT min >= 2.5 : Top_Artists (13/0) [4/1]
+Total number of words >= 293.5
+|   Frequency of single quotes < 0.05
+|   |   Sentence length character mean < 48.1
+|   |   |   Sentence length hist bin 0 < 0.17
+|   |   |   |   Words of length 4 < 0.22
+|   |   |   |   |   restaurants frequency < 0.03 : Top_Artists (30/1) [11/4]
+|   |   |   |   |   restaurants frequency >= 0.03
+|   |   |   |   |   |   school frequency < 0.01
+|   |   |   |   |   |   |   Words of length 4 < 0.2 : Low_Artists (32/10) [11/4]
+|   |   |   |   |   |   |   Words of length 4 >= 0.2 : Top_Artists (10/1) [9/3]
+|   |   |   |   |   |   school frequency >= 0.01 : Top_Artists (10/0) [5/3]
+|   |   |   |   Words of length 4 >= 0.22
+|   |   |   |   |   Use of numbers < 0.02
+|   |   |   |   |   |   car parts frequency < 0.01
+|   |   |   |   |   |   |   Word homogeneity maximum < 0.1 : Top_Artists (5/0) [2/1]
+|   |   |   |   |   |   |   Word homogeneity maximum >= 0.1
+|   |   |   |   |   |   |   |   office frequency < 0.01
+|   |   |   |   |   |   |   |   |   Word length mean < 3.71 : Low_Artists (28/7) [14/6]
+|   |   |   |   |   |   |   |   |   Word length mean >= 3.71 : Top_Artists (4/0) [3/1]
+|   |   |   |   |   |   |   |   office frequency >= 0.01 : Low_Artists (28/1) [17/11]
+|   |   |   |   |   |   car parts frequency >= 0.01
+|   |   |   |   |   |   |   rocks and minerals frequency < 0 : Top_Artists (29/7) [20/4]
+|   |   |   |   |   |   |   rocks and minerals frequency >= 0 : Low_Artists (7/1) [3/1]
+|   |   |   |   |   Use of numbers >= 0.02 : Top_Artists (13/2) [3/0]
+|   |   |   Sentence length hist bin 0 >= 0.17
+|   |   |   |   female frequency < 0.01
+|   |   |   |   |   tools frequency < 0.02 : Low_Artists (31/0) [9/2]
+|   |   |   |   |   tools frequency >= 0.02
+|   |   |   |   |   |   positive words frequency < 0.03 : Low_Artists (8/1) [8/4]
+|   |   |   |   |   |   positive words frequency >= 0.03 : Top_Artists (6/1) [3/1]
+|   |   |   |   female frequency >= 0.01
+|   |   |   |   |   Word homogeneity StdDev < 0.06 : Top_Artists (7/0) [4/2]
+|   |   |   |   |   Word homogeneity StdDev >= 0.06 : Low_Artists (2/0) [1/0]
+|   |   Sentence length character mean >= 48.1 : Low_Artists (20/1) [4/0]
+|   Frequency of single quotes >= 0.05
+|   |   female frequency < 0
+|   |   |   Soundex diversity < 0.36
+|   |   |   |   math frequency < 0.01 : Top_Artists (76/12) [36/13]
+|   |   |   |   math frequency >= 0.01
+|   |   |   |   |   time frequency < 0.02
+|   |   |   |   |   |   Frequency of open parenthesis < 0.08
+|   |   |   |   |   |   |   Sentence length hist bin 5 < 0.21
+|   |   |   |   |   |   |   |   office frequency < 0 : Top_Artists (9/1) [6/1]
+|   |   |   |   |   |   |   |   office frequency >= 0
+|   |   |   |   |   |   |   |   |   office frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 < 0.11 : Top_Artists (15/6) [3/0]
+|   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 >= 0.11
+|   |   |   |   |   |   |   |   |   |   |   Words of length 10 < 0.01 : Low_Artists (29/1) [17/10]
+|   |   |   |   |   |   |   |   |   |   |   Words of length 10 >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 13 < 0 : Top_Artists (3/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 13 >= 0 : Low_Artists (3/0) [1/1]
+|   |   |   |   |   |   |   |   |   office frequency >= 0.02 : Top_Artists (4/0) [5/1]
+|   |   |   |   |   |   |   Sentence length hist bin 5 >= 0.21 : Low_Artists (10/0) [7/2]
+|   |   |   |   |   |   Frequency of open parenthesis >= 0.08 : Top_Artists (15/2) [9/3]
+|   |   |   |   |   time frequency >= 0.02
+|   |   |   |   |   |   Word repetition span 11 < 0.23
+|   |   |   |   |   |   |   flowers frequency < 0 : Top_Artists (47/20) [26/8]
+|   |   |   |   |   |   |   flowers frequency >= 0 : Low_Artists (8/0) [1/1]
+|   |   |   |   |   |   Word repetition span 11 >= 0.23
+|   |   |   |   |   |   |   Use of upper case < 0.05
+|   |   |   |   |   |   |   |   Mean of numbers < 8.69
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 < 0.06
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 < 0.11 : Top_Artists (20/2) [13/4]
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 2 >= 0.11 : Low_Artists (17/7) [3/0]
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 4 >= 0.06 : Top_Artists (18/0) [9/3]
+|   |   |   |   |   |   |   |   Mean of numbers >= 8.69 : Top_Artists (28/0) [6/0]
+|   |   |   |   |   |   |   Use of upper case >= 0.05
+|   |   |   |   |   |   |   |   trees frequency < 0 : Low_Artists (7/0) [2/1]
+|   |   |   |   |   |   |   |   trees frequency >= 0 : Top_Artists (2/0) [2/0]
+|   |   |   Soundex diversity >= 0.36 : Low_Artists (31/6) [18/5]
+|   |   female frequency >= 0
+|   |   |   Sentence length mean < 6.42 : Low_Artists (21/8) [6/4]
+|   |   |   Sentence length mean >= 6.42
+|   |   |   |   Words of length 2 < 0.18
+|   |   |   |   |   Word homoganity hist bin 2 < 0.23
+|   |   |   |   |   |   Mean of numbers < 10.35
+|   |   |   |   |   |   |   roads frequency < 0.01
+|   |   |   |   |   |   |   |   occupation frequency < 0 : Top_Artists (20/1) [10/2]
+|   |   |   |   |   |   |   |   occupation frequency >= 0
+|   |   |   |   |   |   |   |   |   driving frequency < 0.01 : Low_Artists (6/0) [4/1]
+|   |   |   |   |   |   |   |   |   driving frequency >= 0.01 : Top_Artists (48/16) [26/7]
+|   |   |   |   |   |   |   roads frequency >= 0.01 : Top_Artists (18/0) [11/0]
+|   |   |   |   |   |   Mean of numbers >= 10.35 : Top_Artists (45/0) [30/6]
+|   |   |   |   |   Word homoganity hist bin 2 >= 0.23
+|   |   |   |   |   |   Words of length 3 < 0.21
+|   |   |   |   |   |   |   furnitures frequency < 0 : Top_Artists (2/0) [1/0]
+|   |   |   |   |   |   |   furnitures frequency >= 0 : Low_Artists (12/0) [5/2]
+|   |   |   |   |   |   Words of length 3 >= 0.21
+|   |   |   |   |   |   |   sport frequency < 0.1
+|   |   |   |   |   |   |   |   Sentence length hist bin 5 < 0.03 : Low_Artists (2/0) [2/0]
+|   |   |   |   |   |   |   |   Sentence length hist bin 5 >= 0.03 : Top_Artists (19/1) [15/3]
+|   |   |   |   |   |   |   sport frequency >= 0.1 : Low_Artists (3/0) [0/0]
+|   |   |   |   Words of length 2 >= 0.18
+|   |   |   |   |   cooking frequency < 0.07
+|   |   |   |   |   |   Word repetition span 11 < 0.19
+|   |   |   |   |   |   |   acronyms frequency < 0.02 : Low_Artists (8/3) [2/0]
+|   |   |   |   |   |   |   acronyms frequency >= 0.02 : Top_Artists (21/1) [7/1]
+|   |   |   |   |   |   Word repetition span 11 >= 0.19 : Top_Artists (122/2) [43/12]
+|   |   |   |   |   cooking frequency >= 0.07 : Low_Artists (2/0) [0/0]
+
+Size of the tree : 143
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S -212218958 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 190,129,34,14,160,189,30,85,28,12,108,231,166,208,128,228,7,52,49,177,115,186,125,99,37,77,145,170,182,84,225,133,73,193,21,207,120,232,226,58,45,123,213,17,102,195,169,3,180,142,202,19,47,131,164,103,233,63,48,191,217,138,155,161,113,25,66,148,97,105,11,194,221,143,119,67,136,36,104,5,6,150,95,56,134,211,141,2,112,210,235,78,139,179,109,9,96,224,40,157,153,54,107,29,26,16,237,219,234,89,90,10,82,86,175,132,35,83,65,178,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R190,129,34,14,160,189,30,85,28,12,108,231,166,208,128,228,7,52,49,177,115,186,125,99,37,77,145,170,182,84,225,133,73,193,21,207,120,232,226,58,45,123,213,17,102,195,169,3,180,142,202,19,47,131,164,103,233,63,48,191,217,138,155,161,113,25,66,148,97,105,11,194,221,143,119,67,136,36,104,5,6,150,95,56,134,211,141,2,112,210,235,78,139,179,109,9,96,224,40,157,153,54,107,29,26,16,237,219,234,89,90,10,82,86,175,132,35,83,65,178,1'
+
+@attribute 'vacation frequency' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'Word homoganity hist bin 0' numeric
+@attribute 'Word length mean' numeric
+@attribute 'driving frequency' numeric
+@attribute 'weather frequency' numeric
+@attribute 'Words of length 16' numeric
+@attribute 'Emotion circumplex hist bin 0' numeric
+@attribute 'Words of length 14' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'positive words hist bin 2' numeric
+@attribute 'male frequency' numeric
+@attribute 'boats frequency' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'hapiness words frequency' numeric
+@attribute 'acronyms frequency' numeric
+@attribute 'FFT min' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'Frequency of forwardslash' numeric
+@attribute 'cats frequency' numeric
+@attribute 'negative words mean' numeric
+@attribute 'spring frequency' numeric
+@attribute 'negative words hist bin 5' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'Word homoganity hist bin 3' numeric
+@attribute 'Sentence length hist bin 5' numeric
+@attribute 'prepositions frequency' numeric
+@attribute 'music frequency' numeric
+@attribute 'cars frequency' numeric
+@attribute 'Emotion circumplex stddev' numeric
+@attribute 'acquaintances frequency' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'farm frequency' numeric
+@attribute 'Words of length 7' numeric
+@attribute 'fair frequency' numeric
+@attribute 'negative words hist bin 0' numeric
+@attribute 'Soundex diversity' numeric
+@attribute 'yard frequency' numeric
+@attribute 'Frequency of semicolon' numeric
+@attribute ',Frequency of double quotes' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute 'fruits frequency' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'positive words stddev' numeric
+@attribute 'transportation frequency' numeric
+@attribute 'musical instruments frequency' numeric
+@attribute 'Word diversity' numeric
+@attribute 'reptiles frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'birthday frequency' numeric
+@attribute 'Words of length 5' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'hapiness words min' numeric
+@attribute 'emotions frequency' numeric
+@attribute 'positive words min' numeric
+@attribute 'Soundex homogeneity mean' numeric
+@attribute 'Quotation length mean' numeric
+@attribute 'Frequency of backslash' numeric
+@attribute 'medical frequency' numeric
+@attribute 'leaders frequency' numeric
+@attribute 'hapiness words hist bin 4' numeric
+@attribute 'school frequency' numeric
+@attribute 'military frequency' numeric
+@attribute 'positive words hist bin 7' numeric
+@attribute 'Words of length 11' numeric
+@attribute 'Emoticon smile' numeric
+@attribute 'verbs that are nouns frequency' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'positive words dif' numeric
+@attribute 'FFT histogram bin 3' numeric
+@attribute 'trees frequency' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'adjectives frequency' numeric
+@attribute 'negative words dif' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'Word homoganity hist bin 2' numeric
+@attribute 'positive words max' numeric
+@attribute 'FFT median' numeric
+@attribute 'FFT stddev' numeric
+@attribute 'math frequency' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'hapiness words hist bin 0' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'hapiness words hist bin 7' numeric
+@attribute 'Total number of words' numeric
+@attribute 'positive words hist bin 6' numeric
+@attribute 'computer frequency' numeric
+@attribute 'Soundex homogeneity maximum' numeric
+@attribute 'Sentence length hist bin 6' numeric
+@attribute 'hapiness words hist bin 5' numeric
+@attribute 'birds frequency' numeric
+@attribute 'positive words hist bin 3' numeric
+@attribute 'FFT histogram bin 1' numeric
+@attribute 'Word repetition span 17' numeric
+@attribute 'containers frequency' numeric
+@attribute 'Word homoganity hist bin 6' numeric
+@attribute 'elections frequency' numeric
+@attribute 'US states frequency' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'Words of length 15' numeric
+@attribute 'Words of length 12' numeric
+@attribute 'Words of length 2' numeric
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute 'restaurants frequency' numeric
+@attribute 'Soundex homogeneity StdDev' numeric
+@attribute 'Emotion circumplex hist bin 4' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'FFT histogram bin 2' numeric
+@attribute 'Emotion circumplex' numeric
+@attribute 'Emotion circumplex hist bin 1' numeric
+@attribute 'animals frequency' numeric
+@attribute 'hapiness words max' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'Emotion circumplex mean' numeric
+@attribute 'Quotation part of the text' numeric
+@attribute 'fish frequency' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+Total number of words < 245.5 : Low_Artists (449/94) [225/50]
+Total number of words >= 245.5
+|   ,Frequency of double quotes < 0
+|   |   FFT median < 144.5
+|   |   |   Soundex homogeneity StdDev < 0.03
+|   |   |   |   musical instruments frequency < 0.01 : Low_Artists (29/0) [12/5]
+|   |   |   |   musical instruments frequency >= 0.01
+|   |   |   |   |   Word length mean < 3.78
+|   |   |   |   |   |   animals frequency < 0.01 : Low_Artists (12/0) [2/1]
+|   |   |   |   |   |   animals frequency >= 0.01
+|   |   |   |   |   |   |   adjectives frequency < 0.09 : Top_Artists (7/2) [1/0]
+|   |   |   |   |   |   |   adjectives frequency >= 0.09 : Low_Artists (5/0) [2/1]
+|   |   |   |   |   Word length mean >= 3.78 : Top_Artists (4/0) [0/0]
+|   |   |   Soundex homogeneity StdDev >= 0.03
+|   |   |   |   Total number of words < 401
+|   |   |   |   |   acronyms frequency < 0.02
+|   |   |   |   |   |   FFT histogram bin 1 < 0.99 : Low_Artists (35/1) [20/6]
+|   |   |   |   |   |   FFT histogram bin 1 >= 0.99
+|   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.24 : Top_Artists (11/3) [1/0]
+|   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.24 : Low_Artists (34/7) [17/3]
+|   |   |   |   |   acronyms frequency >= 0.02 : Low_Artists (112/51) [65/26]
+|   |   |   |   Total number of words >= 401 : Top_Artists (160/60) [80/29]
+|   |   FFT median >= 144.5 : Top_Artists (111/25) [61/18]
+|   ,Frequency of double quotes >= 0
+|   |   Word diversity < 0.42
+|   |   |   Total number of words < 814.5
+|   |   |   |   FFT median < 62.95
+|   |   |   |   |   Words of length 5 < 0.11 : Top_Artists (128/26) [75/23]
+|   |   |   |   |   Words of length 5 >= 0.11
+|   |   |   |   |   |   male frequency < 0.02 : Top_Artists (75/31) [42/10]
+|   |   |   |   |   |   male frequency >= 0.02 : Low_Artists (8/0) [3/1]
+|   |   |   |   FFT median >= 62.95 : Top_Artists (156/21) [76/16]
+|   |   |   Total number of words >= 814.5 : Top_Artists (66/3) [24/4]
+|   |   Word diversity >= 0.42
+|   |   |   Use of numbers < 0.01
+|   |   |   |   Word diversity < 0.48
+|   |   |   |   |   animals frequency < 0.01 : Low_Artists (24/6) [13/5]
+|   |   |   |   |   animals frequency >= 0.01
+|   |   |   |   |   |   restaurants frequency < 0.04
+|   |   |   |   |   |   |   driving frequency < 0.01 : Top_Artists (6/0) [2/1]
+|   |   |   |   |   |   |   driving frequency >= 0.01 : Low_Artists (9/2) [4/1]
+|   |   |   |   |   |   restaurants frequency >= 0.04 : Top_Artists (14/0) [13/4]
+|   |   |   |   Word diversity >= 0.48
+|   |   |   |   |   spring frequency < 0
+|   |   |   |   |   |   fair frequency < 0 : Top_Artists (4/0) [2/0]
+|   |   |   |   |   |   fair frequency >= 0 : Low_Artists (6/0) [3/1]
+|   |   |   |   |   spring frequency >= 0 : Low_Artists (23/0) [8/3]
+|   |   |   Use of numbers >= 0.01
+|   |   |   |   elections frequency < 0
+|   |   |   |   |   fish frequency < 0 : Low_Artists (17/6) [7/2]
+|   |   |   |   |   fish frequency >= 0 : Top_Artists (8/0) [2/1]
+|   |   |   |   elections frequency >= 0 : Top_Artists (15/0) [4/2]
+
+Size of the tree : 53
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S -1517195629 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 17,36,9,192,186,22,156,100,12,209,114,20,11,35,93,115,167,240,62,105,46,66,226,217,132,149,198,125,102,126,112,24,10,195,207,163,74,154,234,182,55,120,181,190,71,236,99,204,44,16,220,161,160,215,225,143,142,150,15,63,51,52,180,227,173,118,210,39,28,76,124,183,189,141,67,136,214,193,121,84,216,168,162,157,80,122,187,107,69,54,75,45,222,148,42,208,138,170,129,199,68,231,176,33,57,79,230,113,152,95,171,200,27,104,30,151,211,64,172,41,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R17,36,9,192,186,22,156,100,12,209,114,20,11,35,93,115,167,240,62,105,46,66,226,217,132,149,198,125,102,126,112,24,10,195,207,163,74,154,234,182,55,120,181,190,71,236,99,204,44,16,220,161,160,215,225,143,142,150,15,63,51,52,180,227,173,118,210,39,28,76,124,183,189,141,67,136,214,193,121,84,216,168,162,157,80,122,187,107,69,54,75,45,222,148,42,208,138,170,129,199,68,231,176,33,57,79,230,113,152,95,171,200,27,104,30,151,211,64,172,41,1'
+
+@attribute 'Words of length 3' numeric
+@attribute 'Word homoganity hist bin 2' numeric
+@attribute 'FFT histogram bin 1' numeric
+@attribute 'body frequency' numeric
+@attribute 'spring frequency' numeric
+@attribute 'Words of length 8' numeric
+@attribute 'lanuages frequency' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'circus frequency' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'Words of length 6' numeric
+@attribute 'FFT histogram bin 3' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'Word repetition span 3' numeric
+@attribute 'negative words mean' numeric
+@attribute 'energy frequency' numeric
+@attribute 'Soundex homoganity hist bin 4' numeric
+@attribute 'Quotations number' numeric
+@attribute 'positive words dif' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'Emoticon smile' numeric
+@attribute 'yard frequency' numeric
+@attribute 'leaders frequency' numeric
+@attribute 'hapiness words max' numeric
+@attribute 'sport frequency' numeric
+@attribute 'shoes frequency' numeric
+@attribute 'negative words hist bin 5' numeric
+@attribute 'positive words stddev' numeric
+@attribute 'negative words hist bin 6' numeric
+@attribute 'positive words hist bin 6' numeric
+@attribute 'Words of length 10' numeric
+@attribute 'FFT histogram bin 2' numeric
+@attribute 'transportation frequency' numeric
+@attribute 'fair frequency' numeric
+@attribute 'countries frequency' numeric
+@attribute 'Sentence length hist bin 2' numeric
+@attribute 'shapes frequency' numeric
+@attribute 'Soundex homogeneity StdDev' numeric
+@attribute 'cars frequency' numeric
+@attribute 'Frequency of and sign' numeric
+@attribute 'negative words hist bin 0' numeric
+@attribute 'insects frequency' numeric
+@attribute 'vacation frequency' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'Soundex homoganity hist bin 0' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'office frequency' numeric
+@attribute 'Frequency of single quotes' numeric
+@attribute 'Words of length 2' numeric
+@attribute 'roads frequency' numeric
+@attribute 'military frequency' numeric
+@attribute 'driving frequency' numeric
+@attribute 'furnitures frequency' numeric
+@attribute 'acquaintances frequency' numeric
+@attribute 'adjectives frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'math frequency' numeric
+@attribute 'Words of length 1' numeric
+@attribute 'Quotation length mean' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'reptiles frequency' numeric
+@attribute 'flowers frequency' numeric
+@attribute 'astronomy frequency' numeric
+@attribute 'negative words max' numeric
+@attribute 'computer frequency' numeric
+@attribute 'Word homoganity hist bin 5' numeric
+@attribute 'Words of length 14' numeric
+@attribute 'Sentence length hist bin 4' numeric
+@attribute 'negative words hist bin 4' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'weather frequency' numeric
+@attribute 'hapiness words hist bin 7' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'geography frequency' numeric
+@attribute 'farm frequency' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'Emotion circumplex stddev' numeric
+@attribute 'occupation frequency' numeric
+@attribute 'familiy frequency' numeric
+@attribute 'law frequency' numeric
+@attribute 'elections frequency' numeric
+@attribute 'Automated readability index' numeric
+@attribute 'negative words hist bin 2' numeric
+@attribute 'summer frequency' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'Sentence length mean' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'Sentence length hist bin 3' numeric
+@attribute ',Frequency of double quotes' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'verbs that are nouns frequency' numeric
+@attribute 'Punctuation characters ratio' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'hapiness words hist bin 4' numeric
+@attribute 'music frequency' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'hats frequency' numeric
+@attribute 'Emoticon sad' numeric
+@attribute 'male frequency' numeric
+@attribute 'dogs frequency' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'Frequency of open squarebrace' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'female frequency' numeric
+@attribute 'positive words hist bin 7' numeric
+@attribute 'science fields frequency' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'land forms frequency' numeric
+@attribute 'buildings frequency' numeric
+@attribute 'Words of length 13' numeric
+@attribute 'positive words max' numeric
+@attribute 'Words of length 16' numeric
+@attribute 'science frequency' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'art frequency' numeric
+@attribute 'Word homoganity hist bin 7' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+Frequency of single quotes < 0.02
+|   female frequency < 0
+|   |   Mean of numbers < 35.65 : Low_Artists (166/7) [91/13]
+|   |   Mean of numbers >= 35.65 : Top_Artists (4/1) [3/1]
+|   female frequency >= 0 : Low_Artists (66/17) [36/8]
+Frequency of single quotes >= 0.02
+|   Word homoganity hist bin 1 < 0.01
+|   |   FFT histogram bin 1 < 0.99 : Low_Artists (192/48) [103/32]
+|   |   FFT histogram bin 1 >= 0.99
+|   |   |   Sentence length character mean < 26.65 : Low_Artists (11/0) [8/3]
+|   |   |   Sentence length character mean >= 26.65
+|   |   |   |   Sentence length hist bin 3 < 0.08 : Low_Artists (58/19) [19/5]
+|   |   |   |   Sentence length hist bin 3 >= 0.08 : Top_Artists (118/43) [50/21]
+|   Word homoganity hist bin 1 >= 0.01
+|   |   Sentence length character mean < 26.75 : Low_Artists (47/9) [20/7]
+|   |   Sentence length character mean >= 26.75
+|   |   |   Punctuation characters ratio < 0.17
+|   |   |   |   Sentence length mean < 9.63 : Top_Artists (240/96) [112/51]
+|   |   |   |   Sentence length mean >= 9.63 : Low_Artists (51/13) [26/6]
+|   |   |   Punctuation characters ratio >= 0.17
+|   |   |   |   female frequency < 0
+|   |   |   |   |   adjectives frequency < 0.06 : Top_Artists (87/17) [30/6]
+|   |   |   |   |   adjectives frequency >= 0.06
+|   |   |   |   |   |   FFT histogram bin 2 < 0
+|   |   |   |   |   |   |   leaders frequency < 0.01
+|   |   |   |   |   |   |   |   insects frequency < 0
+|   |   |   |   |   |   |   |   |   circus frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   Frequency of apostepe < 0.1 : Top_Artists (63/17) [22/6]
+|   |   |   |   |   |   |   |   |   |   Frequency of apostepe >= 0.1 : Low_Artists (13/4) [6/1]
+|   |   |   |   |   |   |   |   |   circus frequency >= 0.01 : Low_Artists (12/1) [15/8]
+|   |   |   |   |   |   |   |   insects frequency >= 0 : Top_Artists (25/2) [13/5]
+|   |   |   |   |   |   |   leaders frequency >= 0.01
+|   |   |   |   |   |   |   |   Quotation length mean < 22.25
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 5 < 0.03
+|   |   |   |   |   |   |   |   |   |   cooking frequency < 0.01 : Low_Artists (15/1) [4/2]
+|   |   |   |   |   |   |   |   |   |   cooking frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   positive words frequency < 0.01 : Top_Artists (5/0) [4/0]
+|   |   |   |   |   |   |   |   |   |   |   positive words frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 3 < 0.24 : Low_Artists (16/2) [7/2]
+|   |   |   |   |   |   |   |   |   |   |   |   Words of length 3 >= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |   |   male frequency < 0 : Top_Artists (7/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   male frequency >= 0 : Low_Artists (5/2) [4/1]
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 5 >= 0.03 : Top_Artists (18/3) [10/3]
+|   |   |   |   |   |   |   |   Quotation length mean >= 22.25 : Low_Artists (21/2) [12/8]
+|   |   |   |   |   |   FFT histogram bin 2 >= 0 : Top_Artists (14/0) [6/3]
+|   |   |   |   female frequency >= 0 : Top_Artists (274/40) [160/32]
+
+Size of the tree : 47
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1117309575 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 66,56,114,80,77,51,4,48,83,125,174,228,60,158,206,90,149,23,122,73,14,192,16,119,143,194,222,230,202,67,89,177,129,152,28,71,232,123,8,120,121,185,215,151,69,196,128,140,84,35,130,25,135,81,20,111,68,87,91,164,110,113,92,21,29,238,49,97,146,118,98,43,205,201,95,96,17,58,53,63,163,141,117,61,153,52,216,75,94,133,198,213,19,107,26,62,6,99,55,42,100,41,34,166,234,79,115,85,106,134,227,142,188,46,136,224,109,105,5,54,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R66,56,114,80,77,51,4,48,83,125,174,228,60,158,206,90,149,23,122,73,14,192,16,119,143,194,222,230,202,67,89,177,129,152,28,71,232,123,8,120,121,185,215,151,69,196,128,140,84,35,130,25,135,81,20,111,68,87,91,164,110,113,92,21,29,238,49,97,146,118,98,43,205,201,95,96,17,58,53,63,163,141,117,61,153,52,216,75,94,133,198,213,19,107,26,62,6,99,55,42,100,41,34,166,234,79,115,85,106,134,227,142,188,46,136,224,109,105,5,54,1'
+
+@attribute 'Emoticon smile' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'Automated readability index' numeric
+@attribute 'Sentence length hist bin 5' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'FFT mean' numeric
+@attribute 'Frequency of backslash' numeric
+@attribute 'Emotion circumplex mean' numeric
+@attribute 'negative words hist bin 5' numeric
+@attribute 'colors frequency' numeric
+@attribute 'acronyms frequency' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'food frequency' numeric
+@attribute 'camping frequency' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'sport frequency' numeric
+@attribute 'Words of length 9' numeric
+@attribute 'negative words hist bin 2' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'Word length mean' numeric
+@attribute 'body frequency' numeric
+@attribute 'Words of length 2' numeric
+@attribute 'negative words dif' numeric
+@attribute 'adjectives frequency' numeric
+@attribute 'trees frequency' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'female frequency' numeric
+@attribute 'birthday frequency' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'Emotion circumplex hist bin 4' numeric
+@attribute 'cats frequency' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'science fields frequency' numeric
+@attribute 'Words of length 14' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'Soundex diversity' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute 'FFT max' numeric
+@attribute 'negative words hist bin 0' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'fall frequency' numeric
+@attribute 'furnitures frequency' numeric
+@attribute 'science frequency' numeric
+@attribute 'Sentence length mean' numeric
+@attribute 'time frequency' numeric
+@attribute 'hapiness words frequency' numeric
+@attribute 'hapiness words hist bin 6' numeric
+@attribute 'Emotion circumplex stddev' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'hapiness words stddev' numeric
+@attribute 'Words of length 11' numeric
+@attribute 'hapiness words hist bin 1' numeric
+@attribute 'Coleman�Liau index' numeric
+@attribute 'Words of length 6' numeric
+@attribute 'positive words hist bin 5' numeric
+@attribute 'Emoticon sad' numeric
+@attribute 'Emotion circumplex hist bin 2' numeric
+@attribute 'Emotion circumplex hist bin 6' numeric
+@attribute 'emotions frequency' numeric
+@attribute 'positive words hist bin 4' numeric
+@attribute 'positive words hist bin 7' numeric
+@attribute 'Emotion circumplex hist bin 7' numeric
+@attribute 'Words of length 7' numeric
+@attribute 'Words of length 15' numeric
+@attribute 'Soundex homoganity hist bin 2' numeric
+@attribute 'Frequency of forwardslash' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'pronouns frequency' numeric
+@attribute 'negative words max' numeric
+@attribute 'Number diversity' numeric
+@attribute 'Frequency of fullstop' numeric
+@attribute 'tools frequency' numeric
+@attribute 'public buildings frequency' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'Word repetition span 17' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'Frequency of semicolon' numeric
+@attribute 'Frequency of equal' numeric
+@attribute 'Quotation length mean' numeric
+@attribute 'countries frequency' numeric
+@attribute 'hapiness words hist bin 7' numeric
+@attribute 'negative words min' numeric
+@attribute 'Upper case word mean' numeric
+@attribute 'US states frequency' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'occupation frequency' numeric
+@attribute 'Sentence length hist bin 3' numeric
+@attribute 'Word repetition span 7' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'shoes frequency' numeric
+@attribute 'fruits frequency' numeric
+@attribute 'Words of length 5' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'Words of length 12' numeric
+@attribute 'Quotations number' numeric
+@attribute 'FFT stddev' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'Frequency of and sign' numeric
+@attribute 'Punctuation characters ratio' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'Word homoganity hist bin 7' numeric
+@attribute 'Word homoganity hist bin 0' numeric
+@attribute 'boats frequency' numeric
+@attribute 'Soundex homogeneity StdDev' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'negative words mean' numeric
+@attribute 'Emotion circumplex hist bin 0' numeric
+@attribute 'positive words hist bin 0' numeric
+@attribute 'hapiness words hist bin 0' numeric
+@attribute 'flowers frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'winter frequency' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'containers frequency' numeric
+@attribute 'positive words hist bin 3' numeric
+@attribute 'positive words dif' numeric
+@attribute 'FFT median' numeric
+@attribute 'Frequency of star' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+FFT mean < 160.5
+|   Punctuation characters ratio < 0.1 : Low_Artists (192/14) [117/14]
+|   Punctuation characters ratio >= 0.1
+|   |   acronyms frequency < 0.02
+|   |   |   tools frequency < 0.03
+|   |   |   |   Punctuation characters ratio < 0.25
+|   |   |   |   |   Word homoganity hist bin 1 < 0.63
+|   |   |   |   |   |   Sentence length character mean < 27.8 : Low_Artists (33/0) [16/2]
+|   |   |   |   |   |   Sentence length character mean >= 27.8
+|   |   |   |   |   |   |   Use of upper case < 0.03 : Low_Artists (18/0) [6/2]
+|   |   |   |   |   |   |   Use of upper case >= 0.03
+|   |   |   |   |   |   |   |   Words of length 5 < 0.13
+|   |   |   |   |   |   |   |   |   Frequency of open parenthesis < 0.02 : Low_Artists (27/8) [17/4]
+|   |   |   |   |   |   |   |   |   Frequency of open parenthesis >= 0.02 : Top_Artists (6/0) [4/1]
+|   |   |   |   |   |   |   |   Words of length 5 >= 0.13 : Low_Artists (17/1) [5/1]
+|   |   |   |   |   Word homoganity hist bin 1 >= 0.63 : Top_Artists (3/0) [0/0]
+|   |   |   |   Punctuation characters ratio >= 0.25 : Low_Artists (36/17) [12/4]
+|   |   |   tools frequency >= 0.03 : Low_Artists (32/0) [14/3]
+|   |   acronyms frequency >= 0.02
+|   |   |   Word homoganity hist bin 0 < 0.51
+|   |   |   |   Use of upper case < 0.03 : Low_Artists (23/1) [6/0]
+|   |   |   |   Use of upper case >= 0.03
+|   |   |   |   |   Words of length 9 < 0.01 : Low_Artists (120/36) [51/19]
+|   |   |   |   |   Words of length 9 >= 0.01
+|   |   |   |   |   |   Sentence length hist bin 1 < 0.04 : Top_Artists (9/0) [5/2]
+|   |   |   |   |   |   Sentence length hist bin 1 >= 0.04
+|   |   |   |   |   |   |   Sentence length hist bin 1 < 0.07 : Low_Artists (5/0) [1/0]
+|   |   |   |   |   |   |   Sentence length hist bin 1 >= 0.07
+|   |   |   |   |   |   |   |   Sentence length mean < 5.77 : Low_Artists (8/2) [1/0]
+|   |   |   |   |   |   |   |   Sentence length mean >= 5.77 : Top_Artists (15/2) [11/2]
+|   |   |   Word homoganity hist bin 0 >= 0.51
+|   |   |   |   Sentence length hist bin 5 < 0.04 : Low_Artists (17/6) [7/2]
+|   |   |   |   Sentence length hist bin 5 >= 0.04 : Top_Artists (42/8) [18/9]
+FFT mean >= 160.5
+|   Punctuation characters ratio < 0.27
+|   |   FFT median < 189.5
+|   |   |   Number diversity < 0.02
+|   |   |   |   Sentence length mean < 9.94
+|   |   |   |   |   Words of length 5 < 0.15
+|   |   |   |   |   |   female frequency < 0.01 : Top_Artists (270/126) [133/58]
+|   |   |   |   |   |   female frequency >= 0.01
+|   |   |   |   |   |   |   FFT mean < 245.5 : Top_Artists (47/20) [19/7]
+|   |   |   |   |   |   |   FFT mean >= 245.5
+|   |   |   |   |   |   |   |   Use of upper case < 0.04 : Top_Artists (38/0) [23/3]
+|   |   |   |   |   |   |   |   Use of upper case >= 0.04
+|   |   |   |   |   |   |   |   |   sport frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   FFT mean < 265.5 : Top_Artists (2/0) [2/0]
+|   |   |   |   |   |   |   |   |   |   FFT mean >= 265.5 : Low_Artists (3/0) [3/0]
+|   |   |   |   |   |   |   |   |   sport frequency >= 0.04 : Top_Artists (10/0) [1/1]
+|   |   |   |   |   Words of length 5 >= 0.15
+|   |   |   |   |   |   Words of length 6 < 0.06
+|   |   |   |   |   |   |   containers frequency < 0.01 : Top_Artists (14/5) [3/1]
+|   |   |   |   |   |   |   containers frequency >= 0.01 : Low_Artists (10/0) [5/1]
+|   |   |   |   |   |   Words of length 6 >= 0.06 : Low_Artists (16/0) [8/2]
+|   |   |   |   Sentence length mean >= 9.94
+|   |   |   |   |   colors frequency < 0 : Low_Artists (54/8) [27/8]
+|   |   |   |   |   colors frequency >= 0
+|   |   |   |   |   |   shoes frequency < 0 : Low_Artists (3/0) [3/1]
+|   |   |   |   |   |   shoes frequency >= 0 : Top_Artists (7/0) [5/2]
+|   |   |   Number diversity >= 0.02
+|   |   |   |   emotions frequency < 0.05
+|   |   |   |   |   Frequency of apostepe < 0.08
+|   |   |   |   |   |   negative words frequency < 0.01
+|   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.21
+|   |   |   |   |   |   |   |   Sentence length mean < 8.25 : Low_Artists (11/3) [2/0]
+|   |   |   |   |   |   |   |   Sentence length mean >= 8.25 : Top_Artists (8/0) [0/0]
+|   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.21 : Top_Artists (32/0) [17/7]
+|   |   |   |   |   |   negative words frequency >= 0.01
+|   |   |   |   |   |   |   tools frequency < 0.01 : Low_Artists (7/0) [3/2]
+|   |   |   |   |   |   |   tools frequency >= 0.01 : Top_Artists (23/10) [17/5]
+|   |   |   |   |   Frequency of apostepe >= 0.08 : Top_Artists (36/1) [16/2]
+|   |   |   |   emotions frequency >= 0.05 : Low_Artists (5/0) [2/1]
+|   |   FFT median >= 189.5
+|   |   |   Words of length 5 < 0.08 : Top_Artists (28/0) [12/2]
+|   |   |   Words of length 5 >= 0.08
+|   |   |   |   Mean of numbers < 10.6
+|   |   |   |   |   Sentence length character mean < 48.2 : Top_Artists (91/22) [65/17]
+|   |   |   |   |   Sentence length character mean >= 48.2 : Low_Artists (6/1) [3/1]
+|   |   |   |   Mean of numbers >= 10.6 : Top_Artists (23/0) [14/5]
+|   Punctuation characters ratio >= 0.27 : Top_Artists (181/27) [90/18]
+
+Size of the tree : 81
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1272425118 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 2,219,225,40,25,138,224,90,197,98,117,56,109,71,65,99,235,111,154,30,130,106,97,227,233,43,19,45,22,54,9,31,46,166,142,21,133,188,208,189,148,119,151,110,239,129,78,37,179,72,165,103,35,4,12,145,140,33,176,64,115,85,209,47,226,231,144,240,60,124,101,36,211,163,73,236,178,5,120,67,104,146,228,17,223,76,127,212,237,161,26,196,153,7,195,59,135,186,150,51,107,41,87,175,70,11,162,14,81,152,77,183,13,57,170,79,136,206,180,123,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R2,219,225,40,25,138,224,90,197,98,117,56,109,71,65,99,235,111,154,30,130,106,97,227,233,43,19,45,22,54,9,31,46,166,142,21,133,188,208,189,148,119,151,110,239,129,78,37,179,72,165,103,35,4,12,145,140,33,176,64,115,85,209,47,226,231,144,240,60,124,101,36,211,163,73,236,178,5,120,67,104,146,228,17,223,76,127,212,237,161,26,196,153,7,195,59,135,186,150,51,107,41,87,175,70,11,162,14,81,152,77,183,13,57,170,79,136,206,180,123,1'
+
+@attribute 'Total number of words' numeric
+@attribute 'restaurants frequency' numeric
+@attribute 'acquaintances frequency' numeric
+@attribute 'Word homoganity hist bin 6' numeric
+@attribute 'Words of length 11' numeric
+@attribute 'hapiness words hist bin 4' numeric
+@attribute 'containers frequency' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'clothing frequency' numeric
+@attribute 'Number diversity' numeric
+@attribute 'negative words min' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'positive words hist bin 3' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'Quotation part of the text' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'Soundex homogeneity maximum' numeric
+@attribute 'positive words hist bin 5' numeric
+@attribute 'shapes frequency' numeric
+@attribute 'Words of length 16' numeric
+@attribute 'hapiness words stddev' numeric
+@attribute 'positive words hist bin 0' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'flowers frequency' numeric
+@attribute 'Soundex homogeneity mean' numeric
+@attribute 'Frequency of fullstop' numeric
+@attribute 'Words of length 5' numeric
+@attribute ',Frequency of double quotes' numeric
+@attribute 'Words of length 8' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'FFT histogram bin 1' numeric
+@attribute 'Word homogeneity mean' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'boats frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'Words of length 7' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'winter frequency' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'weather frequency' numeric
+@attribute 'verbs that are nouns frequency' numeric
+@attribute 'negative words dif' numeric
+@attribute 'science frequency' numeric
+@attribute 'positive words hist bin 4' numeric
+@attribute 'Soundex homoganity hist bin 3' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'Sentence length hist bin 6' numeric
+@attribute 'Word homoganity hist bin 3' numeric
+@attribute 'birds frequency' numeric
+@attribute 'Sentence length hist bin 0' numeric
+@attribute 'dance frequency' numeric
+@attribute 'positive words min' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'FFT mean' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'prepositions frequency' numeric
+@attribute 'hapiness words hist bin 6' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'dogs frequency' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'negative words mean' numeric
+@attribute 'Emotion circumplex hist bin 0' numeric
+@attribute 'circus frequency' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'yard frequency' numeric
+@attribute 'male frequency' numeric
+@attribute 'adverbs frequency' numeric
+@attribute 'Soundex homoganity hist bin 4' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'negative words hist bin 4' numeric
+@attribute 'positive words mean' numeric
+@attribute 'Word homoganity hist bin 2' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'countries frequency' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'Soundex homoganity hist bin 0' numeric
+@attribute 'fish frequency' numeric
+@attribute 'FFT median' numeric
+@attribute 'negative words hist bin 0' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'positive words max' numeric
+@attribute 'pronouns frequency' numeric
+@attribute 'acronyms frequency' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'measurements frequency' numeric
+@attribute 'Sentence length hist bin 4' numeric
+@attribute 'negative words hist bin 7' numeric
+@attribute 'kitchen frequency' numeric
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute 'military frequency' numeric
+@attribute 'Words of length 12' numeric
+@attribute 'time frequency' numeric
+@attribute 'US states frequency' numeric
+@attribute 'FFT min' numeric
+@attribute 'transportation frequency' numeric
+@attribute 'Frequency of colon' numeric
+@attribute 'hapiness words hist bin 1' numeric
+@attribute 'spring frequency' numeric
+@attribute 'math frequency' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'Word homoganity hist bin 7' numeric
+@attribute 'Emotion circumplex hist bin 2' numeric
+@attribute 'animals frequency' numeric
+@attribute 'Sentence length stddev' numeric
+@attribute 'FFT histogram bin 3' numeric
+@attribute 'law frequency' numeric
+@attribute 'Word length mean' numeric
+@attribute 'Coleman�Liau index' numeric
+@attribute 'science fields frequency' numeric
+@attribute 'Sentence length hist bin 5' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'FFT histogram bin 5' numeric
+@attribute 'Frequency of open squarebrace' numeric
+@attribute 'music frequency' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'camping frequency' numeric
+@attribute 'reptiles frequency' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+FFT mean < 146.5
+|   Sentence length stddev < 1.83 : Low_Artists (198/15) [83/17]
+|   Sentence length stddev >= 1.83
+|   |   Frequency of apostepe < 0.04
+|   |   |   ,Frequency of double quotes < 0.06 : Low_Artists (85/7) [38/7]
+|   |   |   ,Frequency of double quotes >= 0.06 : Top_Artists (2/0) [2/0]
+|   |   Frequency of apostepe >= 0.04 : Low_Artists (229/80) [149/46]
+FFT mean >= 146.5
+|   ,Frequency of double quotes < 0
+|   |   car parts frequency < 0.01
+|   |   |   Number diversity < 0.02
+|   |   |   |   FFT median < 0.01
+|   |   |   |   |   Frequency of question mark < 0.01
+|   |   |   |   |   |   prepositions frequency < 0.1 : Low_Artists (52/1) [20/5]
+|   |   |   |   |   |   prepositions frequency >= 0.1
+|   |   |   |   |   |   |   Number diversity < 0.01 : Low_Artists (38/6) [17/4]
+|   |   |   |   |   |   |   Number diversity >= 0.01 : Top_Artists (13/4) [7/3]
+|   |   |   |   |   Frequency of question mark >= 0.01 : Top_Artists (18/5) [7/2]
+|   |   |   |   FFT median >= 0.01
+|   |   |   |   |   transportation frequency < 0
+|   |   |   |   |   |   Sentence length hist bin 6 < 0.05 : Low_Artists (22/1) [19/9]
+|   |   |   |   |   |   Sentence length hist bin 6 >= 0.05
+|   |   |   |   |   |   |   circus frequency < 0.01
+|   |   |   |   |   |   |   |   Sentence length character mean < 44.3 : Top_Artists (22/5) [8/3]
+|   |   |   |   |   |   |   |   Sentence length character mean >= 44.3 : Low_Artists (8/1) [6/1]
+|   |   |   |   |   |   |   circus frequency >= 0.01 : Low_Artists (8/0) [3/2]
+|   |   |   |   |   transportation frequency >= 0
+|   |   |   |   |   |   Total number of words < 289.5
+|   |   |   |   |   |   |   FFT min < 0.85 : Low_Artists (15/2) [8/3]
+|   |   |   |   |   |   |   FFT min >= 0.85 : Top_Artists (3/0) [1/0]
+|   |   |   |   |   |   Total number of words >= 289.5
+|   |   |   |   |   |   |   measurements frequency < 0.01 : Top_Artists (19/0) [7/2]
+|   |   |   |   |   |   |   measurements frequency >= 0.01
+|   |   |   |   |   |   |   |   animals frequency < 0 : Top_Artists (13/0) [6/4]
+|   |   |   |   |   |   |   |   animals frequency >= 0
+|   |   |   |   |   |   |   |   |   restaurants frequency < 0.06
+|   |   |   |   |   |   |   |   |   |   Quotation part of the text < 0.01
+|   |   |   |   |   |   |   |   |   |   |   car parts frequency < 0 : Top_Artists (7/0) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   car parts frequency >= 0 : Low_Artists (19/7) [3/0]
+|   |   |   |   |   |   |   |   |   |   Quotation part of the text >= 0.01 : Top_Artists (10/0) [4/1]
+|   |   |   |   |   |   |   |   |   restaurants frequency >= 0.06 : Low_Artists (6/0) [1/0]
+|   |   |   Number diversity >= 0.02 : Top_Artists (60/15) [19/5]
+|   |   car parts frequency >= 0.01 : Top_Artists (168/48) [74/27]
+|   ,Frequency of double quotes >= 0
+|   |   Total number of words < 880.5
+|   |   |   male frequency < 0 : Top_Artists (215/36) [107/21]
+|   |   |   male frequency >= 0
+|   |   |   |   Frequency of fullstop < 0
+|   |   |   |   |   Word length mean < 3.55
+|   |   |   |   |   |   Sentence length hist bin 6 < 0.26
+|   |   |   |   |   |   |   prepositions frequency < 0.09
+|   |   |   |   |   |   |   |   restaurants frequency < 0.03 : Top_Artists (15/0) [4/1]
+|   |   |   |   |   |   |   |   restaurants frequency >= 0.03
+|   |   |   |   |   |   |   |   |   Frequency of question mark < 0.01 : Top_Artists (13/3) [10/2]
+|   |   |   |   |   |   |   |   |   Frequency of question mark >= 0.01 : Low_Artists (4/0) [5/2]
+|   |   |   |   |   |   |   prepositions frequency >= 0.09 : Top_Artists (42/0) [24/11]
+|   |   |   |   |   |   Sentence length hist bin 6 >= 0.26 : Low_Artists (6/2) [4/1]
+|   |   |   |   |   Word length mean >= 3.55
+|   |   |   |   |   |   Sentence length stddev < 2.92
+|   |   |   |   |   |   |   military frequency < 0.03
+|   |   |   |   |   |   |   |   weather frequency < 0.01 : Top_Artists (7/0) [3/1]
+|   |   |   |   |   |   |   |   weather frequency >= 0.01
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 < 0.02 : Top_Artists (13/3) [4/2]
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 3 >= 0.02
+|   |   |   |   |   |   |   |   |   |   Use of numbers < 0.02 : Low_Artists (24/3) [11/4]
+|   |   |   |   |   |   |   |   |   |   Use of numbers >= 0.02 : Top_Artists (4/0) [1/0]
+|   |   |   |   |   |   |   military frequency >= 0.03 : Low_Artists (8/0) [7/3]
+|   |   |   |   |   |   Sentence length stddev >= 2.92 : Top_Artists (45/10) [34/7]
+|   |   |   |   Frequency of fullstop >= 0
+|   |   |   |   |   verbs that are nouns frequency < 0.08
+|   |   |   |   |   |   time frequency < 0.02 : Low_Artists (27/2) [17/8]
+|   |   |   |   |   |   time frequency >= 0.02
+|   |   |   |   |   |   |   Sentence length hist bin 4 < 0.16 : Low_Artists (11/1) [11/5]
+|   |   |   |   |   |   |   Sentence length hist bin 4 >= 0.16
+|   |   |   |   |   |   |   |   spring frequency < 0.01 : Top_Artists (11/0) [5/1]
+|   |   |   |   |   |   |   |   spring frequency >= 0.01 : Low_Artists (3/0) [3/1]
+|   |   |   |   |   verbs that are nouns frequency >= 0.08 : Top_Artists (17/3) [6/1]
+|   |   Total number of words >= 880.5 : Top_Artists (48/1) [24/2]
+
+Size of the tree : 79
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 988642581 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 94,105,44,26,74,83,64,153,119,11,14,29,179,138,80,32,207,12,211,182,123,114,220,39,239,20,233,133,230,198,144,127,43,3,60,73,112,2,81,202,100,72,22,172,145,154,148,232,121,166,97,47,221,17,18,8,210,222,59,95,67,234,69,115,116,91,170,191,142,143,178,193,209,163,190,23,206,51,195,9,134,70,140,33,109,117,139,194,110,199,30,42,62,189,160,186,227,129,111,54,31,19,156,103,219,236,174,35,137,92,88,201,90,107,61,147,28,218,56,212,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R94,105,44,26,74,83,64,153,119,11,14,29,179,138,80,32,207,12,211,182,123,114,220,39,239,20,233,133,230,198,144,127,43,3,60,73,112,2,81,202,100,72,22,172,145,154,148,232,121,166,97,47,221,17,18,8,210,222,59,95,67,234,69,115,116,91,170,191,142,143,178,193,209,163,190,23,206,51,195,9,134,70,140,33,109,117,139,194,110,199,30,42,62,189,160,186,227,129,111,54,31,19,156,103,219,236,174,35,137,92,88,201,90,107,61,147,28,218,56,212,1'
+
+@attribute 'Word repetition span 7' numeric
+@attribute 'positive words dif' numeric
+@attribute 'Frequency of single quotes' numeric
+@attribute 'Words of length 12' numeric
+@attribute 'Sentence length hist bin 2' numeric
+@attribute 'Emotion circumplex mean' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'US states frequency' numeric
+@attribute 'negative words dif' numeric
+@attribute 'FFT histogram bin 3' numeric
+@attribute 'Word length mean' numeric
+@attribute 'Words of length 15' numeric
+@attribute 'birds frequency' numeric
+@attribute 'hapiness words hist bin 4' numeric
+@attribute 'Automated readability index' numeric
+@attribute 'Word homogeneity StdDev' numeric
+@attribute 'fair frequency' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'cars frequency' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'roads frequency' numeric
+@attribute 'Word homoganity hist bin 5' numeric
+@attribute 'Soundex homoganity hist bin 3' numeric
+@attribute 'Words of length 6' numeric
+@attribute 'Soundex homogeneity mean' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'female frequency' numeric
+@attribute 'shoes frequency' numeric
+@attribute 'adverbs frequency' numeric
+@attribute 'negative words hist bin 7' numeric
+@attribute 'Frequency of fullstop' numeric
+@attribute 'Word diversity' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'positive words hist bin 6' numeric
+@attribute 'Total number of words' numeric
+@attribute 'Coleman�Liau index' numeric
+@attribute 'birthday frequency' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'Sentence length hist bin 0' numeric
+@attribute 'Words of length 8' numeric
+@attribute 'art frequency' numeric
+@attribute 'prepositions frequency' numeric
+@attribute 'shapes frequency' numeric
+@attribute 'verbs that are nouns frequency' numeric
+@attribute 'Soundex diversity' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'boats frequency' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'Words of length 4' numeric
+@attribute 'FFT max' numeric
+@attribute 'computer frequency' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'Frequency of colon' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'Soundex homogeneity StdDev' numeric
+@attribute 'Sentence length mean' numeric
+@attribute 'negative words mean' numeric
+@attribute 'negative words stddev' numeric
+@attribute 'Emotion circumplex hist bin 6' numeric
+@attribute 'music frequency' numeric
+@attribute 'medical frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'adjectives frequency' numeric
+@attribute 'fish frequency' numeric
+@attribute 'farm frequency' numeric
+@attribute 'circus frequency' numeric
+@attribute 'countries frequency' numeric
+@attribute 'vacation frequency' numeric
+@attribute 'Words of length 9' numeric
+@attribute 'camping frequency' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'transportation frequency' numeric
+@attribute 'FFT histogram bin 1' numeric
+@attribute 'hapiness words hist bin 0' numeric
+@attribute 'Sentence length stddev' numeric
+@attribute 'hapiness words hist bin 6' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'positive words hist bin 3' numeric
+@attribute 'negative words min' numeric
+@attribute 'hapiness words hist bin 5' numeric
+@attribute 'trees frequency' numeric
+@attribute 'positive words hist bin 4' numeric
+@attribute 'hats frequency' numeric
+@attribute 'Words of length 16' numeric
+@attribute 'Punctuation characters ratio' numeric
+@attribute 'Quotations number' numeric
+@attribute 'weather frequency' numeric
+@attribute 'driving frequency' numeric
+@attribute 'spring frequency' numeric
+@attribute 'flowers frequency' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'positive words hist bin 5' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'Word homogeneity mean' numeric
+@attribute 'Words of length 5' numeric
+@attribute 'lanuages frequency' numeric
+@attribute 'positive words min' numeric
+@attribute 'restaurants frequency' numeric
+@attribute 'Soundex homoganity hist bin 0' numeric
+@attribute 'colors frequency' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'hapiness words hist bin 3' numeric
+@attribute 'Emotion circumplex hist bin 7' numeric
+@attribute 'Emotion circumplex hist bin 3' numeric
+@attribute 'public buildings frequency' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'Upper case word mean' numeric
+@attribute 'verbs frequency' numeric
+@attribute 'Words of length 14' numeric
+@attribute 'house frequency' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'kitchen frequency' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+FFT max < 471.5 : Low_Artists (418/85) [244/54]
+FFT max >= 471.5
+|   Punctuation characters ratio < 0.19
+|   |   Sentence length mean < 11.05
+|   |   |   house frequency < 0.01
+|   |   |   |   female frequency < 0
+|   |   |   |   |   Word diversity < 0.48
+|   |   |   |   |   |   FFT histogram bin 1 < 0.89 : Low_Artists (13/0) [2/1]
+|   |   |   |   |   |   FFT histogram bin 1 >= 0.89
+|   |   |   |   |   |   |   hats frequency < 0
+|   |   |   |   |   |   |   |   Word repetition span 11 < 0.43
+|   |   |   |   |   |   |   |   |   Soundex homogeneity StdDev < 0.04
+|   |   |   |   |   |   |   |   |   |   adverbs frequency < 0.08
+|   |   |   |   |   |   |   |   |   |   |   Words of length 8 < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   birthday frequency < 0.01 : Low_Artists (15/0) [6/2]
+|   |   |   |   |   |   |   |   |   |   |   |   birthday frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   camping frequency < 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   farm frequency < 0 : Low_Artists (9/0) [3/2]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   farm frequency >= 0 : Top_Artists (6/2) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   camping frequency >= 0 : Top_Artists (6/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   Words of length 8 >= 0.03 : Top_Artists (9/1) [5/2]
+|   |   |   |   |   |   |   |   |   |   adverbs frequency >= 0.08 : Low_Artists (24/1) [11/3]
+|   |   |   |   |   |   |   |   |   Soundex homogeneity StdDev >= 0.04
+|   |   |   |   |   |   |   |   |   |   weapons frequency < 0 : Top_Artists (24/4) [11/5]
+|   |   |   |   |   |   |   |   |   |   weapons frequency >= 0
+|   |   |   |   |   |   |   |   |   |   |   shapes frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   cooking frequency < 0.01 : Top_Artists (4/1) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   |   cooking frequency >= 0.01 : Low_Artists (11/0) [3/0]
+|   |   |   |   |   |   |   |   |   |   |   shapes frequency >= 0.01 : Top_Artists (3/0) [1/1]
+|   |   |   |   |   |   |   |   Word repetition span 11 >= 0.43 : Low_Artists (20/0) [7/1]
+|   |   |   |   |   |   |   hats frequency >= 0
+|   |   |   |   |   |   |   |   weather frequency < 0.04
+|   |   |   |   |   |   |   |   |   happy words frequency < 0.02 : Low_Artists (25/6) [16/6]
+|   |   |   |   |   |   |   |   |   happy words frequency >= 0.02 : Top_Artists (35/11) [14/6]
+|   |   |   |   |   |   |   |   weather frequency >= 0.04 : Top_Artists (14/0) [5/4]
+|   |   |   |   |   Word diversity >= 0.48 : Low_Artists (18/0) [8/2]
+|   |   |   |   female frequency >= 0
+|   |   |   |   |   Words of length 8 < 0.02
+|   |   |   |   |   |   Word homogeneity maximum < 0.24
+|   |   |   |   |   |   |   Soundex homogeneity mean < 0.03 : Low_Artists (5/0) [5/1]
+|   |   |   |   |   |   |   Soundex homogeneity mean >= 0.03 : Top_Artists (69/26) [22/6]
+|   |   |   |   |   |   Word homogeneity maximum >= 0.24 : Low_Artists (6/0) [8/3]
+|   |   |   |   |   Words of length 8 >= 0.02
+|   |   |   |   |   |   adverbs frequency < 0.08 : Top_Artists (21/0) [5/3]
+|   |   |   |   |   |   adverbs frequency >= 0.08
+|   |   |   |   |   |   |   roads frequency < 0 : Low_Artists (3/0) [1/0]
+|   |   |   |   |   |   |   roads frequency >= 0 : Top_Artists (3/0) [2/0]
+|   |   |   house frequency >= 0.01
+|   |   |   |   FFT max < 569.5 : Low_Artists (38/13) [11/6]
+|   |   |   |   FFT max >= 569.5
+|   |   |   |   |   Words of length 6 < 0.05 : Top_Artists (84/15) [36/11]
+|   |   |   |   |   Words of length 6 >= 0.05
+|   |   |   |   |   |   Words of length 8 < 0.01 : Top_Artists (10/0) [3/2]
+|   |   |   |   |   |   Words of length 8 >= 0.01
+|   |   |   |   |   |   |   transportation frequency < 0
+|   |   |   |   |   |   |   |   Word repetition span 7 < 0.17 : Low_Artists (15/0) [3/1]
+|   |   |   |   |   |   |   |   Word repetition span 7 >= 0.17 : Top_Artists (3/0) [2/0]
+|   |   |   |   |   |   |   transportation frequency >= 0
+|   |   |   |   |   |   |   |   trees frequency < 0 : Top_Artists (60/29) [35/11]
+|   |   |   |   |   |   |   |   trees frequency >= 0
+|   |   |   |   |   |   |   |   |   cars frequency < 0 : Top_Artists (19/0) [20/6]
+|   |   |   |   |   |   |   |   |   cars frequency >= 0
+|   |   |   |   |   |   |   |   |   |   weapons frequency < 0 : Low_Artists (4/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   weapons frequency >= 0 : Top_Artists (5/0) [3/3]
+|   |   Sentence length mean >= 11.05 : Low_Artists (15/0) [11/5]
+|   Punctuation characters ratio >= 0.19
+|   |   Word diversity < 0.44 : Top_Artists (447/107) [219/48]
+|   |   Word diversity >= 0.44 : Low_Artists (67/29) [36/14]
+
+Size of the tree : 69
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S -1767485689 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 15,108,214,150,91,148,188,228,200,97,231,53,87,14,185,66,18,168,197,99,117,233,115,47,133,183,174,162,51,54,129,58,96,34,146,95,24,26,46,80,75,164,137,100,181,195,55,142,206,143,90,35,222,147,156,79,94,212,38,134,71,226,136,5,194,204,221,27,107,155,167,11,163,209,193,190,127,170,145,13,141,106,225,154,57,42,210,125,68,85,70,3,135,132,130,169,159,17,153,102,208,207,114,109,39,173,184,131,180,121,179,16,7,43,176,187,28,223,182,123,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R15,108,214,150,91,148,188,228,200,97,231,53,87,14,185,66,18,168,197,99,117,233,115,47,133,183,174,162,51,54,129,58,96,34,146,95,24,26,46,80,75,164,137,100,181,195,55,142,206,143,90,35,222,147,156,79,94,212,38,134,71,226,136,5,194,204,221,27,107,155,167,11,163,209,193,190,127,170,145,13,141,106,225,154,57,42,210,125,68,85,70,3,135,132,130,169,159,17,153,102,208,207,114,109,39,173,184,131,180,121,179,16,7,43,176,187,28,223,182,123,1'
+
+@attribute 'Words of length 1' numeric
+@attribute 'positive words hist bin 2' numeric
+@attribute 'geography frequency' numeric
+@attribute 'math frequency' numeric
+@attribute 'Emotion circumplex hist bin 6' numeric
+@attribute 'verbs that are nouns frequency' numeric
+@attribute 'winter frequency' numeric
+@attribute 'acronyms frequency' numeric
+@attribute 'buildings frequency' numeric
+@attribute 'Use of numbers' numeric
+@attribute 'male frequency' numeric
+@attribute 'Frequency of equal' numeric
+@attribute 'Emotion circumplex hist bin 2' numeric
+@attribute 'Word length mean' numeric
+@attribute 'fall frequency' numeric
+@attribute 'Emoticon smile' numeric
+@attribute 'Words of length 4' numeric
+@attribute 'familiy frequency' numeric
+@attribute 'clothing frequency' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'negative words min' numeric
+@attribute 'Soundex homogeneity mean' numeric
+@attribute 'negative words mean' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'colors frequency' numeric
+@attribute 'law frequency' numeric
+@attribute 'Frequency of question mark' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'Frequency of semicolon' numeric
+@attribute 'Word repetition span 17' numeric
+@attribute 'Word homoganity hist bin 0' numeric
+@attribute 'pronouns frequency' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'Words of length 10' numeric
+@attribute 'Words of length 12' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'Automated readability index' numeric
+@attribute 'Sentence length hist bin 3' numeric
+@attribute 'emotions frequency' numeric
+@attribute 'hapiness words hist bin 3' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'insects frequency' numeric
+@attribute 'transportation frequency' numeric
+@attribute 'Frequency of and sign' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'camping frequency' numeric
+@attribute 'adjectives frequency' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'weapons frequency' numeric
+@attribute 'verbs frequency' numeric
+@attribute 'lanuages frequency' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'Word repetition span 7' numeric
+@attribute 'kitchen frequency' numeric
+@attribute 'Word homoganity hist bin 4' numeric
+@attribute 'hapiness words hist bin 0' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'yard frequency' numeric
+@attribute 'hapiness words hist bin 2' numeric
+@attribute 'FFT median' numeric
+@attribute 'trees frequency' numeric
+@attribute 'office frequency' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'Words of length 13' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'school frequency' numeric
+@attribute 'energy frequency' numeric
+@attribute 'FFT histogram bin 3' numeric
+@attribute 'countries frequency' numeric
+@attribute 'circus frequency' numeric
+@attribute 'farm frequency' numeric
+@attribute 'vacation frequency' numeric
+@attribute 'negative words hist bin 7' numeric
+@attribute 'music frequency' numeric
+@attribute 'prepositions frequency' numeric
+@attribute 'FFT histogram bin 5' numeric
+@attribute 'hapiness words hist bin 7' numeric
+@attribute 'positive words hist bin 0' numeric
+@attribute 'acquaintances frequency' numeric
+@attribute 'shapes frequency' numeric
+@attribute 'Frequency of open squarebrace' numeric
+@attribute 'Punctuation characters ratio' numeric
+@attribute 'computer frequency' numeric
+@attribute 'negative words hist bin 5' numeric
+@attribute 'Emoticon sad' numeric
+@attribute 'Emotion circumplex hist bin 0' numeric
+@attribute 'Sentence length stddev' numeric
+@attribute 'Word diversity' numeric
+@attribute 'hapiness words hist bin 1' numeric
+@attribute 'hapiness words max' numeric
+@attribute 'hapiness words stddev' numeric
+@attribute 'musical instruments frequency' numeric
+@attribute 'money frequency' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'US states frequency' numeric
+@attribute 'positive words stddev' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'fair frequency' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'positive words hist bin 3' numeric
+@attribute 'Word homoganity hist bin 5' numeric
+@attribute 'astronomy frequency' numeric
+@attribute 'beach frequency' numeric
+@attribute 'hapiness words min' numeric
+@attribute 'reptiles frequency' numeric
+@attribute 'negative words hist bin 1' numeric
+@attribute 'birds frequency' numeric
+@attribute 'Words of length 2' numeric
+@attribute 'FFT min' numeric
+@attribute 'Frequency of fullstop' numeric
+@attribute 'dogs frequency' numeric
+@attribute 'summer frequency' numeric
+@attribute 'Words of length 14' numeric
+@attribute 'measurements frequency' numeric
+@attribute 'cars frequency' numeric
+@attribute 'negative words hist bin 3' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+Punctuation characters ratio < 0.13
+|   Soundex homogeneity mean < 0.1
+|   |   car parts frequency < 0 : Low_Artists (113/24) [61/16]
+|   |   car parts frequency >= 0
+|   |   |   Word diversity < 0.59
+|   |   |   |   Frequency of apostepe < 0.08
+|   |   |   |   |   Sentence length hist bin 7 < 0.03 : Top_Artists (28/3) [21/9]
+|   |   |   |   |   Sentence length hist bin 7 >= 0.03
+|   |   |   |   |   |   FFT median < 107.5
+|   |   |   |   |   |   |   Punctuation characters ratio < 0.08 : Low_Artists (21/2) [10/1]
+|   |   |   |   |   |   |   Punctuation characters ratio >= 0.08 : Top_Artists (39/19) [15/2]
+|   |   |   |   |   |   FFT median >= 107.5
+|   |   |   |   |   |   |   Words of length 10 < 0 : Top_Artists (14/0) [7/2]
+|   |   |   |   |   |   |   Words of length 10 >= 0
+|   |   |   |   |   |   |   |   positive words frequency < 0.02
+|   |   |   |   |   |   |   |   |   Mean of numbers < 0.5 : Top_Artists (2/0) [2/0]
+|   |   |   |   |   |   |   |   |   Mean of numbers >= 0.5 : Low_Artists (5/0) [3/1]
+|   |   |   |   |   |   |   |   positive words frequency >= 0.02 : Top_Artists (6/0) [3/1]
+|   |   |   |   Frequency of apostepe >= 0.08
+|   |   |   |   |   negative words frequency < 0 : Top_Artists (2/0) [1/0]
+|   |   |   |   |   negative words frequency >= 0 : Low_Artists (17/0) [10/7]
+|   |   |   Word diversity >= 0.59 : Low_Artists (12/0) [2/0]
+|   Soundex homogeneity mean >= 0.1 : Low_Artists (196/16) [109/18]
+Punctuation characters ratio >= 0.13
+|   Sentence length character mean < 26.55 : Low_Artists (79/15) [37/10]
+|   Sentence length character mean >= 26.55
+|   |   Word diversity < 0.44
+|   |   |   Sentence length stddev < 1.74
+|   |   |   |   male frequency < 0.02 : Low_Artists (32/1) [9/5]
+|   |   |   |   male frequency >= 0.02 : Top_Artists (5/1) [3/1]
+|   |   |   Sentence length stddev >= 1.74
+|   |   |   |   FFT median < 108.5
+|   |   |   |   |   transportation frequency < 0
+|   |   |   |   |   |   circus frequency < 0.01
+|   |   |   |   |   |   |   Sentence length hist bin 7 < 0.02 : Top_Artists (10/1) [7/3]
+|   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.02
+|   |   |   |   |   |   |   |   acquaintances frequency < 0.01 : Low_Artists (104/31) [45/19]
+|   |   |   |   |   |   |   |   acquaintances frequency >= 0.01
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.43
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 < 0.31 : Top_Artists (9/3) [6/2]
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.31 : Low_Artists (6/0) [7/3]
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 0 >= 0.43 : Top_Artists (12/0) [3/1]
+|   |   |   |   |   |   circus frequency >= 0.01 : Top_Artists (9/0) [4/2]
+|   |   |   |   |   transportation frequency >= 0
+|   |   |   |   |   |   Mean of numbers < 1.69
+|   |   |   |   |   |   |   Punctuation characters ratio < 0.14 : Low_Artists (7/0) [3/0]
+|   |   |   |   |   |   |   Punctuation characters ratio >= 0.14
+|   |   |   |   |   |   |   |   yard frequency < 0.01
+|   |   |   |   |   |   |   |   |   Word repetition span 17 < 0.47
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 < 0.03 : Top_Artists (20/2) [13/6]
+|   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.03 : Low_Artists (58/28) [11/4]
+|   |   |   |   |   |   |   |   |   Word repetition span 17 >= 0.47
+|   |   |   |   |   |   |   |   |   |   Soundex homogeneity mean < 0.06 : Top_Artists (24/0) [9/5]
+|   |   |   |   |   |   |   |   |   |   Soundex homogeneity mean >= 0.06
+|   |   |   |   |   |   |   |   |   |   |   acronyms frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   clothing frequency < 0.01 : Low_Artists (5/0) [5/2]
+|   |   |   |   |   |   |   |   |   |   |   |   clothing frequency >= 0.01 : Top_Artists (25/6) [8/6]
+|   |   |   |   |   |   |   |   |   |   |   acronyms frequency >= 0.03 : Top_Artists (25/2) [19/5]
+|   |   |   |   |   |   |   |   yard frequency >= 0.01
+|   |   |   |   |   |   |   |   |   countries frequency < 0.02 : Low_Artists (16/2) [4/1]
+|   |   |   |   |   |   |   |   |   countries frequency >= 0.02 : Top_Artists (21/8) [11/2]
+|   |   |   |   |   |   Mean of numbers >= 1.69
+|   |   |   |   |   |   |   acquaintances frequency < 0 : Top_Artists (48/0) [19/6]
+|   |   |   |   |   |   |   acquaintances frequency >= 0
+|   |   |   |   |   |   |   |   Punctuation characters ratio < 0.17
+|   |   |   |   |   |   |   |   |   Words of length 3 < 0.2 : Low_Artists (6/0) [2/0]
+|   |   |   |   |   |   |   |   |   Words of length 3 >= 0.2
+|   |   |   |   |   |   |   |   |   |   math frequency < 0.01 : Top_Artists (9/0) [6/2]
+|   |   |   |   |   |   |   |   |   |   math frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   Use of numbers < 0.01 : Low_Artists (5/0) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   Use of numbers >= 0.01 : Top_Artists (17/6) [8/3]
+|   |   |   |   |   |   |   |   Punctuation characters ratio >= 0.17 : Top_Artists (102/13) [63/8]
+|   |   |   |   FFT median >= 108.5 : Top_Artists (228/29) [124/31]
+|   |   Word diversity >= 0.44
+|   |   |   Punctuation characters ratio < 0.14
+|   |   |   |   Frequency of question mark < 0
+|   |   |   |   |   Automated readability index < -0.18 : Top_Artists (6/0) [2/2]
+|   |   |   |   |   Automated readability index >= -0.18 : Low_Artists (9/2) [3/1]
+|   |   |   |   Frequency of question mark >= 0 : Top_Artists (12/0) [3/2]
+|   |   |   Punctuation characters ratio >= 0.14
+|   |   |   |   Word repetition span 11 < 0.28
+|   |   |   |   |   Sentence length hist bin 3 < 0.17
+|   |   |   |   |   |   US states frequency < 0
+|   |   |   |   |   |   |   math frequency < 0 : Top_Artists (6/2) [4/1]
+|   |   |   |   |   |   |   math frequency >= 0 : Low_Artists (65/5) [30/9]
+|   |   |   |   |   |   US states frequency >= 0
+|   |   |   |   |   |   |   Sentence length stddev < 2.37 : Low_Artists (7/0) [3/0]
+|   |   |   |   |   |   |   Sentence length stddev >= 2.37
+|   |   |   |   |   |   |   |   positive words frequency < 0.05 : Top_Artists (8/0) [3/1]
+|   |   |   |   |   |   |   |   positive words frequency >= 0.05 : Low_Artists (2/0) [1/0]
+|   |   |   |   |   Sentence length hist bin 3 >= 0.17
+|   |   |   |   |   |   male frequency < 0.01 : Low_Artists (30/12) [23/9]
+|   |   |   |   |   |   male frequency >= 0.01 : Top_Artists (6/0) [2/0]
+|   |   |   |   Word repetition span 11 >= 0.28 : Top_Artists (40/16) [18/6]
+
+Size of the tree : 95
+
+FilteredClassifier using weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S -1823187975 -L -1 -I 0.0 on data filtered through weka.filters.unsupervised.attribute.Remove -V -R 98,141,88,28,35,147,194,146,240,57,166,124,23,131,40,149,89,41,107,105,2,239,61,155,198,119,201,67,199,182,49,153,8,70,14,60,196,184,177,237,187,220,102,64,115,32,93,162,189,12,157,126,170,56,238,106,33,138,108,144,133,200,17,48,73,163,4,129,109,54,202,79,44,100,50,83,74,161,221,169,188,47,71,16,103,208,90,152,183,186,27,9,78,213,24,174,142,211,172,6,217,128,215,232,117,205,63,197,92,214,68,34,216,116,140,223,101,81,25,228,1
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R98,141,88,28,35,147,194,146,240,57,166,124,23,131,40,149,89,41,107,105,2,239,61,155,198,119,201,67,199,182,49,153,8,70,14,60,196,184,177,237,187,220,102,64,115,32,93,162,189,12,157,126,170,56,238,106,33,138,108,144,133,200,17,48,73,163,4,129,109,54,202,79,44,100,50,83,74,161,221,169,188,47,71,16,103,208,90,152,183,186,27,9,78,213,24,174,142,211,172,6,217,128,215,232,117,205,63,197,92,214,68,34,216,116,140,223,101,81,25,228,1'
+
+@attribute 'Number diversity' numeric
+@attribute 'hapiness words hist bin 7' numeric
+@attribute 'Emotion circumplex hist bin 3' numeric
+@attribute 'Words of length 14' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'verbs frequency' numeric
+@attribute 'trees frequency' numeric
+@attribute 'pronouns frequency' numeric
+@attribute 'Soundex homoganity hist bin 4' numeric
+@attribute 'Frequency of open squarebrace' numeric
+@attribute 'boats frequency' numeric
+@attribute 'negative words hist bin 4' numeric
+@attribute 'Words of length 9' numeric
+@attribute 'hapiness words min' numeric
+@attribute 'Word homoganity hist bin 6' numeric
+@attribute 'sport frequency' numeric
+@attribute 'Emotion circumplex hist bin 4' numeric
+@attribute 'Word homoganity hist bin 7' numeric
+@attribute 'positive words hist bin 1' numeric
+@attribute 'positive words dif' numeric
+@attribute 'Total number of words' numeric
+@attribute 'Soundex homoganity hist bin 3' numeric
+@attribute 'Upper case word mean' numeric
+@attribute 'school frequency' numeric
+@attribute 'shoes frequency' numeric
+@attribute 'negative words dif' numeric
+@attribute 'public buildings frequency' numeric
+@attribute 'Emoticon wink' numeric
+@attribute 'hats frequency' numeric
+@attribute 'cars frequency' numeric
+@attribute 'Frequency of forwardslash' numeric
+@attribute 'US states frequency' numeric
+@attribute 'FFT max' numeric
+@attribute 'Sentence length stddev' numeric
+@attribute 'Word length mean' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'time frequency' numeric
+@attribute 'beach frequency' numeric
+@attribute 'cats frequency' numeric
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute 'summer frequency' numeric
+@attribute 'roads frequency' numeric
+@attribute 'positive words stddev' numeric
+@attribute 'Quotation length stddev' numeric
+@attribute 'negative words mean' numeric
+@attribute 'Word homogeneity StdDev' numeric
+@attribute 'Word repetition span 3' numeric
+@attribute 'law frequency' numeric
+@attribute 'weather frequency' numeric
+@attribute 'FFT histogram bin 4' numeric
+@attribute 'elections frequency' numeric
+@attribute 'negative words hist bin 6' numeric
+@attribute 'music frequency' numeric
+@attribute 'Frequency of open curlybrace' numeric
+@attribute 'Soundex homoganity hist bin 2' numeric
+@attribute 'positive words hist bin 0' numeric
+@attribute 'Word homogeneity maximum' numeric
+@attribute 'hapiness words hist bin 4' numeric
+@attribute 'positive words hist bin 2' numeric
+@attribute 'adverbs frequency' numeric
+@attribute 'hapiness words dif' numeric
+@attribute 'buildings frequency' numeric
+@attribute 'Words of length 3' numeric
+@attribute 'Frequency of backslash' numeric
+@attribute 'Sentence length hist bin 1' numeric
+@attribute 'countries frequency' numeric
+@attribute 'FFT mean' numeric
+@attribute 'hapiness words mean' numeric
+@attribute 'positive words hist bin 3' numeric
+@attribute 'Frequency of star' numeric
+@attribute 'birthday frequency' numeric
+@attribute 'Sentence length hist bin 7' numeric
+@attribute 'Frequency of single quotes' numeric
+@attribute 'positive words frequency' numeric
+@attribute 'Frequency of exclamation' numeric
+@attribute 'Emotion circumplex mean' numeric
+@attribute 'Sentence length hist bin 2' numeric
+@attribute 'military frequency' numeric
+@attribute 'rocks and minerals frequency' numeric
+@attribute 'musical instruments frequency' numeric
+@attribute 'winter frequency' numeric
+@attribute 'Frequency of plus' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'Words of length 2' numeric
+@attribute 'positive words min' numeric
+@attribute 'castles and kings and queens frequency' numeric
+@attribute 'Emotion circumplex hist bin 5' numeric
+@attribute 'science fields frequency' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'spring frequency' numeric
+@attribute 'Words of length 13' numeric
+@attribute 'FFT histogram bin 1' numeric
+@attribute 'Sentence length hist bin 6' numeric
+@attribute 'fruits frequency' numeric
+@attribute 'Words of length 10' numeric
+@attribute 'colors frequency' numeric
+@attribute 'happy words frequency' numeric
+@attribute 'cooking frequency' numeric
+@attribute 'art frequency' numeric
+@attribute 'FFT stddev' numeric
+@attribute 'leaders frequency' numeric
+@attribute 'hapiness words frequency' numeric
+@attribute 'furnitures frequency' numeric
+@attribute 'Soundex diversity' numeric
+@attribute 'negative words min' numeric
+@attribute 'tools frequency' numeric
+@attribute 'Quotation length mean' numeric
+@attribute 'clothing frequency' numeric
+@attribute 'Emotion circumplex hist bin 7' numeric
+@attribute 'geography frequency' numeric
+@attribute 'Emoticon sad' numeric
+@attribute 'Word homoganity hist bin 0' numeric
+@attribute 'occupation frequency' numeric
+@attribute 'negative words stddev' numeric
+@attribute 'hapiness words hist bin 6' numeric
+@attribute 'measurements frequency' numeric
+@attribute 'positive words mean' numeric
+@attribute 'Coleman�Liau index' numeric
+@attribute 'Words of length 11' numeric
+@attribute 'acronyms frequency' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+
+REPTree
+============
+
+FFT mean < 189.5
+|   Frequency of single quotes < 0.02 : Low_Artists (209/16) [93/11]
+|   Frequency of single quotes >= 0.02
+|   |   Sentence length stddev < 1.94
+|   |   |   Quotation length mean < 8.25
+|   |   |   |   Frequency of single quotes < 0.23
+|   |   |   |   |   pronouns frequency < 0.16
+|   |   |   |   |   |   acronyms frequency < 0.04
+|   |   |   |   |   |   |   Sentence length hist bin 6 < 0.12 : Low_Artists (32/1) [18/3]
+|   |   |   |   |   |   |   Sentence length hist bin 6 >= 0.12
+|   |   |   |   |   |   |   |   military frequency < 0.03 : Low_Artists (12/2) [5/0]
+|   |   |   |   |   |   |   |   military frequency >= 0.03 : Top_Artists (4/0) [2/0]
+|   |   |   |   |   |   acronyms frequency >= 0.04
+|   |   |   |   |   |   |   pronouns frequency < 0.14 : Top_Artists (8/0) [5/2]
+|   |   |   |   |   |   |   pronouns frequency >= 0.14 : Low_Artists (6/1) [4/0]
+|   |   |   |   |   pronouns frequency >= 0.16 : Low_Artists (71/4) [38/8]
+|   |   |   |   Frequency of single quotes >= 0.23 : Top_Artists (3/0) [1/1]
+|   |   |   Quotation length mean >= 8.25 : Top_Artists (11/3) [5/3]
+|   |   Sentence length stddev >= 1.94
+|   |   |   Frequency of exclamation < 0
+|   |   |   |   school frequency < 0.01
+|   |   |   |   |   Word homoganity hist bin 0 < 0.87
+|   |   |   |   |   |   Use of upper case < 0.03 : Low_Artists (14/1) [4/2]
+|   |   |   |   |   |   Use of upper case >= 0.03
+|   |   |   |   |   |   |   law frequency < 0
+|   |   |   |   |   |   |   |   spring frequency < 0 : Low_Artists (72/33) [48/15]
+|   |   |   |   |   |   |   |   spring frequency >= 0
+|   |   |   |   |   |   |   |   |   acronyms frequency < 0 : Low_Artists (5/0) [0/0]
+|   |   |   |   |   |   |   |   |   acronyms frequency >= 0
+|   |   |   |   |   |   |   |   |   |   weather frequency < 0.05
+|   |   |   |   |   |   |   |   |   |   |   adverbs frequency < 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 < 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency < 0 : Top_Artists (20/3) [19/6]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   rocks and minerals frequency >= 0 : Low_Artists (3/0) [3/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   winter frequency >= 0.02 : Top_Artists (22/0) [15/10]
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 7 >= 0.22 : Low_Artists (6/1) [0/0]
+|   |   |   |   |   |   |   |   |   |   |   adverbs frequency >= 0.08 : Low_Artists (14/5) [12/5]
+|   |   |   |   |   |   |   |   |   |   weather frequency >= 0.05 : Top_Artists (16/0) [7/4]
+|   |   |   |   |   |   |   law frequency >= 0
+|   |   |   |   |   |   |   |   Sentence length hist bin 2 < 0.36
+|   |   |   |   |   |   |   |   |   furnitures frequency < 0.01
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 < 0.26
+|   |   |   |   |   |   |   |   |   |   |   Words of length 11 < 0.01 : Low_Artists (46/2) [21/9]
+|   |   |   |   |   |   |   |   |   |   |   Words of length 11 >= 0.01 : Top_Artists (6/2) [4/1]
+|   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 >= 0.26 : Low_Artists (27/13) [10/4]
+|   |   |   |   |   |   |   |   |   furnitures frequency >= 0.01
+|   |   |   |   |   |   |   |   |   |   countries frequency < 0.04
+|   |   |   |   |   |   |   |   |   |   |   time frequency < 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 6 < 0.04 : Low_Artists (19/7) [7/0]
+|   |   |   |   |   |   |   |   |   |   |   |   Word homoganity hist bin 6 >= 0.04 : Top_Artists (7/0) [3/0]
+|   |   |   |   |   |   |   |   |   |   |   time frequency >= 0.03 : Low_Artists (9/0) [7/3]
+|   |   |   |   |   |   |   |   |   |   countries frequency >= 0.04 : Top_Artists (15/1) [6/4]
+|   |   |   |   |   |   |   |   Sentence length hist bin 2 >= 0.36 : Top_Artists (6/0) [1/1]
+|   |   |   |   |   Word homoganity hist bin 0 >= 0.87 : Top_Artists (8/0) [2/1]
+|   |   |   |   school frequency >= 0.01 : Low_Artists (28/4) [7/4]
+|   |   |   Frequency of exclamation >= 0 : Low_Artists (26/2) [13/3]
+FFT mean >= 189.5
+|   car parts frequency < 0
+|   |   Number diversity < 0.02
+|   |   |   FFT stddev < 357
+|   |   |   |   FFT mean < 243.5
+|   |   |   |   |   Use of upper case < 0.05
+|   |   |   |   |   |   verbs frequency < 0.05 : Top_Artists (9/0) [3/2]
+|   |   |   |   |   |   verbs frequency >= 0.05
+|   |   |   |   |   |   |   Frequency of single quotes < 0.02 : Low_Artists (11/1) [1/0]
+|   |   |   |   |   |   |   Frequency of single quotes >= 0.02 : Top_Artists (58/24) [26/8]
+|   |   |   |   |   Use of upper case >= 0.05 : Low_Artists (9/0) [2/0]
+|   |   |   |   FFT mean >= 243.5 : Top_Artists (68/12) [46/12]
+|   |   |   FFT stddev >= 357
+|   |   |   |   colors frequency < 0
+|   |   |   |   |   sport frequency < 0.04 : Low_Artists (21/0) [13/2]
+|   |   |   |   |   sport frequency >= 0.04
+|   |   |   |   |   |   Word length mean < 3.63
+|   |   |   |   |   |   |   Word homogeneity StdDev < 0.03 : Low_Artists (34/1) [14/6]
+|   |   |   |   |   |   |   Word homogeneity StdDev >= 0.03 : Top_Artists (13/6) [5/1]
+|   |   |   |   |   |   Word length mean >= 3.63 : Top_Artists (11/3) [13/5]
+|   |   |   |   colors frequency >= 0 : Top_Artists (55/21) [30/10]
+|   |   Number diversity >= 0.02 : Top_Artists (33/2) [12/4]
+|   car parts frequency >= 0
+|   |   Frequency of single quotes < 0.03
+|   |   |   castles and kings and queens frequency < 0
+|   |   |   |   Number diversity < 0.02 : Low_Artists (19/1) [6/5]
+|   |   |   |   Number diversity >= 0.02 : Top_Artists (4/1) [1/0]
+|   |   |   castles and kings and queens frequency >= 0
+|   |   |   |   pronouns frequency < 0.18
+|   |   |   |   |   FFT mean < 281.5 : Low_Artists (7/1) [7/2]
+|   |   |   |   |   FFT mean >= 281.5 : Top_Artists (4/0) [2/0]
+|   |   |   |   pronouns frequency >= 0.18 : Top_Artists (10/0) [3/1]
+|   |   Frequency of single quotes >= 0.03
+|   |   |   Frequency of exclamation < 0.01
+|   |   |   |   spring frequency < 0.02
+|   |   |   |   |   FFT mean < 234.5 : Top_Artists (53/22) [46/16]
+|   |   |   |   |   FFT mean >= 234.5
+|   |   |   |   |   |   Quotation length stddev < 8.96
+|   |   |   |   |   |   |   occupation frequency < 0
+|   |   |   |   |   |   |   |   Frequency of single quotes < 0.05
+|   |   |   |   |   |   |   |   |   adverbs frequency < 0.07 : Top_Artists (9/0) [3/3]
+|   |   |   |   |   |   |   |   |   adverbs frequency >= 0.07
+|   |   |   |   |   |   |   |   |   |   music frequency < 0.02
+|   |   |   |   |   |   |   |   |   |   |   beach frequency < 0.01 : Top_Artists (3/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   beach frequency >= 0.01 : Low_Artists (8/0) [3/0]
+|   |   |   |   |   |   |   |   |   |   music frequency >= 0.02 : Top_Artists (5/0) [3/0]
+|   |   |   |   |   |   |   |   Frequency of single quotes >= 0.05 : Top_Artists (120/6) [59/8]
+|   |   |   |   |   |   |   occupation frequency >= 0 : Top_Artists (120/33) [54/16]
+|   |   |   |   |   |   Quotation length stddev >= 8.96 : Top_Artists (35/0) [14/1]
+|   |   |   |   spring frequency >= 0.02 : Top_Artists (60/1) [29/6]
+|   |   |   Frequency of exclamation >= 0.01 : Low_Artists (24/9) [8/3]
+
+Size of the tree : 109
+
+
+
+Time taken to build model: 0.97 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1697               74.0401 %
+Incorrectly Classified Instances       595               25.9599 %
+Kappa statistic                          0.481 
+Mean absolute error                      0.3778
+Root mean squared error                  0.4222
+Relative absolute error                 75.5591 %
+Root relative squared error             84.4386 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.705    0.224    0.760      0.705    0.732      0.482    0.815     0.801     Low_Artists
+                 0.776    0.295    0.723      0.776    0.748      0.482    0.815     0.803     Top_Artists
+Weighted Avg.    0.740    0.259    0.742      0.740    0.740      0.482    0.815     0.802     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 812 339 |   a = Low_Artists
+ 256 885 |   b = Top_Artists
+

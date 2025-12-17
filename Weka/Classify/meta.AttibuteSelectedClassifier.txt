@@ -1,0 +1,427 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.CfsSubsetEval -P 1 -E 1" -S "weka.attributeSelection.BestFirst -D 1 -N 5" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     output
+Instances:    2292
+Attributes:   240
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 8159
+	Merit of best subset found:    0.182
+
+Attribute Subset Evaluator (supervised, Class (nominal): 1 Class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 3,4,5,6,8,19,35,42,44,45,46,49,50,52,60,69,70,71,74,75,95,99,114,116,168,183,186,191,197,228,229,230,237 : 33
+                     Word diversity
+                     FFT mean
+                     FFT median
+                     FFT stddev
+                     FFT max
+                     Words of length 5
+                     Word homoganity hist bin 1
+                     Punctuation characters ratio
+                     Frequency of single quotes
+                     ,Frequency of double quotes
+                     Frequency of apostepe
+                     Frequency of forwardslash
+                     Frequency of exclamation
+                     Frequency of open parenthesis
+                     Use of upper case
+                     Sentence length mean
+                     Sentence length stddev
+                     Sentence length character mean
+                     Sentence length hist bin 2
+                     Sentence length hist bin 3
+                     Word repetition span 11
+                     Mean of numbers
+                     negative words frequency
+                     negative words stddev
+                     familiy frequency
+                     car parts frequency
+                     spring frequency
+                     medical frequency
+                     clothing frequency
+                     acronyms frequency
+                     self frequency
+                     female frequency
+                     Soundex homoganity hist bin 1
+
+
+Header of reduced data:
+@relation 'output-weka.filters.unsupervised.attribute.Remove-V-R3-6,8,19,35,42,44-46,49-50,52,60,69-71,74-75,95,99,114,116,168,183,186,191,197,228-230,237,1'
+
+@attribute 'Word diversity' numeric
+@attribute 'FFT mean' numeric
+@attribute 'FFT median' numeric
+@attribute 'FFT stddev' numeric
+@attribute 'FFT max' numeric
+@attribute 'Words of length 5' numeric
+@attribute 'Word homoganity hist bin 1' numeric
+@attribute 'Punctuation characters ratio' numeric
+@attribute 'Frequency of single quotes' numeric
+@attribute ',Frequency of double quotes' numeric
+@attribute 'Frequency of apostepe' numeric
+@attribute 'Frequency of forwardslash' numeric
+@attribute 'Frequency of exclamation' numeric
+@attribute 'Frequency of open parenthesis' numeric
+@attribute 'Use of upper case' numeric
+@attribute 'Sentence length mean' numeric
+@attribute 'Sentence length stddev' numeric
+@attribute 'Sentence length character mean' numeric
+@attribute 'Sentence length hist bin 2' numeric
+@attribute 'Sentence length hist bin 3' numeric
+@attribute 'Word repetition span 11' numeric
+@attribute 'Mean of numbers' numeric
+@attribute 'negative words frequency' numeric
+@attribute 'negative words stddev' numeric
+@attribute 'familiy frequency' numeric
+@attribute 'car parts frequency' numeric
+@attribute 'spring frequency' numeric
+@attribute 'medical frequency' numeric
+@attribute 'clothing frequency' numeric
+@attribute 'acronyms frequency' numeric
+@attribute 'self frequency' numeric
+@attribute 'female frequency' numeric
+@attribute 'Soundex homoganity hist bin 1' numeric
+@attribute Class {Low_Artists,Top_Artists}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+Frequency of single quotes <= 0.0186
+|   FFT mean <= 241
+|   |   Mean of numbers <= 14
+|   |   |   Frequency of open parenthesis <= 0.0177
+|   |   |   |   medical frequency <= 0.0208: Low_Artists (170.0/5.0)
+|   |   |   |   medical frequency > 0.0208
+|   |   |   |   |   Word homoganity hist bin 1 <= 0.312
+|   |   |   |   |   |   female frequency <= 0.00414
+|   |   |   |   |   |   |   Sentence length hist bin 3 <= 0.228: Low_Artists (67.0)
+|   |   |   |   |   |   |   Sentence length hist bin 3 > 0.228
+|   |   |   |   |   |   |   |   medical frequency <= 0.0268: Top_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   medical frequency > 0.0268: Low_Artists (15.0/1.0)
+|   |   |   |   |   |   female frequency > 0.00414
+|   |   |   |   |   |   |   Words of length 5 <= 0.0971: Top_Artists (6.0/2.0)
+|   |   |   |   |   |   |   Words of length 5 > 0.0971
+|   |   |   |   |   |   |   |   FFT stddev <= 165: Low_Artists (13.0)
+|   |   |   |   |   |   |   |   FFT stddev > 165: Top_Artists (3.0/1.0)
+|   |   |   |   |   Word homoganity hist bin 1 > 0.312
+|   |   |   |   |   |   FFT stddev <= 146: Low_Artists (5.0)
+|   |   |   |   |   |   FFT stddev > 146: Top_Artists (4.0)
+|   |   |   Frequency of open parenthesis > 0.0177
+|   |   |   |   familiy frequency <= 0.0165
+|   |   |   |   |   car parts frequency <= 0.0231: Low_Artists (19.0)
+|   |   |   |   |   car parts frequency > 0.0231
+|   |   |   |   |   |   Word diversity <= 0.289: Low_Artists (2.0)
+|   |   |   |   |   |   Word diversity > 0.289: Top_Artists (2.0)
+|   |   |   |   familiy frequency > 0.0165
+|   |   |   |   |   FFT max <= 287: Low_Artists (2.0)
+|   |   |   |   |   FFT max > 287: Top_Artists (6.0)
+|   |   Mean of numbers > 14
+|   |   |   car parts frequency <= 0.00139: Low_Artists (11.0/1.0)
+|   |   |   car parts frequency > 0.00139
+|   |   |   |   Frequency of open parenthesis <= 0.0288: Top_Artists (5.0)
+|   |   |   |   Frequency of open parenthesis > 0.0288: Low_Artists (2.0)
+|   FFT mean > 241
+|   |   female frequency <= 0.00204
+|   |   |   clothing frequency <= 0.00995: Top_Artists (3.0/1.0)
+|   |   |   clothing frequency > 0.00995: Low_Artists (12.0/1.0)
+|   |   female frequency > 0.00204: Top_Artists (14.0/1.0)
+Frequency of single quotes > 0.0186
+|   FFT max <= 421
+|   |   Frequency of single quotes <= 0.0968
+|   |   |   clothing frequency <= 0.00754
+|   |   |   |   Word homoganity hist bin 1 <= 0.107
+|   |   |   |   |   FFT stddev <= 29.7
+|   |   |   |   |   |   self frequency <= 0.0328: Low_Artists (5.0)
+|   |   |   |   |   |   self frequency > 0.0328: Top_Artists (4.0/1.0)
+|   |   |   |   |   FFT stddev > 29.7: Low_Artists (75.0)
+|   |   |   |   Word homoganity hist bin 1 > 0.107
+|   |   |   |   |   ,Frequency of double quotes <= 0.0154: Low_Artists (11.0/1.0)
+|   |   |   |   |   ,Frequency of double quotes > 0.0154: Top_Artists (2.0)
+|   |   |   clothing frequency > 0.00754
+|   |   |   |   Frequency of open parenthesis <= 0.0613: Low_Artists (159.0/38.0)
+|   |   |   |   Frequency of open parenthesis > 0.0613
+|   |   |   |   |   Sentence length stddev <= 2.26: Low_Artists (3.0)
+|   |   |   |   |   Sentence length stddev > 2.26: Top_Artists (8.0/1.0)
+|   |   Frequency of single quotes > 0.0968
+|   |   |   Word diversity <= 0.328
+|   |   |   |   FFT max <= 230
+|   |   |   |   |   FFT median <= 1.41: Top_Artists (3.0)
+|   |   |   |   |   FFT median > 1.41: Low_Artists (4.0)
+|   |   |   |   FFT max > 230: Low_Artists (16.0)
+|   |   |   Word diversity > 0.328
+|   |   |   |   Sentence length character mean <= 30.4
+|   |   |   |   |   FFT stddev <= 111
+|   |   |   |   |   |   self frequency <= 0.181
+|   |   |   |   |   |   |   spring frequency <= 0.0051: Low_Artists (11.0)
+|   |   |   |   |   |   |   spring frequency > 0.0051
+|   |   |   |   |   |   |   |   FFT median <= 0.287: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   FFT median > 0.287: Low_Artists (3.0)
+|   |   |   |   |   |   self frequency > 0.181: Top_Artists (2.0)
+|   |   |   |   |   FFT stddev > 111: Top_Artists (3.0)
+|   |   |   |   Sentence length character mean > 30.4
+|   |   |   |   |   Frequency of open parenthesis <= 0.00595
+|   |   |   |   |   |   Frequency of apostepe <= 0.0833: Top_Artists (8.0/1.0)
+|   |   |   |   |   |   Frequency of apostepe > 0.0833: Low_Artists (3.0)
+|   |   |   |   |   Frequency of open parenthesis > 0.00595: Top_Artists (15.0)
+|   FFT max > 421
+|   |   Frequency of exclamation <= 0.0111
+|   |   |   FFT mean <= 219
+|   |   |   |   FFT median <= 96.7
+|   |   |   |   |   Use of upper case <= 0.0509
+|   |   |   |   |   |   ,Frequency of double quotes <= 0.00553
+|   |   |   |   |   |   |   acronyms frequency <= 0.0241
+|   |   |   |   |   |   |   |   Frequency of exclamation <= 0.00115
+|   |   |   |   |   |   |   |   |   medical frequency <= 0.0288
+|   |   |   |   |   |   |   |   |   |   medical frequency <= 0.00791: Low_Artists (23.0/2.0)
+|   |   |   |   |   |   |   |   |   |   medical frequency > 0.00791
+|   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis <= 0.00474
+|   |   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis <= 0.000906
+|   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean <= 192
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe <= 0.155
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 2 <= 0.289: Low_Artists (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 2 > 0.289
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word diversity <= 0.308: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Word diversity > 0.308: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe > 0.155: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean > 192: Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis > 0.000906: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis > 0.00474
+|   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes <= 0.0588: Top_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Frequency of single quotes > 0.0588
+|   |   |   |   |   |   |   |   |   |   |   |   |   spring frequency <= 0.00266: Low_Artists (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   spring frequency > 0.00266: Top_Artists (6.0/1.0)
+|   |   |   |   |   |   |   |   |   medical frequency > 0.0288: Low_Artists (23.0/1.0)
+|   |   |   |   |   |   |   |   Frequency of exclamation > 0.00115
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 <= 0.378: Top_Artists (5.0)
+|   |   |   |   |   |   |   |   |   Word homoganity hist bin 1 > 0.378: Low_Artists (3.0)
+|   |   |   |   |   |   |   acronyms frequency > 0.0241: Low_Artists (166.0/81.0)
+|   |   |   |   |   |   ,Frequency of double quotes > 0.00553
+|   |   |   |   |   |   |   Word diversity <= 0.452
+|   |   |   |   |   |   |   |   female frequency <= 0.00245
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 <= 0.132
+|   |   |   |   |   |   |   |   |   |   Word diversity <= 0.307
+|   |   |   |   |   |   |   |   |   |   |   FFT median <= 9: Top_Artists (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   FFT median > 9: Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   Word diversity > 0.307: Top_Artists (18.0)
+|   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 > 0.132
+|   |   |   |   |   |   |   |   |   |   self frequency <= 0.0714: Low_Artists (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   self frequency > 0.0714
+|   |   |   |   |   |   |   |   |   |   |   Word diversity <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio <= 0.292
+|   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case <= 0.035
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis <= 0.0403: Top_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Frequency of open parenthesis > 0.0403: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Use of upper case > 0.035: Low_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Punctuation characters ratio > 0.292: Top_Artists (6.0)
+|   |   |   |   |   |   |   |   |   |   |   Word diversity > 0.35: Top_Artists (7.0)
+|   |   |   |   |   |   |   |   female frequency > 0.00245
+|   |   |   |   |   |   |   |   |   acronyms frequency <= 0.0303
+|   |   |   |   |   |   |   |   |   |   acronyms frequency <= 0.0267: Top_Artists (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   acronyms frequency > 0.0267: Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   acronyms frequency > 0.0303: Top_Artists (23.0)
+|   |   |   |   |   |   |   Word diversity > 0.452
+|   |   |   |   |   |   |   |   FFT median <= 1.16
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 2 <= 0.08: Low_Artists (10.0)
+|   |   |   |   |   |   |   |   |   Sentence length hist bin 2 > 0.08
+|   |   |   |   |   |   |   |   |   |   Frequency of exclamation <= 0.0037
+|   |   |   |   |   |   |   |   |   |   |   Words of length 5 <= 0.133
+|   |   |   |   |   |   |   |   |   |   |   |   female frequency <= 0.0132
+|   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency <= 0.00962: Top_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   negative words frequency > 0.00962: Low_Artists (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   female frequency > 0.0132: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Words of length 5 > 0.133: Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   Frequency of exclamation > 0.0037: Low_Artists (5.0)
+|   |   |   |   |   |   |   |   FFT median > 1.16: Top_Artists (4.0)
+|   |   |   |   |   Use of upper case > 0.0509
+|   |   |   |   |   |   Sentence length stddev <= 1.44: Top_Artists (3.0)
+|   |   |   |   |   |   Sentence length stddev > 1.44
+|   |   |   |   |   |   |   Mean of numbers <= 0
+|   |   |   |   |   |   |   |   Sentence length hist bin 2 <= 0.283: Low_Artists (13.0/1.0)
+|   |   |   |   |   |   |   |   Sentence length hist bin 2 > 0.283: Top_Artists (2.0)
+|   |   |   |   |   |   |   Mean of numbers > 0: Low_Artists (28.0)
+|   |   |   |   FFT median > 96.7
+|   |   |   |   |   Frequency of exclamation <= 0.00124: Top_Artists (114.0/31.0)
+|   |   |   |   |   Frequency of exclamation > 0.00124
+|   |   |   |   |   |   FFT stddev <= 194: Low_Artists (4.0)
+|   |   |   |   |   |   FFT stddev > 194: Top_Artists (3.0)
+|   |   |   FFT mean > 219
+|   |   |   |   Sentence length mean <= 9.88
+|   |   |   |   |   Word diversity <= 0.424
+|   |   |   |   |   |   Punctuation characters ratio <= 0.171
+|   |   |   |   |   |   |   FFT stddev <= 379
+|   |   |   |   |   |   |   |   medical frequency <= 0.0166: Top_Artists (66.0/2.0)
+|   |   |   |   |   |   |   |   medical frequency > 0.0166
+|   |   |   |   |   |   |   |   |   familiy frequency <= 0.0223
+|   |   |   |   |   |   |   |   |   |   FFT median <= 0.287
+|   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 <= 0.283
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 <= 0.161
+|   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean <= 253: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean > 253: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 > 0.161: Low_Artists (10.0)
+|   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 > 0.283: Top_Artists (5.0)
+|   |   |   |   |   |   |   |   |   |   FFT median > 0.287
+|   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 <= 0.0476: Low_Artists (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 > 0.0476
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 <= 0.172
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word diversity <= 0.336: Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Word diversity > 0.336: Top_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Word repetition span 11 > 0.172: Top_Artists (20.0/1.0)
+|   |   |   |   |   |   |   |   |   familiy frequency > 0.0223: Top_Artists (19.0)
+|   |   |   |   |   |   |   FFT stddev > 379
+|   |   |   |   |   |   |   |   medical frequency <= 0.0296
+|   |   |   |   |   |   |   |   |   car parts frequency <= 0.00289
+|   |   |   |   |   |   |   |   |   |   Mean of numbers <= 19.6
+|   |   |   |   |   |   |   |   |   |   |   familiy frequency <= 0.00243: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   familiy frequency > 0.00243
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers <= 3: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean of numbers > 3: Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Soundex homoganity hist bin 1 > 0.12: Low_Artists (23.0)
+|   |   |   |   |   |   |   |   |   |   Mean of numbers > 19.6: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   car parts frequency > 0.00289
+|   |   |   |   |   |   |   |   |   |   Sentence length mean <= 8.95
+|   |   |   |   |   |   |   |   |   |   |   Use of upper case <= 0.0441
+|   |   |   |   |   |   |   |   |   |   |   |   medical frequency <= 0.0195
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 <= 0.186: Top_Artists (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 3 > 0.186
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean <= 468: Low_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FFT mean > 468: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   medical frequency > 0.0195
+|   |   |   |   |   |   |   |   |   |   |   |   |   acronyms frequency <= 0.0514: Low_Artists (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   acronyms frequency > 0.0514: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Use of upper case > 0.0441: Low_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   Sentence length mean > 8.95: Top_Artists (10.0)
+|   |   |   |   |   |   |   |   medical frequency > 0.0296: Top_Artists (9.0)
+|   |   |   |   |   |   Punctuation characters ratio > 0.171
+|   |   |   |   |   |   |   female frequency <= 0.00317
+|   |   |   |   |   |   |   |   Frequency of exclamation <= 0.00159: Top_Artists (201.0/35.0)
+|   |   |   |   |   |   |   |   Frequency of exclamation > 0.00159
+|   |   |   |   |   |   |   |   |   spring frequency <= 0.0045
+|   |   |   |   |   |   |   |   |   |   medical frequency <= 0.0215
+|   |   |   |   |   |   |   |   |   |   |   ,Frequency of double quotes <= 0.00562: Low_Artists (10.0)
+|   |   |   |   |   |   |   |   |   |   |   ,Frequency of double quotes > 0.00562
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 2 <= 0.125: Low_Artists (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Sentence length hist bin 2 > 0.125: Top_Artists (6.0)
+|   |   |   |   |   |   |   |   |   |   medical frequency > 0.0215: Top_Artists (6.0)
+|   |   |   |   |   |   |   |   |   spring frequency > 0.0045: Top_Artists (9.0)
+|   |   |   |   |   |   |   female frequency > 0.00317: Top_Artists (234.0/8.0)
+|   |   |   |   |   Word diversity > 0.424
+|   |   |   |   |   |   Mean of numbers <= 6.33
+|   |   |   |   |   |   |   female frequency <= 0.00204
+|   |   |   |   |   |   |   |   Word homoganity hist bin 1 <= 0.571: Low_Artists (31.0/1.0)
+|   |   |   |   |   |   |   |   Word homoganity hist bin 1 > 0.571: Top_Artists (2.0)
+|   |   |   |   |   |   |   female frequency > 0.00204
+|   |   |   |   |   |   |   |   Words of length 5 <= 0.145
+|   |   |   |   |   |   |   |   |   Mean of numbers <= 3.67: Top_Artists (15.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean of numbers > 3.67
+|   |   |   |   |   |   |   |   |   |   acronyms frequency <= 0.0248: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   acronyms frequency > 0.0248: Low_Artists (5.0)
+|   |   |   |   |   |   |   |   Words of length 5 > 0.145: Low_Artists (3.0)
+|   |   |   |   |   |   Mean of numbers > 6.33
+|   |   |   |   |   |   |   negative words stddev <= 0
+|   |   |   |   |   |   |   |   Words of length 5 <= 0.118
+|   |   |   |   |   |   |   |   |   self frequency <= 0.0603: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   self frequency > 0.0603
+|   |   |   |   |   |   |   |   |   |   FFT max <= 839
+|   |   |   |   |   |   |   |   |   |   |   Word diversity <= 0.514: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Word diversity > 0.514: Top_Artists (3.0)
+|   |   |   |   |   |   |   |   |   |   FFT max > 839: Top_Artists (23.0)
+|   |   |   |   |   |   |   |   Words of length 5 > 0.118
+|   |   |   |   |   |   |   |   |   Frequency of single quotes <= 0.0505: Top_Artists (7.0)
+|   |   |   |   |   |   |   |   |   Frequency of single quotes > 0.0505
+|   |   |   |   |   |   |   |   |   |   Word repetition span 11 <= 0.15: Low_Artists (9.0)
+|   |   |   |   |   |   |   |   |   |   Word repetition span 11 > 0.15
+|   |   |   |   |   |   |   |   |   |   |   Word diversity <= 0.48: Top_Artists (7.0)
+|   |   |   |   |   |   |   |   |   |   |   Word diversity > 0.48: Low_Artists (3.0)
+|   |   |   |   |   |   |   negative words stddev > 0: Top_Artists (3.0)
+|   |   |   |   Sentence length mean > 9.88
+|   |   |   |   |   Frequency of open parenthesis <= 0.0457
+|   |   |   |   |   |   negative words frequency <= 0.0156
+|   |   |   |   |   |   |   Frequency of exclamation <= 0.0019
+|   |   |   |   |   |   |   |   Frequency of exclamation <= 0.0011
+|   |   |   |   |   |   |   |   |   Frequency of single quotes <= 0.122
+|   |   |   |   |   |   |   |   |   |   spring frequency <= 0.00146
+|   |   |   |   |   |   |   |   |   |   |   car parts frequency <= 0.0118: Low_Artists (19.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   car parts frequency > 0.0118: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   spring frequency > 0.00146
+|   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe <= 0.0728: Top_Artists (10.0)
+|   |   |   |   |   |   |   |   |   |   |   Frequency of apostepe > 0.0728
+|   |   |   |   |   |   |   |   |   |   |   |   familiy frequency <= 0.0103
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean <= 10: Low_Artists (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sentence length mean > 10: Top_Artists (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   familiy frequency > 0.0103: Low_Artists (6.0)
+|   |   |   |   |   |   |   |   |   Frequency of single quotes > 0.122: Top_Artists (8.0)
+|   |   |   |   |   |   |   |   Frequency of exclamation > 0.0011: Top_Artists (3.0)
+|   |   |   |   |   |   |   Frequency of exclamation > 0.0019: Low_Artists (4.0)
+|   |   |   |   |   |   negative words frequency > 0.0156
+|   |   |   |   |   |   |   spring frequency <= 0.00341: Low_Artists (31.0)
+|   |   |   |   |   |   |   spring frequency > 0.00341
+|   |   |   |   |   |   |   |   Frequency of open parenthesis <= 0.0119
+|   |   |   |   |   |   |   |   |   Use of upper case <= 0.0361: Low_Artists (16.0/1.0)
+|   |   |   |   |   |   |   |   |   Use of upper case > 0.0361: Top_Artists (2.0)
+|   |   |   |   |   |   |   |   Frequency of open parenthesis > 0.0119: Top_Artists (2.0)
+|   |   |   |   |   Frequency of open parenthesis > 0.0457: Top_Artists (32.0/1.0)
+|   |   Frequency of exclamation > 0.0111
+|   |   |   FFT median <= 241
+|   |   |   |   spring frequency <= 0.00249
+|   |   |   |   |   FFT median <= 0.287
+|   |   |   |   |   |   Punctuation characters ratio <= 0.285: Low_Artists (13.0)
+|   |   |   |   |   |   Punctuation characters ratio > 0.285: Top_Artists (2.0)
+|   |   |   |   |   FFT median > 0.287: Top_Artists (3.0)
+|   |   |   |   spring frequency > 0.00249: Low_Artists (24.0)
+|   |   |   FFT median > 241: Top_Artists (3.0)
+
+Number of Leaves  : 	143
+
+Size of the tree : 	285
+
+
+Time taken to build model: 0.86 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1585               69.1536 %
+Incorrectly Classified Instances       707               30.8464 %
+Kappa statistic                          0.3831
+Mean absolute error                      0.3267
+Root mean squared error                  0.5224
+Relative absolute error                 65.3341 %
+Root relative squared error            104.4859 %
+Total Number of Instances             2292     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.694    0.311    0.692      0.694    0.693      0.383    0.689     0.641     Low_Artists
+                 0.689    0.306    0.691      0.689    0.690      0.383    0.689     0.643     Top_Artists
+Weighted Avg.    0.692    0.308    0.692      0.692    0.692      0.383    0.689     0.642     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 799 352 |   a = Low_Artists
+ 355 786 |   b = Top_Artists
+

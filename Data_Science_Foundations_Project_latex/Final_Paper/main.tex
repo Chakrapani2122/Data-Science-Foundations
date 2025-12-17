@@ -256,12 +256,13 @@ level and merged back into the original dataset for subsequent comparative
 analysis.
 
 
-\subsubsection{Word cloud}
+\subsubsection{Word Cloud}
 To visualize salient lexical patterns in the lyrics, a word cloud was constructed based on TF-IDF weighted bigrams. Cleaned song lyrics were tokenized into bigrams, and term importance was computed using Term Frequency–Inverse Document Frequency (TF-IDF), which emphasizes phrases that are frequent within the corpus but relatively distinctive across documents. The aggregated TF-IDF scores of bigrams were then used to generate a word cloud, allowing prominent multi-word expressions to be visually highlighted.
 
 \subsubsection{Clustering for Stylistic Profile Identification}
+To identify stylistic profiles in our dataset of 2,292 songs, we used k-means clustering that combined linguistic features with thematic patterns. Our approach integrated the most discriminative UDAT features—word diversity, soundex diversity, punctuation patterns, and word and sentence length metrics—with measures of topic concentration and entropy from our LDA analysis. We included both the degree of thematic focus (how strongly songs concentrated on their dominant topic) and thematic diversity (the spread across different topics) to capture stylistic variation between Top and Low artists. After standardizing these features to ensure equal weighting, we tested different cluster configurations (k = 3 through 6) and used the elbow method alongside silhouette analysis to find the most meaningful groupings.To examine how cluster membership relates to artist tier (popular vs. unpopular), using the cluster-wise distribution of songs and dominant thematic content reported in the Results section.
 
-To identify stylistic clusters of songs (Objective 1), we performed unsupervised clustering on the combined feature space of topic proportions and linguistic descriptors. Using k-means clustering with Euclidean distance, we tested cluster counts $k \in \{3, 4, 5, 6\}$ and selected the optimal $k$ using the elbow method and silhouette analysis. For each discovered cluster, we computed cluster profiles including mean topic distributions, average linguistic feature values, and percentage of songs classified as popular vs. unpopular.
+
 
 
 \subsection{Software Tools and Implementation}
@@ -331,6 +332,8 @@ In addition, the corpus exhibits clear structural organization, with approximate
 \centering
 \color{black}
 \scriptsize
+\caption{Overall textual statistics of the lyric corpus.}
+\label{tab:lyricstats}
 \begin{tabular}{|l|c|}
 \hline
 \textbf{Metric} & \textbf{Value} \\
@@ -342,8 +345,7 @@ Average Lines per Song & 18 $\pm$ 6 \\
 Songs with Structure Tags (Verse/Chorus) & 78.2\% \\
 \hline
 \end{tabular}
-\caption{Overall textual statistics of the lyric corpus.}
-\label{tab:lyricstats}
+
 \end{table}
 
 
@@ -505,7 +507,7 @@ Two-sample t-tests compared the top 10 features between popular and unpopular so
 \begin{table}[ht]
 \centering
 \footnotesize
-\caption{Welch’s two-sample $t$-test results for selected lyrical features. All reported values correspond to two-tailed tests.}
+\caption{Unpaired $t$-test results for selected lyrical features.}
 \label{tab:ttest_results}
 \begin{tabular}{|p{3.1cm}|p{2.0cm}|c|}
 \hline
@@ -680,37 +682,6 @@ audiences.
 
 
 
-\subsubsection{Topic Distribution: Popular vs Unpopular Songs}
-
-Analysis of topic proportions revealed significant differences between popular and unpopular songs. Table~\ref{table:topic_popular} shows mean topic proportions for each group.
-
-
-
-Popular songs are dominated by Party/Club (18.2\%), Love/Relationships (16.4\%), and Material Success (14.8\%) themes, while unpopular songs show higher proportions of Introspection (21.3\%), Street Life (15.7\%), and Violence (12.1\%) themes. All differences are statistically significant ($p < 0.001$).
-
-\begin{table}[ht]
-\centering
-\footnotesize
-\begin{tabular}{|p{1.5cm}|p{0.7cm}|p{1.6cm}|p{1.6cm}|}
-\hline
-\textbf{Cluster} &
-\textbf{Songs} &
-\textbf{\% Popular Songs} &
-\textbf{Dominant Topics} \\
-\hline
-Simple Positive & 610 & 87\% & Party, Love \\
-\hline
-Complex Introspective & 623 & 12\% & Introspection, Spirituality \\
-\hline
-Party-Themed & 540 & 88\% & Party/Club, Material \\
-\hline
-Mixed Balanced & 529 & 12\% & Multiple \\
-\hline
-\end{tabular}
-\caption{Summary of lyrical clusters showing cluster size, proportion of popular songs, and dominant thematic content.}
-\label{tab:cluster_summary}
-\end{table}
-
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{sentiment_distribution.png}
@@ -746,37 +717,39 @@ This pattern suggests that lower-popularity artists tend to explore more diverse
 \label{fig:wordcloud_low}
 \end{figure}
 
+\subsubsection{Unsupervised Discovery: Stylistic Clustering}
 
-\subsubsection{Unsupervised Discovery: Stylistic Clustering} 
+K-means clustering with $k=4$ identified four distinct stylistic clusters among the total songs. (Table \ref{tab:cluster_summary}). Two clusters were dominated by popular songs: Simple Positive (87\% popular songs, $n=610$) and Party-Themed (88\% popular songs, $n=540$). The remaining two clusters—Complex Introspective ($n=623$) and Mixed Balanced ($n=529$)—were dominated by unpopular songs, with 88\% of songs classified as unpopular and only 12\% popular in each cluster.
+Clear differences were observed across clusters in terms of linguistic diversity and thematic composition.
 
-K-means clustering with $k=4$ identified four distinct stylistic profiles of songs.
-
-\begin{table*}[t]
+\begin{table}[ht]
 \centering
-\scriptsize
-\caption{Stylistic clusters derived from k-means ($k=4$), defined by topic composition, readability, and sentiment.}
-\label{table:clusters}
-\begin{tabular}{lcccc}
-\toprule
-\textbf{Cluster} & \textbf{$n$} & \textbf{\% Popular} & \textbf{Dominant Topics} & \textbf{Avg. Sentiment} \\
-\midrule
-Simple Positive          & 198 & 65\% & Party, Love                    & $+0.41$ \\
-Complex Introspective    & 156 & 28\% & Introspection, Spirituality    & $-0.15$ \\
-Party-Themed             & 224 & 72\% & Party/Club, Material           & $+0.38$ \\
-Mixed Balanced           & 232 & 48\% & Multiple                       & $+0.05$ \\
-\bottomrule
+\footnotesize
+\caption{Summary of lyrical clusters showing cluster size, proportion of popular songs, and dominant thematic content.}
+\label{tab:cluster_summary}
+\begin{tabular}{|p{1.5cm}|p{0.7cm}|p{1.6cm}|p{1.6cm}|}
+\hline
+\textbf{Cluster} &
+\textbf{Songs} &
+\textbf{\% Popular Songs} &
+\textbf{Dominant Topics} \\
+\hline
+Simple Positive & 610 & 87\% & Party, Love \\
+\hline
+Complex Introspective & 623 & 12\% & Introspection, Spirituality \\
+\hline
+Party-Themed & 540 & 88\% & Party/Club, Material \\
+\hline
+Mixed Balanced & 529 & 12\% & Multiple \\
+\hline
 \end{tabular}
-\end{table*}
-
-
-Four stylistic profiles emerged: (1) Simple Positive songs (65\% popular, high sentiment, low complexity); (2) Complex Introspective songs (28\% popular, negative sentiment, high readability); (3) Party-Themed songs (72\% popular, dominant party/club topics); (4) Mixed Balanced songs (48\% popular, balanced feature profiles).
+\end{table}
 
 \section{Conclusion and Discussion}
 \label{conclusion}
 
 \subsection{Conclusion}
-This study concludes that lyrical content alone is sufficient to distinguish between commercially successful and less successful songs. By integrating exploratory data analysis, feature extraction, supervised learning, statistical significance testing, and unsupervised modeling, the analysis consistently revealed clear and interpretable differences between Top Artists and Low Artists using only lyrical information.
-eda conclusion
+This study concludes that lyrical content alone is sufficient to distinguish between commercially successful and less successful songs. By integrating exploratory data analysis, feature extraction, supervised learning, statistical significance testing, and unsupervised modeling, the analysis consistently revealed clear and interpretable differences between Top Artists and Low Artists using only lyrical information. Unsupervised clustering based on lyrical style revealed a clear separation between groups dominated by popular and unpopular songs, where clusters with simpler, thematically focused lyrics contained a much higher proportion of popular songs, while clusters with more varied and introspective themes were largely composed of unpopular songs, indicating that lyrical style captures meaningful differences related to song popularity.
 Across multiple analytical perspectives, lyrical features demonstrated stable discriminative power. Classification and regression models achieved meaningful predictive performance, while statistical tests confirmed systematic differences in linguistic complexity, thematic emphasis, and emotional expression. These findings collectively establish lyrics as a standalone analytical signal capable of separating success tiers without reliance on audio features, marketing information, or production metadata.
 
 Overall, the results provide strong empirical evidence that linguistic structure, thematic focus, and emotional framing embedded in lyrics play a substantive role in differentiating musical success.
@@ -809,7 +782,7 @@ Second, longitudinal and causal analyses could be employed to examine how lyrica
 \newline
 \textbf{Chakrapani Gajji}: Top Artist data collection, data cleaning, data preprocessing, feature engineering(Weka), feature selection(Weka), MALLET classification, WEKA classification, paper writing(co-author).
 \newline
-\textbf{Prathyusha Mardhi}: Low Artist data collection, exploratory data analysis (EDA), data visualization, UDAT classification, feature engineering (UDAT), feature selection (UDAT), statistical significance analysis, classification (Scikit), stylistic clustering, paper writing (primary author).
+\textbf{Prathyusha Mardhi}: Low Artist data collection, exploratory data analysis (EDA), data visualization, UDAT classification, feature engineering (UDAT), feature selection (UDAT), statistical significance analysis, classification (Scikit), unsupervised discovery:stylistic clustering, paper writing (primary author).
 \newpage
 \bibliographystyle{apalike}
 \bibliography{references}

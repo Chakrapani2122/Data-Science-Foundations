@@ -1,0 +1,19 @@
+\begin{table*}[h]
+\centering
+\scriptsize
+\caption{Regression performance of six predictive models on UDAT feature space (70\% training split, 656 instances).}
+\label{table:regression_results}
+\begin{tabular}{|p{3.8cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{Algorithm} & \textbf{Correlation} & \textbf{MSE} & \textbf{RMSE} & \textbf{RAE} & \textbf{RRSE} \\
+\hline
+RandomForest & 0.603 & 0.8451 & 1.0715 & 79.11\% & 81.01\% \\
+\hline
+Linear Regression & 0.5362 & 0.8952 & 1.1267 & 83.80\% & 85.23\% \\
+\hline
+Simple Regression & 0.4401 & 0.9551 & 1.1927 & 89.44\% & 90.23\% \\
+\hline
+Additive Regression & 0.4718 & 0.9010 & 1.1840 & 84.34\% & 89.57\% \\
+\hline
+\end{tabular}
+\end{table*}

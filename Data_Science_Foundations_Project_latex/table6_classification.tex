@@ -1,0 +1,20 @@
+\begin{table*}[h]
+\centering
+\scriptsize
+\caption{Top-performing models from Classification and Cross-Validation evaluations (Top Artist vs. Low Artist).}
+\label{table:binary_results}
+\begin{tabular}{|p{5.5cm}|p{1.5cm}|p{1.5cm}|p{1.7cm}|p{1.5cm}|}
+\hline
+\textbf{Model (Config)} & \textbf{Accuracy} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} \\
+\hline
+NaiveBayes (Test=0.95)(mallet) & 0.7739 & 0.7719 & 0.8301 & 0.7213 \\
+\hline
+Gradient Boosting (scikit) & 0.7529 & 0.7562 & 0.7451 & 0.7677 \\
+\hline
+Random Forest (scikit) & 0.7442 & 0.7470 & 0.7379 & 0.7564 \\
+\hline
+NaiveBayes(CVSplit=0.40)(mallet) & 0.7427 & 0.7446 & 0.7373 & 0.7536 \\
+\hline
+\end{tabular}
+
+\end{table*}

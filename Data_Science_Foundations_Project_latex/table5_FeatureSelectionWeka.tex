@@ -1,0 +1,53 @@
+\begin{table*}[t]
+\centering
+\caption{Top ranked linguistic and signal-based features across multiple feature selection algorithms.}
+\label{tab:weka_feature_ranking}
+\scriptsize
+\resizebox{\textwidth}{!}{
+\begin{tabular}{c p{3.2cm} p{6.2cm} p{7.2cm}}
+\toprule
+\textbf{Rank} & \textbf{Feature Name} & \textbf{Algorithms \& Positions (Rank)} & \textbf{Reason for Selection} \\
+\midrule
+1 & FFT mean &
+Rank 1: InfoGain, OneR, SymmetricalUncert, Correlation &
+This is the dominant feature, ranking \#1 in four different algorithms. \\
+
+2 & FFT max &
+Rank 2: InfoGain, OneR, SymmetricalUncert &
+It is highly correlated with the target variable alongside the mean. \\
+
+3 & Word diversity &
+Rank 1: CfsSubset, GreedyStepWise &
+Selected as the absolute \#1 best feature by subset evaluators, indicating unique information not found in other features. \\
+
+4 & Total number of words &
+Rank 2: Correlation, GainRatio &
+A foundational metric ranking in the Top 3 across multiple algorithms. \\
+
+5 & FFT stddev &
+Rank 4: CfsSubset, GreedyStepWise, InfoGain, SymmetricalUncert &
+Extremely consistent across almost all evaluators, indicating high robustness. \\
+
+6 & Punctuation characters ratio &
+Rank 4: Correlation, OneR, Relief &
+Consistently appears in the Top 5 for rank-based evaluators. \\
+
+7 & Frequency of single quotes &
+Rank 5: InfoGain, Relief, SymmetricalUncert &
+A stylistic marker with high information gain. \\
+
+8 & Soundex homogeneity hist bin 4 &
+Rank 1: ClassifierAttributeEval &
+Selected as the most important feature by classifier-based evaluation. \\
+
+9 & Frequency of forward slash &
+Rank 1: GainRatio &
+The most distinctive attribute for data splitting under GainRatio. \\
+
+10 & Automated readability index &
+Rank 2: ClassifierAttributeEval &
+Heavily relied upon by classifier-based evaluation despite low rankings elsewhere. \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

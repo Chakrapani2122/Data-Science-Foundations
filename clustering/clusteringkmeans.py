@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Stylistic Clustering Analysis Using Pre-Computed Features
-Uses the LDA topics and UDAT features you've already extracted
+Uses the LDA topics and UDAT features we have already extracted
 """
 
 import pandas as pd
